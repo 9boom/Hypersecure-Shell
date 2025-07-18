@@ -1,0 +1,1630 @@
+[2025-06-08 15:09:32,122] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-08 15:09:32,125] - INFO - Connected
+[2025-06-08 15:09:34,195] - INFO - Creating a shell tunnel...
+[2025-06-08 15:10:57,567] - INFO - Disconnected
+[2025-06-08 15:10:57,568] - INFO - Session shell closed
+[2025-06-08 15:10:57,571] - INFO - Client loop closed
+[2025-06-09 00:00:32,894] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 00:00:32,900] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-06-09 00:00:32,902] - INFO - Client loop closed
+[2025-06-09 00:00:32,903] - INFO - Disconnected
+[2025-06-09 00:00:42,217] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-09 00:00:42,219] - INFO - Waiting for connection... (max clients: 1)
+[2025-06-09 00:01:04,140] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 00:01:04,142] - INFO - Connected
+[2025-06-09 00:01:04,142] - INFO - IP: ('127.0.0.1', 35486) This client has been connected to your server
+[2025-06-09 00:01:04,144] - INFO - IP: ('127.0.0.1', 35486) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 00:01:04,150] - INFO - IP ('127.0.0.1', 35486) This client is entering the authentication process.
+[2025-06-09 00:01:39,808] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 00:01:39,810] - INFO - Connected
+[2025-06-09 00:01:39,811] - INFO - IP: ('127.0.0.1', 35488) This client has been connected to your server
+[2025-06-09 00:01:39,812] - INFO - IP: ('127.0.0.1', 35488) The server is now full. Disconnected this client connection
+[2025-06-09 00:01:39,812] - CRITICAL - You have been kicked out by the server [REASON: Server is full]
+[2025-06-09 00:01:39,814] - INFO - Client loop closed
+[2025-06-09 00:01:39,815] - INFO - Disconnected
+[2025-06-09 00:01:47,277] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 00:01:47,280] - INFO - IP: ('127.0.0.1', 35490) This client has been connected to your server
+[2025-06-09 00:01:47,280] - INFO - Connected
+[2025-06-09 00:01:47,282] - INFO - IP: ('127.0.0.1', 35490) The server is now full. Disconnected this client connection
+[2025-06-09 00:01:47,282] - CRITICAL - You have been kicked out by the server [REASON: Server is full]
+[2025-06-09 00:01:47,283] - INFO - Client loop closed
+[2025-06-09 00:01:47,285] - INFO - Disconnected
+[2025-06-09 00:02:04,049] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 00:02:04,051] - INFO - IP: ('127.0.0.1', 35492) This client has been connected to your server
+[2025-06-09 00:02:04,051] - INFO - Connected
+[2025-06-09 00:02:04,053] - INFO - IP: ('127.0.0.1', 35492) The server is now full. Disconnected this client connection
+[2025-06-09 00:02:04,053] - CRITICAL - You have been kicked out by the server [REASON: Server is full]
+[2025-06-09 00:02:04,055] - INFO - Client loop closed
+[2025-06-09 00:02:04,056] - INFO - Disconnected
+[2025-06-09 00:02:24,800] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 00:02:24,803] - INFO - Connected
+[2025-06-09 00:02:24,803] - INFO - IP: ('127.0.0.1', 35494) This client has been connected to your server
+[2025-06-09 00:02:24,805] - INFO - IP: ('127.0.0.1', 35494) The server is now full. Disconnected this client connection
+[2025-06-09 00:02:24,805] - CRITICAL - You have been kicked out by the server [REASON: Server is full]
+[2025-06-09 00:02:24,806] - INFO - Client loop closed
+[2025-06-09 00:02:24,808] - INFO - Disconnected
+[2025-06-09 00:02:34,089] - INFO - IP: ('127.0.0.1', 35486) Starting shell...
+[2025-06-09 00:02:34,089] - INFO - Creating a shell tunnel...
+[2025-06-09 00:02:34,112] - INFO - IP: ('127.0.0.1', 35486) executed: b'SHELL_RESIZE_REQUEST:43:71\n'
+[2025-06-09 00:02:36,085] - INFO - IP: ('127.0.0.1', 35486) executed: b'\x04'
+[2025-06-09 00:02:36,090] - INFO - IP: ('127.0.0.1', 35486) Shell terminated
+[2025-06-09 00:02:36,090] - INFO - Disconnected
+[2025-06-09 00:02:36,091] - INFO - Session shell closed
+[2025-06-09 00:02:36,092] - INFO - IP: ('127.0.0.1', 35486) Disconnected this client connection
+[2025-06-09 00:02:36,093] - INFO - Client loop closed
+[2025-06-09 00:02:36,093] - ERROR - 
+IP: ('127.0.0.1', 35486) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-09 00:02:36,094] - INFO - IP: ('127.0.0.1', 35486) Session shell closed
+[2025-06-09 00:02:39,830] - INFO - IP: ('127.0.0.1', 35486) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 00:02:41,730] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 00:02:41,733] - INFO - Connected
+[2025-06-09 00:02:41,733] - INFO - IP: ('127.0.0.1', 35496) This client has been connected to your server
+[2025-06-09 00:02:41,734] - INFO - IP: ('127.0.0.1', 35496) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 00:02:41,736] - INFO - IP ('127.0.0.1', 35496) This client is entering the authentication process.
+[2025-06-09 00:02:56,258] - INFO - IP: ('127.0.0.1', 35496) Starting shell...
+[2025-06-09 00:02:56,258] - INFO - Creating a shell tunnel...
+[2025-06-09 00:02:56,273] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:37:64\n'
+[2025-06-09 00:02:57,058] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:59:64\n'
+[2025-06-09 00:03:04,085] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 00:03:04,088] - INFO - Connected
+[2025-06-09 00:03:04,088] - INFO - IP: ('127.0.0.1', 35498) This client has been connected to your server
+[2025-06-09 00:03:04,090] - INFO - IP: ('127.0.0.1', 35498) The server is now full. Disconnected this client connection
+[2025-06-09 00:03:04,090] - CRITICAL - You have been kicked out by the server [REASON: Server is full]
+[2025-06-09 00:03:04,091] - INFO - Client loop closed
+[2025-06-09 00:03:04,093] - INFO - Disconnected
+[2025-06-09 00:03:06,181] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:37:64\n'
+[2025-06-09 00:03:12,351] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 00:03:12,353] - INFO - IP: ('127.0.0.1', 35500) This client has been connected to your server
+[2025-06-09 00:03:12,353] - INFO - Connected
+[2025-06-09 00:03:12,355] - INFO - IP: ('127.0.0.1', 35500) The server is now full. Disconnected this client connection
+[2025-06-09 00:03:12,355] - CRITICAL - You have been kicked out by the server [REASON: Server is full]
+[2025-06-09 00:03:12,357] - INFO - Client loop closed
+[2025-06-09 00:03:12,358] - INFO - Disconnected
+[2025-06-09 00:05:47,685] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 00:05:47,687] - INFO - IP: ('127.0.0.1', 35502) This client has been connected to your server
+[2025-06-09 00:05:47,687] - INFO - Connected
+[2025-06-09 00:05:47,689] - INFO - IP: ('127.0.0.1', 35502) The server is now full. Disconnected this client connection
+[2025-06-09 00:05:47,690] - CRITICAL - You have been kicked out by the server [REASON: Server is full]
+[2025-06-09 00:05:47,691] - INFO - Client loop closed
+[2025-06-09 00:05:47,692] - INFO - Disconnected
+[2025-06-09 00:06:33,870] - INFO - IP: ('127.0.0.1', 35496) executed: b'l'
+[2025-06-09 00:06:34,069] - INFO - IP: ('127.0.0.1', 35496) executed: b's'
+[2025-06-09 00:06:34,335] - INFO - IP: ('127.0.0.1', 35496) executed: b'\r'
+[2025-06-09 00:06:36,248] - INFO - IP: ('127.0.0.1', 35496) executed: b'n'
+[2025-06-09 00:06:36,482] - INFO - IP: ('127.0.0.1', 35496) executed: b'a'
+[2025-06-09 00:06:36,614] - INFO - IP: ('127.0.0.1', 35496) executed: b'n'
+[2025-06-09 00:06:36,897] - INFO - IP: ('127.0.0.1', 35496) executed: b'o'
+[2025-06-09 00:06:37,047] - INFO - IP: ('127.0.0.1', 35496) executed: b' '
+[2025-06-09 00:06:37,512] - INFO - IP: ('127.0.0.1', 35496) executed: b'p'
+[2025-06-09 00:06:37,878] - INFO - IP: ('127.0.0.1', 35496) executed: b'e'
+[2025-06-09 00:06:38,643] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x7f'
+[2025-06-09 00:06:38,942] - INFO - IP: ('127.0.0.1', 35496) executed: b'r'
+[2025-06-09 00:06:39,241] - INFO - IP: ('127.0.0.1', 35496) executed: b'y'
+[2025-06-09 00:06:39,674] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x7f'
+[2025-06-09 00:06:39,990] - INFO - IP: ('127.0.0.1', 35496) executed: b'o'
+[2025-06-09 00:06:40,173] - INFO - IP: ('127.0.0.1', 35496) executed: b't'
+[2025-06-09 00:06:40,538] - INFO - IP: ('127.0.0.1', 35496) executed: b'o'
+[2025-06-09 00:06:40,954] - INFO - IP: ('127.0.0.1', 35496) executed: b'c'
+[2025-06-09 00:06:41,153] - INFO - IP: ('127.0.0.1', 35496) executed: b'o'
+[2025-06-09 00:06:41,353] - INFO - IP: ('127.0.0.1', 35496) executed: b'l'
+[2025-06-09 00:06:41,952] - INFO - IP: ('127.0.0.1', 35496) executed: b'.'
+[2025-06-09 00:06:42,317] - INFO - IP: ('127.0.0.1', 35496) executed: b'l'
+[2025-06-09 00:06:42,534] - INFO - IP: ('127.0.0.1', 35496) executed: b'y'
+[2025-06-09 00:06:43,348] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x7f'
+[2025-06-09 00:06:44,380] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x7f'
+[2025-06-09 00:06:44,729] - INFO - IP: ('127.0.0.1', 35496) executed: b'p'
+[2025-06-09 00:06:44,878] - INFO - IP: ('127.0.0.1', 35496) executed: b'y'
+[2025-06-09 00:06:45,111] - INFO - IP: ('127.0.0.1', 35496) executed: b'\r'
+[2025-06-09 00:06:45,800] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:59:64\n'
+[2025-06-09 00:06:46,292] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:46,393] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:69:71\n'
+[2025-06-09 00:06:46,476] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:77:88\n'
+[2025-06-09 00:06:46,574] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:46,617] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:88:101\n'
+[2025-06-09 00:06:46,669] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1b[A'
+[2025-06-09 00:06:46,760] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:46,801] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:110:118\n'
+[2025-06-09 00:06:46,844] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA\x1bOA\x1bOA'
+[2025-06-09 00:06:46,855] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:132:142\n'
+[2025-06-09 00:06:46,924] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1b[A\x1b[A'
+[2025-06-09 00:06:46,932] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:165:177\n'
+[2025-06-09 00:06:47,006] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:47,224] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1b[B\x1b[B\x1b[B\x1b[B\x1b[B\x1b[B'
+[2025-06-09 00:06:47,283] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1b[B\x1b[B\x1b[B\x1b[B\x1b[B\x1b[B\x1b[B'
+[2025-06-09 00:06:47,291] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:132:142\n'
+[2025-06-09 00:06:47,339] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:110:118\n\x1bOB\x1bOB\x1bOB\x1bOB'
+[2025-06-09 00:06:47,386] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1b[B'
+[2025-06-09 00:06:47,449] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:88:101\n'
+[2025-06-09 00:06:47,504] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:77:88\n'
+[2025-06-09 00:06:47,558] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:47,574] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:69:71\n'
+[2025-06-09 00:06:47,641] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:47,675] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:59:64\n'
+[2025-06-09 00:06:48,854] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:54:59\n'
+[2025-06-09 00:06:48,878] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:48,906] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:50:54\n'
+[2025-06-09 00:06:48,937] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:48,955] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:45:50\n'
+[2025-06-09 00:06:48,972] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:49,004] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:42:44\n'
+[2025-06-09 00:06:49,036] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:49,104] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:39:41\n'
+[2025-06-09 00:06:49,617] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:49,636] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:42:44\n'
+[2025-06-09 00:06:49,686] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:45:50\n'
+[2025-06-09 00:06:49,703] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1b[A'
+[2025-06-09 00:06:49,719] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:50:54\n'
+[2025-06-09 00:06:49,737] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:49,753] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:54:59\n'
+[2025-06-09 00:06:49,787] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x1bOA'
+[2025-06-09 00:06:49,788] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:59:64\n'
+[2025-06-09 00:06:49,822] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:69:71\n'
+[2025-06-09 00:06:49,886] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:77:88\n'
+[2025-06-09 00:06:50,806] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:48:88\n'
+[2025-06-09 00:06:52,262] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x18'
+[2025-06-09 00:06:58,000] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:43:71\n'
+[2025-06-09 00:06:58,051] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:37:64\n'
+[2025-06-09 00:06:58,101] - INFO - IP: ('127.0.0.1', 35496) executed: b'SHELL_RESIZE_REQUEST:34:59\n'
+[2025-06-09 00:06:59,978] - INFO - IP: ('127.0.0.1', 35496) executed: b'\x04'
+[2025-06-09 00:06:59,986] - INFO - IP: ('127.0.0.1', 35496) Shell terminated
+[2025-06-09 00:06:59,987] - INFO - Disconnected
+[2025-06-09 00:06:59,988] - INFO - Session shell closed
+[2025-06-09 00:06:59,988] - INFO - IP: ('127.0.0.1', 35496) Disconnected this client connection
+[2025-06-09 00:06:59,989] - INFO - Client loop closed
+[2025-06-09 00:06:59,989] - ERROR - 
+IP: ('127.0.0.1', 35496) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-09 00:06:59,990] - INFO - IP: ('127.0.0.1', 35496) Session shell closed
+[2025-06-09 00:07:02,756] - INFO - IP: ('127.0.0.1', 35496) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 00:07:21,284] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 00:07:21,287] - INFO - IP: ('127.0.0.1', 35504) This client has been connected to your server
+[2025-06-09 00:07:21,287] - INFO - Connected
+[2025-06-09 00:07:21,288] - INFO - IP: ('127.0.0.1', 35504) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 00:07:21,290] - INFO - IP ('127.0.0.1', 35504) This client is entering the authentication process.
+[2025-06-09 00:07:24,806] - INFO - Creating a shell tunnel...
+[2025-06-09 00:07:24,806] - INFO - IP: ('127.0.0.1', 35504) Starting shell...
+[2025-06-09 00:07:24,819] - INFO - IP: ('127.0.0.1', 35504) executed: b'SHELL_RESIZE_REQUEST:43:71\n'
+[2025-06-09 00:07:25,953] - INFO - IP: ('127.0.0.1', 35504) executed: b'\r'
+[2025-06-09 00:07:26,652] - INFO - IP: ('127.0.0.1', 35504) executed: b'3'
+[2025-06-09 00:07:27,899] - INFO - IP: ('127.0.0.1', 35504) executed: b'\x04'
+[2025-06-09 00:07:28,582] - INFO - IP: ('127.0.0.1', 35504) executed: b'\x7f'
+[2025-06-09 00:07:28,747] - INFO - IP: ('127.0.0.1', 35504) executed: b'\x7f'
+[2025-06-09 00:07:31,985] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 00:07:31,988] - INFO - IP: ('127.0.0.1', 35506) This client has been connected to your server
+[2025-06-09 00:07:31,987] - INFO - Connected
+[2025-06-09 00:07:31,990] - INFO - IP: ('127.0.0.1', 35506) The server is now full. Disconnected this client connection
+[2025-06-09 00:07:31,990] - CRITICAL - You have been kicked out by the server [REASON: Server is full]
+[2025-06-09 00:07:31,991] - INFO - Client loop closed
+[2025-06-09 00:07:31,992] - INFO - Disconnected
+[2025-06-09 00:07:51,679] - INFO - IP: ('127.0.0.1', 35504) executed: b'\x04'
+[2025-06-09 00:07:51,683] - INFO - IP: ('127.0.0.1', 35504) Shell terminated
+[2025-06-09 00:07:51,684] - INFO - Disconnected
+[2025-06-09 00:07:51,685] - INFO - IP: ('127.0.0.1', 35504) Disconnected this client connection
+[2025-06-09 00:07:51,685] - INFO - Session shell closed
+[2025-06-09 00:07:51,686] - INFO - Client loop closed
+[2025-06-09 00:07:51,686] - ERROR - 
+IP: ('127.0.0.1', 35504) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-09 00:07:51,688] - INFO - IP: ('127.0.0.1', 35504) Session shell closed
+[2025-06-09 00:07:52,014] - INFO - IP: ('127.0.0.1', 35504) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 00:07:56,285] - INFO - Shutting down...
+[2025-06-09 00:07:56,286] - INFO - Server has closed
+[2025-06-09 00:07:56,287] - INFO - Waiting for server loop closed...
+[2025-06-09 00:07:57,023] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-09 00:07:57,024] - INFO - Server loop ended
+[2025-06-09 00:07:57,026] - INFO - Threads pool have been shutting down...
+[2025-06-09 00:07:57,027] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-09 00:07:57,028] - INFO - ***Graceful Shutdown***
+[2025-06-09 01:25:41,123] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-09 01:25:41,126] - INFO - Waiting for connection... (max clients: 1)
+[2025-06-09 01:25:56,567] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:25:56,571] - INFO - IP: ('127.0.0.1', 37042) This client has been connected to your server
+[2025-06-09 01:25:56,572] - INFO - IP: ('127.0.0.1', 37042) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:25:56,576] - INFO - Connected
+[2025-06-09 01:25:56,577] - INFO - IP ('127.0.0.1', 37042) This client is entering the authentication process.
+[2025-06-09 01:26:01,579] - CRITICAL - Client loop error [CRITICAL: timed out]
+[2025-06-09 01:26:01,582] - INFO - Client loop closed
+[2025-06-09 01:26:01,584] - INFO - Disconnected
+[2025-06-09 01:26:01,584] - ERROR - IP: ('127.0.0.1', 37042) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-09 01:26:01,586] - INFO - 
+IP: ('127.0.0.1', 37042) Disconnected this client connection
+[2025-06-09 01:26:06,586] - INFO - IP: ('127.0.0.1', 37042) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:26:09,628] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:26:09,630] - INFO - IP: ('127.0.0.1', 37048) This client has been connected to your server
+[2025-06-09 01:26:09,630] - INFO - Connected
+[2025-06-09 01:26:09,632] - INFO - IP: ('127.0.0.1', 37048) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:26:09,633] - INFO - IP ('127.0.0.1', 37048) This client is entering the authentication process.
+[2025-06-09 01:26:11,748] - CRITICAL - Client loop error [CRITICAL: ]
+[2025-06-09 01:26:11,750] - INFO - Client loop closed
+[2025-06-09 01:26:11,751] - INFO - Disconnected
+[2025-06-09 01:26:11,752] - INFO - IP: ('127.0.0.1', 37048) Authentication failed, Disconnecting
+[2025-06-09 01:26:11,754] - INFO - 
+IP: ('127.0.0.1', 37048) Disconnected this client connection
+[2025-06-09 01:26:14,644] - INFO - IP: ('127.0.0.1', 37048) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:26:16,987] - INFO - Shutting down...
+[2025-06-09 01:26:16,988] - INFO - Server has closed
+[2025-06-09 01:26:16,990] - INFO - Waiting for server loop closed...
+[2025-06-09 01:26:19,653] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-09 01:26:19,657] - INFO - Server loop ended
+[2025-06-09 01:26:19,661] - INFO - Threads pool have been shutting down...
+[2025-06-09 01:26:19,663] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-09 01:26:19,665] - INFO - ***Graceful Shutdown***
+[2025-06-09 01:26:33,542] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-09 01:26:33,543] - INFO - Waiting for connection... (max clients: 1)
+[2025-06-09 01:26:43,169] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:26:43,171] - INFO - Connected
+[2025-06-09 01:26:43,171] - INFO - IP: ('127.0.0.1', 37050) This client has been connected to your server
+[2025-06-09 01:26:43,173] - INFO - IP: ('127.0.0.1', 37050) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:26:43,178] - INFO - IP ('127.0.0.1', 37050) This client is entering the authentication process.
+[2025-06-09 01:27:15,758] - INFO - Authentication failed
+[2025-06-09 01:27:15,758] - INFO - IP: ('127.0.0.1', 37050) Authentication failed, Disconnecting
+[2025-06-09 01:27:15,761] - INFO - Client loop closed
+[2025-06-09 01:27:15,762] - INFO - 
+IP: ('127.0.0.1', 37050) Disconnected this client connection
+[2025-06-09 01:27:15,764] - INFO - Disconnected
+[2025-06-09 01:27:18,218] - INFO - IP: ('127.0.0.1', 37050) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:27:29,823] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:27:29,826] - INFO - IP: ('127.0.0.1', 37058) This client has been connected to your server
+[2025-06-09 01:27:29,826] - INFO - Connected
+[2025-06-09 01:27:29,827] - INFO - IP: ('127.0.0.1', 37058) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:27:29,829] - INFO - IP ('127.0.0.1', 37058) This client is entering the authentication process.
+[2025-06-09 01:27:32,187] - INFO - IP: ('127.0.0.1', 37058) Authentication failed, Disconnecting
+[2025-06-09 01:27:32,187] - INFO - Authentication failed
+[2025-06-09 01:27:32,189] - INFO - 
+IP: ('127.0.0.1', 37058) Disconnected this client connection
+[2025-06-09 01:27:32,189] - INFO - Client loop closed
+[2025-06-09 01:27:32,191] - INFO - Disconnected
+[2025-06-09 01:27:33,997] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:27:34,000] - INFO - IP: ('127.0.0.1', 37060) This client has been connected to your server
+[2025-06-09 01:27:34,000] - INFO - Connected
+[2025-06-09 01:27:34,002] - INFO - IP: ('127.0.0.1', 37058) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:27:34,003] - INFO - IP: ('127.0.0.1', 37060) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:27:34,005] - INFO - IP ('127.0.0.1', 37060) This client is entering the authentication process.
+[2025-06-09 01:27:36,011] - CRITICAL - Client loop error [CRITICAL: ]
+[2025-06-09 01:27:36,012] - INFO - Client loop closed
+[2025-06-09 01:27:36,014] - INFO - Disconnected
+[2025-06-09 01:27:36,014] - INFO - IP: ('127.0.0.1', 37060) Authentication failed, Disconnecting
+[2025-06-09 01:27:36,015] - INFO - 
+IP: ('127.0.0.1', 37060) Disconnected this client connection
+[2025-06-09 01:27:39,012] - INFO - IP: ('127.0.0.1', 37060) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:27:43,871] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:27:43,874] - INFO - Connected
+[2025-06-09 01:27:43,874] - INFO - IP: ('127.0.0.1', 37062) This client has been connected to your server
+[2025-06-09 01:27:43,876] - INFO - IP: ('127.0.0.1', 37062) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:27:43,877] - INFO - IP ('127.0.0.1', 37062) This client is entering the authentication process.
+[2025-06-09 01:27:45,073] - INFO - Client loop closed
+[2025-06-09 01:27:45,074] - INFO - Disconnected
+[2025-06-09 01:27:45,075] - INFO - IP: ('127.0.0.1', 37062) Authentication failed, Disconnecting
+[2025-06-09 01:27:45,076] - INFO - 
+IP: ('127.0.0.1', 37062) Disconnected this client connection
+[2025-06-09 01:27:48,886] - INFO - IP: ('127.0.0.1', 37062) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:27:52,078] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:27:52,080] - INFO - IP: ('127.0.0.1', 37064) This client has been connected to your server
+[2025-06-09 01:27:52,080] - INFO - Connected
+[2025-06-09 01:27:52,082] - INFO - IP: ('127.0.0.1', 37064) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:27:52,083] - INFO - IP ('127.0.0.1', 37064) This client is entering the authentication process.
+[2025-06-09 01:27:53,022] - CRITICAL - Client loop error [CRITICAL: ]
+[2025-06-09 01:27:53,023] - INFO - Client loop closed
+[2025-06-09 01:27:53,024] - INFO - Disconnected
+[2025-06-09 01:27:53,025] - INFO - IP: ('127.0.0.1', 37064) Authentication failed, Disconnecting
+[2025-06-09 01:27:53,026] - INFO - 
+IP: ('127.0.0.1', 37064) Disconnected this client connection
+[2025-06-09 01:27:57,090] - INFO - IP: ('127.0.0.1', 37064) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:28:04,650] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:28:04,652] - INFO - IP: ('127.0.0.1', 37066) This client has been connected to your server
+[2025-06-09 01:28:04,652] - INFO - Connected
+[2025-06-09 01:28:04,654] - INFO - IP: ('127.0.0.1', 37066) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:28:04,655] - INFO - IP ('127.0.0.1', 37066) This client is entering the authentication process.
+[2025-06-09 01:28:07,359] - INFO - Creating a shell tunnel...
+[2025-06-09 01:28:07,359] - INFO - IP: ('127.0.0.1', 37066) Starting shell...
+[2025-06-09 01:28:07,385] - INFO - IP: ('127.0.0.1', 37066) executed: b'SHELL_RESIZE_REQUEST:37:64\n'
+[2025-06-09 01:28:08,655] - INFO - IP: ('127.0.0.1', 37066) executed: b'\r'
+[2025-06-09 01:28:09,676] - INFO - IP: ('127.0.0.1', 37066) executed: b'SHELL_RESIZE_REQUEST:59:64\n'
+[2025-06-09 01:28:10,203] - INFO - IP: ('127.0.0.1', 37066) executed: b'SHELL_RESIZE_REQUEST:69:71\n'
+[2025-06-09 01:28:10,602] - INFO - IP: ('127.0.0.1', 37066) executed: b'SHELL_RESIZE_REQUEST:59:64\n'
+[2025-06-09 01:28:11,455] - INFO - IP: ('127.0.0.1', 37066) executed: b'SHELL_RESIZE_REQUEST:37:64\n'
+[2025-06-09 01:28:12,064] - INFO - IP: ('127.0.0.1', 37066) executed: b'c'
+[2025-06-09 01:28:12,247] - INFO - IP: ('127.0.0.1', 37066) executed: b'l'
+[2025-06-09 01:28:12,379] - INFO - IP: ('127.0.0.1', 37066) executed: b'w'
+[2025-06-09 01:28:12,579] - INFO - IP: ('127.0.0.1', 37066) executed: b'a'
+[2025-06-09 01:28:12,864] - INFO - IP: ('127.0.0.1', 37066) executed: b'\x7f'
+[2025-06-09 01:28:13,013] - INFO - IP: ('127.0.0.1', 37066) executed: b'\x7f'
+[2025-06-09 01:28:13,161] - INFO - IP: ('127.0.0.1', 37066) executed: b'e'
+[2025-06-09 01:28:13,361] - INFO - IP: ('127.0.0.1', 37066) executed: b'a'
+[2025-06-09 01:28:13,794] - INFO - IP: ('127.0.0.1', 37066) executed: b'r'
+[2025-06-09 01:28:13,926] - INFO - IP: ('127.0.0.1', 37066) executed: b'\r'
+[2025-06-09 01:28:14,193] - INFO - IP: ('127.0.0.1', 37066) executed: b'l'
+[2025-06-09 01:28:14,358] - INFO - IP: ('127.0.0.1', 37066) executed: b's'
+[2025-06-09 01:28:14,542] - INFO - IP: ('127.0.0.1', 37066) executed: b'\r'
+[2025-06-09 01:28:16,006] - INFO - IP: ('127.0.0.1', 37066) executed: b'l'
+[2025-06-09 01:28:16,155] - INFO - IP: ('127.0.0.1', 37066) executed: b's'
+[2025-06-09 01:28:16,371] - INFO - IP: ('127.0.0.1', 37066) executed: b'\r'
+[2025-06-09 01:28:17,186] - INFO - IP: ('127.0.0.1', 37066) executed: b'c'
+[2025-06-09 01:28:17,336] - INFO - IP: ('127.0.0.1', 37066) executed: b'l'
+[2025-06-09 01:28:17,468] - INFO - IP: ('127.0.0.1', 37066) executed: b'e'
+[2025-06-09 01:28:17,651] - INFO - IP: ('127.0.0.1', 37066) executed: b'a'
+[2025-06-09 01:28:17,917] - INFO - IP: ('127.0.0.1', 37066) executed: b'r'
+[2025-06-09 01:28:18,066] - INFO - IP: ('127.0.0.1', 37066) executed: b'\r'
+[2025-06-09 01:28:18,350] - INFO - IP: ('127.0.0.1', 37066) executed: b'l'
+[2025-06-09 01:28:18,516] - INFO - IP: ('127.0.0.1', 37066) executed: b's'
+[2025-06-09 01:28:18,666] - INFO - IP: ('127.0.0.1', 37066) executed: b'\r'
+[2025-06-09 01:28:19,798] - INFO - IP: ('127.0.0.1', 37066) executed: b'\x04'
+[2025-06-09 01:28:19,812] - INFO - IP: ('127.0.0.1', 37066) Shell terminated
+[2025-06-09 01:28:19,813] - INFO - Disconnected
+[2025-06-09 01:28:19,814] - INFO - Session shell closed
+[2025-06-09 01:28:19,814] - INFO - IP: ('127.0.0.1', 37066) Disconnected this client connection
+[2025-06-09 01:28:19,815] - INFO - Client loop closed
+[2025-06-09 01:28:19,816] - ERROR - 
+IP: ('127.0.0.1', 37066) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-09 01:28:19,817] - INFO - IP: ('127.0.0.1', 37066) Session shell closed
+[2025-06-09 01:28:24,678] - INFO - IP: ('127.0.0.1', 37066) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:28:42,814] - INFO - Shutting down...
+[2025-06-09 01:28:42,815] - INFO - Server has closed
+[2025-06-09 01:28:42,816] - INFO - Waiting for server loop closed...
+[2025-06-09 01:28:44,706] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-09 01:28:44,707] - INFO - Server loop ended
+[2025-06-09 01:28:44,709] - INFO - Threads pool have been shutting down...
+[2025-06-09 01:28:44,711] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-09 01:28:44,712] - INFO - ***Graceful Shutdown***
+[2025-06-09 01:42:53,660] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-09 01:42:53,664] - INFO - Waiting for connection... (max clients: 1)
+[2025-06-09 01:43:09,987] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:43:09,990] - INFO - IP: ('127.0.0.1', 37198) This client has been connected to your server
+[2025-06-09 01:43:09,991] - INFO - IP: ('127.0.0.1', 37198) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:43:09,996] - INFO - Connected
+[2025-06-09 01:43:09,997] - INFO - IP ('127.0.0.1', 37198) This client is entering the authentication process.
+[2025-06-09 01:43:15,000] - CRITICAL - Client loop error [CRITICAL: timed out]
+[2025-06-09 01:43:15,002] - INFO - Client loop closed
+[2025-06-09 01:43:15,006] - INFO - Disconnected
+[2025-06-09 01:43:15,007] - ERROR - IP: ('127.0.0.1', 37198) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-09 01:43:15,010] - INFO - 
+IP: ('127.0.0.1', 37198) Disconnected this client connection
+[2025-06-09 01:43:19,867] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:43:19,870] - INFO - IP: ('127.0.0.1', 37202) This client has been connected to your server
+[2025-06-09 01:43:19,870] - INFO - Connected
+[2025-06-09 01:43:19,871] - INFO - IP: ('127.0.0.1', 37198) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:43:19,872] - INFO - IP: ('127.0.0.1', 37202) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:43:19,874] - INFO - IP ('127.0.0.1', 37202) This client is entering the authentication process.
+[2025-06-09 01:44:10,464] - INFO - Client loop closed
+[2025-06-09 01:44:10,466] - INFO - Disconnected
+[2025-06-09 01:44:10,470] - INFO - IP: ('127.0.0.1', 37202) Authentication failed, Disconnecting
+[2025-06-09 01:44:10,478] - INFO - 
+IP: ('127.0.0.1', 37202) Disconnected this client connection
+[2025-06-09 01:44:11,979] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:44:11,983] - INFO - IP: ('127.0.0.1', 37208) This client has been connected to your server
+[2025-06-09 01:44:11,983] - INFO - Connected
+[2025-06-09 01:44:11,985] - INFO - IP: ('127.0.0.1', 37202) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:44:11,986] - INFO - IP: ('127.0.0.1', 37208) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:44:11,988] - INFO - IP ('127.0.0.1', 37208) This client is entering the authentication process.
+[2025-06-09 01:44:16,797] - INFO - Client loop closed
+[2025-06-09 01:44:16,799] - INFO - Disconnected
+[2025-06-09 01:44:16,799] - INFO - IP: ('127.0.0.1', 37208) Authentication failed, Disconnecting
+[2025-06-09 01:44:16,801] - INFO - 
+IP: ('127.0.0.1', 37208) Disconnected this client connection
+[2025-06-09 01:44:16,997] - INFO - IP: ('127.0.0.1', 37208) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:44:18,205] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:44:18,208] - INFO - Connected
+[2025-06-09 01:44:18,208] - INFO - IP: ('127.0.0.1', 37210) This client has been connected to your server
+[2025-06-09 01:44:18,209] - INFO - IP: ('127.0.0.1', 37210) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:44:18,211] - INFO - IP ('127.0.0.1', 37210) This client is entering the authentication process.
+[2025-06-09 01:44:19,540] - CRITICAL - Client loop error [CRITICAL: ]
+[2025-06-09 01:44:19,541] - INFO - Client loop closed
+[2025-06-09 01:44:19,544] - INFO - Disconnected
+[2025-06-09 01:44:19,544] - INFO - IP: ('127.0.0.1', 37210) Authentication failed, Disconnecting
+[2025-06-09 01:44:19,546] - INFO - 
+IP: ('127.0.0.1', 37210) Disconnected this client connection
+[2025-06-09 01:44:21,317] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:44:21,321] - INFO - IP: ('127.0.0.1', 37212) This client has been connected to your server
+[2025-06-09 01:44:21,321] - INFO - Connected
+[2025-06-09 01:44:21,322] - INFO - IP: ('127.0.0.1', 37210) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:44:21,323] - INFO - IP: ('127.0.0.1', 37212) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:44:21,325] - INFO - IP ('127.0.0.1', 37212) This client is entering the authentication process.
+[2025-06-09 01:44:22,817] - INFO - Client loop closed
+[2025-06-09 01:44:22,819] - INFO - Disconnected
+[2025-06-09 01:44:22,820] - INFO - IP: ('127.0.0.1', 37212) Authentication failed, Disconnecting
+[2025-06-09 01:44:22,821] - INFO - 
+IP: ('127.0.0.1', 37212) Disconnected this client connection
+[2025-06-09 01:44:26,332] - INFO - IP: ('127.0.0.1', 37212) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:44:27,292] - INFO - Shutting down...
+[2025-06-09 01:44:27,294] - INFO - Server has closed
+[2025-06-09 01:44:27,295] - INFO - Waiting for server loop closed...
+[2025-06-09 01:44:30,300] - INFO - Threads pool have been shutting down...
+[2025-06-09 01:44:30,303] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-09 01:44:31,340] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-09 01:44:31,344] - INFO - Server loop ended
+[2025-06-09 01:44:31,346] - INFO - ***Graceful Shutdown***
+[2025-06-09 01:59:41,143] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-09 01:59:41,146] - INFO - Waiting for connection... (max clients: 1)
+[2025-06-09 01:59:47,589] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:59:47,593] - INFO - IP: ('127.0.0.1', 37254) This client has been connected to your server
+[2025-06-09 01:59:47,594] - INFO - IP: ('127.0.0.1', 37254) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:59:47,596] - INFO - IP ('127.0.0.1', 37254) This client is entering the authentication process.
+[2025-06-09 01:59:47,599] - INFO - Connected
+[2025-06-09 01:59:52,608] - CRITICAL - Client loop error [CRITICAL: timed out]
+[2025-06-09 01:59:52,611] - INFO - Client loop closed
+[2025-06-09 01:59:52,615] - INFO - Disconnected
+[2025-06-09 01:59:52,616] - ERROR - IP: ('127.0.0.1', 37254) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-09 01:59:52,629] - INFO - 
+IP: ('127.0.0.1', 37254) Disconnected this client connection
+[2025-06-09 01:59:55,276] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 01:59:55,278] - INFO - IP: ('127.0.0.1', 37256) This client has been connected to your server
+[2025-06-09 01:59:55,278] - INFO - Connected
+[2025-06-09 01:59:55,279] - INFO - IP: ('127.0.0.1', 37254) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 01:59:55,280] - INFO - IP: ('127.0.0.1', 37256) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-06-09 01:59:55,282] - INFO - IP ('127.0.0.1', 37256) This client is entering the authentication process.
+[2025-06-09 01:59:58,714] - INFO - IP: ('127.0.0.1', 37256) Starting shell...
+[2025-06-09 01:59:58,714] - INFO - Creating a shell tunnel...
+[2025-06-09 01:59:58,739] - INFO - IP: ('127.0.0.1', 37256) executed: b'SHELL_RESIZE_REQUEST:31:54\n'
+[2025-06-09 02:00:01,123] - INFO - IP: ('127.0.0.1', 37256) executed: b'\x04'
+[2025-06-09 02:00:01,127] - INFO - IP: ('127.0.0.1', 37256) Shell terminated
+[2025-06-09 02:00:01,128] - INFO - Disconnected
+[2025-06-09 02:00:01,129] - INFO - IP: ('127.0.0.1', 37256) Disconnected this client connection
+[2025-06-09 02:00:01,129] - INFO - Session shell closed
+[2025-06-09 02:00:01,130] - INFO - Client loop closed
+[2025-06-09 02:00:01,130] - ERROR - 
+IP: ('127.0.0.1', 37256) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-09 02:00:01,131] - INFO - IP: ('127.0.0.1', 37256) Session shell closed
+[2025-06-09 02:00:05,295] - INFO - IP: ('127.0.0.1', 37256) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 02:00:10,235] - INFO - Shutting down...
+[2025-06-09 02:00:10,237] - INFO - Server has closed
+[2025-06-09 02:00:10,238] - INFO - Waiting for server loop closed...
+[2025-06-09 02:00:10,303] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-09 02:00:10,304] - INFO - Server loop ended
+[2025-06-09 02:00:10,306] - INFO - Threads pool have been shutting down...
+[2025-06-09 02:00:10,307] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-09 02:00:10,308] - INFO - ***Graceful Shutdown***
+[2025-06-09 02:00:26,248] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-09 02:00:26,250] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-09 02:00:31,087] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 02:00:31,090] - INFO - Connected
+[2025-06-09 02:00:31,090] - INFO - IP: ('127.0.0.1', 37260) This client has been connected to your server
+[2025-06-09 02:00:31,091] - INFO - IP: ('127.0.0.1', 37260) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-09 02:00:31,096] - INFO - IP ('127.0.0.1', 37260) This client is entering the authentication process.
+[2025-06-09 02:00:42,264] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 02:00:42,267] - INFO - Connected
+[2025-06-09 02:00:42,267] - INFO - IP: ('127.0.0.1', 37262) This client has been connected to your server
+[2025-06-09 02:00:42,268] - INFO - IP: ('127.0.0.1', 37262) This client is number 2 that connects to the server from the maximum number of 2 clients
+[2025-06-09 02:00:42,272] - INFO - IP ('127.0.0.1', 37262) This client is entering the authentication process.
+[2025-06-09 02:03:40,566] - INFO - IP: ('127.0.0.1', 37260) Starting shell...
+[2025-06-09 02:03:40,566] - INFO - Creating a shell tunnel...
+[2025-06-09 02:03:40,584] - INFO - IP: ('127.0.0.1', 37260) executed: b'SHELL_RESIZE_REQUEST:31:54\n'
+[2025-06-09 02:03:44,191] - INFO - IP: ('127.0.0.1', 37262) Authentication failed, Disconnecting
+[2025-06-09 02:03:44,191] - INFO - Authentication failed
+[2025-06-09 02:03:44,193] - INFO - 
+IP: ('127.0.0.1', 37262) Disconnected this client connection
+[2025-06-09 02:03:44,193] - INFO - Client loop closed
+[2025-06-09 02:03:44,195] - INFO - Disconnected
+[2025-06-09 02:03:46,490] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 02:03:46,492] - INFO - Connected
+[2025-06-09 02:03:46,493] - INFO - IP: ('127.0.0.1', 37268) This client has been connected to your server
+[2025-06-09 02:03:46,494] - INFO - IP: ('127.0.0.1', 37262) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 02:03:46,495] - INFO - IP: ('127.0.0.1', 37268) This client is number 2 that connects to the server from the maximum number of 2 clients
+[2025-06-09 02:03:46,497] - INFO - IP ('127.0.0.1', 37268) This client is entering the authentication process.
+[2025-06-09 02:04:57,664] - INFO - IP: ('127.0.0.1', 37268) Starting shell...
+[2025-06-09 02:04:57,664] - INFO - Creating a shell tunnel...
+[2025-06-09 02:04:57,684] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:31:54\n'
+[2025-06-09 02:05:04,695] - INFO - IP: ('127.0.0.1', 37260) executed: b'SHELL_RESIZE_REQUEST:69:71\n'
+[2025-06-09 02:05:05,362] - INFO - IP: ('127.0.0.1', 37260) executed: b'SHELL_RESIZE_REQUEST:59:64\n'
+[2025-06-09 02:05:05,395] - INFO - IP: ('127.0.0.1', 37260) executed: b'SHELL_RESIZE_REQUEST:54:59\n'
+[2025-06-09 02:05:05,444] - INFO - IP: ('127.0.0.1', 37260) executed: b'SHELL_RESIZE_REQUEST:50:54\n'
+[2025-06-09 02:05:05,561] - INFO - IP: ('127.0.0.1', 37260) executed: b'SHELL_RESIZE_REQUEST:45:50\n'
+[2025-06-09 02:05:06,251] - INFO - IP: ('127.0.0.1', 37260) executed: b'SHELL_RESIZE_REQUEST:28:50\n'
+[2025-06-09 02:05:07,223] - INFO - IP: ('127.0.0.1', 37260) executed: b'l'
+[2025-06-09 02:05:07,389] - INFO - IP: ('127.0.0.1', 37260) executed: b's'
+[2025-06-09 02:05:07,637] - INFO - IP: ('127.0.0.1', 37260) executed: b'\r'
+[2025-06-09 02:05:08,884] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:28:50\n'
+[2025-06-09 02:05:09,866] - INFO - IP: ('127.0.0.1', 37268) executed: b'l'
+[2025-06-09 02:05:09,983] - INFO - IP: ('127.0.0.1', 37268) executed: b's'
+[2025-06-09 02:05:10,216] - INFO - IP: ('127.0.0.1', 37268) executed: b'\r'
+[2025-06-09 02:05:10,948] - INFO - IP: ('127.0.0.1', 37268) executed: b'c'
+[2025-06-09 02:05:11,148] - INFO - IP: ('127.0.0.1', 37268) executed: b'l'
+[2025-06-09 02:05:11,247] - INFO - IP: ('127.0.0.1', 37268) executed: b'e'
+[2025-06-09 02:05:11,680] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x7f'
+[2025-06-09 02:05:11,846] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x7f'
+[2025-06-09 02:05:12,012] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x7f'
+[2025-06-09 02:05:12,130] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x7f'
+[2025-06-09 02:05:12,429] - INFO - IP: ('127.0.0.1', 37268) executed: b'n'
+[2025-06-09 02:05:12,560] - INFO - IP: ('127.0.0.1', 37268) executed: b'a'
+[2025-06-09 02:05:12,693] - INFO - IP: ('127.0.0.1', 37268) executed: b'n'
+[2025-06-09 02:05:12,926] - INFO - IP: ('127.0.0.1', 37268) executed: b'o'
+[2025-06-09 02:05:13,209] - INFO - IP: ('127.0.0.1', 37268) executed: b'\r'
+[2025-06-09 02:05:14,293] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:45:50\n'
+[2025-06-09 02:05:14,639] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x1bOA'
+[2025-06-09 02:05:14,674] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:50:54\n'
+[2025-06-09 02:05:14,707] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:54:59\n'
+[2025-06-09 02:05:14,724] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x1bOA'
+[2025-06-09 02:05:14,741] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:59:64\n'
+[2025-06-09 02:05:14,774] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:69:71\n'
+[2025-06-09 02:05:14,794] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x1bOA'
+[2025-06-09 02:05:14,810] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:77:88\n'
+[2025-06-09 02:05:14,842] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x1bOA'
+[2025-06-09 02:05:14,845] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:88:101\n'
+[2025-06-09 02:05:14,889] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:110:118\n'
+[2025-06-09 02:05:15,121] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x1bOA'
+[2025-06-09 02:05:15,169] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:88:101\n'
+[2025-06-09 02:05:15,174] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x1bOB'
+[2025-06-09 02:05:15,196] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x1bOB'
+[2025-06-09 02:05:15,197] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:77:88\n'
+[2025-06-09 02:05:15,224] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:69:71\n'
+[2025-06-09 02:05:15,272] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x1bOA'
+[2025-06-09 02:05:15,275] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:59:64\n'
+[2025-06-09 02:05:15,306] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:54:59\n'
+[2025-06-09 02:05:15,339] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:50:54\n'
+[2025-06-09 02:05:15,373] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:45:50\n'
+[2025-06-09 02:05:15,406] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:42:44\n'
+[2025-06-09 02:05:15,473] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:39:41\n'
+[2025-06-09 02:05:16,249] - INFO - IP: ('127.0.0.1', 37268) executed: b'SHELL_RESIZE_REQUEST:24:41\n'
+[2025-06-09 02:05:17,233] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x18'
+[2025-06-09 02:05:19,071] - INFO - IP: ('127.0.0.1', 37268) executed: b'/'
+[2025-06-09 02:05:19,412] - INFO - IP: ('127.0.0.1', 37268) executed: b'd'
+[2025-06-09 02:05:20,094] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x7f'
+[2025-06-09 02:05:20,228] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x7f'
+[2025-06-09 02:05:20,360] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x7f'
+[2025-06-09 02:05:20,958] - INFO - IP: ('127.0.0.1', 37268) executed: b'\x04'
+[2025-06-09 02:05:20,966] - INFO - IP: ('127.0.0.1', 37268) Shell terminated
+[2025-06-09 02:05:20,966] - INFO - Disconnected
+[2025-06-09 02:05:20,968] - INFO - Session shell closed
+[2025-06-09 02:05:20,968] - INFO - IP: ('127.0.0.1', 37268) Disconnected this client connection
+[2025-06-09 02:05:20,969] - INFO - Client loop closed
+[2025-06-09 02:05:20,969] - ERROR - 
+IP: ('127.0.0.1', 37268) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-09 02:05:20,970] - INFO - IP: ('127.0.0.1', 37268) Session shell closed
+[2025-06-09 02:05:21,625] - INFO - IP: ('127.0.0.1', 37268) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 02:05:23,256] - INFO - IP: ('127.0.0.1', 37260) executed: b'SHELL_RESIZE_REQUEST:24:41\n'
+[2025-06-09 02:05:23,919] - INFO - IP: ('127.0.0.1', 37260) executed: b'l'
+[2025-06-09 02:05:24,135] - INFO - IP: ('127.0.0.1', 37260) executed: b's'
+[2025-06-09 02:05:24,301] - INFO - IP: ('127.0.0.1', 37260) executed: b'\r'
+[2025-06-09 02:05:25,567] - INFO - IP: ('127.0.0.1', 37260) executed: b'\x04'
+[2025-06-09 02:05:25,573] - INFO - IP: ('127.0.0.1', 37260) Shell terminated
+[2025-06-09 02:05:25,573] - INFO - Disconnected
+[2025-06-09 02:05:25,575] - INFO - IP: ('127.0.0.1', 37260) Disconnected this client connection
+[2025-06-09 02:05:25,575] - INFO - Session shell closed
+[2025-06-09 02:05:25,576] - ERROR - 
+IP: ('127.0.0.1', 37260) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-09 02:05:25,576] - INFO - Client loop closed
+[2025-06-09 02:05:25,577] - INFO - IP: ('127.0.0.1', 37260) Session shell closed
+[2025-06-09 02:05:26,632] - INFO - IP: ('127.0.0.1', 37260) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 02:05:31,118] - INFO - Shutting down...
+[2025-06-09 02:05:31,120] - INFO - Server has closed
+[2025-06-09 02:05:31,120] - INFO - Waiting for server loop closed...
+[2025-06-09 02:05:31,640] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-09 02:05:31,644] - INFO - Server loop ended
+[2025-06-09 02:05:31,650] - INFO - Threads pool have been shutting down...
+[2025-06-09 02:05:31,652] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-09 02:05:31,654] - INFO - ***Graceful Shutdown***
+[2025-06-09 02:10:48,929] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-09 02:10:48,933] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-09 02:11:12,316] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-09 02:11:12,318] - INFO - IP: ('127.0.0.1', 37322) This client has been connected to your server
+[2025-06-09 02:11:12,319] - INFO - Connected
+[2025-06-09 02:11:12,320] - INFO - IP: ('127.0.0.1', 37322) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-09 02:11:12,325] - INFO - IP ('127.0.0.1', 37322) This client is entering the authentication process.
+[2025-06-09 02:11:16,715] - INFO - Creating a shell tunnel...
+[2025-06-09 02:11:16,715] - INFO - IP: ('127.0.0.1', 37322) Starting shell...
+[2025-06-09 02:11:16,736] - INFO - IP: ('127.0.0.1', 37322) executed: b'SHELL_RESIZE_REQUEST:34:59\n'
+[2025-06-09 02:11:18,295] - INFO - IP: ('127.0.0.1', 37322) executed: b'\x04'
+[2025-06-09 02:11:18,299] - INFO - IP: ('127.0.0.1', 37322) Shell terminated
+[2025-06-09 02:11:18,299] - INFO - Disconnected
+[2025-06-09 02:11:18,301] - INFO - Session shell closed
+[2025-06-09 02:11:18,301] - INFO - IP: ('127.0.0.1', 37322) Disconnected this client connection
+[2025-06-09 02:11:18,302] - INFO - Client loop closed
+[2025-06-09 02:11:18,302] - ERROR - 
+IP: ('127.0.0.1', 37322) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-09 02:11:18,303] - INFO - IP: ('127.0.0.1', 37322) Session shell closed
+[2025-06-09 02:11:22,337] - INFO - IP: ('127.0.0.1', 37322) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-09 02:11:26,126] - INFO - Shutting down...
+[2025-06-09 02:11:26,127] - INFO - Server has closed
+[2025-06-09 02:11:26,128] - INFO - Waiting for server loop closed...
+[2025-06-09 02:11:27,346] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-09 02:11:27,348] - INFO - Server loop ended
+[2025-06-09 02:11:27,353] - INFO - Threads pool have been shutting down...
+[2025-06-09 02:11:27,355] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-09 02:11:27,357] - INFO - ***Graceful Shutdown***
+[2025-06-10 07:54:58,031] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 07:54:58,034] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 07:55:16,932] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 07:55:16,935] - INFO - IP: ('127.0.0.1', 50204) This client has been connected to your server
+[2025-06-10 07:55:16,936] - INFO - IP: ('127.0.0.1', 50204) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 07:55:16,940] - INFO - Connected
+[2025-06-10 07:55:16,942] - INFO - IP ('127.0.0.1', 50204) This client is entering the authentication process.
+[2025-06-10 07:55:18,996] - INFO - Client loop closed
+[2025-06-10 07:55:18,998] - INFO - Disconnected
+[2025-06-10 07:55:18,999] - ERROR - IP: ('127.0.0.1', 50204) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 07:55:19,001] - INFO - 
+IP: ('127.0.0.1', 50204) Disconnected this client connection
+[2025-06-10 07:55:19,921] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 07:55:19,924] - INFO - IP: ('127.0.0.1', 50206) This client has been connected to your server
+[2025-06-10 07:55:19,924] - INFO - Connected
+[2025-06-10 07:55:19,925] - INFO - IP: ('127.0.0.1', 50204) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 07:55:19,926] - INFO - IP: ('127.0.0.1', 50206) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 07:55:19,928] - INFO - IP ('127.0.0.1', 50206) This client is entering the authentication process.
+[2025-06-10 07:55:25,483] - INFO - Creating a shell tunnel...
+[2025-06-10 07:55:25,483] - INFO - IP: ('127.0.0.1', 50206) Starting shell...
+[2025-06-10 07:55:25,504] - INFO - IP: ('127.0.0.1', 50206) executed: b'SHELL_RESIZE_REQUEST:48:88\n'
+[2025-06-10 07:55:27,462] - INFO - IP: ('127.0.0.1', 50206) executed: b'\x04'
+[2025-06-10 07:55:27,467] - INFO - IP: ('127.0.0.1', 50206) Shell terminated
+[2025-06-10 07:55:27,467] - INFO - Disconnected
+[2025-06-10 07:55:27,468] - INFO - Session shell closed
+[2025-06-10 07:55:27,469] - INFO - IP: ('127.0.0.1', 50206) Disconnected this client connection
+[2025-06-10 07:55:27,470] - INFO - Client loop closed
+[2025-06-10 07:55:27,470] - ERROR - 
+IP: ('127.0.0.1', 50206) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-10 07:55:27,471] - INFO - IP: ('127.0.0.1', 50206) Session shell closed
+[2025-06-10 07:55:29,942] - INFO - IP: ('127.0.0.1', 50206) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:01:50,466] - INFO - Shutting down...
+[2025-06-10 08:01:50,497] - INFO - Server has closed
+[2025-06-10 08:01:50,499] - INFO - Waiting for server loop closed...
+[2025-06-10 08:01:53,527] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:01:53,530] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:01:55,274] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:01:55,276] - INFO - Server loop ended
+[2025-06-10 08:01:55,280] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:12:01,003] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:12:01,005] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:12:04,055] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:12:04,059] - INFO - IP: ('127.0.0.1', 50642) This client has been connected to your server
+[2025-06-10 08:12:04,061] - INFO - IP: ('127.0.0.1', 50642) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:12:04,063] - INFO - Connected
+[2025-06-10 08:12:04,063] - INFO - IP ('127.0.0.1', 50642) This client is entering the authentication process.
+[2025-06-10 08:12:19,081] - CRITICAL - Client loop error [CRITICAL: timed out]
+[2025-06-10 08:12:19,085] - INFO - Client loop closed
+[2025-06-10 08:12:19,090] - INFO - Disconnected
+[2025-06-10 08:12:19,090] - ERROR - IP: ('127.0.0.1', 50642) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:12:19,093] - INFO - 
+IP: ('127.0.0.1', 50642) Disconnected this client connection
+[2025-06-10 08:12:24,207] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:12:24,209] - INFO - Connected
+[2025-06-10 08:12:24,210] - INFO - IP: ('127.0.0.1', 50644) This client has been connected to your server
+[2025-06-10 08:12:24,211] - INFO - IP: ('127.0.0.1', 50642) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:12:24,212] - INFO - IP: ('127.0.0.1', 50644) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:12:24,213] - INFO - IP ('127.0.0.1', 50644) This client is entering the authentication process.
+[2025-06-10 08:12:26,636] - INFO - Client loop closed
+[2025-06-10 08:12:26,639] - INFO - Disconnected
+[2025-06-10 08:12:26,640] - INFO - IP: ('127.0.0.1', 50644) Authentication failed, Disconnecting
+[2025-06-10 08:12:26,642] - INFO - 
+IP: ('127.0.0.1', 50644) Disconnected this client connection
+[2025-06-10 08:12:39,235] - INFO - IP: ('127.0.0.1', 50644) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:12:41,393] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:12:41,396] - INFO - Connected
+[2025-06-10 08:12:41,397] - INFO - IP: ('127.0.0.1', 50646) This client has been connected to your server
+[2025-06-10 08:12:41,398] - INFO - IP: ('127.0.0.1', 50646) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:12:41,400] - INFO - IP ('127.0.0.1', 50646) This client is entering the authentication process.
+[2025-06-10 08:12:45,511] - INFO - Client loop closed
+[2025-06-10 08:12:45,513] - INFO - Disconnected
+[2025-06-10 08:12:45,513] - INFO - IP: ('127.0.0.1', 50646) Authentication failed, Disconnecting
+[2025-06-10 08:12:45,515] - INFO - 
+IP: ('127.0.0.1', 50646) Disconnected this client connection
+[2025-06-10 08:12:48,304] - INFO - Shutting down...
+[2025-06-10 08:12:48,305] - INFO - IP: ('127.0.0.1', 50646) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:12:48,307] - INFO - Server has closed
+[2025-06-10 08:12:48,308] - INFO - Waiting for server loop closed...
+[2025-06-10 08:12:51,311] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:12:51,313] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:12:56,420] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:12:56,423] - INFO - Server loop ended
+[2025-06-10 08:12:56,427] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:12:58,632] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:12:58,634] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:13:00,734] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:13:00,736] - INFO - Connected
+[2025-06-10 08:13:00,737] - INFO - IP: ('127.0.0.1', 50652) This client has been connected to your server
+[2025-06-10 08:13:00,738] - INFO - IP: ('127.0.0.1', 50652) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:13:00,743] - INFO - IP ('127.0.0.1', 50652) This client is entering the authentication process.
+[2025-06-10 08:13:02,622] - INFO - Client loop closed
+[2025-06-10 08:13:02,624] - INFO - Disconnected
+[2025-06-10 08:13:02,624] - INFO - IP: ('127.0.0.1', 50652) Authentication failed, Disconnecting
+[2025-06-10 08:13:02,626] - INFO - 
+IP: ('127.0.0.1', 50652) Disconnected this client connection
+[2025-06-10 08:13:05,965] - INFO - Shutting down...
+[2025-06-10 08:13:05,966] - INFO - IP: ('127.0.0.1', 50652) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:13:05,967] - INFO - Server has closed
+[2025-06-10 08:13:05,968] - INFO - Waiting for server loop closed...
+[2025-06-10 08:13:08,974] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:13:08,977] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:13:15,761] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:13:15,764] - INFO - Server loop ended
+[2025-06-10 08:13:15,768] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:15:27,054] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:15:27,056] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:15:29,728] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:15:29,731] - INFO - Connected
+[2025-06-10 08:15:29,731] - INFO - IP: ('127.0.0.1', 50682) This client has been connected to your server
+[2025-06-10 08:15:29,732] - INFO - IP: ('127.0.0.1', 50682) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:15:29,735] - INFO - IP ('127.0.0.1', 50682) This client is entering the authentication process.
+[2025-06-10 08:15:47,751] - CRITICAL - Client loop error [CRITICAL: timed out]
+[2025-06-10 08:15:47,755] - INFO - Client loop closed
+[2025-06-10 08:15:47,759] - INFO - Disconnected
+[2025-06-10 08:15:47,760] - ERROR - IP: ('127.0.0.1', 50682) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:15:47,763] - INFO - 
+IP: ('127.0.0.1', 50682) Disconnected this client connection
+[2025-06-10 08:15:50,491] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:15:50,494] - INFO - IP: ('127.0.0.1', 50690) This client has been connected to your server
+[2025-06-10 08:15:50,494] - INFO - Connected
+[2025-06-10 08:15:50,496] - INFO - IP: ('127.0.0.1', 50682) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:15:50,497] - INFO - IP: ('127.0.0.1', 50690) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:15:50,498] - INFO - IP ('127.0.0.1', 50690) This client is entering the authentication process.
+[2025-06-10 08:16:08,513] - CRITICAL - Client loop error [CRITICAL: timed out]
+[2025-06-10 08:16:08,516] - INFO - Client loop closed
+[2025-06-10 08:16:08,521] - ERROR - IP: ('127.0.0.1', 50690) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:16:08,521] - INFO - Disconnected
+[2025-06-10 08:16:08,525] - INFO - 
+IP: ('127.0.0.1', 50690) Disconnected this client connection
+[2025-06-10 08:16:11,087] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:16:11,090] - INFO - IP: ('127.0.0.1', 50696) This client has been connected to your server
+[2025-06-10 08:16:11,090] - INFO - Connected
+[2025-06-10 08:16:11,091] - INFO - IP: ('127.0.0.1', 50690) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:16:11,092] - INFO - IP: ('127.0.0.1', 50696) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:16:11,093] - INFO - IP ('127.0.0.1', 50696) This client is entering the authentication process.
+[2025-06-10 08:16:14,694] - INFO - Client loop closed
+[2025-06-10 08:16:14,696] - ERROR - IP: ('127.0.0.1', 50696) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:16:14,696] - INFO - Disconnected
+[2025-06-10 08:16:14,699] - INFO - 
+IP: ('127.0.0.1', 50696) Disconnected this client connection
+[2025-06-10 08:16:20,864] - INFO - Shutting down...
+[2025-06-10 08:16:20,865] - INFO - IP: ('127.0.0.1', 50696) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:16:20,866] - INFO - Server has closed
+[2025-06-10 08:16:20,867] - INFO - Waiting for server loop closed...
+[2025-06-10 08:16:23,871] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:16:23,874] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:16:26,111] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:16:26,114] - INFO - Server loop ended
+[2025-06-10 08:16:26,116] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:17:31,983] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:17:31,985] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:17:37,967] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:17:37,969] - INFO - IP: ('127.0.0.1', 50700) This client has been connected to your server
+[2025-06-10 08:17:37,969] - INFO - Connected
+[2025-06-10 08:17:37,971] - INFO - IP: ('127.0.0.1', 50700) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:17:37,974] - INFO - IP ('127.0.0.1', 50700) This client is entering the authentication process.
+[2025-06-10 08:17:39,887] - INFO - Client loop closed
+[2025-06-10 08:17:39,889] - INFO - Disconnected
+[2025-06-10 08:17:39,889] - INFO - IP: ('127.0.0.1', 50700) Authentication failed, Disconnecting
+[2025-06-10 08:17:39,891] - INFO - 
+IP: ('127.0.0.1', 50700) Disconnected this client connection
+[2025-06-10 08:17:41,185] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:17:41,188] - INFO - IP: ('127.0.0.1', 50702) This client has been connected to your server
+[2025-06-10 08:17:41,188] - INFO - Connected
+[2025-06-10 08:17:41,190] - INFO - IP: ('127.0.0.1', 50700) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:17:41,191] - INFO - IP: ('127.0.0.1', 50702) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:17:41,193] - INFO - IP ('127.0.0.1', 50702) This client is entering the authentication process.
+[2025-06-10 08:17:42,680] - INFO - Client loop closed
+[2025-06-10 08:17:42,682] - INFO - Disconnected
+[2025-06-10 08:17:42,683] - INFO - IP: ('127.0.0.1', 50702) Authentication failed, Disconnecting
+[2025-06-10 08:17:42,684] - INFO - 
+IP: ('127.0.0.1', 50702) Disconnected this client connection
+[2025-06-10 08:17:43,763] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:17:43,766] - INFO - Connected
+[2025-06-10 08:17:43,766] - INFO - IP: ('127.0.0.1', 50704) This client has been connected to your server
+[2025-06-10 08:17:43,767] - INFO - IP: ('127.0.0.1', 50702) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:17:43,768] - INFO - IP: ('127.0.0.1', 50704) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:17:43,769] - INFO - IP ('127.0.0.1', 50704) This client is entering the authentication process.
+[2025-06-10 08:17:44,759] - INFO - Client loop closed
+[2025-06-10 08:17:44,761] - INFO - Disconnected
+[2025-06-10 08:17:44,762] - INFO - IP: ('127.0.0.1', 50704) Authentication failed, Disconnecting
+[2025-06-10 08:17:44,764] - INFO - 
+IP: ('127.0.0.1', 50704) Disconnected this client connection
+[2025-06-10 08:17:46,121] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:17:46,127] - INFO - Connected
+[2025-06-10 08:17:46,128] - INFO - IP: ('127.0.0.1', 50706) This client has been connected to your server
+[2025-06-10 08:17:46,131] - INFO - IP: ('127.0.0.1', 50704) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:17:46,133] - INFO - IP: ('127.0.0.1', 50706) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:17:46,136] - INFO - IP ('127.0.0.1', 50706) This client is entering the authentication process.
+[2025-06-10 08:17:47,204] - INFO - Client loop closed
+[2025-06-10 08:17:47,205] - INFO - Disconnected
+[2025-06-10 08:17:47,206] - INFO - IP: ('127.0.0.1', 50706) Authentication failed, Disconnecting
+[2025-06-10 08:17:47,207] - INFO - 
+IP: ('127.0.0.1', 50706) Disconnected this client connection
+[2025-06-10 08:17:48,183] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:17:48,186] - INFO - IP: ('127.0.0.1', 50708) This client has been connected to your server
+[2025-06-10 08:17:48,185] - INFO - Connected
+[2025-06-10 08:17:48,187] - INFO - IP: ('127.0.0.1', 50706) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:17:48,188] - INFO - IP: ('127.0.0.1', 50708) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:17:48,189] - INFO - IP ('127.0.0.1', 50708) This client is entering the authentication process.
+[2025-06-10 08:17:49,233] - INFO - Client loop closed
+[2025-06-10 08:17:49,234] - INFO - Disconnected
+[2025-06-10 08:17:49,235] - INFO - IP: ('127.0.0.1', 50708) Authentication failed, Disconnecting
+[2025-06-10 08:17:49,236] - INFO - 
+IP: ('127.0.0.1', 50708) Disconnected this client connection
+[2025-06-10 08:17:50,247] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:17:50,250] - INFO - IP: ('127.0.0.1', 50710) This client has been connected to your server
+[2025-06-10 08:17:50,250] - INFO - Connected
+[2025-06-10 08:17:50,251] - INFO - IP: ('127.0.0.1', 50708) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:17:50,252] - INFO - IP: ('127.0.0.1', 50710) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:17:50,253] - INFO - IP ('127.0.0.1', 50710) This client is entering the authentication process.
+[2025-06-10 08:17:51,261] - INFO - Client loop closed
+[2025-06-10 08:17:51,262] - INFO - Disconnected
+[2025-06-10 08:17:51,263] - INFO - IP: ('127.0.0.1', 50710) Authentication failed, Disconnecting
+[2025-06-10 08:17:51,264] - INFO - 
+IP: ('127.0.0.1', 50710) Disconnected this client connection
+[2025-06-10 08:17:55,154] - INFO - Shutting down...
+[2025-06-10 08:17:55,157] - INFO - IP: ('127.0.0.1', 50710) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:17:55,158] - INFO - Server has closed
+[2025-06-10 08:17:55,160] - INFO - Waiting for server loop closed...
+[2025-06-10 08:17:58,165] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:17:58,168] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:18:05,262] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:18:05,266] - INFO - Server loop ended
+[2025-06-10 08:18:05,271] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:18:25,177] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:18:25,179] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:18:27,927] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:18:27,930] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 115] Operation now in progress]
+[2025-06-10 08:18:27,930] - INFO - IP: ('127.0.0.1', 50718) This client has been connected to your server
+[2025-06-10 08:18:27,931] - CRITICAL - Client loop error [CRITICAL: 'NoneType' object has no attribute 'try_check_and_print_kick_msg']
+[2025-06-10 08:18:27,931] - INFO - IP: ('127.0.0.1', 50718) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:18:27,932] - INFO - Client loop closed
+[2025-06-10 08:18:27,934] - INFO - Disconnected
+[2025-06-10 08:18:27,935] - INFO - IP ('127.0.0.1', 50718) This client is entering the authentication process.
+[2025-06-10 08:18:27,935] - ERROR - During sent [ERROR: [Errno 104] Connection reset by peer]
+[2025-06-10 08:18:27,938] - ERROR - IP: ('127.0.0.1', 50718) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:18:27,939] - INFO - 
+IP: ('127.0.0.1', 50718) Disconnected this client connection
+[2025-06-10 08:18:37,554] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:18:37,556] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 115] Operation now in progress]
+[2025-06-10 08:18:37,557] - INFO - IP: ('127.0.0.1', 50720) This client has been connected to your server
+[2025-06-10 08:18:37,558] - INFO - IP: ('127.0.0.1', 50718) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:18:37,558] - CRITICAL - Client loop error [CRITICAL: 'NoneType' object has no attribute 'try_check_and_print_kick_msg']
+[2025-06-10 08:18:37,559] - INFO - IP: ('127.0.0.1', 50720) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:18:37,559] - INFO - Client loop closed
+[2025-06-10 08:18:37,561] - INFO - Disconnected
+[2025-06-10 08:18:37,561] - INFO - IP ('127.0.0.1', 50720) This client is entering the authentication process.
+[2025-06-10 08:18:37,562] - ERROR - During sent [ERROR: [Errno 32] Broken pipe]
+[2025-06-10 08:18:37,564] - ERROR - IP: ('127.0.0.1', 50720) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:18:37,565] - INFO - 
+IP: ('127.0.0.1', 50720) Disconnected this client connection
+[2025-06-10 08:18:52,579] - INFO - IP: ('127.0.0.1', 50720) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:18:58,927] - INFO - Shutting down...
+[2025-06-10 08:18:58,928] - INFO - Server has closed
+[2025-06-10 08:18:58,929] - INFO - Waiting for server loop closed...
+[2025-06-10 08:19:01,932] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:19:01,935] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:19:07,599] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:19:07,601] - INFO - Server loop ended
+[2025-06-10 08:19:07,604] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:23:08,683] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:23:08,686] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:23:26,128] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:23:26,131] - INFO - IP: ('127.0.0.1', 50774) This client has been connected to your server
+[2025-06-10 08:23:26,132] - INFO - IP: ('127.0.0.1', 50774) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:23:26,135] - INFO - IP ('127.0.0.1', 50774) This client is entering the authentication process.
+[2025-06-10 08:23:26,138] - INFO - Connected
+[2025-06-10 08:23:26,240] - CRITICAL - Client loop error [CRITICAL: timed out]
+[2025-06-10 08:23:26,241] - INFO - Client loop closed
+[2025-06-10 08:23:26,243] - ERROR - IP: ('127.0.0.1', 50774) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:23:26,243] - INFO - Disconnected
+[2025-06-10 08:23:26,245] - INFO - 
+IP: ('127.0.0.1', 50774) Disconnected this client connection
+[2025-06-10 08:23:35,874] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:23:35,877] - INFO - IP: ('127.0.0.1', 50776) This client has been connected to your server
+[2025-06-10 08:23:35,876] - INFO - Connected
+[2025-06-10 08:23:35,878] - INFO - IP: ('127.0.0.1', 50774) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:23:35,879] - INFO - IP: ('127.0.0.1', 50776) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:23:35,880] - INFO - IP ('127.0.0.1', 50776) This client is entering the authentication process.
+[2025-06-10 08:23:39,750] - INFO - Client loop closed
+[2025-06-10 08:23:39,752] - INFO - Disconnected
+[2025-06-10 08:23:39,753] - INFO - IP: ('127.0.0.1', 50776) Authentication failed, Disconnecting
+[2025-06-10 08:23:39,754] - INFO - 
+IP: ('127.0.0.1', 50776) Disconnected this client connection
+[2025-06-10 08:23:41,634] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:23:41,638] - INFO - IP: ('127.0.0.1', 50778) This client has been connected to your server
+[2025-06-10 08:23:41,638] - INFO - Connected
+[2025-06-10 08:23:41,639] - INFO - IP: ('127.0.0.1', 50776) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:23:41,640] - INFO - IP: ('127.0.0.1', 50778) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:23:41,642] - INFO - IP ('127.0.0.1', 50778) This client is entering the authentication process.
+[2025-06-10 08:23:44,490] - INFO - Client loop closed
+[2025-06-10 08:23:44,491] - INFO - Disconnected
+[2025-06-10 08:23:44,492] - INFO - IP: ('127.0.0.1', 50778) Authentication failed, Disconnecting
+[2025-06-10 08:23:44,493] - INFO - 
+IP: ('127.0.0.1', 50778) Disconnected this client connection
+[2025-06-10 08:23:45,867] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:23:45,870] - INFO - IP: ('127.0.0.1', 50780) This client has been connected to your server
+[2025-06-10 08:23:45,870] - INFO - Connected
+[2025-06-10 08:23:45,871] - INFO - IP: ('127.0.0.1', 50778) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:23:45,872] - INFO - IP: ('127.0.0.1', 50780) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:23:45,874] - INFO - IP ('127.0.0.1', 50780) This client is entering the authentication process.
+[2025-06-10 08:23:47,233] - INFO - Client loop closed
+[2025-06-10 08:23:47,235] - INFO - Disconnected
+[2025-06-10 08:23:47,235] - INFO - IP: ('127.0.0.1', 50780) Authentication failed, Disconnecting
+[2025-06-10 08:23:47,237] - INFO - 
+IP: ('127.0.0.1', 50780) Disconnected this client connection
+[2025-06-10 08:24:00,891] - INFO - IP: ('127.0.0.1', 50780) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:25:51,808] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:25:51,811] - INFO - Connected
+[2025-06-10 08:25:51,811] - INFO - IP: ('127.0.0.1', 50788) This client has been connected to your server
+[2025-06-10 08:25:51,812] - INFO - IP: ('127.0.0.1', 50788) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:25:51,814] - INFO - IP ('127.0.0.1', 50788) This client is entering the authentication process.
+[2025-06-10 08:25:53,846] - INFO - Client loop closed
+[2025-06-10 08:25:53,848] - INFO - Disconnected
+[2025-06-10 08:25:53,848] - INFO - IP: ('127.0.0.1', 50788) Authentication failed, Disconnecting
+[2025-06-10 08:25:53,849] - INFO - 
+IP: ('127.0.0.1', 50788) Disconnected this client connection
+[2025-06-10 08:25:56,406] - INFO - Shutting down...
+[2025-06-10 08:25:56,408] - INFO - IP: ('127.0.0.1', 50788) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:25:56,409] - INFO - Server has closed
+[2025-06-10 08:25:56,410] - INFO - Waiting for server loop closed...
+[2025-06-10 08:25:59,413] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:25:59,415] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:26:06,833] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:26:06,836] - INFO - Server loop ended
+[2025-06-10 08:26:06,839] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:26:36,398] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:26:36,400] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:26:38,917] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:26:38,920] - INFO - Connected
+[2025-06-10 08:26:38,920] - INFO - IP: ('127.0.0.1', 50790) This client has been connected to your server
+[2025-06-10 08:26:38,921] - INFO - IP: ('127.0.0.1', 50790) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:26:38,924] - INFO - IP ('127.0.0.1', 50790) This client is entering the authentication process.
+[2025-06-10 08:26:38,926] - INFO - IP: ('127.0.0.1', 50790) Authentication failed, Disconnecting
+[2025-06-10 08:26:38,928] - INFO - 
+IP: ('127.0.0.1', 50790) Disconnected this client connection
+[2025-06-10 08:26:38,928] - CRITICAL - Client loop error [CRITICAL: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:26:38,929] - INFO - Client loop closed
+[2025-06-10 08:26:38,931] - INFO - Disconnected
+[2025-06-10 08:26:42,298] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:26:42,300] - INFO - Connected
+[2025-06-10 08:26:42,300] - INFO - IP: ('127.0.0.1', 50792) This client has been connected to your server
+[2025-06-10 08:26:42,302] - INFO - IP: ('127.0.0.1', 50790) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:26:42,303] - INFO - IP: ('127.0.0.1', 50792) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:26:42,305] - INFO - IP ('127.0.0.1', 50792) This client is entering the authentication process.
+[2025-06-10 08:26:42,307] - INFO - IP: ('127.0.0.1', 50792) Authentication failed, Disconnecting
+[2025-06-10 08:26:42,308] - INFO - 
+IP: ('127.0.0.1', 50792) Disconnected this client connection
+[2025-06-10 08:26:42,309] - CRITICAL - Client loop error [CRITICAL: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:26:42,310] - INFO - Client loop closed
+[2025-06-10 08:26:42,312] - INFO - Disconnected
+[2025-06-10 08:26:44,569] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:26:44,573] - INFO - IP: ('127.0.0.1', 50794) This client has been connected to your server
+[2025-06-10 08:26:44,572] - INFO - Connected
+[2025-06-10 08:26:44,574] - INFO - IP: ('127.0.0.1', 50792) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:26:44,575] - INFO - IP: ('127.0.0.1', 50794) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:26:44,577] - INFO - IP ('127.0.0.1', 50794) This client is entering the authentication process.
+[2025-06-10 08:26:44,580] - INFO - IP: ('127.0.0.1', 50794) Authentication failed, Disconnecting
+[2025-06-10 08:26:44,581] - INFO - 
+IP: ('127.0.0.1', 50794) Disconnected this client connection
+[2025-06-10 08:26:44,581] - CRITICAL - Client loop error [CRITICAL: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:26:44,583] - INFO - Client loop closed
+[2025-06-10 08:26:44,584] - INFO - Disconnected
+[2025-06-10 08:26:47,014] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:26:47,017] - INFO - IP: ('127.0.0.1', 50796) This client has been connected to your server
+[2025-06-10 08:26:47,017] - INFO - Connected
+[2025-06-10 08:26:47,019] - INFO - IP: ('127.0.0.1', 50794) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:26:47,020] - INFO - IP: ('127.0.0.1', 50796) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:26:47,021] - INFO - IP ('127.0.0.1', 50796) This client is entering the authentication process.
+[2025-06-10 08:26:47,023] - INFO - IP: ('127.0.0.1', 50796) Authentication failed, Disconnecting
+[2025-06-10 08:26:47,025] - INFO - 
+IP: ('127.0.0.1', 50796) Disconnected this client connection
+[2025-06-10 08:26:47,025] - CRITICAL - Client loop error [CRITICAL: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:26:47,026] - INFO - Client loop closed
+[2025-06-10 08:26:47,028] - INFO - Disconnected
+[2025-06-10 08:26:58,512] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:26:58,515] - INFO - IP: ('127.0.0.1', 50798) This client has been connected to your server
+[2025-06-10 08:26:58,515] - INFO - Connected
+[2025-06-10 08:26:58,516] - INFO - IP: ('127.0.0.1', 50796) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:26:58,517] - INFO - IP: ('127.0.0.1', 50798) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:26:58,519] - INFO - IP ('127.0.0.1', 50798) This client is entering the authentication process.
+[2025-06-10 08:26:58,522] - INFO - IP: ('127.0.0.1', 50798) Authentication failed, Disconnecting
+[2025-06-10 08:26:58,523] - INFO - 
+IP: ('127.0.0.1', 50798) Disconnected this client connection
+[2025-06-10 08:26:58,523] - CRITICAL - Client loop error [CRITICAL: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:26:58,524] - INFO - Client loop closed
+[2025-06-10 08:26:58,526] - INFO - Disconnected
+[2025-06-10 08:27:13,529] - INFO - IP: ('127.0.0.1', 50798) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:35:12,034] - INFO - Shutting down...
+[2025-06-10 08:35:12,036] - INFO - Server has closed
+[2025-06-10 08:35:12,038] - INFO - Waiting for server loop closed...
+[2025-06-10 08:35:13,974] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:35:13,977] - INFO - Server loop ended
+[2025-06-10 08:35:13,981] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:35:13,983] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:35:13,984] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:35:26,471] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:35:26,478] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:35:34,279] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:35:34,282] - INFO - IP: ('127.0.0.1', 50848) This client has been connected to your server
+[2025-06-10 08:35:34,281] - INFO - Connected
+[2025-06-10 08:35:34,283] - INFO - IP: ('127.0.0.1', 50848) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:35:34,286] - INFO - IP ('127.0.0.1', 50848) This client is entering the authentication process.
+[2025-06-10 08:35:34,292] - INFO - IP: ('127.0.0.1', 50848) Authentication failed, Disconnecting
+[2025-06-10 08:35:34,293] - CRITICAL - Client loop error [CRITICAL: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:35:34,293] - INFO - 
+IP: ('127.0.0.1', 50848) Disconnected this client connection
+[2025-06-10 08:35:34,295] - INFO - Client loop closed
+[2025-06-10 08:35:34,298] - INFO - Disconnected
+[2025-06-10 08:35:43,230] - INFO - Shutting down...
+[2025-06-10 08:35:43,231] - INFO - IP: ('127.0.0.1', 50848) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:35:43,232] - INFO - Server has closed
+[2025-06-10 08:35:43,233] - INFO - Waiting for server loop closed...
+[2025-06-10 08:35:46,239] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:35:46,243] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:35:49,306] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:35:49,310] - INFO - Server loop ended
+[2025-06-10 08:35:49,323] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:36:18,112] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:36:18,114] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:36:20,934] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:36:20,936] - INFO - IP: ('127.0.0.1', 50860) This client has been connected to your server
+[2025-06-10 08:36:20,938] - INFO - IP: ('127.0.0.1', 50860) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:36:20,940] - INFO - IP ('127.0.0.1', 50860) This client is entering the authentication process.
+[2025-06-10 08:36:20,943] - INFO - Connected
+[2025-06-10 08:36:27,298] - INFO - Client loop closed
+[2025-06-10 08:36:27,300] - INFO - Disconnected
+[2025-06-10 08:36:27,300] - ERROR - IP: ('127.0.0.1', 50860) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:36:27,302] - INFO - 
+IP: ('127.0.0.1', 50860) Disconnected this client connection
+[2025-06-10 08:36:28,483] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:36:28,486] - INFO - Connected
+[2025-06-10 08:36:28,486] - INFO - IP: ('127.0.0.1', 50862) This client has been connected to your server
+[2025-06-10 08:36:28,487] - INFO - IP: ('127.0.0.1', 50860) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:36:28,488] - INFO - IP: ('127.0.0.1', 50862) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:36:28,489] - INFO - IP ('127.0.0.1', 50862) This client is entering the authentication process.
+[2025-06-10 08:36:28,492] - INFO - IP: ('127.0.0.1', 50862) Authentication failed, Disconnecting
+[2025-06-10 08:36:28,494] - INFO - 
+IP: ('127.0.0.1', 50862) Disconnected this client connection
+[2025-06-10 08:36:28,494] - INFO - Creating a shell tunnel...
+[2025-06-10 08:36:28,498] - CRITICAL - Server down
+[2025-06-10 08:36:28,500] - INFO - Disconnected
+[2025-06-10 08:36:28,501] - INFO - Session shell closed
+[2025-06-10 08:36:28,502] - INFO - Client loop closed
+[2025-06-10 08:36:43,506] - INFO - IP: ('127.0.0.1', 50862) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:37:35,393] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:37:35,395] - INFO - Connected
+[2025-06-10 08:37:35,396] - INFO - IP: ('127.0.0.1', 50872) This client has been connected to your server
+[2025-06-10 08:37:35,397] - INFO - IP: ('127.0.0.1', 50872) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:37:35,399] - INFO - IP ('127.0.0.1', 50872) This client is entering the authentication process.
+[2025-06-10 08:37:35,402] - INFO - IP: ('127.0.0.1', 50872) Authentication failed, Disconnecting
+[2025-06-10 08:37:35,404] - INFO - 
+IP: ('127.0.0.1', 50872) Disconnected this client connection
+[2025-06-10 08:37:35,404] - INFO - Creating a shell tunnel...
+[2025-06-10 08:37:35,411] - CRITICAL - Server down
+[2025-06-10 08:37:35,413] - INFO - Disconnected
+[2025-06-10 08:37:35,414] - INFO - Session shell closed
+[2025-06-10 08:37:35,416] - INFO - Client loop closed
+[2025-06-10 08:37:46,790] - INFO - Shutting down...
+[2025-06-10 08:37:46,791] - INFO - IP: ('127.0.0.1', 50872) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:37:46,792] - INFO - Server has closed
+[2025-06-10 08:37:46,793] - INFO - Waiting for server loop closed...
+[2025-06-10 08:37:49,795] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:37:49,796] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:37:50,410] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:37:50,412] - INFO - Server loop ended
+[2025-06-10 08:37:50,414] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:50:00,748] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:50:00,751] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:50:10,180] - INFO - Shutting down...
+[2025-06-10 08:50:10,181] - INFO - Server has closed
+[2025-06-10 08:50:10,181] - INFO - Waiting for server loop closed...
+[2025-06-10 08:50:13,184] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:50:13,187] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:50:15,773] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:50:15,774] - INFO - Server loop ended
+[2025-06-10 08:50:15,776] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:51:31,183] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:51:31,185] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:51:36,186] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:51:36,189] - INFO - IP: ('127.0.0.1', 50898) This client has been connected to your server
+[2025-06-10 08:51:36,191] - INFO - IP: ('127.0.0.1', 50898) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:51:36,194] - INFO - IP ('127.0.0.1', 50898) This client is entering the authentication process.
+[2025-06-10 08:51:36,195] - INFO - Connected
+[2025-06-10 08:51:39,047] - INFO - Client loop closed
+[2025-06-10 08:51:39,049] - INFO - Disconnected
+[2025-06-10 08:51:39,050] - ERROR - IP: ('127.0.0.1', 50898) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-06-10 08:51:39,052] - INFO - 
+IP: ('127.0.0.1', 50898) Disconnected this client connection
+[2025-06-10 08:51:40,091] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:51:40,094] - INFO - Connected
+[2025-06-10 08:51:40,094] - INFO - IP: ('127.0.0.1', 50900) This client has been connected to your server
+[2025-06-10 08:51:40,096] - INFO - IP: ('127.0.0.1', 50898) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:51:40,097] - INFO - IP: ('127.0.0.1', 50900) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:51:40,099] - INFO - IP ('127.0.0.1', 50900) This client is entering the authentication process.
+[2025-06-10 08:51:48,493] - INFO - Client loop closed
+[2025-06-10 08:51:48,496] - ERROR - IP: ('127.0.0.1', 50900) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'strip']
+[2025-06-10 08:51:48,495] - INFO - Disconnected
+[2025-06-10 08:51:48,497] - INFO - 
+IP: ('127.0.0.1', 50900) Disconnected this client connection
+[2025-06-10 08:51:54,945] - INFO - Shutting down...
+[2025-06-10 08:51:54,947] - INFO - IP: ('127.0.0.1', 50900) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:51:54,948] - INFO - Server has closed
+[2025-06-10 08:51:54,949] - INFO - Waiting for server loop closed...
+[2025-06-10 08:51:55,116] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:51:55,118] - INFO - Server loop ended
+[2025-06-10 08:51:55,121] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:51:55,122] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:51:55,123] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:53:50,314] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:53:50,316] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:53:55,543] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:53:55,545] - INFO - IP: ('127.0.0.1', 50902) This client has been connected to your server
+[2025-06-10 08:53:55,545] - INFO - Connected
+[2025-06-10 08:53:55,547] - INFO - IP: ('127.0.0.1', 50902) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:53:55,550] - INFO - IP ('127.0.0.1', 50902) This client is entering the authentication process.
+[2025-06-10 08:53:55,552] - INFO - IP: ('127.0.0.1', 50902) Starting shell...
+[2025-06-10 08:53:55,593] - INFO - Creating a shell tunnel...
+[2025-06-10 08:53:55,596] - INFO - IP: ('127.0.0.1', 50902) executed: b'SHELL_RESIZE_REQUEST:48:88\n'
+[2025-06-10 08:53:57,356] - INFO - IP: ('127.0.0.1', 50902) executed: b'\x04'
+[2025-06-10 08:53:57,362] - INFO - IP: ('127.0.0.1', 50902) Shell terminated
+[2025-06-10 08:53:57,362] - INFO - Disconnected
+[2025-06-10 08:53:57,364] - INFO - Session shell closed
+[2025-06-10 08:53:57,364] - INFO - IP: ('127.0.0.1', 50902) Disconnected this client connection
+[2025-06-10 08:53:57,365] - INFO - Client loop closed
+[2025-06-10 08:53:57,366] - ERROR - 
+IP: ('127.0.0.1', 50902) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-10 08:53:57,367] - INFO - IP: ('127.0.0.1', 50902) Session shell closed
+[2025-06-10 08:54:00,783] - INFO - Shutting down...
+[2025-06-10 08:54:00,785] - INFO - IP: ('127.0.0.1', 50902) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:54:00,787] - INFO - Server has closed
+[2025-06-10 08:54:00,789] - INFO - Waiting for server loop closed...
+[2025-06-10 08:54:03,794] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:54:03,796] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:54:10,569] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:54:10,572] - INFO - Server loop ended
+[2025-06-10 08:54:10,576] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:54:22,814] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:54:22,816] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:54:25,277] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:54:25,279] - INFO - Connected
+[2025-06-10 08:54:25,280] - INFO - IP: ('127.0.0.1', 50904) This client has been connected to your server
+[2025-06-10 08:54:25,281] - INFO - IP: ('127.0.0.1', 50904) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:54:25,286] - INFO - IP ('127.0.0.1', 50904) This client is entering the authentication process.
+[2025-06-10 08:54:25,287] - INFO - IP: ('127.0.0.1', 50904) Starting shell...
+[2025-06-10 08:54:25,329] - INFO - Creating a shell tunnel...
+[2025-06-10 08:54:25,333] - INFO - IP: ('127.0.0.1', 50904) executed: b'SHELL_RESIZE_REQUEST:48:88\n'
+[2025-06-10 08:54:29,102] - INFO - IP: ('127.0.0.1', 50904) executed: b'g'
+[2025-06-10 08:54:29,584] - INFO - IP: ('127.0.0.1', 50904) executed: b'\r'
+[2025-06-10 08:54:31,247] - INFO - IP: ('127.0.0.1', 50904) executed: b'\x04'
+[2025-06-10 08:54:31,255] - INFO - IP: ('127.0.0.1', 50904) Shell terminated
+[2025-06-10 08:54:31,255] - INFO - Disconnected
+[2025-06-10 08:54:31,256] - INFO - Session shell closed
+[2025-06-10 08:54:31,256] - INFO - IP: ('127.0.0.1', 50904) Disconnected this client connection
+[2025-06-10 08:54:31,257] - INFO - Client loop closed
+[2025-06-10 08:54:31,258] - ERROR - 
+IP: ('127.0.0.1', 50904) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-10 08:54:31,259] - INFO - IP: ('127.0.0.1', 50904) Session shell closed
+[2025-06-10 08:54:34,206] - INFO - Shutting down...
+[2025-06-10 08:54:34,208] - INFO - IP: ('127.0.0.1', 50904) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:54:34,209] - INFO - Server has closed
+[2025-06-10 08:54:34,210] - INFO - Waiting for server loop closed...
+[2025-06-10 08:54:37,211] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:54:37,217] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:54:40,303] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:54:40,306] - INFO - Server loop ended
+[2025-06-10 08:54:40,309] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:54:59,275] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:54:59,277] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:55:22,013] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:55:22,016] - INFO - IP: ('127.0.0.1', 50906) This client has been connected to your server
+[2025-06-10 08:55:22,016] - INFO - Connected
+[2025-06-10 08:55:22,017] - INFO - IP: ('127.0.0.1', 50906) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:55:22,021] - INFO - IP ('127.0.0.1', 50906) This client is entering the authentication process.
+[2025-06-10 08:55:23,516] - INFO - IP: ('127.0.0.1', 50906) Authentication failed, Disconnecting
+[2025-06-10 08:55:23,516] - INFO - Authentication failed
+[2025-06-10 08:55:23,518] - INFO - 
+IP: ('127.0.0.1', 50906) Disconnected this client connection
+[2025-06-10 08:55:23,517] - INFO - Client loop closed
+[2025-06-10 08:55:23,520] - INFO - Disconnected
+[2025-06-10 08:55:25,757] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:55:25,760] - INFO - IP: ('127.0.0.1', 50908) This client has been connected to your server
+[2025-06-10 08:55:25,760] - INFO - Connected
+[2025-06-10 08:55:25,761] - INFO - IP: ('127.0.0.1', 50906) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:55:25,762] - INFO - IP: ('127.0.0.1', 50908) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:55:25,764] - INFO - IP ('127.0.0.1', 50908) This client is entering the authentication process.
+[2025-06-10 08:55:27,838] - INFO - IP: ('127.0.0.1', 50908) Authentication failed, Disconnecting
+[2025-06-10 08:55:27,838] - INFO - Authentication failed
+[2025-06-10 08:55:27,840] - INFO - Client loop closed
+[2025-06-10 08:55:27,840] - INFO - 
+IP: ('127.0.0.1', 50908) Disconnected this client connection
+[2025-06-10 08:55:27,842] - INFO - Disconnected
+[2025-06-10 08:55:30,267] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:55:30,269] - INFO - Connected
+[2025-06-10 08:55:30,270] - INFO - IP: ('127.0.0.1', 50910) This client has been connected to your server
+[2025-06-10 08:55:30,272] - INFO - IP: ('127.0.0.1', 50908) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:55:30,274] - INFO - IP: ('127.0.0.1', 50910) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:55:30,275] - INFO - IP ('127.0.0.1', 50910) This client is entering the authentication process.
+[2025-06-10 08:55:31,812] - INFO - IP: ('127.0.0.1', 50910) Authentication failed, Disconnecting
+[2025-06-10 08:55:31,812] - INFO - Authentication failed
+[2025-06-10 08:55:31,814] - INFO - Client loop closed
+[2025-06-10 08:55:31,814] - INFO - 
+IP: ('127.0.0.1', 50910) Disconnected this client connection
+[2025-06-10 08:55:31,816] - INFO - Disconnected
+[2025-06-10 08:55:33,188] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:55:33,191] - INFO - Connected
+[2025-06-10 08:55:33,192] - INFO - IP: ('127.0.0.1', 50912) This client has been connected to your server
+[2025-06-10 08:55:33,194] - INFO - IP: ('127.0.0.1', 50910) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:55:33,195] - INFO - IP: ('127.0.0.1', 50912) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:55:33,197] - INFO - IP ('127.0.0.1', 50912) This client is entering the authentication process.
+[2025-06-10 08:55:35,021] - INFO - IP: ('127.0.0.1', 50912) Starting shell...
+[2025-06-10 08:55:35,022] - INFO - Creating a shell tunnel...
+[2025-06-10 08:55:35,035] - INFO - IP: ('127.0.0.1', 50912) executed: b'SHELL_RESIZE_REQUEST:48:88\n'
+[2025-06-10 08:55:36,120] - INFO - IP: ('127.0.0.1', 50912) executed: b'\r'
+[2025-06-10 08:55:36,734] - INFO - IP: ('127.0.0.1', 50912) executed: b'\x04'
+[2025-06-10 08:55:36,739] - INFO - IP: ('127.0.0.1', 50912) Shell terminated
+[2025-06-10 08:55:36,739] - INFO - Disconnected
+[2025-06-10 08:55:36,741] - INFO - IP: ('127.0.0.1', 50912) Disconnected this client connection
+[2025-06-10 08:55:36,741] - INFO - Session shell closed
+[2025-06-10 08:55:36,742] - INFO - Client loop closed
+[2025-06-10 08:55:36,742] - ERROR - 
+IP: ('127.0.0.1', 50912) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-10 08:55:36,743] - INFO - IP: ('127.0.0.1', 50912) Session shell closed
+[2025-06-10 08:55:39,028] - INFO - Shutting down...
+[2025-06-10 08:55:39,029] - INFO - IP: ('127.0.0.1', 50912) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:55:39,030] - INFO - Server has closed
+[2025-06-10 08:55:39,031] - INFO - Waiting for server loop closed...
+[2025-06-10 08:55:42,035] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:55:42,038] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:55:48,214] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:55:48,217] - INFO - Server loop ended
+[2025-06-10 08:55:48,221] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:55:51,996] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:55:51,998] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:55:55,441] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:55:55,444] - INFO - Connected
+[2025-06-10 08:55:55,444] - INFO - IP: ('127.0.0.1', 50914) This client has been connected to your server
+[2025-06-10 08:55:55,445] - INFO - IP: ('127.0.0.1', 50914) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:55:55,452] - INFO - IP ('127.0.0.1', 50914) This client is entering the authentication process.
+[2025-06-10 08:55:58,004] - INFO - IP: ('127.0.0.1', 50914) Starting shell...
+[2025-06-10 08:55:58,004] - INFO - Creating a shell tunnel...
+[2025-06-10 08:55:58,019] - INFO - IP: ('127.0.0.1', 50914) executed: b'SHELL_RESIZE_REQUEST:48:88\n'
+[2025-06-10 08:55:59,168] - INFO - IP: ('127.0.0.1', 50914) executed: b'\x04'
+[2025-06-10 08:55:59,173] - INFO - IP: ('127.0.0.1', 50914) Shell terminated
+[2025-06-10 08:55:59,173] - INFO - Disconnected
+[2025-06-10 08:55:59,174] - INFO - Session shell closed
+[2025-06-10 08:55:59,175] - INFO - IP: ('127.0.0.1', 50914) Disconnected this client connection
+[2025-06-10 08:55:59,176] - INFO - Client loop closed
+[2025-06-10 08:55:59,176] - ERROR - 
+IP: ('127.0.0.1', 50914) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-10 08:55:59,177] - INFO - IP: ('127.0.0.1', 50914) Session shell closed
+[2025-06-10 08:56:10,456] - INFO - IP: ('127.0.0.1', 50914) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:56:53,073] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:56:53,076] - INFO - Connected
+[2025-06-10 08:56:53,077] - INFO - IP: ('127.0.0.1', 50916) This client has been connected to your server
+[2025-06-10 08:56:53,078] - INFO - IP: ('127.0.0.1', 50916) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:56:53,080] - INFO - IP ('127.0.0.1', 50916) This client is entering the authentication process.
+[2025-06-10 08:56:57,387] - INFO - Client loop closed
+[2025-06-10 08:56:57,388] - INFO - Disconnected
+[2025-06-10 08:56:57,389] - ERROR - IP: ('127.0.0.1', 50916) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'strip']
+[2025-06-10 08:56:57,390] - INFO - 
+IP: ('127.0.0.1', 50916) Disconnected this client connection
+[2025-06-10 08:57:00,280] - INFO - Shutting down...
+[2025-06-10 08:57:00,282] - INFO - IP: ('127.0.0.1', 50916) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:57:00,283] - INFO - Server has closed
+[2025-06-10 08:57:00,283] - INFO - Waiting for server loop closed...
+[2025-06-10 08:57:03,288] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:57:03,290] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:57:08,099] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:57:08,102] - INFO - Server loop ended
+[2025-06-10 08:57:08,107] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:57:11,440] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:57:11,442] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:57:14,371] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:57:14,374] - INFO - Connected
+[2025-06-10 08:57:14,374] - INFO - IP: ('127.0.0.1', 50918) This client has been connected to your server
+[2025-06-10 08:57:14,375] - INFO - IP: ('127.0.0.1', 50918) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:57:14,380] - INFO - IP ('127.0.0.1', 50918) This client is entering the authentication process.
+[2025-06-10 08:57:17,760] - INFO - IP: ('127.0.0.1', 50918) Authentication failed, Disconnecting
+[2025-06-10 08:57:17,760] - INFO - Authentication failed
+[2025-06-10 08:57:17,761] - INFO - Client loop closed
+[2025-06-10 08:57:17,763] - INFO - Disconnected
+[2025-06-10 08:57:17,761] - INFO - 
+IP: ('127.0.0.1', 50918) Disconnected this client connection
+[2025-06-10 08:57:19,589] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:57:19,592] - INFO - Connected
+[2025-06-10 08:57:19,592] - INFO - IP: ('127.0.0.1', 50920) This client has been connected to your server
+[2025-06-10 08:57:19,593] - INFO - IP: ('127.0.0.1', 50918) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:57:19,594] - INFO - IP: ('127.0.0.1', 50920) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:57:19,596] - INFO - IP ('127.0.0.1', 50920) This client is entering the authentication process.
+[2025-06-10 08:57:24,561] - INFO - IP: ('127.0.0.1', 50920) Starting shell...
+[2025-06-10 08:57:24,561] - INFO - Creating a shell tunnel...
+[2025-06-10 08:57:24,576] - INFO - IP: ('127.0.0.1', 50920) executed: b'SHELL_RESIZE_REQUEST:48:88\n'
+[2025-06-10 08:57:35,270] - INFO - IP: ('127.0.0.1', 50920) executed: b'\x03'
+[2025-06-10 08:57:36,534] - INFO - IP: ('127.0.0.1', 50920) executed: b'\x04'
+[2025-06-10 08:57:36,538] - INFO - IP: ('127.0.0.1', 50920) Shell terminated
+[2025-06-10 08:57:36,538] - INFO - Disconnected
+[2025-06-10 08:57:36,540] - INFO - Session shell closed
+[2025-06-10 08:57:36,540] - INFO - IP: ('127.0.0.1', 50920) Disconnected this client connection
+[2025-06-10 08:57:36,541] - INFO - Client loop closed
+[2025-06-10 08:57:36,541] - ERROR - 
+IP: ('127.0.0.1', 50920) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-10 08:57:36,543] - INFO - IP: ('127.0.0.1', 50920) Session shell closed
+[2025-06-10 08:57:49,631] - INFO - IP: ('127.0.0.1', 50920) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:58:42,936] - INFO - Shutting down...
+[2025-06-10 08:58:42,937] - INFO - Server has closed
+[2025-06-10 08:58:42,938] - INFO - Waiting for server loop closed...
+[2025-06-10 08:58:45,942] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:58:45,945] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:58:49,697] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:58:49,700] - INFO - Server loop ended
+[2025-06-10 08:58:49,703] - INFO - ***Graceful Shutdown***
+[2025-06-10 08:58:53,522] - INFO - HSS server started on 127.0.0.1:8822
+[2025-06-10 08:58:53,524] - INFO - Waiting for connection... (max clients: 2)
+[2025-06-10 08:58:58,997] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:58:59,000] - INFO - IP: ('127.0.0.1', 50922) This client has been connected to your server
+[2025-06-10 08:58:59,000] - INFO - Connected
+[2025-06-10 08:58:59,002] - INFO - IP: ('127.0.0.1', 50922) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:58:59,006] - INFO - IP ('127.0.0.1', 50922) This client is entering the authentication process.
+[2025-06-10 08:59:01,660] - INFO - Authentication failed
+[2025-06-10 08:59:01,660] - INFO - IP: ('127.0.0.1', 50922) Authentication failed, Disconnecting
+[2025-06-10 08:59:01,662] - INFO - Client loop closed
+[2025-06-10 08:59:01,662] - INFO - 
+IP: ('127.0.0.1', 50922) Disconnected this client connection
+[2025-06-10 08:59:01,664] - INFO - Disconnected
+[2025-06-10 08:59:02,949] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-06-10 08:59:02,952] - INFO - Connected
+[2025-06-10 08:59:02,952] - INFO - IP: ('127.0.0.1', 50924) This client has been connected to your server
+[2025-06-10 08:59:02,953] - INFO - IP: ('127.0.0.1', 50922) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:59:02,954] - INFO - IP: ('127.0.0.1', 50924) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-06-10 08:59:02,956] - INFO - IP ('127.0.0.1', 50924) This client is entering the authentication process.
+[2025-06-10 08:59:04,920] - INFO - Creating a shell tunnel...
+[2025-06-10 08:59:04,920] - INFO - IP: ('127.0.0.1', 50924) Starting shell...
+[2025-06-10 08:59:04,933] - INFO - IP: ('127.0.0.1', 50924) executed: b'SHELL_RESIZE_REQUEST:34:59\n'
+[2025-06-10 08:59:06,519] - INFO - IP: ('127.0.0.1', 50924) executed: b'\x04'
+[2025-06-10 08:59:06,524] - INFO - IP: ('127.0.0.1', 50924) Shell terminated
+[2025-06-10 08:59:06,524] - INFO - Disconnected
+[2025-06-10 08:59:06,525] - INFO - IP: ('127.0.0.1', 50924) Disconnected this client connection
+[2025-06-10 08:59:06,525] - INFO - Session shell closed
+[2025-06-10 08:59:06,526] - INFO - Client loop closed
+[2025-06-10 08:59:06,527] - ERROR - 
+IP: ('127.0.0.1', 50924) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-06-10 08:59:06,528] - INFO - IP: ('127.0.0.1', 50924) Session shell closed
+[2025-06-10 08:59:09,775] - INFO - Shutting down...
+[2025-06-10 08:59:09,776] - INFO - IP: ('127.0.0.1', 50924) This client has disconnected. But also in the list of work clients Cleaning
+[2025-06-10 08:59:09,778] - INFO - Server has closed
+[2025-06-10 08:59:09,779] - INFO - Waiting for server loop closed...
+[2025-06-10 08:59:12,783] - INFO - Threads pool have been shutting down...
+[2025-06-10 08:59:12,785] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-06-10 08:59:17,971] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-06-10 08:59:17,974] - INFO - Server loop ended
+[2025-06-10 08:59:17,977] - INFO - ***Graceful Shutdown***
+[2025-07-01 04:08:14,771] - INFO - HSS server started on 127.0.0.1:8822
+[2025-07-01 04:08:14,774] - INFO - Waiting for connection... (max clients: 2)
+[2025-07-01 04:08:40,930] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-07-01 04:08:40,933] - INFO - IP: ('127.0.0.1', 37866) This client has been connected to your server
+[2025-07-01 04:08:40,934] - INFO - IP: ('127.0.0.1', 37866) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-07-01 04:08:40,937] - INFO - Connected
+[2025-07-01 04:08:40,938] - INFO - IP ('127.0.0.1', 37866) This client is entering the authentication process.
+[2025-07-01 04:08:55,947] - CRITICAL - Client loop error [CRITICAL: timed out]
+[2025-07-01 04:08:55,948] - INFO - Client loop closed
+[2025-07-01 04:08:55,949] - INFO - Disconnected
+[2025-07-01 04:08:55,950] - ERROR - IP: ('127.0.0.1', 37866) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-07-01 04:08:55,952] - INFO - 
+IP: ('127.0.0.1', 37866) Disconnected this client connection
+[2025-07-01 04:09:10,967] - INFO - IP: ('127.0.0.1', 37866) This client has disconnected. But also in the list of work clients Cleaning
+[2025-07-01 04:09:12,330] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-07-01 04:09:12,333] - INFO - Connected
+[2025-07-01 04:09:12,333] - INFO - IP: ('127.0.0.1', 37868) This client has been connected to your server
+[2025-07-01 04:09:12,334] - INFO - IP: ('127.0.0.1', 37868) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-07-01 04:09:12,336] - INFO - IP ('127.0.0.1', 37868) This client is entering the authentication process.
+[2025-07-01 04:09:15,244] - INFO - IP: ('127.0.0.1', 37868) Authentication failed, Disconnecting
+[2025-07-01 04:09:15,244] - INFO - Authentication failed
+[2025-07-01 04:09:15,245] - INFO - Client loop closed
+[2025-07-01 04:09:15,245] - INFO - 
+IP: ('127.0.0.1', 37868) Disconnected this client connection
+[2025-07-01 04:09:15,247] - INFO - Disconnected
+[2025-07-01 04:09:17,597] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-07-01 04:09:17,599] - INFO - Connected
+[2025-07-01 04:09:17,600] - INFO - IP: ('127.0.0.1', 37870) This client has been connected to your server
+[2025-07-01 04:09:17,601] - INFO - IP: ('127.0.0.1', 37868) This client has disconnected. But also in the list of work clients Cleaning
+[2025-07-01 04:09:17,602] - INFO - IP: ('127.0.0.1', 37870) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-07-01 04:09:17,604] - INFO - IP ('127.0.0.1', 37870) This client is entering the authentication process.
+[2025-07-01 04:09:20,216] - INFO - IP: ('127.0.0.1', 37870) Starting shell...
+[2025-07-01 04:09:20,216] - INFO - Creating a shell tunnel...
+[2025-07-01 04:09:20,235] - INFO - IP: ('127.0.0.1', 37870) executed: b'SHELL_RESIZE_REQUEST:48:88\n'
+[2025-07-01 04:09:21,131] - INFO - IP: ('127.0.0.1', 37870) executed: b'\r'
+[2025-07-01 04:09:21,796] - INFO - IP: ('127.0.0.1', 37870) executed: b'l'
+[2025-07-01 04:09:21,962] - INFO - IP: ('127.0.0.1', 37870) executed: b's'
+[2025-07-01 04:09:22,161] - INFO - IP: ('127.0.0.1', 37870) executed: b'\r'
+[2025-07-01 04:09:23,691] - INFO - IP: ('127.0.0.1', 37870) executed: b'\x04'
+[2025-07-01 04:09:23,697] - INFO - IP: ('127.0.0.1', 37870) Shell terminated
+[2025-07-01 04:09:23,697] - INFO - Disconnected
+[2025-07-01 04:09:23,698] - INFO - Session shell closed
+[2025-07-01 04:09:23,699] - INFO - IP: ('127.0.0.1', 37870) Disconnected this client connection
+[2025-07-01 04:09:23,699] - INFO - Client loop closed
+[2025-07-01 04:09:23,700] - ERROR - 
+IP: ('127.0.0.1', 37870) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-07-01 04:09:23,701] - INFO - IP: ('127.0.0.1', 37870) Session shell closed
+[2025-07-01 04:09:32,613] - INFO - IP: ('127.0.0.1', 37870) This client has disconnected. But also in the list of work clients Cleaning
+[2025-07-01 04:09:55,343] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-07-01 04:09:55,345] - INFO - Connected
+[2025-07-01 04:09:55,346] - INFO - IP: ('127.0.0.1', 37872) This client has been connected to your server
+[2025-07-01 04:09:55,347] - INFO - IP: ('127.0.0.1', 37872) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-07-01 04:09:55,348] - INFO - IP ('127.0.0.1', 37872) This client is entering the authentication process.
+[2025-07-01 04:09:59,064] - INFO - Authentication failed
+[2025-07-01 04:09:59,064] - INFO - IP: ('127.0.0.1', 37872) Authentication failed, Disconnecting
+[2025-07-01 04:09:59,065] - INFO - Client loop closed
+[2025-07-01 04:09:59,066] - INFO - 
+IP: ('127.0.0.1', 37872) Disconnected this client connection
+[2025-07-01 04:09:59,068] - INFO - Disconnected
+[2025-07-01 04:10:00,977] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-07-01 04:10:00,980] - INFO - Connected
+[2025-07-01 04:10:00,981] - INFO - IP: ('127.0.0.1', 37874) This client has been connected to your server
+[2025-07-01 04:10:00,983] - INFO - IP: ('127.0.0.1', 37872) This client has disconnected. But also in the list of work clients Cleaning
+[2025-07-01 04:10:00,984] - INFO - IP: ('127.0.0.1', 37874) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-07-01 04:10:00,986] - INFO - IP ('127.0.0.1', 37874) This client is entering the authentication process.
+[2025-07-01 04:10:03,738] - INFO - IP: ('127.0.0.1', 37874) Starting shell...
+[2025-07-01 04:10:03,738] - INFO - Creating a shell tunnel...
+[2025-07-01 04:10:03,759] - INFO - IP: ('127.0.0.1', 37874) executed: b'SHELL_RESIZE_REQUEST:48:88\n'
+[2025-07-01 04:10:05,799] - INFO - IP: ('127.0.0.1', 37874) executed: b'\x04'
+[2025-07-01 04:10:05,804] - INFO - IP: ('127.0.0.1', 37874) Shell terminated
+[2025-07-01 04:10:05,804] - INFO - Disconnected
+[2025-07-01 04:10:05,805] - INFO - Session shell closed
+[2025-07-01 04:10:05,806] - INFO - IP: ('127.0.0.1', 37874) Disconnected this client connection
+[2025-07-01 04:10:05,807] - INFO - Client loop closed
+[2025-07-01 04:10:05,807] - ERROR - 
+IP: ('127.0.0.1', 37874) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-07-01 04:10:05,808] - INFO - IP: ('127.0.0.1', 37874) Session shell closed
+[2025-07-01 04:10:09,706] - INFO - Shutting down...
+[2025-07-01 04:10:09,707] - INFO - IP: ('127.0.0.1', 37874) This client has disconnected. But also in the list of work clients Cleaning
+[2025-07-01 04:10:09,709] - INFO - Server has closed
+[2025-07-01 04:10:09,710] - INFO - Waiting for server loop closed...
+[2025-07-01 04:10:12,713] - INFO - Threads pool have been shutting down...
+[2025-07-01 04:10:12,717] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-07-01 04:10:16,001] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-07-01 04:10:16,004] - INFO - Server loop ended
+[2025-07-01 04:10:16,008] - INFO - ***Graceful Shutdown***
+[2025-07-01 04:12:33,283] - INFO - HSS server started on 127.0.0.1:8822
+[2025-07-01 04:12:33,285] - INFO - Waiting for connection... (max clients: 2)
+[2025-07-01 04:12:47,052] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-07-01 04:12:47,055] - INFO - IP: ('127.0.0.1', 37898) This client has been connected to your server
+[2025-07-01 04:12:47,056] - INFO - IP: ('127.0.0.1', 37898) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-07-01 04:12:47,059] - INFO - IP ('127.0.0.1', 37898) This client is entering the authentication process.
+[2025-07-01 04:12:47,061] - INFO - Connected
+[2025-07-01 04:12:48,600] - INFO - Client loop closed
+[2025-07-01 04:12:48,602] - INFO - Disconnected
+[2025-07-01 04:12:48,602] - ERROR - IP: ('127.0.0.1', 37898) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'startswith']
+[2025-07-01 04:12:48,604] - INFO - 
+IP: ('127.0.0.1', 37898) Disconnected this client connection
+[2025-07-01 04:12:49,959] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-07-01 04:12:49,961] - INFO - Connected
+[2025-07-01 04:12:49,961] - INFO - IP: ('127.0.0.1', 37900) This client has been connected to your server
+[2025-07-01 04:12:49,963] - INFO - IP: ('127.0.0.1', 37898) This client has disconnected. But also in the list of work clients Cleaning
+[2025-07-01 04:12:49,964] - INFO - IP: ('127.0.0.1', 37900) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-07-01 04:12:49,966] - INFO - IP ('127.0.0.1', 37900) This client is entering the authentication process.
+[2025-07-01 04:12:51,643] - INFO - Client loop closed
+[2025-07-01 04:12:51,645] - INFO - Disconnected
+[2025-07-01 04:12:51,645] - ERROR - IP: ('127.0.0.1', 37900) An error occurred during the authentication [ERROR: 'NoneType' object has no attribute 'strip']
+[2025-07-01 04:12:51,648] - INFO - 
+IP: ('127.0.0.1', 37900) Disconnected this client connection
+[2025-07-01 04:12:54,920] - INFO - Shutting down...
+[2025-07-01 04:12:54,921] - INFO - IP: ('127.0.0.1', 37900) This client has disconnected. But also in the list of work clients Cleaning
+[2025-07-01 04:12:54,922] - INFO - Server has closed
+[2025-07-01 04:12:54,924] - INFO - Waiting for server loop closed...
+[2025-07-01 04:12:57,927] - INFO - Threads pool have been shutting down...
+[2025-07-01 04:12:57,930] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-07-01 04:13:04,981] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-07-01 04:13:04,982] - INFO - Server loop ended
+[2025-07-01 04:13:04,984] - INFO - ***Graceful Shutdown***
+[2025-07-01 04:13:06,975] - INFO - HSS server started on 127.0.0.1:8822
+[2025-07-01 04:13:06,977] - INFO - Waiting for connection... (max clients: 2)
+[2025-07-01 04:13:09,614] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-07-01 04:13:09,616] - INFO - Connected
+[2025-07-01 04:13:09,616] - INFO - IP: ('127.0.0.1', 37910) This client has been connected to your server
+[2025-07-01 04:13:09,617] - INFO - IP: ('127.0.0.1', 37910) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-07-01 04:13:09,621] - INFO - IP ('127.0.0.1', 37910) This client is entering the authentication process.
+[2025-07-01 04:14:42,388] - INFO - IP: ('127.0.0.1', 37910) Authentication failed, Disconnecting
+[2025-07-01 04:14:42,389] - INFO - Authentication failed
+[2025-07-01 04:14:42,392] - INFO - 
+IP: ('127.0.0.1', 37910) Disconnected this client connection
+[2025-07-01 04:14:42,393] - INFO - Client loop closed
+[2025-07-01 04:14:42,396] - INFO - Disconnected
+[2025-07-01 04:15:18,462] - INFO - IP: ('127.0.0.1', 37910) This client has disconnected. But also in the list of work clients Cleaning
+[2025-07-01 04:21:23,353] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-07-01 04:21:23,356] - INFO - Connected
+[2025-07-01 04:21:23,357] - INFO - IP: ('127.0.0.1', 37926) This client has been connected to your server
+[2025-07-01 04:21:23,358] - INFO - IP: ('127.0.0.1', 37926) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-07-01 04:21:23,361] - INFO - IP ('127.0.0.1', 37926) This client is entering the authentication process.
+[2025-07-01 04:21:25,564] - INFO - Authentication failed
+[2025-07-01 04:21:25,564] - INFO - IP: ('127.0.0.1', 37926) Authentication failed, Disconnecting
+[2025-07-01 04:21:25,565] - INFO - Client loop closed
+[2025-07-01 04:21:25,565] - INFO - 
+IP: ('127.0.0.1', 37926) Disconnected this client connection
+[2025-07-01 04:21:25,567] - INFO - Disconnected
+[2025-07-01 04:21:27,078] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-07-01 04:21:27,081] - INFO - Connected
+[2025-07-01 04:21:27,081] - INFO - IP: ('127.0.0.1', 37928) This client has been connected to your server
+[2025-07-01 04:21:27,082] - INFO - IP: ('127.0.0.1', 37926) This client has disconnected. But also in the list of work clients Cleaning
+[2025-07-01 04:21:27,083] - INFO - IP: ('127.0.0.1', 37928) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-07-01 04:21:27,085] - INFO - IP ('127.0.0.1', 37928) This client is entering the authentication process.
+[2025-07-01 04:21:29,605] - INFO - IP: ('127.0.0.1', 37928) Starting shell...
+[2025-07-01 04:21:29,605] - INFO - Creating a shell tunnel...
+[2025-07-01 04:21:29,632] - INFO - IP: ('127.0.0.1', 37928) executed: b'SHELL_RESIZE_REQUEST:48:88\n'
+[2025-07-01 04:21:30,576] - INFO - IP: ('127.0.0.1', 37928) executed: b'l'
+[2025-07-01 04:21:30,693] - INFO - IP: ('127.0.0.1', 37928) executed: b's'
+[2025-07-01 04:21:30,876] - INFO - IP: ('127.0.0.1', 37928) executed: b'\r'
+[2025-07-01 04:21:32,484] - INFO - IP: ('127.0.0.1', 37928) executed: b'n'
+[2025-07-01 04:21:32,581] - INFO - IP: ('127.0.0.1', 37928) executed: b'a'
+[2025-07-01 04:21:32,714] - INFO - IP: ('127.0.0.1', 37928) executed: b'n'
+[2025-07-01 04:21:32,881] - INFO - IP: ('127.0.0.1', 37928) executed: b'o'
+[2025-07-01 04:21:32,948] - INFO - IP: ('127.0.0.1', 37928) executed: b'i'
+[2025-07-01 04:21:33,246] - INFO - IP: ('127.0.0.1', 37928) executed: b'\r'
+[2025-07-01 04:21:34,096] - INFO - IP: ('127.0.0.1', 37928) executed: b'n'
+[2025-07-01 04:21:34,211] - INFO - IP: ('127.0.0.1', 37928) executed: b'a'
+[2025-07-01 04:21:34,327] - INFO - IP: ('127.0.0.1', 37928) executed: b'n'
+[2025-07-01 04:21:34,528] - INFO - IP: ('127.0.0.1', 37928) executed: b'o'
+[2025-07-01 04:21:34,809] - INFO - IP: ('127.0.0.1', 37928) executed: b'\r'
+[2025-07-01 04:21:35,360] - INFO - IP: ('127.0.0.1', 37928) executed: b'SHELL_RESIZE_REQUEST:55:101\n'
+[2025-07-01 04:21:35,386] - INFO - IP: ('127.0.0.1', 37928) executed: b'SHELL_RESIZE_REQUEST:69:118\n'
+[2025-07-01 04:21:35,460] - INFO - IP: ('127.0.0.1', 37928) executed: b'\x1bOA'
+[2025-07-01 04:21:35,740] - INFO - IP: ('127.0.0.1', 37928) executed: b'\x1bOB'
+[2025-07-01 04:21:35,745] - INFO - IP: ('127.0.0.1', 37928) executed: b'SHELL_RESIZE_REQUEST:55:101\n'
+[2025-07-01 04:21:35,760] - INFO - IP: ('127.0.0.1', 37928) executed: b'SHELL_RESIZE_REQUEST:48:88\n'
+[2025-07-01 04:21:35,794] - INFO - IP: ('127.0.0.1', 37928) executed: b'SHELL_RESIZE_REQUEST:43:71\n'
+[2025-07-01 04:21:35,830] - INFO - IP: ('127.0.0.1', 37928) executed: b'SHELL_RESIZE_REQUEST:37:64\n'
+[2025-07-01 04:21:35,860] - INFO - IP: ('127.0.0.1', 37928) executed: b'\x1bOA'
+[2025-07-01 04:21:35,862] - INFO - IP: ('127.0.0.1', 37928) executed: b'SHELL_RESIZE_REQUEST:34:59\n'
+[2025-07-01 04:21:35,899] - INFO - IP: ('127.0.0.1', 37928) executed: b'SHELL_RESIZE_REQUEST:31:54\n'
+[2025-07-01 04:21:35,953] - INFO - IP: ('127.0.0.1', 37928) executed: b'\x1bOA\x1bOA'
+[2025-07-01 04:21:35,966] - INFO - IP: ('127.0.0.1', 37928) executed: b'SHELL_RESIZE_REQUEST:28:50\n'
+[2025-07-01 04:21:36,019] - INFO - IP: ('127.0.0.1', 37928) executed: b'SHELL_RESIZE_REQUEST:26:44\n'
+[2025-07-01 04:21:36,074] - INFO - IP: ('127.0.0.1', 37928) executed: b'\x1bOA'
+[2025-07-01 04:21:37,288] - INFO - IP: ('127.0.0.1', 37928) executed: b'\x18'
+[2025-07-01 04:21:37,637] - INFO - IP: ('127.0.0.1', 37928) executed: b'l'
+[2025-07-01 04:21:37,770] - INFO - IP: ('127.0.0.1', 37928) executed: b's'
+[2025-07-01 04:21:37,935] - INFO - IP: ('127.0.0.1', 37928) executed: b'\r'
+[2025-07-01 04:21:39,084] - INFO - IP: ('127.0.0.1', 37928) executed: b'\x04'
+[2025-07-01 04:21:39,093] - INFO - IP: ('127.0.0.1', 37928) Shell terminated
+[2025-07-01 04:21:39,094] - INFO - Disconnected
+[2025-07-01 04:21:39,095] - INFO - Session shell closed
+[2025-07-01 04:21:39,095] - INFO - IP: ('127.0.0.1', 37928) Disconnected this client connection
+[2025-07-01 04:21:39,096] - INFO - Client loop closed
+[2025-07-01 04:21:39,096] - ERROR - 
+IP: ('127.0.0.1', 37928) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-07-01 04:21:39,098] - INFO - IP: ('127.0.0.1', 37928) Session shell closed
+[2025-07-01 04:21:42,100] - INFO - IP: ('127.0.0.1', 37928) This client has disconnected. But also in the list of work clients Cleaning
+[2025-07-01 04:21:43,339] - INFO - Shutting down...
+[2025-07-01 04:21:43,340] - INFO - Server has closed
+[2025-07-01 04:21:43,341] - INFO - Waiting for server loop closed...
+[2025-07-01 04:21:46,344] - INFO - Threads pool have been shutting down...
+[2025-07-01 04:21:46,347] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-07-01 04:21:57,118] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-07-01 04:21:57,121] - INFO - Server loop ended
+[2025-07-01 04:21:57,123] - INFO - ***Graceful Shutdown***
+[2025-07-16 12:03:47,652] - INFO - HSS server started on 127.0.0.1:8822
+[2025-07-16 12:03:47,658] - INFO - Waiting for connection... (max clients: 2)
+[2025-07-16 12:03:49,427] - INFO - Shutting down...
+[2025-07-16 12:03:49,429] - INFO - Server has closed
+[2025-07-16 12:03:49,430] - INFO - Waiting for server loop closed...
+[2025-07-16 12:03:52,433] - INFO - Threads pool have been shutting down...
+[2025-07-16 12:03:52,436] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-07-16 12:04:02,676] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-07-16 12:04:02,677] - INFO - Server loop ended
+[2025-07-16 12:04:02,679] - INFO - ***Graceful Shutdown***
+[2025-07-16 12:12:13,624] - INFO - HSS server started on 127.0.0.1:8822
+[2025-07-16 12:12:13,627] - INFO - Waiting for connection... (max clients: 2)
+[2025-07-16 12:12:25,365] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-07-16 12:12:25,368] - INFO - Connected
+[2025-07-16 12:12:25,368] - INFO - IP: ('127.0.0.1', 43156) This client has been connected to your server
+[2025-07-16 12:12:25,369] - INFO - IP: ('127.0.0.1', 43156) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-07-16 12:12:25,372] - INFO - IP ('127.0.0.1', 43156) This client is entering the authentication process.
+[2025-07-16 12:12:27,271] - INFO - IP: ('127.0.0.1', 43156) Authentication failed, Disconnecting
+[2025-07-16 12:12:27,272] - INFO - Authentication failed
+[2025-07-16 12:12:27,273] - INFO - Client loop closed
+[2025-07-16 12:12:27,273] - INFO - 
+IP: ('127.0.0.1', 43156) Disconnected this client connection
+[2025-07-16 12:12:27,275] - INFO - Disconnected
+[2025-07-16 12:12:28,714] - INFO - Connecting to HSS server 127.0.0.1:8822...
+[2025-07-16 12:12:28,718] - INFO - Connected
+[2025-07-16 12:12:28,718] - INFO - IP: ('127.0.0.1', 43158) This client has been connected to your server
+[2025-07-16 12:12:28,720] - INFO - IP: ('127.0.0.1', 43156) This client has disconnected. But also in the list of work clients Cleaning
+[2025-07-16 12:12:28,722] - INFO - IP: ('127.0.0.1', 43158) This client is number 1 that connects to the server from the maximum number of 2 clients
+[2025-07-16 12:12:28,723] - INFO - IP ('127.0.0.1', 43158) This client is entering the authentication process.
+[2025-07-16 12:12:31,429] - INFO - IP: ('127.0.0.1', 43158) Starting shell...
+[2025-07-16 12:12:31,429] - INFO - Creating a shell tunnel...
+[2025-07-16 12:12:31,450] - INFO - IP: ('127.0.0.1', 43158) executed: b'SHELL_RESIZE_REQUEST:48:88\n'
+[2025-07-16 12:12:33,225] - INFO - IP: ('127.0.0.1', 43158) executed: b'\r'
+[2025-07-16 12:12:33,874] - INFO - IP: ('127.0.0.1', 43158) executed: b'l'
+[2025-07-16 12:12:34,372] - INFO - IP: ('127.0.0.1', 43158) executed: b's'
+[2025-07-16 12:12:34,754] - INFO - IP: ('127.0.0.1', 43158) executed: b'\r'
+[2025-07-16 12:12:36,733] - INFO - IP: ('127.0.0.1', 43158) executed: b'\x04'
+[2025-07-16 12:12:36,739] - INFO - IP: ('127.0.0.1', 43158) Shell terminated
+[2025-07-16 12:12:36,740] - INFO - Disconnected
+[2025-07-16 12:12:36,741] - INFO - IP: ('127.0.0.1', 43158) Disconnected this client connection
+[2025-07-16 12:12:36,741] - INFO - Session shell closed
+[2025-07-16 12:12:36,743] - INFO - Client loop closed
+[2025-07-16 12:12:36,743] - ERROR - 
+IP: ('127.0.0.1', 43158) Session shell error [ERROR: [Errno 5] Input/output error]
+[2025-07-16 12:12:36,745] - INFO - IP: ('127.0.0.1', 43158) Session shell closed
+[2025-07-16 12:12:43,738] - INFO - IP: ('127.0.0.1', 43158) This client has disconnected. But also in the list of work clients Cleaning
+[2025-07-16 12:12:43,917] - INFO - Shutting down...
+[2025-07-16 12:12:43,918] - INFO - Server has closed
+[2025-07-16 12:12:43,920] - INFO - Waiting for server loop closed...
+[2025-07-16 12:12:46,923] - INFO - Threads pool have been shutting down...
+[2025-07-16 12:12:46,927] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-07-16 12:12:58,755] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-07-16 12:12:58,758] - INFO - Server loop ended
+[2025-07-16 12:12:58,760] - INFO - ***Graceful Shutdown***
