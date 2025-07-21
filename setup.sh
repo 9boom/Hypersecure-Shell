@@ -1,10 +1,10 @@
 #!/bin/bash
-
+### Basic installation for common environment ###
 # ============================================
 # Hypersecure Shell Installer
 # ============================================
 
-# สี (ใช้เฉพาะที่จำเป็น)
+# Colors
 RED=$(tput setaf 1)
 GREEN=$(tput setaf 2)
 YELLOW=$(tput setaf 3)
@@ -16,15 +16,15 @@ RESET=$(tput sgr0)
 START_TIME=$(date +%s)
 TOTAL_STEPS=6
 
-# ฟังก์ชันแสดง header
+# Header
 show_header() {
     clear
-    echo "${BOLD}Hypersecure Shell Installer${RESET}"
+    echo "${BOLD}SETUP FOR COMMON ENV${RESET}"
     echo "================================"
     echo
 }
 
-# ฟังก์ชันแสดงสถานะการทำงาน
+# Status
 show_status() {
     local step=$1
     local total=$2
@@ -32,18 +32,18 @@ show_status() {
     printf "${BLUE}${BOLD}[%d/%d]${RESET} %s\n" "$step" "$total" "$message"
 }
 
-# ฟังก์ชันตรวจสอบระบบ
+# Diagnose
 system_check() {
     show_status 1 "$TOTAL_STEPS" "System Compatibility Check"
 
-    # ตรวจสอบ Python
+    # Check Python ????
     if ! command -v python3 &> /dev/null; then
         echo "${RED}${BOLD}ERROR: Python3 not found!${RESET}"
         echo "Please install Python3 first."
         exit 1
     fi
 
-    # ตรวจสอบ pip
+    # Check pip ???
     if ! command -v pip &> /dev/null; then
         echo "${RED}${BOLD}ERROR: pip not found!${RESET}"
         echo "Please install pip first."
@@ -54,7 +54,6 @@ system_check() {
     echo
 }
 
-# ฟังก์ชันรันคำสั่งและแสดงผลแบบ real-time
 run_command() {
     local cmd="$1"
     local step_msg="$2"
@@ -73,7 +72,6 @@ run_command() {
     echo
 }
 
-# ฟังก์ชันติดตั้ง dependencies
 install_dependencies() {
     # Step 0: Configuration Env
     run_command \
@@ -105,7 +103,6 @@ install_dependencies() {
         6
 }
 
-# ฟังก์ชันแสดงผลสำเร็จ
 show_success() {
     local end_time=$(date +%s)
     local elapsed=$((end_time - START_TIME))
@@ -115,7 +112,6 @@ show_success() {
     echo "Run command.'./hss.py server' to begin HSS server"
 }
 
-# ฟังก์ชันหลัก
 main() {
     show_header
     system_check

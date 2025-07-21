@@ -1,26 +1,26 @@
 #!/usr/bin/env python3
 
+# ITS LOOK LIKE A MAN IN THE MIDDLE ATTACK
+
 import socket
 from threading import Thread
 import random
 
-TERRARIA_SERVER_IP = '127.0.0.1'
-TERRARIA_SERVER_PORT = 8822
+TARGET_HSS_SERVER = '127.0.0.1'
+TARGET_HSS_PORT = 8822
 
 def log_message(message):
-    with open("log.txt", "a") as log_file:
+    with open("outputs/log.txt", "a") as log_file:
         log_file.write(message + "\n")
-
 def handle_client(client_socket):
     try:
-        # Connect to the actual server
+        # Connect to the actual HSS server
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
-            server_socket.connect((TERRARIA_SERVER_IP, TERRARIA_SERVER_PORT))
-
+            server_socket.connect((TARGET_HSS_SERVER, TARGET_HSS_PORT))
             # Create threads to copy data between client and server
             threads = [
-                Thread(target=copy_data, args=(client_socket, server_socket, '[Client->Server]:')),
-                Thread(target=copy_data, args=(server_socket, client_socket, '[Server->Client]:'))
+                Thread(target=copy_data, args=(client_socket, server_socket, '[HSS->YOU]:')),
+                Thread(target=copy_data, args=(server_socket, client_socket, '[HSS->YOU]:'))
             ]
 
             # Start and join threads
@@ -45,15 +45,12 @@ def copy_data(src, dst, prefix):
             data_size = src.recv(2)
             if not data_size:
                 break
-
             # Convert bytes to integer size
-            size = int.from_bytes(data_size, 'little') - 2
-
+            size = int.from_bytes(data_size, 'little')
             # Read the rest of the packet
             data = src.recv(size)
             if not data:
                 break
-
             # Print the received packet details
             message = f'{prefix} ({data[0]}) {data[1:].decode()}'
             print(message)
@@ -69,9 +66,9 @@ def copy_data(src, dst, prefix):
 
 def start_proxy():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
-        server_socket.bind(('127.0.0.1', 8823))
+        server_socket.bind(('127.0.0.1', 5883))
         server_socket.listen()
-        start_message = f'Proxy server started on 127.0.0.1:8823 Waiting for client...'
+        start_message = f'Proxy server started on 0.0.0.0:5883. Connect your hss to this address !'
         print(start_message)
         log_message(start_message)
 
@@ -81,6 +78,5 @@ def start_proxy():
             print(connect_message)
             log_message(connect_message)
             Thread(target=handle_client, args=(client_socket,)).start()
-
 if __name__ == "__main__":
     start_proxy()

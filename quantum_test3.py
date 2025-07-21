@@ -985,16 +985,16 @@ def main():
     
     args = parser.parse_args()
     
-    print("🔐 ระบบแชทเข้ารหัสควอนตัมขั้นสูง (Enhanced Security)")
-    print(f"📡 Hybrid Algorithm: {QUANTUM_KEM_ALG} + ECDH-P384")
-    print(f"✍️  Digital Signature: {QUANTUM_SIG_ALG}")
-    print(f"🔄 Key Rotation: ทุก {KEY_ROTATION_INTERVAL} วินาที")
-    print(f"🛡️  Enhanced Features:")
-    print("   ✓ Perfect Forward Secrecy")
-    print("   ✓ Certificate-Based Authentication")
-    print("   ✓ Replay Protection")
-    print("   ✓ Session Management")
-    print("   ✓ Side-Channel Mitigation")
+    print("DEBUG")
+    print(f"- Hybrid Algorithm: {QUANTUM_KEM_ALG} + ECDH-P384")
+    print(f"- Digital Signature: {QUANTUM_SIG_ALG}")
+    print(f"- Key Rotation: ทุก {KEY_ROTATION_INTERVAL} วินาที")
+    print(f"Enhanced Features:")
+    print("* Perfect Forward Secrecy")
+    print("* Certificate-Based Authentication")
+    print("* Replay Protection")
+    print("* Session Management")
+    print("* Side-Channel Mitigation")
     print("=" * 60)
     
     if args.mode == "server":

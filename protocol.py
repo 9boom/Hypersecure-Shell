@@ -5,7 +5,7 @@ import socket
 import sys
 import time
 import shell, shelld
-import protocol_helper
+import protocol2
 import signal
 import atexit
 from concurrent.futures import ThreadPoolExecutor
@@ -158,8 +158,7 @@ class HSSServer:
       def handle_client(self,client_socket,client_address):
           auth_passed = False
           handshake_passed = False
-          handle_manager = protocol_helper.ServerManager(self.server_logger)
-          handle_manager.use_sock(client_socket)
+          handle_manager = protocol2.ServerManager(self.server_logger, client_socket, client_address)
           try:
              handshake_passed = handle_manager.try_handshake()
              if handshake_passed:
@@ -167,7 +166,7 @@ class HSSServer:
                 if auth_passed:
                    try:
                       self.server_logger.info(f"IP: {client_address} Starting shell...")
-                      shelld.activate(client_socket,client_address,self)
+                      shelld.activate(self, handle_manager)
                    except Exception as e:
                       self.server_logger.error(f"\nIP: {client_address} Session shell error [ERROR: {e}]")
                    finally:
@@ -175,7 +174,6 @@ class HSSServer:
                 else:
                     self.server_logger.info(f"IP: {client_address} Authentication failed, Disconnecting")
              else:
-                 client_socket.sendall(b"FORCE_STOP\n")
                  self.server_logger.info(f"IP: {client_address} Handshake failed, Disconnecting")
           except Exception as e:
              self.server_logger.error(f"IP: {client_address} An error occurred during the authentication [ERROR: {e}]")
@@ -209,7 +207,7 @@ class HSSClient:
                   while True:
                       try:
                          self.client_socket.connect((self.HOST, self.PORT))
-                         self.client_manager=protocol_helper.ClientManager(self.client_logger,self.client_socket)
+                         self.client_manager=protocol2.ClientManager(self.client_logger,self.client_socket)
                          self.client_logger.info("Connected")
                          break
                       except socket.timeout:
@@ -235,7 +233,7 @@ class HSSClient:
                      if auth_passed:
                         try:
                            self.client_logger.info("Creating a shell tunnel...")
-                           shell.activate(self.client_socket,self)
+                           shell.activate(self, self.client_manager)
                         except Exception as e:
                            self.client_logger.error(f"Session shell error [ERROR: {e}]")
                         finally:
