@@ -75,7 +75,7 @@ run_command() {
 install_dependencies() {
     # Step 0: Configuration Env
     run_command \
-        "sudo apt update && apt upgrade -y" \
+        "sudo apt update && sudo apt upgrade -y" \
         "Update & Upgrade this kali linux" \
         2
     # Step 1: System packages
@@ -92,7 +92,7 @@ install_dependencies() {
 
     # Step 3: OQS Import Installer
     run_command \
-        "python3 .hss/d/_oqs_import_installer.py" \
+        "python3 .hss/_oqs_import_installer.py" \
         "Configuring OQS Import System" \
         5
 

@@ -67,7 +67,7 @@ class HSSServer:
                           self.server_logger.warning(f"IP: {client_address} An error occurred to disconnect. It may be possible that the client is disconnected before [WARN: {e}]")
                        finally:
                           break
-                    client_socket.sendall(as_server.NO_KICKS)
+                    #client_socket.sendall(as_server.NO_KICKS)
                     try:
                        future = self.thread_pool.submit(self.handle_client,client_socket,client_address)
                        with self.thread_lock:
@@ -136,7 +136,7 @@ class HSSServer:
              self.bind_error = True
           if not self.bind_error:
              print("Hypersecure shell Version 1.0")
-             self.server_logger.info(f"HSS server started on {self.HOST}:{self.PORT}")
+             self.server_logger.info(f"Running server {self.HOST}:{self.PORT}")
              try:
                  self.server_socket.listen(self.MAX_CLIENTS)
                  # Set up signal handlers for graceful shutdown
@@ -198,7 +198,7 @@ class HSSClient:
           self.max_retries = 3
           self.time_out = False
       def connect(self):
-          self.client_logger.info(f"Connecting to HSS server {self.HOST}:{self.PORT}...")
+          self.client_logger.info(f"Connecting {self.HOST}:{self.PORT}...")
           handshake_passed = False
           auth_passed = False
           self.client_socket.settimeout(15)
@@ -207,7 +207,6 @@ class HSSClient:
                   while True:
                       try:
                          self.client_socket.connect((self.HOST, self.PORT))
-                         self.client_manager=protocol2.ClientManager(self.client_logger,self.client_socket)
                          self.client_logger.info("Connected")
                          break
                       except socket.timeout:
@@ -224,9 +223,10 @@ class HSSClient:
                          break
                   if self.time_out:
                      break
-                  self.got_kicked=self.client_manager.try_check_and_print_kick_msg()
-                  if self.got_kicked:
-                     break
+                  #self.got_kicked=self.client_manager.try_check_and_print_kick_msg()
+                  #if self.got_kicked:
+                  #   break
+                  self.client_manager=protocol2.ClientManager(self.client_logger,self.client_socket)
                   handshake_passed = self.client_manager.try_handshake()
                   if handshake_passed:
                      auth_passed = self.client_manager.try_auth_passwd()

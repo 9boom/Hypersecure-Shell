@@ -66,10 +66,11 @@ def activate(server_instants, handle_manager):
 
             if client_socket in rlist:
                 try:
-                   data = handle_manager.wait_recv()
+                   data = handle_manager.wait_recv_utf8()
                    if data is None:
                       server_instants.server_logger.warning(f"IP: {client_address} Client Down")
                       break
+                   data = data.encode()
                    buffer += data
                    server_instants.server_logger.info(f"IP: {client_address} executed: {buffer}")
                    buffer2 = buffer.split(b'\n')
