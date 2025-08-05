@@ -61,9 +61,8 @@ class ServerCertificateManager:
         
         # Build certificate key
         self.server_cert = CertificateManager.generate_self_signed_cert(
-            server_name, self.server_cert_key
+            server_name, self.server_cert_key, self.logger
         )
-        
         # Save it
         self._save_cert_and_key()
     

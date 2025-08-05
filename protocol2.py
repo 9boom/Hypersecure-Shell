@@ -237,7 +237,6 @@ class ServerManager:
         self.sig = Signature(QUANTUM_SIG_ALG)
         self.sig_public_key = self.sig.generate_keypair()
         self.server_cert = self.server_cert_manager.init(CLASSICAL_CURVE, CertificateManager)
-        
         self.client_id = f"{addr[0]}:{addr[1]}_{int(time.time())}"
 
         self.logger.info(f"[Quantum Protocol] Using Hybrid {QUANTUM_KEM_ALG} + ECDH")

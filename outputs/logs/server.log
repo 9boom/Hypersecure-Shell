@@ -1,1310 +1,272 @@
-[2025-08-04T02:30:44.841Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T02:30:44.842Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T02:30:55.420Z] - INFO - IP: ('172.19.68.67', 45144) This client has been connected to your server
-[2025-08-04T02:30:55.420Z] - INFO - IP: ('172.19.68.67', 45144) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T02:30:55.421Z] - INFO - IP ('172.19.68.67', 45144) This client is entering the authentication process.
-[2025-08-04T02:30:55.443Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T02:30:55.443Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T02:30:55.443Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T02:30:55.443Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T02:30:55.473Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T02:30:55.473Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T02:30:55.520Z] - INFO - [DEBUG] Session ID: ade94ea1-6840-4093-843f-08186d4f4682
-[2025-08-04T02:30:55.520Z] - INFO - [DEBUG] Master key (shared secret): 7244dd5f98d80d43d3c24ac62b0d86d07b9d005cef5357aa09c66442de742eef
-[2025-08-04T02:31:02.415Z] - INFO - IP: ('172.19.68.67', 45144) Login using the password '680086'
-[2025-08-04T02:31:02.416Z] - INFO - IP: ('172.19.68.67', 45144) Starting shell...
-[2025-08-04T02:31:02.459Z] - INFO - IP: ('172.19.68.67', 45144) executed: b'RESIZE:40:83\n'
-[2025-08-04T02:31:04.604Z] - INFO - IP: ('172.19.68.67', 45144) executed: b'SHELL:l\n'
-[2025-08-04T02:31:04.804Z] - INFO - IP: ('172.19.68.67', 45144) executed: b'SHELL:s\n'
-[2025-08-04T02:31:05.040Z] - INFO - IP: ('172.19.68.67', 45144) executed: b'SHELL:\r\n'
-[2025-08-04T02:31:06.700Z] - INFO - IP: ('172.19.68.67', 45144) executed: b'SHELL:l\n'
-[2025-08-04T02:31:06.908Z] - INFO - IP: ('172.19.68.67', 45144) executed: b'SHELL:s\n'
-[2025-08-04T02:31:07.095Z] - INFO - IP: ('172.19.68.67', 45144) executed: b'SHELL:\r\n'
-[2025-08-04T02:31:28.043Z] - INFO - IP: ('172.19.68.67', 45144) executed: b'SHELL:\x04\n'
-[2025-08-04T02:31:28.050Z] - INFO - IP: ('172.19.68.67', 45144) Shell terminated
-[2025-08-04T02:31:28.051Z] - INFO - IP: ('172.19.68.67', 45144) Disconnected this client client_socket
-[2025-08-04T02:31:28.051Z] - ERROR - 
-IP: ('172.19.68.67', 45144) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-04T02:31:28.052Z] - INFO - IP: ('172.19.68.67', 45144) Session shell closed
-[2025-08-04T02:31:40.459Z] - INFO - IP: ('172.19.68.67', 45144) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T02:48:04.960Z] - INFO - Shutting down...
-[2025-08-04T02:48:04.961Z] - INFO - Server has closed
-[2025-08-04T02:48:04.961Z] - INFO - Waiting for server loop closed...
-[2025-08-04T02:48:07.963Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T02:48:07.964Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T02:48:11.395Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T02:48:11.395Z] - INFO - Server loop ended
-[2025-08-04T02:48:11.396Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T02:48:16.723Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T02:48:16.724Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T02:48:20.111Z] - INFO - IP: ('172.19.68.67', 47568) This client has been connected to your server
-[2025-08-04T02:48:20.111Z] - INFO - IP: ('172.19.68.67', 47568) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T02:48:20.115Z] - INFO - IP ('172.19.68.67', 47568) This client is entering the authentication process.
-[2025-08-04T02:48:20.119Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T02:48:20.120Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T02:48:20.121Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T02:48:20.121Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T02:48:20.137Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T02:48:20.138Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T02:48:20.168Z] - INFO - [DEBUG] Session ID: d0fe8892-db2c-4dca-9554-1539e63e4726
-[2025-08-04T02:48:20.168Z] - INFO - [DEBUG] Master key (shared secret): 0ad87a0a5c3d3b650737977331f526aac6711fe3ce748760de3f3671787f6619
-[2025-08-04T02:48:24.144Z] - INFO - IP: ('172.19.68.67', 47568) Login using the password '680086'
-[2025-08-04T02:48:24.146Z] - INFO - IP: ('172.19.68.67', 47568) Starting shell...
-[2025-08-04T02:48:24.193Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'RESIZE:40:83\n'
-[2025-08-04T02:48:25.905Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:l\n'
-[2025-08-04T02:48:26.051Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:s\n'
-[2025-08-04T02:48:26.211Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\r\n'
-[2025-08-04T02:49:33.044Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:49:33.300Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\r\n'
-[2025-08-04T02:49:34.156Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:49:34.348Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:49:35.091Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\r\n'
-[2025-08-04T02:49:35.696Z] - CRITICAL - An error occurred to start the server socket [CRITICAL: [Errno 98] Address already in use]
-[2025-08-04T02:49:35.696Z] - INFO - Shutting down...
-[2025-08-04T02:49:35.697Z] - INFO - Server has closed
-[2025-08-04T02:49:35.697Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T02:49:35.697Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T02:49:37.052Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:49:37.627Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\r\n'
-[2025-08-04T02:49:38.180Z] - CRITICAL - An error occurred to start the server socket [CRITICAL: [Errno 98] Address already in use]
-[2025-08-04T02:49:38.180Z] - INFO - Shutting down...
-[2025-08-04T02:49:38.181Z] - INFO - Server has closed
-[2025-08-04T02:49:38.181Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T02:49:38.181Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T02:49:39.524Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:c\n'
-[2025-08-04T02:49:39.804Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:k\n'
-[2025-08-04T02:49:39.805Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:l\n'
-[2025-08-04T02:49:40.844Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x7f\n'
-[2025-08-04T02:49:41.004Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x7f\n'
-[2025-08-04T02:49:41.724Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:l\n'
-[2025-08-04T02:49:41.859Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:e\n'
-[2025-08-04T02:49:42.636Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:a\n'
-[2025-08-04T02:49:43.068Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:r\n'
-[2025-08-04T02:49:43.284Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\r\n'
-[2025-08-04T02:49:43.836Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:49:43.996Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:49:44.636Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\r\n'
-[2025-08-04T02:49:45.243Z] - CRITICAL - An error occurred to start the server socket [CRITICAL: [Errno 98] Address already in use]
-[2025-08-04T02:49:45.243Z] - INFO - Shutting down...
-[2025-08-04T02:49:45.244Z] - INFO - Server has closed
-[2025-08-04T02:49:45.244Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T02:49:45.244Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T02:51:45.268Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:51:46.052Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\r\n'
-[2025-08-04T02:51:46.686Z] - CRITICAL - An error occurred to start the server socket [CRITICAL: [Errno 98] Address already in use]
-[2025-08-04T02:51:46.686Z] - INFO - Shutting down...
-[2025-08-04T02:51:46.687Z] - INFO - Server has closed
-[2025-08-04T02:51:46.687Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T02:51:46.687Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T02:51:53.303Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'RESIZE:40:84\n'
-[2025-08-04T02:51:59.972Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:52:00.516Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[B\n'
-[2025-08-04T02:52:00.683Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[B\n'
-[2025-08-04T02:52:00.876Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[B\n'
-[2025-08-04T02:52:01.563Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:52:02.156Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\r\n'
-[2025-08-04T02:52:02.793Z] - CRITICAL - An error occurred to start the server socket [CRITICAL: [Errno 98] Address already in use]
-[2025-08-04T02:52:02.794Z] - INFO - Shutting down...
-[2025-08-04T02:52:02.794Z] - INFO - Server has closed
-[2025-08-04T02:52:02.794Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T02:52:02.794Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T02:52:03.884Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:c\n'
-[2025-08-04T02:52:04.068Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:l\n'
-[2025-08-04T02:52:04.347Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:e\n'
-[2025-08-04T02:52:04.812Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:a\n'
-[2025-08-04T02:52:05.107Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:r\n'
-[2025-08-04T02:52:05.335Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\\\n'
-[2025-08-04T02:52:06.188Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x7f\n'
-[2025-08-04T02:52:06.404Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\r\n'
-[2025-08-04T02:52:06.851Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:52:07.004Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:52:07.460Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:52:08.116Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[B\n'
-[2025-08-04T02:52:08.732Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x7f\n'
-[2025-08-04T02:52:08.879Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x7f\n'
-[2025-08-04T02:52:09.019Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x7f\n'
-[2025-08-04T02:52:09.163Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x7f\n'
-[2025-08-04T02:52:09.276Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x7f\n'
-[2025-08-04T02:52:09.395Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x7f\n'
-[2025-08-04T02:52:10.140Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:r\n'
-[2025-08-04T02:52:10.364Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:e\n'
-[2025-08-04T02:52:10.652Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:m\n'
-[2025-08-04T02:52:10.948Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:o\n'
-[2025-08-04T02:52:11.308Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:t\n'
-[2025-08-04T02:52:11.452Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:e\n'
-[2025-08-04T02:52:12.068Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\r\n'
-[2025-08-04T02:52:12.703Z] - INFO - IP: ('172.19.68.67', 56782) This client has been connected to your server
-[2025-08-04T02:52:12.703Z] - INFO - IP: ('172.19.68.67', 56782) The server is now full. Disconnected this client connection
-[2025-08-04T02:52:14.660Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x1b[A\n'
-[2025-08-04T02:52:15.372Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\r\n'
-[2025-08-04T02:52:15.977Z] - INFO - IP: ('172.19.68.67', 59370) This client has been connected to your server
-[2025-08-04T02:52:15.978Z] - INFO - IP: ('172.19.68.67', 59370) The server is now full. Disconnected this client connection
-[2025-08-04T02:52:19.204Z] - INFO - IP: ('172.19.68.67', 47568) executed: b'SHELL:\x04\n'
-[2025-08-04T02:52:19.207Z] - INFO - IP: ('172.19.68.67', 47568) Shell terminated
-[2025-08-04T02:52:19.208Z] - INFO - IP: ('172.19.68.67', 47568) Disconnected this client client_socket
-[2025-08-04T02:52:19.208Z] - ERROR - 
-IP: ('172.19.68.67', 47568) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-04T02:52:19.209Z] - INFO - IP: ('172.19.68.67', 47568) Session shell closed
-[2025-08-04T02:52:29.012Z] - INFO - IP: ('172.19.68.67', 49874) This client has been connected to your server
-[2025-08-04T02:52:29.012Z] - INFO - IP: ('172.19.68.67', 47568) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T02:52:29.013Z] - INFO - IP: ('172.19.68.67', 49874) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T02:52:29.014Z] - INFO - IP ('172.19.68.67', 49874) This client is entering the authentication process.
-[2025-08-04T02:52:29.017Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T02:52:29.017Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T02:52:29.018Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T02:52:29.018Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T02:52:29.036Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T02:52:29.036Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T02:52:29.037Z] - INFO - [DEBUG] Session ID: a10e5922-e8ce-42fc-b5b3-314608508402
-[2025-08-04T02:52:29.038Z] - INFO - [DEBUG] Master key (shared secret): f1a0c5aa8c278fc8c94577e73ae77cfabe69bd328caefb615eaa0ca04e585ae1
-[2025-08-04T02:52:41.403Z] - INFO - IP: ('172.19.68.67', 49874) Login using the password '6800867'
-[2025-08-04T02:52:41.404Z] - INFO - IP: ('172.19.68.67', 49874) Authentication failed, Disconnecting
-[2025-08-04T02:52:41.404Z] - INFO - 
-IP: ('172.19.68.67', 49874) Disconnected this client connection
-[2025-08-04T02:52:44.033Z] - INFO - IP: ('172.19.68.67', 49874) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T02:52:46.478Z] - INFO - IP: ('172.19.68.67', 41546) This client has been connected to your server
-[2025-08-04T02:52:46.478Z] - INFO - IP: ('172.19.68.67', 41546) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T02:52:46.478Z] - INFO - IP ('172.19.68.67', 41546) This client is entering the authentication process.
-[2025-08-04T02:52:46.483Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T02:52:46.483Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T02:52:46.483Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T02:52:46.484Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T02:52:46.499Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T02:52:46.500Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T02:52:46.500Z] - INFO - [DEBUG] Session ID: df4567e4-3ac2-413b-88c1-23e6302535e3
-[2025-08-04T02:52:46.501Z] - INFO - [DEBUG] Master key (shared secret): d7a75e133adbb463361af280451a6ccb4ae2e9341da8b518dc443fe7a141ae2a
-[2025-08-04T02:52:49.467Z] - INFO - IP: ('172.19.68.67', 41546) Login using the password '680086'
-[2025-08-04T02:52:49.469Z] - INFO - IP: ('172.19.68.67', 41546) Starting shell...
-[2025-08-04T02:52:49.516Z] - INFO - IP: ('172.19.68.67', 41546) executed: b'RESIZE:40:84\n'
-[2025-08-04T02:52:50.551Z] - INFO - IP: ('172.19.68.67', 41546) executed: b'SHELL:\r\n'
-[2025-08-04T02:52:51.348Z] - INFO - IP: ('172.19.68.67', 41546) executed: b'SHELL:l\n'
-[2025-08-04T02:52:51.556Z] - INFO - IP: ('172.19.68.67', 41546) executed: b'SHELL:s\n'
-[2025-08-04T02:52:51.715Z] - INFO - IP: ('172.19.68.67', 41546) executed: b'SHELL:\r\n'
-[2025-08-04T03:13:08.116Z] - INFO - IP: ('172.19.68.67', 41546) executed: b'SHELL:\x04\n'
-[2025-08-04T03:13:08.119Z] - INFO - IP: ('172.19.68.67', 41546) Shell terminated
-[2025-08-04T03:13:08.120Z] - INFO - IP: ('172.19.68.67', 41546) Disconnected this client client_socket
-[2025-08-04T03:13:08.120Z] - ERROR - 
-IP: ('172.19.68.67', 41546) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-04T03:13:08.121Z] - INFO - IP: ('172.19.68.67', 41546) Session shell closed
-[2025-08-04T03:13:09.413Z] - INFO - Shutting down...
-[2025-08-04T03:13:09.414Z] - INFO - IP: ('172.19.68.67', 41546) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T03:13:09.415Z] - INFO - Server has closed
-[2025-08-04T03:13:09.415Z] - INFO - Waiting for server loop closed...
-[2025-08-04T03:13:12.416Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T03:13:12.417Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T03:13:15.749Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T03:13:15.749Z] - INFO - Server loop ended
-[2025-08-04T03:13:15.750Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T03:13:19.924Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T03:13:19.924Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T03:13:24.883Z] - INFO - IP: ('172.19.68.67', 44302) This client has been connected to your server
-[2025-08-04T03:13:24.883Z] - INFO - IP: ('172.19.68.67', 44302) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T03:13:24.887Z] - INFO - IP ('172.19.68.67', 44302) This client is entering the authentication process.
-[2025-08-04T03:13:24.891Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T03:13:24.892Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T03:13:24.892Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T03:13:24.893Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T03:13:24.911Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T03:13:24.911Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T03:13:24.943Z] - INFO - [DEBUG] Session ID: 24e4589b-1c32-43b1-8aeb-5954ee4c5192
-[2025-08-04T03:13:24.943Z] - INFO - [DEBUG] Master key (shared secret): c238a0daebf3e79f3aa2e1c8c43d8eb0b895091226c02a80365857681ee5b328
-[2025-08-04T03:13:32.759Z] - INFO - IP: ('172.19.68.67', 44302) Login using the password '680055'
-[2025-08-04T03:13:32.760Z] - INFO - IP: ('172.19.68.67', 44302) Authentication failed, Disconnecting
-[2025-08-04T03:13:32.761Z] - INFO - 
-IP: ('172.19.68.67', 44302) Disconnected this client connection
-[2025-08-04T03:13:34.912Z] - INFO - IP: ('172.19.68.67', 47892) This client has been connected to your server
-[2025-08-04T03:13:34.912Z] - INFO - IP: ('172.19.68.67', 44302) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T03:13:34.912Z] - INFO - IP: ('172.19.68.67', 47892) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T03:13:34.912Z] - INFO - IP ('172.19.68.67', 47892) This client is entering the authentication process.
-[2025-08-04T03:13:34.916Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T03:13:34.916Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T03:13:34.916Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T03:13:34.916Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T03:13:34.935Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T03:13:34.935Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T03:13:34.936Z] - INFO - [DEBUG] Session ID: 65da7104-4dda-4007-98f7-6755666a1f5b
-[2025-08-04T03:13:34.936Z] - INFO - [DEBUG] Master key (shared secret): 1cdf05542eedd9a99688adcaa1f1e60c511f9303d673cc37bd7578076bc51695
-[2025-08-04T03:13:38.962Z] - INFO - IP: ('172.19.68.67', 47892) Login using the password '68680086'
-[2025-08-04T03:13:38.964Z] - INFO - IP: ('172.19.68.67', 47892) Authentication failed, Disconnecting
-[2025-08-04T03:13:38.964Z] - INFO - 
-IP: ('172.19.68.67', 47892) Disconnected this client connection
-[2025-08-04T03:13:46.080Z] - INFO - IP: ('172.19.68.67', 54310) This client has been connected to your server
-[2025-08-04T03:13:46.080Z] - INFO - IP: ('172.19.68.67', 47892) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T03:13:46.081Z] - INFO - IP: ('172.19.68.67', 54310) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T03:13:46.081Z] - INFO - IP ('172.19.68.67', 54310) This client is entering the authentication process.
-[2025-08-04T03:13:46.084Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T03:13:46.084Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T03:13:46.084Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T03:13:46.084Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T03:13:46.107Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T03:13:46.107Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T03:13:46.108Z] - INFO - [DEBUG] Session ID: f8bc58b9-7dbf-4584-a1e8-43b585707978
-[2025-08-04T03:13:46.108Z] - INFO - [DEBUG] Master key (shared secret): 2669c9fc05ae391adc35c4d5be8aa2898ac15846e44436903a1d5d9b1fffcaad
-[2025-08-04T03:13:50.038Z] - INFO - IP: ('172.19.68.67', 54310) Login using the password '680086'
-[2025-08-04T03:13:50.039Z] - INFO - IP: ('172.19.68.67', 54310) Starting shell...
-[2025-08-04T03:13:50.090Z] - INFO - IP: ('172.19.68.67', 54310) executed: b'RESIZE:40:84\n'
-[2025-08-04T03:13:51.585Z] - INFO - IP: ('172.19.68.67', 54310) executed: b'SHELL:\r\n'
-[2025-08-04T03:13:52.046Z] - INFO - IP: ('172.19.68.67', 54310) executed: b'SHELL:l\n'
-[2025-08-04T03:13:52.242Z] - INFO - IP: ('172.19.68.67', 54310) executed: b'SHELL:s\n'
-[2025-08-04T03:13:52.378Z] - INFO - IP: ('172.19.68.67', 54310) executed: b'SHELL:\r\n'
-[2025-08-04T03:13:53.573Z] - INFO - IP: ('172.19.68.67', 54310) executed: b'SHELL:\x04\n'
-[2025-08-04T03:13:53.576Z] - INFO - IP: ('172.19.68.67', 54310) Shell terminated
-[2025-08-04T03:13:53.578Z] - INFO - IP: ('172.19.68.67', 54310) Disconnected this client client_socket
-[2025-08-04T03:13:53.579Z] - ERROR - 
-IP: ('172.19.68.67', 54310) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-04T03:13:53.579Z] - INFO - IP: ('172.19.68.67', 54310) Session shell closed
-[2025-08-04T03:13:56.243Z] - INFO - Shutting down...
-[2025-08-04T03:13:56.244Z] - INFO - IP: ('172.19.68.67', 54310) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T03:13:56.244Z] - INFO - Server has closed
-[2025-08-04T03:13:56.245Z] - INFO - Waiting for server loop closed...
-[2025-08-04T03:13:59.246Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T03:13:59.246Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T03:14:01.096Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T03:14:01.096Z] - INFO - Server loop ended
-[2025-08-04T03:14:01.096Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T04:01:58.866Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T04:01:58.872Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T04:02:58.638Z] - INFO - Shutting down...
-[2025-08-04T04:02:58.639Z] - INFO - Server has closed
-[2025-08-04T04:02:58.640Z] - INFO - Waiting for server loop closed...
-[2025-08-04T04:03:00.886Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T04:03:00.887Z] - INFO - Server loop ended
-[2025-08-04T04:03:00.887Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T04:03:00.888Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T04:03:00.888Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T10:12:53.639Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T10:12:53.643Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T10:13:39.278Z] - INFO - IP: ('172.19.68.67', 59064) This client has been connected to your server
-[2025-08-04T10:13:39.279Z] - INFO - IP: ('172.19.68.67', 59064) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T10:13:39.281Z] - INFO - IP ('172.19.68.67', 59064) This client is entering the authentication process.
-[2025-08-04T10:13:39.315Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T10:13:39.315Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T10:13:39.315Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T10:13:39.315Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T10:13:39.345Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T10:13:39.346Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T10:13:39.390Z] - INFO - [DEBUG] Session ID: cafedc55-9d0e-43a0-853c-ab71fca5f2d6
-[2025-08-04T10:13:39.390Z] - INFO - [DEBUG] Master key (shared secret): 1765a4bc2bca84be1dd3a8edf0e44c51236b5aa3c833546a1387d88a1404808a
-[2025-08-04T10:13:45.131Z] - INFO - IP: ('172.19.68.67', 59064) Login using the password '\680086'
-[2025-08-04T10:13:45.132Z] - INFO - IP: ('172.19.68.67', 59064) Authentication failed, Disconnecting
-[2025-08-04T10:13:45.132Z] - INFO - 
-IP: ('172.19.68.67', 59064) Disconnected this client connection
-[2025-08-04T10:13:48.206Z] - INFO - IP: ('172.19.68.67', 60070) This client has been connected to your server
-[2025-08-04T10:13:48.206Z] - INFO - IP: ('172.19.68.67', 59064) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T10:13:48.207Z] - INFO - IP: ('172.19.68.67', 60070) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T10:13:48.207Z] - INFO - IP ('172.19.68.67', 60070) This client is entering the authentication process.
-[2025-08-04T10:13:48.212Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T10:13:48.212Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T10:13:48.212Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T10:13:48.212Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T10:13:48.240Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T10:13:48.240Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T10:13:48.246Z] - INFO - [DEBUG] Session ID: 0e1ce750-ebec-48aa-bcc3-5230e7f0f12e
-[2025-08-04T10:13:48.246Z] - INFO - [DEBUG] Master key (shared secret): 53ffcc5394f1c8e650121878483bb9290628bdab7805418e0fdc8d1a8e099a75
-[2025-08-04T10:13:52.781Z] - INFO - IP: ('172.19.68.67', 60070) Login using the password '680086'
-[2025-08-04T10:13:52.782Z] - INFO - IP: ('172.19.68.67', 60070) Starting shell...
-[2025-08-04T10:13:52.826Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'RESIZE:40:148\n'
-[2025-08-04T10:13:54.210Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:\r\n'
-[2025-08-04T10:13:54.589Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:\r\n'
-[2025-08-04T10:13:54.765Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:\r\n'
-[2025-08-04T10:13:54.925Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:\r\n'
-[2025-08-04T10:13:55.485Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:l\n'
-[2025-08-04T10:13:55.686Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:s\n'
-[2025-08-04T10:13:56.141Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:\r\n'
-[2025-08-04T10:14:05.862Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:l\n'
-[2025-08-04T10:14:06.030Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:s\n'
-[2025-08-04T10:14:06.381Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:\r\n'
-[2025-08-04T10:14:07.910Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:k\n'
-[2025-08-04T10:14:08.597Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:\x7f\n'
-[2025-08-04T10:14:08.709Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:\x7f\n'
-[2025-08-04T10:14:08.853Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:\x7f\n'
-[2025-08-04T10:14:09.846Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:n\n'
-[2025-08-04T10:14:10.065Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:e\n'
-[2025-08-04T10:14:10.687Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:o\n'
-[2025-08-04T10:14:10.998Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:f\n'
-[2025-08-04T10:14:11.237Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:e\n'
-[2025-08-04T10:14:11.645Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:t\n'
-[2025-08-04T10:14:11.805Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:c\n'
-[2025-08-04T10:14:12.085Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:h\n'
-[2025-08-04T10:14:12.917Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:\r\n'
-[2025-08-04T10:14:20.238Z] - INFO - IP: ('172.19.68.67', 60070) executed: b'SHELL:\x04\n'
-[2025-08-04T10:14:20.241Z] - INFO - IP: ('172.19.68.67', 60070) Shell terminated
-[2025-08-04T10:14:20.242Z] - INFO - IP: ('172.19.68.67', 60070) Disconnected this client client_socket
-[2025-08-04T10:14:20.242Z] - ERROR - 
-IP: ('172.19.68.67', 60070) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-04T10:14:20.243Z] - INFO - IP: ('172.19.68.67', 60070) Session shell closed
-[2025-08-04T10:14:24.930Z] - INFO - Shutting down...
-[2025-08-04T10:14:24.931Z] - INFO - IP: ('172.19.68.67', 60070) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T10:14:24.932Z] - INFO - Server has closed
-[2025-08-04T10:14:24.932Z] - INFO - Waiting for server loop closed...
-[2025-08-04T10:14:27.941Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T10:14:27.941Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T10:14:33.249Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T10:14:33.249Z] - INFO - Server loop ended
-[2025-08-04T10:14:33.250Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T11:05:25.879Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T11:05:25.881Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T11:07:28.737Z] - INFO - IP: ('172.19.68.67', 38964) This client has been connected to your server
-[2025-08-04T11:07:28.737Z] - INFO - IP: ('172.19.68.67', 38964) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T11:07:28.766Z] - INFO - IP ('172.19.68.67', 38964) This client is entering the authentication process.
-[2025-08-04T11:07:28.790Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T11:07:28.791Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T11:07:28.791Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T11:07:28.791Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T11:07:28.833Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T11:07:28.833Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T11:07:28.877Z] - INFO - [DEBUG] Session ID: 1138cefa-e426-41c5-95b2-1568e17750c3
-[2025-08-04T11:07:28.878Z] - INFO - [DEBUG] Master key (shared secret): fe78e9efa35e272e63cd68c9671b9870603afe98b7cd50e7e740944fbbe933ab
-[2025-08-04T11:07:32.530Z] - INFO - IP: ('172.19.68.67', 38964) Login using the password '680086'
-[2025-08-04T11:07:32.531Z] - INFO - IP: ('172.19.68.67', 38964) Starting shell...
-[2025-08-04T11:07:32.577Z] - INFO - IP: ('172.19.68.67', 38964) executed: b'RESIZE:40:148\n'
-[2025-08-04T11:07:33.525Z] - INFO - IP: ('172.19.68.67', 38964) executed: b'SHELL:l\n'
-[2025-08-04T11:07:33.749Z] - INFO - IP: ('172.19.68.67', 38964) executed: b'SHELL:s\n'
-[2025-08-04T11:07:33.917Z] - INFO - IP: ('172.19.68.67', 38964) executed: b'SHELL:\r\n'
-[2025-08-04T11:07:34.830Z] - INFO - IP: ('172.19.68.67', 38964) executed: b'SHELL:d\n'
-[2025-08-04T11:07:35.125Z] - INFO - IP: ('172.19.68.67', 38964) executed: b'SHELL:i\n'
-[2025-08-04T11:07:35.249Z] - INFO - IP: ('172.19.68.67', 38964) executed: b'SHELL:r\n'
-[2025-08-04T11:07:35.989Z] - INFO - IP: ('172.19.68.67', 38964) executed: b'SHELL:\r\n'
-[2025-08-04T11:07:39.997Z] - INFO - IP: ('172.19.68.67', 38964) executed: b'SHELL:\x04\n'
-[2025-08-04T11:07:40.001Z] - INFO - IP: ('172.19.68.67', 38964) Shell terminated
-[2025-08-04T11:07:40.001Z] - INFO - IP: ('172.19.68.67', 38964) Disconnected this client client_socket
-[2025-08-04T11:07:40.002Z] - ERROR - 
-IP: ('172.19.68.67', 38964) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-04T11:07:40.002Z] - INFO - IP: ('172.19.68.67', 38964) Session shell closed
-[2025-08-04T11:07:42.571Z] - INFO - Shutting down...
-[2025-08-04T11:07:42.572Z] - INFO - IP: ('172.19.68.67', 38964) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T11:07:42.573Z] - INFO - Server has closed
-[2025-08-04T11:07:42.573Z] - INFO - Waiting for server loop closed...
-[2025-08-04T11:07:43.782Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T11:07:43.783Z] - INFO - Server loop ended
-[2025-08-04T11:07:43.785Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T11:07:43.785Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T11:07:43.786Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T11:22:21.517Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T11:22:21.519Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T11:23:40.031Z] - INFO - Shutting down...
-[2025-08-04T11:23:40.032Z] - INFO - Server has closed
-[2025-08-04T11:23:40.033Z] - INFO - Waiting for server loop closed...
-[2025-08-04T11:23:43.034Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T11:23:43.034Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T11:23:51.611Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T11:23:51.611Z] - INFO - Server loop ended
-[2025-08-04T11:23:51.613Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T11:24:10.344Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T11:24:10.345Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T11:24:41.024Z] - INFO - Shutting down...
-[2025-08-04T11:24:41.025Z] - INFO - Server has closed
-[2025-08-04T11:24:41.026Z] - INFO - Waiting for server loop closed...
-[2025-08-04T11:24:44.027Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T11:24:44.028Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T11:24:55.369Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T11:24:55.369Z] - INFO - Server loop ended
-[2025-08-04T11:24:55.369Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T11:26:33.572Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T11:26:33.573Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T11:27:19.092Z] - INFO - Shutting down...
-[2025-08-04T11:27:19.093Z] - INFO - Server has closed
-[2025-08-04T11:27:19.093Z] - INFO - Waiting for server loop closed...
-[2025-08-04T11:27:22.094Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T11:27:22.094Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T11:27:33.620Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T11:27:33.621Z] - INFO - Server loop ended
-[2025-08-04T11:27:33.622Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T11:27:58.536Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T11:27:58.537Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T11:28:02.150Z] - INFO - Shutting down...
-[2025-08-04T11:28:02.150Z] - INFO - Server has closed
-[2025-08-04T11:28:02.151Z] - INFO - Waiting for server loop closed...
-[2025-08-04T11:28:05.152Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T11:28:05.152Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T11:28:13.553Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T11:28:13.554Z] - INFO - Server loop ended
-[2025-08-04T11:28:13.555Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T11:29:01.918Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T11:29:01.919Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T11:29:11.723Z] - INFO - IP: ('172.19.68.67', 35068) This client has been connected to your server
-[2025-08-04T11:29:11.723Z] - INFO - IP: ('172.19.68.67', 35068) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T11:29:11.725Z] - INFO - IP ('172.19.68.67', 35068) This client is entering the authentication process.
-[2025-08-04T11:29:11.795Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T11:29:11.796Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T11:29:11.796Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T11:29:11.797Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T11:29:11.857Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T11:29:11.857Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T11:29:11.907Z] - INFO - [DEBUG] Session ID: 188db4af-8e36-4a88-81ca-069b0dfd4cd7
-[2025-08-04T11:29:11.907Z] - INFO - [DEBUG] Master key (shared secret): d98a639123a5f4756bf12a72a2133eb4ed5130f52c7ffc8f301983101a390125
-[2025-08-04T11:29:16.751Z] - INFO - IP: ('172.19.68.67', 35068) Login using the password '680086'
-[2025-08-04T11:29:16.751Z] - INFO - IP: ('172.19.68.67', 35068) Starting shell...
-[2025-08-04T11:29:16.802Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'RESIZE:40:72\n'
-[2025-08-04T11:29:18.422Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:l\n'
-[2025-08-04T11:29:18.677Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:s\n'
-[2025-08-04T11:29:18.861Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:\r\n'
-[2025-08-04T11:29:19.725Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:w\n'
-[2025-08-04T11:29:20.129Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:h\n'
-[2025-08-04T11:29:20.514Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:o\n'
-[2025-08-04T11:29:20.865Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:a\n'
-[2025-08-04T11:29:21.025Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:m\n'
-[2025-08-04T11:29:21.225Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:i\n'
-[2025-08-04T11:29:21.641Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:\r\n'
-[2025-08-04T11:29:22.917Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:n\n'
-[2025-08-04T11:29:23.109Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:e\n'
-[2025-08-04T11:29:23.493Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:o\n'
-[2025-08-04T11:29:24.001Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:f\n'
-[2025-08-04T11:29:24.457Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:e\n'
-[2025-08-04T11:29:24.673Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:t\n'
-[2025-08-04T11:29:24.849Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:c\n'
-[2025-08-04T11:29:25.069Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:h\n'
-[2025-08-04T11:29:25.613Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:\r\n'
-[2025-08-04T11:29:35.537Z] - INFO - IP: ('172.19.68.67', 35068) executed: b'SHELL:\x04\n'
-[2025-08-04T11:29:35.540Z] - INFO - IP: ('172.19.68.67', 35068) Shell terminated
-[2025-08-04T11:29:35.541Z] - INFO - IP: ('172.19.68.67', 35068) Disconnected this client client_socket
-[2025-08-04T11:29:35.541Z] - ERROR - 
-IP: ('172.19.68.67', 35068) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-04T11:29:35.541Z] - INFO - IP: ('172.19.68.67', 35068) Session shell closed
-[2025-08-04T11:29:41.756Z] - INFO - IP: ('172.19.68.67', 35068) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T11:31:37.122Z] - INFO - Shutting down...
-[2025-08-04T11:31:37.123Z] - INFO - Server has closed
-[2025-08-04T11:31:37.123Z] - INFO - Waiting for server loop closed...
-[2025-08-04T11:31:40.125Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T11:31:40.125Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T11:31:41.867Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T11:31:41.867Z] - INFO - Server loop ended
-[2025-08-04T11:31:41.867Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T12:05:10.931Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T12:05:10.935Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T12:05:20.871Z] - INFO - IP: ('172.19.68.67', 55148) This client has been connected to your server
-[2025-08-04T12:05:20.871Z] - INFO - IP: ('172.19.68.67', 55148) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T12:05:20.876Z] - INFO - IP ('172.19.68.67', 55148) This client is entering the authentication process.
-[2025-08-04T12:05:20.876Z] - INFO - IP: ('172.19.68.67', 55148) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T12:06:19.712Z] - INFO - IP: ('172.19.68.67', 45142) This client has been connected to your server
-[2025-08-04T12:06:19.712Z] - INFO - IP: ('172.19.68.67', 45142) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T12:06:19.714Z] - INFO - IP ('172.19.68.67', 45142) This client is entering the authentication process.
-[2025-08-04T12:06:34.730Z] - INFO - IP: ('172.19.68.67', 45142) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T12:08:30.876Z] - INFO - Shutting down...
-[2025-08-04T12:08:30.877Z] - INFO - Server has closed
-[2025-08-04T12:08:30.877Z] - INFO - Waiting for server loop closed...
-[2025-08-04T12:08:33.878Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T12:08:33.879Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T12:08:34.815Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T12:08:34.815Z] - INFO - Server loop ended
-[2025-08-04T12:08:34.816Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T12:08:59.885Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T12:08:59.886Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T12:09:03.531Z] - INFO - IP: ('172.19.68.67', 42266) This client has been connected to your server
-[2025-08-04T12:09:03.531Z] - INFO - IP: ('172.19.68.67', 42266) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T12:09:03.534Z] - INFO - IP ('172.19.68.67', 42266) This client is entering the authentication process.
-[2025-08-04T12:09:03.535Z] - INFO - IP: ('172.19.68.67', 42266) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T12:12:29.015Z] - INFO - Shutting down...
-[2025-08-04T12:12:29.016Z] - INFO - Server has closed
-[2025-08-04T12:12:29.018Z] - INFO - Waiting for server loop closed...
-[2025-08-04T12:12:32.019Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T12:12:32.019Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T12:12:33.712Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T12:12:33.714Z] - INFO - Server loop ended
-[2025-08-04T12:12:33.716Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T12:12:37.327Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T12:12:37.327Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T12:12:41.420Z] - INFO - IP: ('172.19.68.67', 33798) This client has been connected to your server
-[2025-08-04T12:12:41.421Z] - INFO - IP: ('172.19.68.67', 33798) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T12:12:41.423Z] - INFO - IP ('172.19.68.67', 33798) This client is entering the authentication process.
-[2025-08-04T12:12:41.424Z] - INFO - IP: ('172.19.68.67', 33798) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T12:14:04.673Z] - INFO - IP: ('172.19.68.67', 37698) This client has been connected to your server
-[2025-08-04T12:14:04.673Z] - INFO - IP: ('172.19.68.67', 37698) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T12:14:04.674Z] - INFO - IP ('172.19.68.67', 37698) This client is entering the authentication process.
-[2025-08-04T12:14:19.679Z] - INFO - IP: ('172.19.68.67', 37698) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T12:15:40.537Z] - INFO - IP: ('172.19.68.67', 53122) This client has been connected to your server
-[2025-08-04T12:15:40.537Z] - INFO - IP: ('172.19.68.67', 53122) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T12:15:40.538Z] - INFO - IP ('172.19.68.67', 53122) This client is entering the authentication process.
-[2025-08-04T12:15:55.553Z] - INFO - IP: ('172.19.68.67', 53122) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T12:17:35.197Z] - INFO - Shutting down...
-[2025-08-04T12:17:35.197Z] - INFO - Server has closed
-[2025-08-04T12:17:35.197Z] - INFO - Waiting for server loop closed...
-[2025-08-04T12:17:38.199Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T12:17:38.199Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T12:17:40.680Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T12:17:40.681Z] - INFO - Server loop ended
-[2025-08-04T12:17:40.682Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T12:17:47.234Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T12:17:47.236Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T12:17:50.992Z] - INFO - IP: ('172.19.68.67', 41786) This client has been connected to your server
-[2025-08-04T12:17:50.993Z] - INFO - IP: ('172.19.68.67', 41786) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T12:17:51.001Z] - INFO - IP ('172.19.68.67', 41786) This client is entering the authentication process.
-[2025-08-04T12:17:51.001Z] - INFO - IP: ('172.19.68.67', 41786) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T12:19:44.578Z] - INFO - IP: ('172.19.68.67', 46754) This client has been connected to your server
-[2025-08-04T12:19:44.578Z] - INFO - IP: ('172.19.68.67', 46754) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T12:19:44.579Z] - INFO - IP ('172.19.68.67', 46754) This client is entering the authentication process.
-[2025-08-04T12:19:59.587Z] - INFO - IP: ('172.19.68.67', 46754) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T12:20:30.334Z] - INFO - IP: ('172.19.68.67', 60286) This client has been connected to your server
-[2025-08-04T12:20:30.335Z] - INFO - IP: ('172.19.68.67', 60286) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T12:20:30.338Z] - INFO - IP ('172.19.68.67', 60286) This client is entering the authentication process.
-[2025-08-04T12:20:30.338Z] - INFO - IP: ('172.19.68.67', 60286) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T12:23:18.238Z] - INFO - IP: ('172.19.68.67', 44500) This client has been connected to your server
-[2025-08-04T12:23:18.238Z] - INFO - IP: ('172.19.68.67', 44500) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T12:23:18.240Z] - INFO - IP ('172.19.68.67', 44500) This client is entering the authentication process.
-[2025-08-04T12:23:18.240Z] - INFO - IP: ('172.19.68.67', 44500) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T12:27:09.836Z] - INFO - Shutting down...
-[2025-08-04T12:27:09.849Z] - INFO - Server has closed
-[2025-08-04T12:27:09.851Z] - INFO - Waiting for server loop closed...
-[2025-08-04T12:27:12.860Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T12:27:12.866Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T12:27:18.573Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T12:27:18.574Z] - INFO - Server loop ended
-[2025-08-04T12:27:18.579Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T12:27:23.699Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T12:27:23.699Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T12:27:27.447Z] - INFO - IP: ('172.19.68.67', 37820) This client has been connected to your server
-[2025-08-04T12:27:27.447Z] - INFO - IP: ('172.19.68.67', 37820) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T12:27:27.456Z] - INFO - IP ('172.19.68.67', 37820) This client is entering the authentication process.
-[2025-08-04T12:27:27.476Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T12:27:27.476Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T12:27:27.476Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T12:27:27.477Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T12:27:27.507Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T12:27:27.508Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T12:27:27.566Z] - INFO - [DEBUG] Session ID: 2303d5ac-1bce-4855-84dc-1c35c0c2a518
-[2025-08-04T12:27:27.567Z] - INFO - [DEBUG] Master key (shared secret): b0874c2932fd53bd4a2ac1e92f9a629ebbfd0e7ae192fcc95d7dbb7bced7db86
-[2025-08-04T12:27:31.835Z] - INFO - IP: ('172.19.68.67', 37820) Login using the password '680086'
-[2025-08-04T12:27:31.836Z] - INFO - IP: ('172.19.68.67', 37820) Starting shell...
-[2025-08-04T12:27:31.882Z] - INFO - IP: ('172.19.68.67', 37820) executed: b'RESIZE:40:148\n'
-[2025-08-04T12:27:32.918Z] - INFO - IP: ('172.19.68.67', 37820) executed: b'SHELL:l\n'
-[2025-08-04T12:27:33.069Z] - INFO - IP: ('172.19.68.67', 37820) executed: b'SHELL:s\n'
-[2025-08-04T12:27:33.261Z] - INFO - IP: ('172.19.68.67', 37820) executed: b'SHELL:\r\n'
-[2025-08-04T12:27:34.082Z] - INFO - IP: ('172.19.68.67', 37820) executed: b'SHELL:\x04\n'
-[2025-08-04T12:27:34.091Z] - INFO - IP: ('172.19.68.67', 37820) Shell terminated
-[2025-08-04T12:27:34.092Z] - INFO - IP: ('172.19.68.67', 37820) Disconnected this client client_socket
-[2025-08-04T12:27:34.092Z] - ERROR - 
-IP: ('172.19.68.67', 37820) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-04T12:27:34.093Z] - INFO - IP: ('172.19.68.67', 37820) Session shell closed
-[2025-08-04T12:27:42.472Z] - INFO - IP: ('172.19.68.67', 37820) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T12:28:03.142Z] - INFO - Shutting down...
-[2025-08-04T12:28:03.143Z] - INFO - Server has closed
-[2025-08-04T12:28:03.143Z] - INFO - Waiting for server loop closed...
-[2025-08-04T12:28:06.145Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T12:28:06.146Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T12:28:12.492Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T12:28:12.492Z] - INFO - Server loop ended
-[2025-08-04T12:28:12.493Z] - INFO - ***Graceful Shutdown***
-[2025-08-04T12:28:23.393Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-04T12:28:23.396Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-04T12:28:26.545Z] - INFO - IP: ('172.19.68.67', 34588) This client has been connected to your server
-[2025-08-04T12:28:26.546Z] - INFO - IP: ('172.19.68.67', 34588) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-04T12:28:26.550Z] - INFO - IP ('172.19.68.67', 34588) This client is entering the authentication process.
-[2025-08-04T12:28:26.556Z] - INFO - Certificate and key loaded from storage
-[2025-08-04T12:28:26.556Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-04T12:28:26.557Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-04T12:28:26.557Z] - INFO - Waiting for quantum handshake...
-[2025-08-04T12:28:26.581Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T12:28:26.582Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-04T12:28:26.619Z] - INFO - [DEBUG] Session ID: ebef26ae-8794-448a-a5d8-3d0949faf374
-[2025-08-04T12:28:26.620Z] - INFO - [DEBUG] Master key (shared secret): c99c6fc2abe59268fa8760dc6ba6be49ecedb5b69b157c3feb784f1c94606682
-[2025-08-04T12:28:27.621Z] - INFO - IP: ('172.19.68.67', 34588) Starting shell...
-[2025-08-04T12:28:27.648Z] - INFO - IP: ('172.19.68.67', 34588) executed: b'RESIZE:40:148\n'
-[2025-08-04T12:28:29.064Z] - INFO - IP: ('172.19.68.67', 34588) executed: b'SHELL:l\n'
-[2025-08-04T12:28:29.282Z] - INFO - IP: ('172.19.68.67', 34588) executed: b'SHELL:s\n'
-[2025-08-04T12:28:29.717Z] - INFO - IP: ('172.19.68.67', 34588) executed: b'SHELL:\r\n'
-[2025-08-04T12:28:31.997Z] - INFO - IP: ('172.19.68.67', 34588) executed: b'SHELL:\x13\n'
-[2025-08-04T12:28:33.226Z] - INFO - IP: ('172.19.68.67', 34588) executed: b'SHELL:\x03\n'
-[2025-08-04T12:28:34.378Z] - INFO - IP: ('172.19.68.67', 34588) executed: b'SHELL:\x04\n'
-[2025-08-04T12:28:34.382Z] - INFO - IP: ('172.19.68.67', 34588) Shell terminated
-[2025-08-04T12:28:34.384Z] - INFO - IP: ('172.19.68.67', 34588) Disconnected this client client_socket
-[2025-08-04T12:28:34.386Z] - ERROR - 
-IP: ('172.19.68.67', 34588) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-04T12:28:34.387Z] - INFO - IP: ('172.19.68.67', 34588) Session shell closed
-[2025-08-04T12:28:36.118Z] - INFO - Shutting down...
-[2025-08-04T12:28:36.119Z] - INFO - IP: ('172.19.68.67', 34588) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-04T12:28:36.119Z] - INFO - Server has closed
-[2025-08-04T12:28:36.120Z] - INFO - Waiting for server loop closed...
-[2025-08-04T12:28:39.121Z] - INFO - Threads pool have been shutting down...
-[2025-08-04T12:28:39.121Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-04T12:28:41.566Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-04T12:28:41.567Z] - INFO - Server loop ended
-[2025-08-04T12:28:41.567Z] - INFO - ***Graceful Shutdown***
-[2025-08-05T04:21:52.802Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-05T04:21:52.806Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-05T04:22:10.974Z] - INFO - IP: ('172.19.68.67', 57396) This client has been connected to your server
-[2025-08-05T04:22:10.975Z] - INFO - IP: ('172.19.68.67', 57396) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:22:10.986Z] - INFO - IP ('172.19.68.67', 57396) This client is entering the authentication process.
-[2025-08-05T04:22:10.997Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:22:10.998Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:22:10.998Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:22:10.998Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:22:11.024Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:22:11.025Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:22:11.063Z] - INFO - [DEBUG] Session ID: 00440595-ee91-4a58-8026-ba4d9adc12e5
-[2025-08-05T04:22:11.063Z] - INFO - [DEBUG] Master key (shared secret): 3769811dcaf7ad8a9d866cdd8c4a094bee8d603614f1c9953d10dac5d21dc11d
-[2025-08-05T04:22:16.075Z] - INFO - IP: ('172.19.68.67', 57396) Login using the password '680086'
-[2025-08-05T04:22:16.075Z] - INFO - IP: ('172.19.68.67', 57396) Authentication failed, Disconnecting
-[2025-08-05T04:22:16.076Z] - INFO - 
-IP: ('172.19.68.67', 57396) Disconnected this client connection
-[2025-08-05T04:22:19.947Z] - INFO - IP: ('172.19.68.67', 50636) This client has been connected to your server
-[2025-08-05T04:22:19.947Z] - INFO - IP: ('172.19.68.67', 57396) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T04:22:19.948Z] - INFO - IP: ('172.19.68.67', 50636) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:22:19.948Z] - INFO - IP ('172.19.68.67', 50636) This client is entering the authentication process.
-[2025-08-05T04:22:19.951Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:22:19.951Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:22:19.951Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:22:19.951Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:22:19.972Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:22:19.973Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:22:19.973Z] - INFO - [DEBUG] Session ID: 76ab12d3-6acc-40b6-8130-a2a5a7ef1c22
-[2025-08-05T04:22:19.973Z] - INFO - [DEBUG] Master key (shared secret): 0727a7bf8a604096707ae2937150d10e51739f805f6d073073aafba83dc43327
-[2025-08-05T04:22:24.933Z] - INFO - IP: ('172.19.68.67', 50636) Login using the password 'hackerman'
-[2025-08-05T04:22:24.934Z] - INFO - IP: ('172.19.68.67', 50636) Starting shell...
-[2025-08-05T04:22:24.982Z] - INFO - IP: ('172.19.68.67', 50636) executed: b'RESIZE:40:72\n'
-[2025-08-05T04:22:26.387Z] - INFO - IP: ('172.19.68.67', 50636) executed: b'SHELL:l\n'
-[2025-08-05T04:22:26.645Z] - INFO - IP: ('172.19.68.67', 50636) executed: b'SHELL:s\n'
-[2025-08-05T04:22:26.877Z] - INFO - IP: ('172.19.68.67', 50636) executed: b'SHELL:\r\n'
-[2025-08-05T04:22:29.733Z] - INFO - IP: ('172.19.68.67', 50636) executed: b'SHELL:d\n'
-[2025-08-05T04:22:30.741Z] - INFO - IP: ('172.19.68.67', 50636) executed: b'SHELL:i\n'
-[2025-08-05T04:22:31.317Z] - INFO - IP: ('172.19.68.67', 50636) executed: b'SHELL:r\n'
-[2025-08-05T04:22:32.041Z] - INFO - IP: ('172.19.68.67', 50636) executed: b'SHELL:\r\n'
-[2025-08-05T04:22:35.941Z] - INFO - IP: ('172.19.68.67', 50636) executed: b'SHELL:\x04\n'
-[2025-08-05T04:22:35.945Z] - INFO - IP: ('172.19.68.67', 50636) Shell terminated
-[2025-08-05T04:22:35.946Z] - INFO - IP: ('172.19.68.67', 50636) Disconnected this client client_socket
-[2025-08-05T04:22:35.946Z] - ERROR - 
-IP: ('172.19.68.67', 50636) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-05T04:22:35.946Z] - INFO - IP: ('172.19.68.67', 50636) Session shell closed
-[2025-08-05T04:22:49.968Z] - INFO - IP: ('172.19.68.67', 50636) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T04:27:31.676Z] - INFO - IP: ('172.19.68.67', 38560) This client has been connected to your server
-[2025-08-05T04:27:31.677Z] - INFO - IP: ('172.19.68.67', 38560) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:27:31.678Z] - INFO - IP ('172.19.68.67', 38560) This client is entering the authentication process.
-[2025-08-05T04:27:31.681Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:27:31.682Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:27:31.682Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:27:31.682Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:27:31.727Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:27:31.728Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:27:31.729Z] - INFO - [DEBUG] Session ID: 4d204e61-fe60-4cbb-8c99-75d113519d1e
-[2025-08-05T04:27:31.729Z] - INFO - [DEBUG] Master key (shared secret): 4284e597dd065186863a6f6d1442004b9283d3eae49455f736d42483a25efbc5
-[2025-08-05T04:28:43.041Z] - INFO - IP: ('172.19.68.67', 38560) Login using the password ''
-[2025-08-05T04:28:43.045Z] - INFO - IP: ('172.19.68.67', 38560) Authentication failed, Disconnecting
-[2025-08-05T04:28:43.045Z] - INFO - 
-IP: ('172.19.68.67', 38560) Disconnected this client connection
-[2025-08-05T04:28:46.743Z] - INFO - IP: ('172.19.68.67', 38560) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T04:28:49.949Z] - INFO - IP: ('172.19.68.67', 39202) This client has been connected to your server
-[2025-08-05T04:28:49.949Z] - INFO - IP: ('172.19.68.67', 39202) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:28:49.949Z] - INFO - IP ('172.19.68.67', 39202) This client is entering the authentication process.
-[2025-08-05T04:28:49.952Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:28:49.952Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:28:49.952Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:28:49.952Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:28:49.977Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:28:49.977Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:28:49.978Z] - INFO - [DEBUG] Session ID: 10e87001-b75c-4e81-b254-e981932b952a
-[2025-08-05T04:28:49.978Z] - INFO - [DEBUG] Master key (shared secret): 2d19707db2223660d65aa8512ada1eec26d6a125895b82d5a9c4ff19d383aed6
-[2025-08-05T04:29:13.417Z] - WARNING - Password auth failed: Connection closed
-[2025-08-05T04:29:13.418Z] - INFO - IP: ('172.19.68.67', 39202) Authentication failed, Disconnecting
-[2025-08-05T04:29:13.418Z] - INFO - 
-IP: ('172.19.68.67', 39202) Disconnected this client connection
-[2025-08-05T04:29:18.613Z] - INFO - IP: ('172.19.68.67', 39800) This client has been connected to your server
-[2025-08-05T04:29:18.614Z] - INFO - IP: ('172.19.68.67', 39202) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T04:29:18.614Z] - INFO - IP: ('172.19.68.67', 39800) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:29:18.614Z] - INFO - IP ('172.19.68.67', 39800) This client is entering the authentication process.
-[2025-08-05T04:29:18.617Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:29:18.618Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:29:18.618Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:29:18.618Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:29:18.639Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:29:18.639Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:29:18.640Z] - INFO - [DEBUG] Session ID: 0d5b5575-efc5-48bc-a3c7-9a7000a726dc
-[2025-08-05T04:29:18.640Z] - INFO - [DEBUG] Master key (shared secret): 375ecb1bbe6fa9bfc3de1cbfe1bf8af05675041d31600a177e969459ffb9cef9
-[2025-08-05T04:29:26.425Z] - INFO - IP: ('172.19.68.67', 39800) Login using the password '::::::'
-[2025-08-05T04:29:26.426Z] - INFO - IP: ('172.19.68.67', 39800) Authentication failed, Disconnecting
-[2025-08-05T04:29:26.426Z] - INFO - 
-IP: ('172.19.68.67', 39800) Disconnected this client connection
-[2025-08-05T04:29:28.634Z] - INFO - IP: ('172.19.68.67', 42662) This client has been connected to your server
-[2025-08-05T04:29:28.634Z] - INFO - IP: ('172.19.68.67', 39800) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T04:29:28.634Z] - INFO - IP: ('172.19.68.67', 42662) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:29:28.635Z] - INFO - IP ('172.19.68.67', 42662) This client is entering the authentication process.
-[2025-08-05T04:29:28.638Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:29:28.639Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:29:28.639Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:29:28.639Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:29:28.658Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:29:28.658Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:29:28.659Z] - INFO - [DEBUG] Session ID: d72821b1-b1f3-4698-b814-78af4b62bff5
-[2025-08-05T04:29:28.659Z] - INFO - [DEBUG] Master key (shared secret): d3e7c77ec2d13720f5d803a1dc085932161fc0f9a94dc7eb0b2894f7ff4bfc11
-[2025-08-05T04:29:31.209Z] - INFO - IP: ('172.19.68.67', 42662) Login using the password ':'
-[2025-08-05T04:29:31.210Z] - INFO - IP: ('172.19.68.67', 42662) Authentication failed, Disconnecting
-[2025-08-05T04:29:31.211Z] - INFO - 
-IP: ('172.19.68.67', 42662) Disconnected this client connection
-[2025-08-05T04:29:33.907Z] - INFO - IP: ('172.19.68.67', 54698) This client has been connected to your server
-[2025-08-05T04:29:33.907Z] - INFO - IP: ('172.19.68.67', 42662) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T04:29:33.908Z] - INFO - IP: ('172.19.68.67', 54698) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:29:33.908Z] - INFO - IP ('172.19.68.67', 54698) This client is entering the authentication process.
-[2025-08-05T04:29:33.912Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:29:33.912Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:29:33.912Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:29:33.914Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:29:33.935Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:29:33.935Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:29:33.935Z] - INFO - [DEBUG] Session ID: 7e8e1038-f84e-4905-ac7f-aacf213d1fba
-[2025-08-05T04:29:33.936Z] - INFO - [DEBUG] Master key (shared secret): ef2a375284252aa6cbc961becefa3a877dcac739cd6a780a0e8ffcce6693a9ef
-[2025-08-05T04:29:51.929Z] - WARNING - Password auth failed: Connection closed
-[2025-08-05T04:29:51.929Z] - INFO - IP: ('172.19.68.67', 54698) Authentication failed, Disconnecting
-[2025-08-05T04:29:51.930Z] - INFO - 
-IP: ('172.19.68.67', 54698) Disconnected this client connection
-[2025-08-05T04:30:03.940Z] - INFO - IP: ('172.19.68.67', 54698) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T04:42:05.033Z] - INFO - IP: ('172.19.68.67', 57944) This client has been connected to your server
-[2025-08-05T04:42:05.036Z] - INFO - IP: ('172.19.68.67', 57944) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:42:05.037Z] - INFO - IP ('172.19.68.67', 57944) This client is entering the authentication process.
-[2025-08-05T04:42:05.039Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:42:05.040Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:42:05.040Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:42:05.040Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:42:05.080Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:42:05.080Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:42:05.081Z] - INFO - [DEBUG] Session ID: 5d9df24e-0e71-412f-8295-3ff20888a797
-[2025-08-05T04:42:05.081Z] - INFO - [DEBUG] Master key (shared secret): feb93cd54410d0149d18ef66808bacd7a0994df0d0d4d53f0f0d0f7235c0bd3b
-[2025-08-05T04:42:09.961Z] - INFO - IP: ('172.19.68.67', 57944) Login using the password '68086'
-[2025-08-05T04:42:09.963Z] - INFO - IP: ('172.19.68.67', 57944) Authentication failed, Disconnecting
-[2025-08-05T04:42:09.964Z] - INFO - 
-IP: ('172.19.68.67', 57944) Disconnected this client connection
-[2025-08-05T04:42:13.052Z] - INFO - IP: ('172.19.68.67', 37942) This client has been connected to your server
-[2025-08-05T04:42:13.053Z] - INFO - IP: ('172.19.68.67', 57944) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T04:42:13.053Z] - INFO - IP: ('172.19.68.67', 37942) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:42:13.053Z] - INFO - IP ('172.19.68.67', 37942) This client is entering the authentication process.
-[2025-08-05T04:42:13.056Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:42:13.056Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:42:13.056Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:42:13.056Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:42:13.083Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:42:13.083Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:42:13.084Z] - INFO - [DEBUG] Session ID: d4fd93ed-ad6c-4029-8252-4e49cba09048
-[2025-08-05T04:42:13.084Z] - INFO - [DEBUG] Master key (shared secret): fa1decc141d81fd9f546b81e2404967b33ce299558fe0819bf1e1fa94693576f
-[2025-08-05T04:42:18.824Z] - INFO - IP: ('172.19.68.67', 37942) Login using the password 'hackerman'
-[2025-08-05T04:42:18.825Z] - INFO - IP: ('172.19.68.67', 37942) Starting shell...
-[2025-08-05T04:42:18.869Z] - INFO - IP: ('172.19.68.67', 37942) executed: b'RESIZE:40:72\n'
-[2025-08-05T04:42:20.285Z] - INFO - IP: ('172.19.68.67', 37942) executed: b'SHELL:l\n'
-[2025-08-05T04:42:20.485Z] - INFO - IP: ('172.19.68.67', 37942) executed: b'SHELL:s\n'
-[2025-08-05T04:42:20.681Z] - INFO - IP: ('172.19.68.67', 37942) executed: b'SHELL:\\\n'
-[2025-08-05T04:42:21.546Z] - INFO - IP: ('172.19.68.67', 37942) executed: b'SHELL:\x7f\n'
-[2025-08-05T04:42:21.829Z] - INFO - IP: ('172.19.68.67', 37942) executed: b'SHELL:\r\n'
-[2025-08-05T04:42:23.918Z] - INFO - IP: ('172.19.68.67', 37942) executed: b'SHELL:\x04\n'
-[2025-08-05T04:42:23.925Z] - INFO - IP: ('172.19.68.67', 37942) Shell terminated
-[2025-08-05T04:42:23.926Z] - INFO - IP: ('172.19.68.67', 37942) Disconnected this client client_socket
-[2025-08-05T04:42:23.926Z] - ERROR - 
-IP: ('172.19.68.67', 37942) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-05T04:42:23.927Z] - INFO - IP: ('172.19.68.67', 37942) Session shell closed
-[2025-08-05T04:42:28.070Z] - INFO - IP: ('172.19.68.67', 37942) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T04:42:46.460Z] - INFO - IP: ('172.19.68.67', 45726) This client has been connected to your server
-[2025-08-05T04:42:46.461Z] - INFO - IP: ('172.19.68.67', 45726) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:42:46.461Z] - INFO - IP ('172.19.68.67', 45726) This client is entering the authentication process.
-[2025-08-05T04:42:46.464Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:42:46.465Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:42:46.465Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:42:46.465Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:42:46.486Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:42:46.486Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:42:46.487Z] - INFO - [DEBUG] Session ID: 05594cfc-a097-4a45-9000-0991e6a0e798
-[2025-08-05T04:42:46.487Z] - INFO - [DEBUG] Master key (shared secret): 222073e3a4ca96626431867a9b4b060245b3927a127f0ccb66205b370cbf9bd0
-[2025-08-05T04:42:51.937Z] - INFO - IP: ('172.19.68.67', 45726) Login using the password ''
-[2025-08-05T04:42:51.938Z] - INFO - IP: ('172.19.68.67', 45726) Authentication failed, Disconnecting
-[2025-08-05T04:42:51.938Z] - INFO - 
-IP: ('172.19.68.67', 45726) Disconnected this client connection
-[2025-08-05T04:42:53.923Z] - INFO - IP: ('172.19.68.67', 50312) This client has been connected to your server
-[2025-08-05T04:42:53.923Z] - INFO - IP: ('172.19.68.67', 45726) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T04:42:53.924Z] - INFO - IP: ('172.19.68.67', 50312) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:42:53.924Z] - INFO - IP ('172.19.68.67', 50312) This client is entering the authentication process.
-[2025-08-05T04:42:53.929Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:42:53.929Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:42:53.929Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:42:53.929Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:42:53.950Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:42:53.950Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:42:53.951Z] - INFO - [DEBUG] Session ID: 4728b266-3846-4d48-8fc0-b94f37269bd9
-[2025-08-05T04:42:53.951Z] - INFO - [DEBUG] Master key (shared secret): 3a40e845544249a1b9df5dfc8a0798ee65bcfb0625bec8533d95bdff60b586b6
-[2025-08-05T04:42:57.168Z] - INFO - IP: ('172.19.68.67', 50312) Login using the password 'gp59977'
-[2025-08-05T04:42:57.169Z] - INFO - IP: ('172.19.68.67', 50312) Authentication failed, Disconnecting
-[2025-08-05T04:42:57.169Z] - INFO - 
-IP: ('172.19.68.67', 50312) Disconnected this client connection
-[2025-08-05T04:43:00.948Z] - INFO - IP: ('172.19.68.67', 48986) This client has been connected to your server
-[2025-08-05T04:43:00.948Z] - INFO - IP: ('172.19.68.67', 50312) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T04:43:00.949Z] - INFO - IP: ('172.19.68.67', 48986) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:43:00.949Z] - INFO - IP ('172.19.68.67', 48986) This client is entering the authentication process.
-[2025-08-05T04:43:00.952Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:43:00.952Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:43:00.952Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:43:00.952Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:43:00.977Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:43:00.977Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:43:00.978Z] - INFO - [DEBUG] Session ID: 19922710-5912-42d5-8587-5f801794e83f
-[2025-08-05T04:43:00.979Z] - INFO - [DEBUG] Master key (shared secret): 449d5666c38d115ec3ad4797acca8f4cd1d1988cd9773acb4042659d864f8fa3
-[2025-08-05T04:43:03.536Z] - INFO - IP: ('172.19.68.67', 48986) Login using the password ':::::'
-[2025-08-05T04:43:03.537Z] - INFO - IP: ('172.19.68.67', 48986) Authentication failed, Disconnecting
-[2025-08-05T04:43:03.537Z] - INFO - 
-IP: ('172.19.68.67', 48986) Disconnected this client connection
-[2025-08-05T04:43:05.976Z] - INFO - IP: ('172.19.68.67', 49000) This client has been connected to your server
-[2025-08-05T04:43:05.977Z] - INFO - IP: ('172.19.68.67', 48986) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T04:43:05.977Z] - INFO - IP: ('172.19.68.67', 49000) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T04:43:05.977Z] - INFO - IP ('172.19.68.67', 49000) This client is entering the authentication process.
-[2025-08-05T04:43:05.980Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T04:43:05.980Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T04:43:05.980Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T04:43:05.980Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T04:43:06.003Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:43:06.003Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T04:43:06.004Z] - INFO - [DEBUG] Session ID: 3c95373a-674e-4e8d-b858-5c9fb6e3e98f
-[2025-08-05T04:43:06.004Z] - INFO - [DEBUG] Master key (shared secret): 2ecaf8059058c814c0563578fd8236ba31213c69da8fe4abc20605dfd9c10881
-[2025-08-05T04:43:21.444Z] - WARNING - Password auth failed: Connection closed
-[2025-08-05T04:43:21.444Z] - INFO - IP: ('172.19.68.67', 49000) Authentication failed, Disconnecting
-[2025-08-05T04:43:21.445Z] - INFO - 
-IP: ('172.19.68.67', 49000) Disconnected this client connection
-[2025-08-05T04:43:36.007Z] - INFO - IP: ('172.19.68.67', 49000) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:24:52.659Z] - INFO - Shutting down...
-[2025-08-05T05:24:52.746Z] - INFO - Server has closed
-[2025-08-05T05:24:52.747Z] - INFO - Waiting for server loop closed...
-[2025-08-05T05:24:53.925Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-05T05:24:53.927Z] - INFO - Server loop ended
-[2025-08-05T05:24:53.959Z] - INFO - Threads pool have been shutting down...
-[2025-08-05T05:24:53.961Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-05T05:24:53.962Z] - INFO - ***Graceful Shutdown***
-[2025-08-05T05:25:44.472Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-05T05:25:44.472Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-05T05:26:06.360Z] - INFO - IP: ('172.19.68.67', 58914) This client has been connected to your server
-[2025-08-05T05:26:06.360Z] - INFO - IP: ('172.19.68.67', 58914) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:26:06.373Z] - INFO - IP ('172.19.68.67', 58914) This client is entering the authentication process.
-[2025-08-05T05:26:06.385Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:26:06.385Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:26:06.385Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:26:06.386Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:26:06.415Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:26:06.415Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:26:06.458Z] - INFO - [DEBUG] Session ID: cfa75e09-1926-44c6-a85b-d1e4ee67462e
-[2025-08-05T05:26:06.458Z] - INFO - [DEBUG] Master key (shared secret): 4386a1a64a0f6ddae9e780239b9410d6ca21a59205b0d6a09b42bb67af0a9a61
-[2025-08-05T05:26:07.463Z] - INFO - IP: ('172.19.68.67', 58914) Login using the password 'ASK_EVERY_TIME'
-[2025-08-05T05:26:07.464Z] - INFO - IP: ('172.19.68.67', 58914) Authentication failed, Disconnecting
-[2025-08-05T05:26:07.465Z] - INFO - 
-IP: ('172.19.68.67', 58914) Disconnected this client connection
-[2025-08-05T05:26:21.388Z] - INFO - IP: ('172.19.68.67', 58914) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:27:28.071Z] - INFO - IP: ('172.19.68.67', 41940) This client has been connected to your server
-[2025-08-05T05:27:28.071Z] - INFO - IP: ('172.19.68.67', 41940) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:27:28.072Z] - INFO - IP ('172.19.68.67', 41940) This client is entering the authentication process.
-[2025-08-05T05:27:28.075Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:27:28.075Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:27:28.076Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:27:28.076Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:27:28.097Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:27:28.098Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:27:28.099Z] - INFO - [DEBUG] Session ID: 6b265968-bd6f-43c9-a391-ba7a4813969e
-[2025-08-05T05:27:28.099Z] - INFO - [DEBUG] Master key (shared secret): b0fb7a7a164d74cf646bbfc6609054dac00df79186e34ba823d58378517cc0d6
-[2025-08-05T05:27:29.146Z] - INFO - IP: ('172.19.68.67', 41940) Login using the password 'ASK_EVERY_TIME'
-[2025-08-05T05:27:29.147Z] - INFO - IP: ('172.19.68.67', 41940) Authentication failed, Disconnecting
-[2025-08-05T05:27:29.148Z] - INFO - 
-IP: ('172.19.68.67', 41940) Disconnected this client connection
-[2025-08-05T05:27:43.097Z] - INFO - IP: ('172.19.68.67', 41940) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:28:01.944Z] - INFO - IP: ('172.19.68.67', 38826) This client has been connected to your server
-[2025-08-05T05:28:01.944Z] - INFO - IP: ('172.19.68.67', 38826) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:28:01.944Z] - INFO - IP ('172.19.68.67', 38826) This client is entering the authentication process.
-[2025-08-05T05:28:01.947Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:28:01.950Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:28:01.952Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:28:01.952Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:28:01.974Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:28:01.975Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:28:01.976Z] - INFO - [DEBUG] Session ID: 73422b62-cd27-4295-8b6e-95d2c7298a47
-[2025-08-05T05:28:01.976Z] - INFO - [DEBUG] Master key (shared secret): ad7fe1bcea77feca67c1418bcfd3d517b0f01c9c126c1e9660bcfabdd23df244
-[2025-08-05T05:28:03.024Z] - INFO - IP: ('172.19.68.67', 38826) Login using the password 'ASK_EVERY_TIME'
-[2025-08-05T05:28:03.026Z] - INFO - IP: ('172.19.68.67', 38826) Authentication failed, Disconnecting
-[2025-08-05T05:28:03.026Z] - INFO - 
-IP: ('172.19.68.67', 38826) Disconnected this client connection
-[2025-08-05T05:28:16.964Z] - INFO - IP: ('172.19.68.67', 38826) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:29:33.231Z] - INFO - Shutting down...
-[2025-08-05T05:29:33.233Z] - INFO - Server has closed
-[2025-08-05T05:29:33.233Z] - INFO - Waiting for server loop closed...
-[2025-08-05T05:29:36.235Z] - INFO - Threads pool have been shutting down...
-[2025-08-05T05:29:36.235Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-05T05:29:47.047Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-05T05:29:47.048Z] - INFO - Server loop ended
-[2025-08-05T05:29:47.048Z] - INFO - ***Graceful Shutdown***
-[2025-08-05T05:29:49.287Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-05T05:29:49.288Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-05T05:29:51.665Z] - INFO - IP: ('172.19.68.67', 56108) This client has been connected to your server
-[2025-08-05T05:29:51.666Z] - INFO - IP: ('172.19.68.67', 56108) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:29:51.667Z] - INFO - IP ('172.19.68.67', 56108) This client is entering the authentication process.
-[2025-08-05T05:29:51.676Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:29:51.676Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:29:51.676Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:29:51.677Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:29:51.693Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:29:51.694Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:29:51.725Z] - INFO - [DEBUG] Session ID: d0daf5a2-a836-499e-a632-8379beabe51d
-[2025-08-05T05:29:51.725Z] - INFO - [DEBUG] Master key (shared secret): 89b2b228d54defbb8d048b9656c825e5151c531b5971371d1f3898a743b1269b
-[2025-08-05T05:29:56.637Z] - INFO - IP: ('172.19.68.67', 56108) Login using the password '680086'
-[2025-08-05T05:29:56.637Z] - INFO - IP: ('172.19.68.67', 56108) Authentication failed, Disconnecting
-[2025-08-05T05:29:56.638Z] - INFO - 
-IP: ('172.19.68.67', 56108) Disconnected this client connection
-[2025-08-05T05:30:01.247Z] - CRITICAL - An error occurred to start the server socket [CRITICAL: [Errno 98] Address already in use]
-[2025-08-05T05:30:01.247Z] - INFO - Shutting down...
-[2025-08-05T05:30:01.248Z] - INFO - Server has closed
-[2025-08-05T05:30:01.248Z] - INFO - Threads pool have been shutting down...
-[2025-08-05T05:30:01.248Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-05T05:30:05.346Z] - INFO - IP: ('172.19.68.67', 59006) This client has been connected to your server
-[2025-08-05T05:30:05.346Z] - INFO - IP: ('172.19.68.67', 56108) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:30:05.346Z] - INFO - IP: ('172.19.68.67', 59006) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:30:05.347Z] - INFO - IP ('172.19.68.67', 59006) This client is entering the authentication process.
-[2025-08-05T05:30:05.350Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:30:05.350Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:30:05.351Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:30:05.351Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:30:05.373Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:30:05.373Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:30:05.374Z] - INFO - [DEBUG] Session ID: 3589acd7-a779-4560-8546-1f6734066d52
-[2025-08-05T05:30:05.374Z] - INFO - [DEBUG] Master key (shared secret): f63f643851f03e976efa4f610d27b5fc453286b67d4e5e917b7b4ba31544b19f
-[2025-08-05T05:30:09.161Z] - INFO - IP: ('172.19.68.67', 59006) Login using the password '680086'
-[2025-08-05T05:30:09.163Z] - INFO - IP: ('172.19.68.67', 59006) Authentication failed, Disconnecting
-[2025-08-05T05:30:09.163Z] - INFO - 
-IP: ('172.19.68.67', 59006) Disconnected this client connection
-[2025-08-05T05:30:11.243Z] - CRITICAL - An error occurred to start the server socket [CRITICAL: [Errno 98] Address already in use]
-[2025-08-05T05:30:11.243Z] - INFO - Shutting down...
-[2025-08-05T05:30:11.245Z] - INFO - Server has closed
-[2025-08-05T05:30:11.245Z] - INFO - Threads pool have been shutting down...
-[2025-08-05T05:30:11.246Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-05T05:30:18.187Z] - CRITICAL - An error occurred to start the server socket [CRITICAL: [Errno 98] Address already in use]
-[2025-08-05T05:30:18.188Z] - INFO - Shutting down...
-[2025-08-05T05:30:18.188Z] - INFO - Server has closed
-[2025-08-05T05:30:18.189Z] - INFO - Threads pool have been shutting down...
-[2025-08-05T05:30:18.189Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-05T05:30:20.362Z] - INFO - IP: ('172.19.68.67', 59006) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:30:25.227Z] - INFO - IP: ('172.19.68.67', 49660) This client has been connected to your server
-[2025-08-05T05:30:25.228Z] - INFO - IP: ('172.19.68.67', 49660) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:30:25.229Z] - INFO - IP ('172.19.68.67', 49660) This client is entering the authentication process.
-[2025-08-05T05:30:25.232Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:30:25.232Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:30:25.233Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:30:25.233Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:30:25.254Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:30:25.254Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:30:25.256Z] - INFO - [DEBUG] Session ID: 2990a357-76c1-460b-8592-b855d9e47bf4
-[2025-08-05T05:30:25.256Z] - INFO - [DEBUG] Master key (shared secret): deed2161bfb1e64c37c8ff50b0a43b978e85b5effd860e754c9d7c800c28b09c
-[2025-08-05T05:30:30.104Z] - INFO - IP: ('172.19.68.67', 49660) Login using the password 'hackerman'
-[2025-08-05T05:30:30.105Z] - INFO - IP: ('172.19.68.67', 49660) Starting shell...
-[2025-08-05T05:30:30.148Z] - INFO - IP: ('172.19.68.67', 49660) executed: b'RESIZE:40:72\n'
-[2025-08-05T05:30:31.141Z] - INFO - IP: ('172.19.68.67', 49660) executed: b'SHELL:\r\n'
-[2025-08-05T05:30:32.501Z] - INFO - IP: ('172.19.68.67', 49660) executed: b'SHELL:\x04\n'
-[2025-08-05T05:30:32.504Z] - INFO - IP: ('172.19.68.67', 49660) Shell terminated
-[2025-08-05T05:30:32.505Z] - INFO - IP: ('172.19.68.67', 49660) Disconnected this client client_socket
-[2025-08-05T05:30:32.505Z] - ERROR - 
-IP: ('172.19.68.67', 49660) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-05T05:30:32.505Z] - INFO - IP: ('172.19.68.67', 49660) Session shell closed
-[2025-08-05T05:30:40.245Z] - INFO - IP: ('172.19.68.67', 49660) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:31:23.079Z] - INFO - IP: ('172.19.68.67', 58122) This client has been connected to your server
-[2025-08-05T05:31:23.079Z] - INFO - IP: ('172.19.68.67', 58122) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:31:23.080Z] - INFO - IP ('172.19.68.67', 58122) This client is entering the authentication process.
-[2025-08-05T05:31:23.083Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:31:23.084Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:31:23.084Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:31:23.084Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:31:23.109Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:31:23.109Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:31:23.113Z] - INFO - [DEBUG] Session ID: 5afb8bb7-6387-4da5-ba6e-81154758580d
-[2025-08-05T05:31:23.113Z] - INFO - [DEBUG] Master key (shared secret): b6a3e1efd784de45d7003b15bd6c82da6ea1c90ccb70089b2f7d2746c7897a50
-[2025-08-05T05:31:25.877Z] - WARNING - Password auth failed: Connection closed
-[2025-08-05T05:31:25.878Z] - INFO - IP: ('172.19.68.67', 58122) Authentication failed, Disconnecting
-[2025-08-05T05:31:25.878Z] - INFO - 
-IP: ('172.19.68.67', 58122) Disconnected this client connection
-[2025-08-05T05:31:38.095Z] - INFO - IP: ('172.19.68.67', 58122) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:32:03.397Z] - INFO - Shutting down...
-[2025-08-05T05:32:03.397Z] - INFO - Server has closed
-[2025-08-05T05:32:03.399Z] - INFO - Waiting for server loop closed...
-[2025-08-05T05:32:06.400Z] - INFO - Threads pool have been shutting down...
-[2025-08-05T05:32:06.400Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-05T05:32:08.119Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-05T05:32:08.119Z] - INFO - Server loop ended
-[2025-08-05T05:32:08.120Z] - INFO - ***Graceful Shutdown***
-[2025-08-05T05:32:42.993Z] - INFO - Running server 172.19.68.67:8822
-[2025-08-05T05:32:42.994Z] - INFO - Waiting for connection... (max clients: 1)
-[2025-08-05T05:32:46.024Z] - INFO - IP: ('172.19.68.67', 43516) This client has been connected to your server
-[2025-08-05T05:32:46.024Z] - INFO - IP: ('172.19.68.67', 43516) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:32:46.029Z] - INFO - IP ('172.19.68.67', 43516) This client is entering the authentication process.
-[2025-08-05T05:32:46.033Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:32:46.033Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:32:46.034Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:32:46.034Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:32:46.053Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:32:46.054Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:32:46.089Z] - INFO - [DEBUG] Session ID: dde1b1ea-2f16-4a9d-b84e-c619f0c8cd73
-[2025-08-05T05:32:46.090Z] - INFO - [DEBUG] Master key (shared secret): 54aecff46c5d93204d7b79d11389a99496ff8ab9f299825cac9a951c353ece37
-[2025-08-05T05:32:48.641Z] - INFO - IP: ('172.19.68.67', 43516) Login using the password 'df'
-[2025-08-05T05:32:48.644Z] - INFO - IP: ('172.19.68.67', 43516) Authentication failed, Disconnecting
-[2025-08-05T05:32:48.644Z] - INFO - 
-IP: ('172.19.68.67', 43516) Disconnected this client connection
-[2025-08-05T05:32:50.380Z] - INFO - IP: ('172.19.68.67', 38142) This client has been connected to your server
-[2025-08-05T05:32:50.380Z] - INFO - IP: ('172.19.68.67', 43516) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:32:50.380Z] - INFO - IP: ('172.19.68.67', 38142) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:32:50.381Z] - INFO - IP ('172.19.68.67', 38142) This client is entering the authentication process.
-[2025-08-05T05:32:50.385Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:32:50.385Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:32:50.385Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:32:50.385Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:32:50.406Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:32:50.407Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:32:50.408Z] - INFO - [DEBUG] Session ID: 95ac96a9-2833-4815-8b02-1adfdab0edc1
-[2025-08-05T05:32:50.409Z] - INFO - [DEBUG] Master key (shared secret): b4c7fe13f3183bbe5c25a5c1e8a833e2ee64a69dd62be3ea70d51d44ddd360f2
-[2025-08-05T05:32:55.473Z] - INFO - IP: ('172.19.68.67', 38142) Login using the password '680086'
-[2025-08-05T05:32:55.475Z] - INFO - IP: ('172.19.68.67', 38142) Authentication failed, Disconnecting
-[2025-08-05T05:32:55.475Z] - INFO - 
-IP: ('172.19.68.67', 38142) Disconnected this client connection
-[2025-08-05T05:32:57.918Z] - INFO - IP: ('172.19.68.67', 38146) This client has been connected to your server
-[2025-08-05T05:32:57.918Z] - INFO - IP: ('172.19.68.67', 38142) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:32:57.918Z] - INFO - IP: ('172.19.68.67', 38146) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:32:57.919Z] - INFO - IP ('172.19.68.67', 38146) This client is entering the authentication process.
-[2025-08-05T05:32:57.922Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:32:57.923Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:32:57.923Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:32:57.923Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:32:57.947Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:32:57.948Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:32:57.949Z] - INFO - [DEBUG] Session ID: d32c7217-4a0b-4223-8dbd-23b938699be6
-[2025-08-05T05:32:57.949Z] - INFO - [DEBUG] Master key (shared secret): c1711ba2e3285d4531293c9f38ce897959fa85bcb16184bb2b9efe52e7068087
-[2025-08-05T05:33:03.889Z] - INFO - IP: ('172.19.68.67', 38146) Login using the password 'hackerman'
-[2025-08-05T05:33:03.890Z] - INFO - IP: ('172.19.68.67', 38146) Starting shell...
-[2025-08-05T05:33:03.938Z] - INFO - IP: ('172.19.68.67', 38146) executed: b'RESIZE:40:72\n'
-[2025-08-05T05:33:05.209Z] - INFO - IP: ('172.19.68.67', 38146) executed: b'SHELL:l\n'
-[2025-08-05T05:33:05.377Z] - INFO - IP: ('172.19.68.67', 38146) executed: b'SHELL:s\n'
-[2025-08-05T05:33:05.560Z] - INFO - IP: ('172.19.68.67', 38146) executed: b'SHELL:\r\n'
-[2025-08-05T05:33:11.025Z] - INFO - IP: ('172.19.68.67', 38146) executed: b'SHELL:\x04\n'
-[2025-08-05T05:33:11.029Z] - INFO - IP: ('172.19.68.67', 38146) Shell terminated
-[2025-08-05T05:33:11.030Z] - INFO - IP: ('172.19.68.67', 38146) Disconnected this client client_socket
-[2025-08-05T05:33:11.030Z] - ERROR - 
-IP: ('172.19.68.67', 38146) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-05T05:33:11.031Z] - INFO - IP: ('172.19.68.67', 38146) Session shell closed
-[2025-08-05T05:33:12.936Z] - INFO - IP: ('172.19.68.67', 38146) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:34:15.833Z] - INFO - IP: ('172.19.68.67', 42772) This client has been connected to your server
-[2025-08-05T05:34:15.833Z] - INFO - IP: ('172.19.68.67', 42772) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:34:15.834Z] - INFO - IP ('172.19.68.67', 42772) This client is entering the authentication process.
-[2025-08-05T05:34:15.837Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:34:15.838Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:34:15.838Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:34:15.838Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:34:15.862Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:34:15.862Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:34:15.863Z] - INFO - [DEBUG] Session ID: fc6368a8-4e17-453a-a40b-78c3bc9cb044
-[2025-08-05T05:34:15.863Z] - INFO - [DEBUG] Master key (shared secret): cbb067863179c41bb4dcae2e5c29b64d6cd647acb49017cd78dd66314a1673cd
-[2025-08-05T05:34:16.909Z] - INFO - IP: ('172.19.68.67', 42772) Login using the password 'fuckyou # ASK_EVERY_TIME'
-[2025-08-05T05:34:16.910Z] - INFO - IP: ('172.19.68.67', 42772) Authentication failed, Disconnecting
-[2025-08-05T05:34:16.910Z] - INFO - 
-IP: ('172.19.68.67', 42772) Disconnected this client connection
-[2025-08-05T05:34:26.341Z] - INFO - IP: ('172.19.68.67', 47862) This client has been connected to your server
-[2025-08-05T05:34:26.342Z] - INFO - IP: ('172.19.68.67', 42772) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:34:26.343Z] - INFO - IP: ('172.19.68.67', 47862) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:34:26.343Z] - INFO - IP ('172.19.68.67', 47862) This client is entering the authentication process.
-[2025-08-05T05:34:26.346Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:34:26.346Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:34:26.346Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:34:26.346Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:34:26.367Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:34:26.367Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:34:26.368Z] - INFO - [DEBUG] Session ID: c9eb267f-939c-40bf-bfd0-13bb794c3438
-[2025-08-05T05:34:26.368Z] - INFO - [DEBUG] Master key (shared secret): 487e0112a1beb0570235d9cd7985b9d8f1a6d751296a5c1bffe4a7a1de12fc4d
-[2025-08-05T05:34:27.417Z] - INFO - IP: ('172.19.68.67', 47862) Login using the password 'fuckyou # ASK_EVERY_TIME'
-[2025-08-05T05:34:27.418Z] - INFO - IP: ('172.19.68.67', 47862) Authentication failed, Disconnecting
-[2025-08-05T05:34:27.418Z] - INFO - 
-IP: ('172.19.68.67', 47862) Disconnected this client connection
-[2025-08-05T05:34:41.359Z] - INFO - IP: ('172.19.68.67', 47862) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:35:57.204Z] - INFO - IP: ('172.19.68.67', 39808) This client has been connected to your server
-[2025-08-05T05:35:57.205Z] - INFO - IP: ('172.19.68.67', 39808) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:35:57.205Z] - INFO - IP ('172.19.68.67', 39808) This client is entering the authentication process.
-[2025-08-05T05:35:57.208Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:35:57.209Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:35:57.209Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:35:57.209Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:35:57.230Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:35:57.230Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:35:57.231Z] - INFO - [DEBUG] Session ID: ffc10592-2113-4826-84d5-234eeb75d9ed
-[2025-08-05T05:35:57.231Z] - INFO - [DEBUG] Master key (shared secret): e8685dfa29f4a5dde6a400b736ce87830a48800b4ec4655413dc66c6d5a721f7
-[2025-08-05T05:35:58.280Z] - INFO - IP: ('172.19.68.67', 39808) Login using the password 'fuckyou # ASK_EVERY_TIME'
-[2025-08-05T05:35:58.281Z] - INFO - IP: ('172.19.68.67', 39808) Authentication failed, Disconnecting
-[2025-08-05T05:35:58.282Z] - INFO - 
-IP: ('172.19.68.67', 39808) Disconnected this client connection
-[2025-08-05T05:36:12.220Z] - INFO - IP: ('172.19.68.67', 39808) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:36:55.148Z] - INFO - IP: ('172.19.68.67', 36490) This client has been connected to your server
-[2025-08-05T05:36:55.148Z] - INFO - IP: ('172.19.68.67', 36490) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:36:55.149Z] - INFO - IP ('172.19.68.67', 36490) This client is entering the authentication process.
-[2025-08-05T05:36:55.154Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:36:55.154Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:36:55.154Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:36:55.154Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:36:55.173Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:36:55.174Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:36:55.174Z] - INFO - [DEBUG] Session ID: 4c8d4f0f-a2e1-41ac-8b7f-6a966793b507
-[2025-08-05T05:36:55.175Z] - INFO - [DEBUG] Master key (shared secret): 1ab5646137b672b84fe7b24de5d2e10ac2e145318f822f772e7175031fa040ee
-[2025-08-05T05:36:56.180Z] - WARNING - Password auth failed: Connection closed
-[2025-08-05T05:36:56.180Z] - INFO - IP: ('172.19.68.67', 36490) Authentication failed, Disconnecting
-[2025-08-05T05:36:56.181Z] - INFO - 
-IP: ('172.19.68.67', 36490) Disconnected this client connection
-[2025-08-05T05:37:10.164Z] - INFO - IP: ('172.19.68.67', 36490) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:37:37.506Z] - INFO - IP: ('172.19.68.67', 60006) This client has been connected to your server
-[2025-08-05T05:37:37.507Z] - INFO - IP: ('172.19.68.67', 60006) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:37:37.508Z] - INFO - IP ('172.19.68.67', 60006) This client is entering the authentication process.
-[2025-08-05T05:37:37.511Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:37:37.511Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:37:37.512Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:37:37.512Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:37:37.539Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:37:37.539Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:37:37.540Z] - INFO - [DEBUG] Session ID: c30b9790-bad4-42fd-a5f4-2b365f8744f3
-[2025-08-05T05:37:37.540Z] - INFO - [DEBUG] Master key (shared secret): a7eff34471bf82a6dbccc9854da4cf9eec63e0e210a3026820c7533a174bf256
-[2025-08-05T05:37:41.621Z] - INFO - IP: ('172.19.68.67', 60006) Login using the password '676'
-[2025-08-05T05:37:41.622Z] - INFO - IP: ('172.19.68.67', 60006) Authentication failed, Disconnecting
-[2025-08-05T05:37:41.623Z] - INFO - 
-IP: ('172.19.68.67', 60006) Disconnected this client connection
-[2025-08-05T05:37:52.524Z] - INFO - IP: ('172.19.68.67', 60006) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:39:24.262Z] - INFO - IP: ('172.19.68.67', 57478) This client has been connected to your server
-[2025-08-05T05:39:24.262Z] - INFO - IP: ('172.19.68.67', 57478) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:39:24.263Z] - INFO - IP ('172.19.68.67', 57478) This client is entering the authentication process.
-[2025-08-05T05:39:24.265Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:39:24.266Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:39:24.266Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:39:24.266Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:39:24.287Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:39:24.288Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:39:24.288Z] - INFO - [DEBUG] Session ID: 263ef521-b573-4a1f-b995-5980d32ae045
-[2025-08-05T05:39:24.289Z] - INFO - [DEBUG] Master key (shared secret): 0a31dd637a6044a15a012d2107064eb4d8886a7bd3c35b85923826bbe3d8f513
-[2025-08-05T05:39:29.796Z] - INFO - IP: ('172.19.68.67', 57478) Login using the password '68-00'
-[2025-08-05T05:39:29.797Z] - INFO - IP: ('172.19.68.67', 57478) Authentication failed, Disconnecting
-[2025-08-05T05:39:29.797Z] - INFO - 
-IP: ('172.19.68.67', 57478) Disconnected this client connection
-[2025-08-05T05:39:39.271Z] - INFO - IP: ('172.19.68.67', 57478) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:39:44.690Z] - INFO - IP: ('172.19.68.67', 34430) This client has been connected to your server
-[2025-08-05T05:39:44.690Z] - INFO - IP: ('172.19.68.67', 34430) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:39:44.690Z] - INFO - IP ('172.19.68.67', 34430) This client is entering the authentication process.
-[2025-08-05T05:39:44.694Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:39:44.694Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:39:44.695Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:39:44.695Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:39:44.719Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:39:44.719Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:39:44.720Z] - INFO - [DEBUG] Session ID: e85fbf6d-df30-4cb9-9fb6-4f1199466e0f
-[2025-08-05T05:39:44.720Z] - INFO - [DEBUG] Master key (shared secret): ebf757e1b65b4093b3093a43ff7cf06170a1b57ea8c4241bca8b2b5b13c03d04
-[2025-08-05T05:39:45.769Z] - INFO - IP: ('172.19.68.67', 34430) Login using the password 'fuck'
-[2025-08-05T05:39:45.770Z] - INFO - IP: ('172.19.68.67', 34430) Authentication failed, Disconnecting
-[2025-08-05T05:39:45.771Z] - INFO - 
-IP: ('172.19.68.67', 34430) Disconnected this client connection
-[2025-08-05T05:39:58.460Z] - INFO - IP: ('172.19.68.67', 37994) This client has been connected to your server
-[2025-08-05T05:39:58.460Z] - INFO - IP: ('172.19.68.67', 34430) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:39:58.460Z] - INFO - IP: ('172.19.68.67', 37994) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:39:58.461Z] - INFO - IP ('172.19.68.67', 37994) This client is entering the authentication process.
-[2025-08-05T05:39:58.463Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:39:58.480Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:39:58.480Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:39:58.480Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:39:58.656Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:39:58.656Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:39:58.657Z] - INFO - [DEBUG] Session ID: 9ea3159c-b997-4f93-8044-c826d4f0a8e8
-[2025-08-05T05:39:58.657Z] - INFO - [DEBUG] Master key (shared secret): 86c2ba7f8eaadd149045f672cd7cc8878b893ce54f3a9996c26636fc2937c757
-[2025-08-05T05:39:59.705Z] - INFO - IP: ('172.19.68.67', 37994) Login using the password 'fuck'
-[2025-08-05T05:39:59.706Z] - INFO - IP: ('172.19.68.67', 37994) Authentication failed, Disconnecting
-[2025-08-05T05:39:59.707Z] - INFO - 
-IP: ('172.19.68.67', 37994) Disconnected this client connection
-[2025-08-05T05:40:07.689Z] - INFO - IP: ('172.19.68.67', 53216) This client has been connected to your server
-[2025-08-05T05:40:07.689Z] - INFO - IP: ('172.19.68.67', 37994) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:40:07.689Z] - INFO - IP: ('172.19.68.67', 53216) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:40:07.690Z] - INFO - IP ('172.19.68.67', 53216) This client is entering the authentication process.
-[2025-08-05T05:40:07.702Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:40:07.702Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:40:07.703Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:40:07.703Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:40:07.754Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:40:07.755Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:40:07.756Z] - INFO - [DEBUG] Session ID: be4bba92-ad0f-4116-90ba-081a7bce40dc
-[2025-08-05T05:40:07.756Z] - INFO - [DEBUG] Master key (shared secret): a497e47ce329308437c4b383a1c25efa392b8f1424160e2d3ca5bb6456869851
-[2025-08-05T05:40:08.814Z] - INFO - IP: ('172.19.68.67', 53216) Login using the password 'fuck'
-[2025-08-05T05:40:08.815Z] - INFO - IP: ('172.19.68.67', 53216) Authentication failed, Disconnecting
-[2025-08-05T05:40:08.816Z] - INFO - 
-IP: ('172.19.68.67', 53216) Disconnected this client connection
-[2025-08-05T05:40:11.242Z] - INFO - IP: ('172.19.68.67', 44654) This client has been connected to your server
-[2025-08-05T05:40:11.242Z] - INFO - IP: ('172.19.68.67', 53216) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:40:11.242Z] - INFO - IP: ('172.19.68.67', 44654) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:40:11.242Z] - INFO - IP ('172.19.68.67', 44654) This client is entering the authentication process.
-[2025-08-05T05:40:11.245Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:40:11.245Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:40:11.245Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:40:11.246Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:40:11.268Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:40:11.268Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:40:11.269Z] - INFO - [DEBUG] Session ID: 6b7b99b2-c279-4ed6-861d-ca829fa77403
-[2025-08-05T05:40:11.269Z] - INFO - [DEBUG] Master key (shared secret): a009105ab053e175be1eadd759697dcb4d6dc8a4430e3fd9bf2fe7eeaa77ece9
-[2025-08-05T05:40:12.317Z] - INFO - IP: ('172.19.68.67', 44654) Login using the password 'fuck'
-[2025-08-05T05:40:12.318Z] - INFO - IP: ('172.19.68.67', 44654) Authentication failed, Disconnecting
-[2025-08-05T05:40:12.319Z] - INFO - 
-IP: ('172.19.68.67', 44654) Disconnected this client connection
-[2025-08-05T05:40:26.256Z] - INFO - IP: ('172.19.68.67', 44654) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:40:28.915Z] - INFO - IP: ('172.19.68.67', 53068) This client has been connected to your server
-[2025-08-05T05:40:28.916Z] - INFO - IP: ('172.19.68.67', 53068) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:40:28.916Z] - INFO - IP ('172.19.68.67', 53068) This client is entering the authentication process.
-[2025-08-05T05:40:28.920Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:40:28.920Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:40:28.920Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:40:28.920Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:40:28.945Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:40:28.946Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:40:28.947Z] - INFO - [DEBUG] Session ID: 6ca00a47-361b-4b43-8fd5-3a79c78a0540
-[2025-08-05T05:40:28.947Z] - INFO - [DEBUG] Master key (shared secret): 134172fd3615f06994873d4b4900019cda6276298c828704de1a8b735b8e8a2f
-[2025-08-05T05:40:29.993Z] - INFO - IP: ('172.19.68.67', 53068) Login using the password 'hackerman'
-[2025-08-05T05:40:29.994Z] - INFO - IP: ('172.19.68.67', 53068) Starting shell...
-[2025-08-05T05:40:30.085Z] - INFO - IP: ('172.19.68.67', 53068) executed: b'RESIZE:40:72\n'
-[2025-08-05T05:40:33.861Z] - INFO - IP: ('172.19.68.67', 53068) executed: b'SHELL:\x03\n'
-[2025-08-05T05:40:35.433Z] - INFO - IP: ('172.19.68.67', 53068) executed: b'SHELL:\x04\n'
-[2025-08-05T05:40:35.436Z] - INFO - IP: ('172.19.68.67', 53068) Shell terminated
-[2025-08-05T05:40:35.437Z] - INFO - IP: ('172.19.68.67', 53068) Disconnected this client client_socket
-[2025-08-05T05:40:35.438Z] - ERROR - 
-IP: ('172.19.68.67', 53068) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-05T05:40:35.438Z] - INFO - IP: ('172.19.68.67', 53068) Session shell closed
-[2025-08-05T05:40:41.423Z] - INFO - IP: ('172.19.68.67', 39940) This client has been connected to your server
-[2025-08-05T05:40:41.423Z] - INFO - IP: ('172.19.68.67', 53068) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:40:41.423Z] - INFO - IP: ('172.19.68.67', 39940) This client is number 1 that connects to the server from the maximum number of 1 clients
-[2025-08-05T05:40:41.424Z] - INFO - IP ('172.19.68.67', 39940) This client is entering the authentication process.
-[2025-08-05T05:40:41.427Z] - INFO - Certificate and key loaded from storage
-[2025-08-05T05:40:41.427Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
-[2025-08-05T05:40:41.428Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
-[2025-08-05T05:40:41.428Z] - INFO - Waiting for quantum handshake...
-[2025-08-05T05:40:41.449Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:40:41.450Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
-[2025-08-05T05:40:41.451Z] - INFO - [DEBUG] Session ID: bdde65b7-a2b3-4b46-9add-418aa741de60
-[2025-08-05T05:40:41.451Z] - INFO - [DEBUG] Master key (shared secret): 1829dee87398b98e356da97cd1cffc4951a5b9d2689ec5198dc81195c2295d0d
-[2025-08-05T05:40:42.497Z] - INFO - IP: ('172.19.68.67', 39940) Login using the password 'hackerman'
-[2025-08-05T05:40:42.498Z] - INFO - IP: ('172.19.68.67', 39940) Starting shell...
-[2025-08-05T05:40:42.585Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'RESIZE:40:72\n'
-[2025-08-05T05:40:44.213Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:l\n'
-[2025-08-05T05:40:44.348Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:s\n'
-[2025-08-05T05:40:44.576Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:\r\n'
-[2025-08-05T05:40:44.577Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:\\\n'
-[2025-08-05T05:40:55.253Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:l\n'
-[2025-08-05T05:40:55.397Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:s\n'
-[2025-08-05T05:40:55.657Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:\r\n'
-[2025-08-05T05:40:56.661Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:l\n'
-[2025-08-05T05:40:56.773Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:s\n'
-[2025-08-05T05:40:56.960Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:\r\n'
-[2025-08-05T05:40:59.997Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:l\n'
-[2025-08-05T05:41:00.097Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:s\n'
-[2025-08-05T05:41:00.385Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL: \n'
-[2025-08-05T05:41:00.565Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:-\n'
-[2025-08-05T05:41:00.821Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:l\n'
-[2025-08-05T05:41:00.969Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:a\n'
-[2025-08-05T05:41:01.765Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:\r\n'
-[2025-08-05T05:41:12.949Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:\x1b[200~self.logger.info("[AUTH] A\n'
-[2025-08-05T05:41:12.950Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:uto Fill from security.ini...")\x1b[201~\n'
-[2025-08-05T05:41:14.924Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:\x1b[200~self.logge\n'
-[2025-08-05T05:41:14.925Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:r.info("[AUTH] A\n'
-[2025-08-05T05:41:14.925Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:uto Fill from se\n'
-[2025-08-05T05:41:14.926Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:curity.ini...")\n'
-[2025-08-05T05:41:14.926Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:\x1b[201~\n'
-[2025-08-05T05:41:15.257Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:\r\n'
-[2025-08-05T05:41:15.792Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:\r\n'
-[2025-08-05T05:41:16.005Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:\r\n'
-[2025-08-05T05:41:22.233Z] - INFO - IP: ('172.19.68.67', 39940) executed: b'SHELL:\x04\n'
-[2025-08-05T05:41:22.237Z] - INFO - IP: ('172.19.68.67', 39940) Shell terminated
-[2025-08-05T05:41:22.238Z] - INFO - IP: ('172.19.68.67', 39940) Disconnected this client client_socket
-[2025-08-05T05:41:22.239Z] - ERROR - 
-IP: ('172.19.68.67', 39940) Session shell error [ERROR: [Errno 5] Input/output error]
-[2025-08-05T05:41:22.239Z] - INFO - IP: ('172.19.68.67', 39940) Session shell closed
-[2025-08-05T05:41:23.947Z] - INFO - Shutting down...
-[2025-08-05T05:41:23.948Z] - INFO - IP: ('172.19.68.67', 39940) This client has disconnected. But also in the list of work clients Cleaning
-[2025-08-05T05:41:23.948Z] - INFO - Server has closed
-[2025-08-05T05:41:23.949Z] - INFO - Waiting for server loop closed...
-[2025-08-05T05:41:26.452Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
-[2025-08-05T05:41:26.453Z] - INFO - Server loop ended
-[2025-08-05T05:41:26.454Z] - INFO - Threads pool have been shutting down...
-[2025-08-05T05:41:26.455Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
-[2025-08-05T05:41:26.456Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T05:57:57.941Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T05:57:57.941Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T05:58:00.415Z] - INFO - IP: ('172.19.68.67', 39726) This client has been connected to your server
+[2025-08-05T05:58:00.415Z] - INFO - IP: ('172.19.68.67', 39726) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T05:58:00.421Z] - INFO - IP ('172.19.68.67', 39726) This client is entering the authentication process.
+[2025-08-05T05:58:15.438Z] - INFO - IP: ('172.19.68.67', 39726) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T05:59:31.900Z] - INFO - Shutting down...
+[2025-08-05T05:59:31.901Z] - INFO - Server has closed
+[2025-08-05T05:59:31.902Z] - INFO - Waiting for server loop closed...
+[2025-08-05T05:59:33.922Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T05:59:33.923Z] - INFO - Server loop ended
+[2025-08-05T05:59:33.925Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T05:59:33.926Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T05:59:33.926Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T05:59:41.068Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T05:59:41.069Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T05:59:44.420Z] - INFO - IP: ('172.19.68.67', 36484) This client has been connected to your server
+[2025-08-05T05:59:44.421Z] - INFO - IP: ('172.19.68.67', 36484) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T05:59:44.425Z] - INFO - IP ('172.19.68.67', 36484) This client is entering the authentication process.
+[2025-08-05T05:59:59.442Z] - INFO - IP: ('172.19.68.67', 36484) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T06:03:57.217Z] - INFO - Shutting down...
+[2025-08-05T06:03:57.233Z] - INFO - Server has closed
+[2025-08-05T06:03:57.233Z] - INFO - Waiting for server loop closed...
+[2025-08-05T06:03:59.905Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T06:03:59.905Z] - INFO - Server loop ended
+[2025-08-05T06:03:59.985Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T06:03:59.985Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T06:03:59.985Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T06:04:29.294Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T06:04:29.295Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T06:04:34.263Z] - INFO - IP: ('172.19.68.67', 45772) This client has been connected to your server
+[2025-08-05T06:04:34.263Z] - INFO - IP: ('172.19.68.67', 45772) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T06:04:34.265Z] - INFO - IP ('172.19.68.67', 45772) This client is entering the authentication process.
+[2025-08-05T06:04:49.280Z] - INFO - IP: ('172.19.68.67', 45772) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:05:44.270Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:05:44.272Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:06:05.406Z] - INFO - IP: ('172.19.68.67', 43698) This client has been connected to your server
+[2025-08-05T07:06:05.407Z] - INFO - IP: ('172.19.68.67', 43698) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:06:05.411Z] - INFO - IP ('172.19.68.67', 43698) This client is entering the authentication process.
+[2025-08-05T07:06:20.427Z] - INFO - IP: ('172.19.68.67', 43698) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:39:21.308Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:39:21.311Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:39:24.428Z] - INFO - Shutting down...
+[2025-08-05T07:39:24.428Z] - INFO - Server has closed
+[2025-08-05T07:39:24.429Z] - INFO - Waiting for server loop closed...
+[2025-08-05T07:39:27.430Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T07:39:27.431Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T07:39:35.719Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T07:39:35.719Z] - INFO - Server loop ended
+[2025-08-05T07:39:35.720Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T07:39:36.745Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:39:36.746Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:39:53.558Z] - INFO - IP: ('172.19.68.67', 52530) This client has been connected to your server
+[2025-08-05T07:39:53.559Z] - INFO - IP: ('172.19.68.67', 52530) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:39:53.561Z] - INFO - IP ('172.19.68.67', 52530) This client is entering the authentication process.
+[2025-08-05T07:40:07.962Z] - INFO - IP: ('172.19.68.67', 52530) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:44:20.608Z] - INFO - IP: ('172.19.68.67', 50576) This client has been connected to your server
+[2025-08-05T07:44:20.613Z] - INFO - IP: ('172.19.68.67', 50576) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:44:20.619Z] - INFO - IP ('172.19.68.67', 50576) This client is entering the authentication process.
+[2025-08-05T07:44:35.636Z] - INFO - IP: ('172.19.68.67', 50576) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:46:42.213Z] - INFO - IP: ('172.19.68.67', 58404) This client has been connected to your server
+[2025-08-05T07:46:42.214Z] - INFO - IP: ('172.19.68.67', 58404) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:46:42.215Z] - INFO - IP ('172.19.68.67', 58404) This client is entering the authentication process.
+[2025-08-05T07:46:46.480Z] - INFO - Shutting down...
+[2025-08-05T07:46:46.482Z] - INFO - IP: ('172.19.68.67', 58404) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:46:46.482Z] - INFO - Server has closed
+[2025-08-05T07:46:46.483Z] - INFO - Waiting for server loop closed...
+[2025-08-05T07:46:49.484Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T07:46:49.485Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T07:46:56.237Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T07:46:56.238Z] - INFO - Server loop ended
+[2025-08-05T07:46:56.240Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T07:47:04.169Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:47:04.169Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:47:06.493Z] - INFO - IP: ('172.19.68.67', 48402) This client has been connected to your server
+[2025-08-05T07:47:06.493Z] - INFO - IP: ('172.19.68.67', 48402) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:47:06.499Z] - INFO - IP ('172.19.68.67', 48402) This client is entering the authentication process.
+[2025-08-05T07:47:21.515Z] - INFO - IP: ('172.19.68.67', 48402) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:49:05.900Z] - INFO - IP: ('172.19.68.67', 55026) This client has been connected to your server
+[2025-08-05T07:49:05.900Z] - INFO - IP: ('172.19.68.67', 55026) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:49:05.901Z] - INFO - IP ('172.19.68.67', 55026) This client is entering the authentication process.
+[2025-08-05T07:49:09.977Z] - INFO - Shutting down...
+[2025-08-05T07:49:09.978Z] - INFO - IP: ('172.19.68.67', 55026) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:49:09.978Z] - INFO - Server has closed
+[2025-08-05T07:49:09.979Z] - INFO - Waiting for server loop closed...
+[2025-08-05T07:49:12.981Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T07:49:12.982Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T07:49:20.911Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T07:49:20.911Z] - INFO - Server loop ended
+[2025-08-05T07:49:20.912Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T07:49:34.991Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:49:34.992Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:49:37.724Z] - INFO - IP: ('172.19.68.67', 43090) This client has been connected to your server
+[2025-08-05T07:49:37.724Z] - INFO - IP: ('172.19.68.67', 43090) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:49:37.727Z] - INFO - IP ('172.19.68.67', 43090) This client is entering the authentication process.
+[2025-08-05T07:49:52.743Z] - INFO - IP: ('172.19.68.67', 43090) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:50:34.176Z] - INFO - Shutting down...
+[2025-08-05T07:50:34.176Z] - INFO - Server has closed
+[2025-08-05T07:50:34.176Z] - INFO - Waiting for server loop closed...
+[2025-08-05T07:50:37.177Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T07:50:37.178Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T07:50:37.785Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T07:50:37.785Z] - INFO - Server loop ended
+[2025-08-05T07:50:37.786Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T07:50:45.688Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:50:45.688Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:50:49.620Z] - INFO - IP: ('172.19.68.67', 46674) This client has been connected to your server
+[2025-08-05T07:50:49.621Z] - INFO - IP: ('172.19.68.67', 46674) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:50:49.628Z] - INFO - IP ('172.19.68.67', 46674) This client is entering the authentication process.
+[2025-08-05T07:51:00.357Z] - INFO - Shutting down...
+[2025-08-05T07:51:00.357Z] - INFO - IP: ('172.19.68.67', 46674) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:51:00.357Z] - INFO - Server has closed
+[2025-08-05T07:51:00.357Z] - INFO - Waiting for server loop closed...
+[2025-08-05T07:51:03.358Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T07:51:03.359Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T07:51:04.658Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T07:51:04.659Z] - INFO - Server loop ended
+[2025-08-05T07:51:04.660Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T07:52:15.268Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:52:15.269Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:52:17.319Z] - INFO - IP: ('172.19.68.67', 55502) This client has been connected to your server
+[2025-08-05T07:52:17.320Z] - INFO - IP: ('172.19.68.67', 55502) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:52:17.326Z] - INFO - IP ('172.19.68.67', 55502) This client is entering the authentication process.
+[2025-08-05T07:52:32.341Z] - INFO - IP: ('172.19.68.67', 55502) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:52:40.946Z] - INFO - Shutting down...
+[2025-08-05T07:52:40.947Z] - INFO - Server has closed
+[2025-08-05T07:52:40.947Z] - INFO - Waiting for server loop closed...
+[2025-08-05T07:52:43.948Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T07:52:43.949Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T07:52:47.357Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T07:52:47.358Z] - INFO - Server loop ended
+[2025-08-05T07:52:47.359Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T07:52:51.432Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:52:51.433Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:52:56.556Z] - INFO - IP: ('172.19.68.67', 59896) This client has been connected to your server
+[2025-08-05T07:52:56.556Z] - INFO - IP: ('172.19.68.67', 59896) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:52:56.564Z] - INFO - IP ('172.19.68.67', 59896) This client is entering the authentication process.
+[2025-08-05T07:53:11.580Z] - INFO - IP: ('172.19.68.67', 59896) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:53:27.143Z] - INFO - Shutting down...
+[2025-08-05T07:53:27.144Z] - INFO - Server has closed
+[2025-08-05T07:53:27.144Z] - INFO - Waiting for server loop closed...
+[2025-08-05T07:53:30.146Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T07:53:30.147Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T07:53:41.612Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T07:53:41.613Z] - INFO - Server loop ended
+[2025-08-05T07:53:41.614Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T07:53:46.758Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:53:46.758Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:53:49.489Z] - INFO - IP: ('172.19.68.67', 56642) This client has been connected to your server
+[2025-08-05T07:53:49.489Z] - INFO - IP: ('172.19.68.67', 56642) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:53:49.494Z] - INFO - IP ('172.19.68.67', 56642) This client is entering the authentication process.
+[2025-08-05T07:54:04.508Z] - INFO - IP: ('172.19.68.67', 56642) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:54:40.904Z] - INFO - Shutting down...
+[2025-08-05T07:54:40.905Z] - INFO - Server has closed
+[2025-08-05T07:54:40.905Z] - INFO - Waiting for server loop closed...
+[2025-08-05T07:54:43.906Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T07:54:43.907Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T07:54:49.554Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T07:54:49.555Z] - INFO - Server loop ended
+[2025-08-05T07:54:49.556Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T07:54:58.143Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:54:58.143Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:55:02.209Z] - INFO - IP: ('172.19.68.67', 40638) This client has been connected to your server
+[2025-08-05T07:55:02.209Z] - INFO - IP: ('172.19.68.67', 40638) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:55:02.215Z] - INFO - IP ('172.19.68.67', 40638) This client is entering the authentication process.
+[2025-08-05T07:55:13.055Z] - INFO - Shutting down...
+[2025-08-05T07:55:13.056Z] - INFO - IP: ('172.19.68.67', 40638) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:55:13.057Z] - INFO - Server has closed
+[2025-08-05T07:55:13.057Z] - INFO - Waiting for server loop closed...
+[2025-08-05T07:55:16.058Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T07:55:16.059Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T07:55:17.231Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T07:55:17.232Z] - INFO - Server loop ended
+[2025-08-05T07:55:17.233Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T07:57:25.876Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:57:25.876Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:57:27.520Z] - INFO - IP: ('172.19.68.67', 59320) This client has been connected to your server
+[2025-08-05T07:57:27.521Z] - INFO - IP: ('172.19.68.67', 59320) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:57:27.529Z] - INFO - IP ('172.19.68.67', 59320) This client is entering the authentication process.
+[2025-08-05T07:57:42.544Z] - INFO - IP: ('172.19.68.67', 59320) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:57:53.920Z] - INFO - Shutting down...
+[2025-08-05T07:57:53.921Z] - INFO - Server has closed
+[2025-08-05T07:57:53.924Z] - INFO - Waiting for server loop closed...
+[2025-08-05T07:57:56.926Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T07:57:56.926Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T07:57:57.560Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T07:57:57.561Z] - INFO - Server loop ended
+[2025-08-05T07:57:57.562Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T07:58:00.432Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:58:00.433Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:58:04.249Z] - INFO - IP: ('172.19.68.67', 56664) This client has been connected to your server
+[2025-08-05T07:58:04.250Z] - INFO - IP: ('172.19.68.67', 56664) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:58:04.256Z] - INFO - IP ('172.19.68.67', 56664) This client is entering the authentication process.
+[2025-08-05T07:58:19.272Z] - INFO - IP: ('172.19.68.67', 56664) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:59:14.812Z] - INFO - Shutting down...
+[2025-08-05T07:59:14.813Z] - INFO - Server has closed
+[2025-08-05T07:59:14.813Z] - INFO - Waiting for server loop closed...
+[2025-08-05T07:59:17.814Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T07:59:17.815Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T07:59:19.331Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T07:59:19.331Z] - INFO - Server loop ended
+[2025-08-05T07:59:19.332Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T07:59:24.527Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:59:24.529Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T07:59:27.430Z] - INFO - IP: ('172.19.68.67', 40828) This client has been connected to your server
+[2025-08-05T07:59:27.431Z] - INFO - IP: ('172.19.68.67', 40828) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T07:59:27.432Z] - INFO - IP ('172.19.68.67', 40828) This client is entering the authentication process.
+[2025-08-05T07:59:37.056Z] - INFO - Shutting down...
+[2025-08-05T07:59:37.057Z] - INFO - IP: ('172.19.68.67', 40828) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T07:59:37.058Z] - INFO - Server has closed
+[2025-08-05T07:59:37.058Z] - INFO - Waiting for server loop closed...
+[2025-08-05T07:59:40.059Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T07:59:40.059Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T07:59:42.448Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T07:59:42.449Z] - INFO - Server loop ended
+[2025-08-05T07:59:42.451Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T07:59:59.454Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T07:59:59.455Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T08:00:01.257Z] - INFO - IP: ('172.19.68.67', 56748) This client has been connected to your server
+[2025-08-05T08:00:01.258Z] - INFO - IP: ('172.19.68.67', 56748) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T08:00:01.265Z] - INFO - IP ('172.19.68.67', 56748) This client is entering the authentication process.
+[2025-08-05T08:00:16.281Z] - INFO - IP: ('172.19.68.67', 56748) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T08:02:29.774Z] - INFO - Shutting down...
+[2025-08-05T08:02:29.774Z] - INFO - Server has closed
+[2025-08-05T08:02:29.775Z] - INFO - Waiting for server loop closed...
+[2025-08-05T08:02:31.419Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T08:02:31.419Z] - INFO - Server loop ended
+[2025-08-05T08:02:31.421Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T08:02:31.421Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T08:02:31.421Z] - INFO - ***Graceful Shutdown***
+[2025-08-05T08:02:43.338Z] - INFO - Running server 172.19.68.67:8822
+[2025-08-05T08:02:43.339Z] - INFO - Waiting for connection... (max clients: 1)
+[2025-08-05T08:02:48.439Z] - INFO - IP: ('172.19.68.67', 58542) This client has been connected to your server
+[2025-08-05T08:02:48.439Z] - INFO - IP: ('172.19.68.67', 58542) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T08:02:48.444Z] - INFO - IP ('172.19.68.67', 58542) This client is entering the authentication process.
+[2025-08-05T08:02:48.466Z] - INFO - New certificate and key created and saved to .config/server
+[2025-08-05T08:02:48.466Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
+[2025-08-05T08:02:48.467Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
+[2025-08-05T08:02:48.467Z] - INFO - Waiting for quantum handshake...
+[2025-08-05T08:02:48.483Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
+[2025-08-05T08:02:48.483Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
+[2025-08-05T08:02:48.538Z] - INFO - [DEBUG] Session ID: 2bfb6d7c-81bb-4aa2-b551-e33ada3fbfb9
+[2025-08-05T08:02:48.538Z] - INFO - [DEBUG] Master key (shared secret): cdde8b40d8c656165db8041a03accf6a7be87ccb8e046379549b457fff8fe973
+[2025-08-05T08:02:53.073Z] - INFO - IP: ('172.19.68.67', 58542) Login using the password '680086'
+[2025-08-05T08:02:53.074Z] - INFO - IP: ('172.19.68.67', 58542) Authentication failed, Disconnecting
+[2025-08-05T08:02:53.074Z] - INFO - 
+IP: ('172.19.68.67', 58542) Disconnected this client connection
+[2025-08-05T08:03:03.066Z] - INFO - IP: ('172.19.68.67', 37832) This client has been connected to your server
+[2025-08-05T08:03:03.067Z] - INFO - IP: ('172.19.68.67', 58542) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T08:03:03.067Z] - INFO - IP: ('172.19.68.67', 37832) This client is number 1 that connects to the server from the maximum number of 1 clients
+[2025-08-05T08:03:03.069Z] - INFO - IP ('172.19.68.67', 37832) This client is entering the authentication process.
+[2025-08-05T08:03:03.081Z] - INFO - Certificate and key loaded from storage
+[2025-08-05T08:03:03.081Z] - INFO - [Quantum Protocol] Using Hybrid Kyber1024 + ECDH
+[2025-08-05T08:03:03.082Z] - INFO - [Quantum Protocol] Signature Algorithm: Dilithium3
+[2025-08-05T08:03:03.082Z] - INFO - Waiting for quantum handshake...
+[2025-08-05T08:03:03.096Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
+[2025-08-05T08:03:03.096Z] - INFO - [Quantum Protocol] Shared secret size: 32 bytes
+[2025-08-05T08:03:03.097Z] - INFO - [DEBUG] Session ID: b17a4c9d-1d14-4cf3-8265-12660ba9856f
+[2025-08-05T08:03:03.098Z] - INFO - [DEBUG] Master key (shared secret): 869eaee1274afaa6469a0dedbc379bc8e65e47e5540344ab39e6f904f71d45e3
+[2025-08-05T08:03:05.949Z] - WARNING - Password auth failed: Connection closed
+[2025-08-05T08:03:05.950Z] - INFO - IP: ('172.19.68.67', 37832) Authentication failed, Disconnecting
+[2025-08-05T08:03:05.950Z] - INFO - 
+IP: ('172.19.68.67', 37832) Disconnected this client connection
+[2025-08-05T08:03:18.096Z] - INFO - IP: ('172.19.68.67', 37832) This client has disconnected. But also in the list of work clients Cleaning
+[2025-08-05T08:04:12.735Z] - INFO - Shutting down...
+[2025-08-05T08:04:12.735Z] - INFO - Server has closed
+[2025-08-05T08:04:12.736Z] - INFO - Waiting for server loop closed...
+[2025-08-05T08:04:15.736Z] - INFO - Threads pool have been shutting down...
+[2025-08-05T08:04:15.737Z] - INFO - Waiting until the server loop will report that it is completely shutdown...
+[2025-08-05T08:04:17.733Z] - CRITICAL - Server loop error [CRITICAL: [Errno 9] Bad file descriptor]
+[2025-08-05T08:04:17.733Z] - INFO - Server loop ended
+[2025-08-05T08:04:17.734Z] - INFO - ***Graceful Shutdown***

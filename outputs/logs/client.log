@@ -1,745 +1,212 @@
-[2025-08-04T02:30:55.418Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T02:30:55.420Z] - INFO - Connected
-[2025-08-04T02:30:55.459Z] - INFO - Performing quantum handshake...
-[2025-08-04T02:30:55.463Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T02:30:55.464Z] - INFO - [Quantum Protocol] Established session: ade94ea1-6840-4093-843f-08186d4f4682
-[2025-08-04T02:30:55.468Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T02:30:55.615Z] - INFO - [Server] Connection secured successfully | Session ID: ade94ea1-6840-4093-843f-08186d4f4682
-[2025-08-04T02:30:55.615Z] - INFO - [DEBUG] Session ID: ade94ea1-6840-4093-843f-08186d4f4682
-[2025-08-04T02:30:55.616Z] - INFO - [DEBUG] Master key (shared secret): 7244dd5f98d80d43d3c24ac62b0d86d07b9d005cef5357aa09c66442de742eef
-[2025-08-04T02:31:02.417Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-04T02:31:02.417Z] - INFO - Creating a shell tunnel...
-[2025-08-04T02:31:28.051Z] - INFO - Disconnected
-[2025-08-04T02:31:28.051Z] - INFO - Session shell closed
-[2025-08-04T02:31:28.051Z] - INFO - Client loop closed
-[2025-08-04T02:48:20.109Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T02:48:20.111Z] - INFO - Connected
-[2025-08-04T02:48:20.125Z] - INFO - Performing quantum handshake...
-[2025-08-04T02:48:20.126Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T02:48:20.127Z] - INFO - [Quantum Protocol] Established session: d0fe8892-db2c-4dca-9554-1539e63e4726
-[2025-08-04T02:48:20.133Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T02:48:20.242Z] - INFO - [Server] Connection secured successfully | Session ID: d0fe8892-db2c-4dca-9554-1539e63e4726
-[2025-08-04T02:48:20.242Z] - INFO - [DEBUG] Session ID: d0fe8892-db2c-4dca-9554-1539e63e4726
-[2025-08-04T02:48:20.243Z] - INFO - [DEBUG] Master key (shared secret): 0ad87a0a5c3d3b650737977331f526aac6711fe3ce748760de3f3671787f6619
-[2025-08-04T02:48:24.147Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-04T02:48:24.147Z] - INFO - Creating a shell tunnel...
-[2025-08-04T02:52:12.701Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T02:52:12.702Z] - INFO - Connected
-[2025-08-04T02:52:12.704Z] - CRITICAL - You got kick by server: [REASON: Server is full]
-[2025-08-04T02:52:12.704Z] - INFO - Client loop closed
-[2025-08-04T02:52:12.704Z] - INFO - Disconnected
-[2025-08-04T02:52:15.976Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T02:52:15.977Z] - INFO - Connected
-[2025-08-04T02:52:15.978Z] - CRITICAL - You got kick by server: [REASON: Server is full]
-[2025-08-04T02:52:15.978Z] - INFO - Client loop closed
-[2025-08-04T02:52:15.979Z] - INFO - Disconnected
-[2025-08-04T02:52:19.208Z] - INFO - Disconnected
-[2025-08-04T02:52:19.209Z] - INFO - Session shell closed
-[2025-08-04T02:52:19.209Z] - INFO - Client loop closed
-[2025-08-04T02:52:29.011Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T02:52:29.012Z] - INFO - Connected
-[2025-08-04T02:52:29.027Z] - INFO - Performing quantum handshake...
-[2025-08-04T02:52:29.028Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T02:52:29.028Z] - INFO - [Quantum Protocol] Established session: a10e5922-e8ce-42fc-b5b3-314608508402
-[2025-08-04T02:52:29.032Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T02:52:29.140Z] - INFO - [Server] Connection secured successfully | Session ID: a10e5922-e8ce-42fc-b5b3-314608508402
-[2025-08-04T02:52:29.140Z] - INFO - [DEBUG] Session ID: a10e5922-e8ce-42fc-b5b3-314608508402
-[2025-08-04T02:52:29.141Z] - INFO - [DEBUG] Master key (shared secret): f1a0c5aa8c278fc8c94577e73ae77cfabe69bd328caefb615eaa0ca04e585ae1
-[2025-08-04T02:52:41.404Z] - INFO - Authentication failed
-[2025-08-04T02:52:41.404Z] - INFO - Client loop closed
-[2025-08-04T02:52:41.405Z] - INFO - Disconnected
-[2025-08-04T02:52:46.477Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T02:52:46.478Z] - INFO - Connected
-[2025-08-04T02:52:46.492Z] - INFO - Performing quantum handshake...
-[2025-08-04T02:52:46.493Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T02:52:46.493Z] - INFO - [Quantum Protocol] Established session: df4567e4-3ac2-413b-88c1-23e6302535e3
-[2025-08-04T02:52:46.497Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T02:52:46.585Z] - INFO - [Server] Connection secured successfully | Session ID: df4567e4-3ac2-413b-88c1-23e6302535e3
-[2025-08-04T02:52:46.585Z] - INFO - [DEBUG] Session ID: df4567e4-3ac2-413b-88c1-23e6302535e3
-[2025-08-04T02:52:46.586Z] - INFO - [DEBUG] Master key (shared secret): d7a75e133adbb463361af280451a6ccb4ae2e9341da8b518dc443fe7a141ae2a
-[2025-08-04T02:52:49.469Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-04T02:52:49.470Z] - INFO - Creating a shell tunnel...
-[2025-08-04T03:13:08.120Z] - INFO - Disconnected
-[2025-08-04T03:13:08.120Z] - INFO - Session shell closed
-[2025-08-04T03:13:08.121Z] - INFO - Client loop closed
-[2025-08-04T03:13:24.881Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T03:13:24.883Z] - INFO - Connected
-[2025-08-04T03:13:24.901Z] - INFO - Performing quantum handshake...
-[2025-08-04T03:13:24.902Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T03:13:24.903Z] - INFO - [Quantum Protocol] Established session: 24e4589b-1c32-43b1-8aeb-5954ee4c5192
-[2025-08-04T03:13:24.907Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T03:13:25.035Z] - INFO - [Server] Connection secured successfully | Session ID: 24e4589b-1c32-43b1-8aeb-5954ee4c5192
-[2025-08-04T03:13:25.036Z] - INFO - [DEBUG] Session ID: 24e4589b-1c32-43b1-8aeb-5954ee4c5192
-[2025-08-04T03:13:25.036Z] - INFO - [DEBUG] Master key (shared secret): c238a0daebf3e79f3aa2e1c8c43d8eb0b895091226c02a80365857681ee5b328
-[2025-08-04T03:13:32.761Z] - INFO - Authentication failed
-[2025-08-04T03:13:32.762Z] - INFO - Client loop closed
-[2025-08-04T03:13:32.762Z] - INFO - Disconnected
-[2025-08-04T03:13:34.911Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T03:13:34.912Z] - INFO - Connected
-[2025-08-04T03:13:34.926Z] - INFO - Performing quantum handshake...
-[2025-08-04T03:13:34.927Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T03:13:34.927Z] - INFO - [Quantum Protocol] Established session: 65da7104-4dda-4007-98f7-6755666a1f5b
-[2025-08-04T03:13:34.932Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T03:13:35.030Z] - INFO - [Server] Connection secured successfully | Session ID: 65da7104-4dda-4007-98f7-6755666a1f5b
-[2025-08-04T03:13:35.030Z] - INFO - [DEBUG] Session ID: 65da7104-4dda-4007-98f7-6755666a1f5b
-[2025-08-04T03:13:35.030Z] - INFO - [DEBUG] Master key (shared secret): 1cdf05542eedd9a99688adcaa1f1e60c511f9303d673cc37bd7578076bc51695
-[2025-08-04T03:13:38.964Z] - INFO - Authentication failed
-[2025-08-04T03:13:38.965Z] - INFO - Client loop closed
-[2025-08-04T03:13:38.966Z] - INFO - Disconnected
-[2025-08-04T03:13:46.078Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T03:13:46.080Z] - INFO - Connected
-[2025-08-04T03:13:46.098Z] - INFO - Performing quantum handshake...
-[2025-08-04T03:13:46.099Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T03:13:46.100Z] - INFO - [Quantum Protocol] Established session: f8bc58b9-7dbf-4584-a1e8-43b585707978
-[2025-08-04T03:13:46.105Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T03:13:46.195Z] - INFO - [Server] Connection secured successfully | Session ID: f8bc58b9-7dbf-4584-a1e8-43b585707978
-[2025-08-04T03:13:46.195Z] - INFO - [DEBUG] Session ID: f8bc58b9-7dbf-4584-a1e8-43b585707978
-[2025-08-04T03:13:46.196Z] - INFO - [DEBUG] Master key (shared secret): 2669c9fc05ae391adc35c4d5be8aa2898ac15846e44436903a1d5d9b1fffcaad
-[2025-08-04T03:13:50.040Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-04T03:13:50.040Z] - INFO - Creating a shell tunnel...
-[2025-08-04T03:13:53.576Z] - INFO - Disconnected
-[2025-08-04T03:13:53.577Z] - INFO - Session shell closed
-[2025-08-04T03:13:53.580Z] - INFO - Client loop closed
-[2025-08-04T09:08:00.594Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T09:08:00.614Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-04T09:08:00.614Z] - CRITICAL - You got kick by server: [REASON: ]
-[2025-08-04T09:08:00.614Z] - INFO - Client loop closed
-[2025-08-04T09:08:00.615Z] - INFO - Disconnected
-[2025-08-04T09:08:07.621Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T09:08:07.623Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-04T09:08:07.623Z] - CRITICAL - You got kick by server: [REASON: ]
-[2025-08-04T09:08:07.625Z] - INFO - Client loop closed
-[2025-08-04T09:08:07.625Z] - INFO - Disconnected
-[2025-08-04T09:08:20.597Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T09:08:20.599Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-04T09:08:20.599Z] - CRITICAL - You got kick by server: [REASON: ]
-[2025-08-04T09:08:20.600Z] - INFO - Client loop closed
-[2025-08-04T09:08:20.600Z] - INFO - Disconnected
-[2025-08-04T09:11:39.157Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T09:11:39.158Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-04T09:11:39.159Z] - INFO - Client loop closed
-[2025-08-04T09:11:39.160Z] - INFO - Disconnected
-[2025-08-04T09:11:43.191Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T09:11:43.192Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-04T09:11:43.193Z] - INFO - Client loop closed
-[2025-08-04T09:11:43.194Z] - INFO - Disconnected
-[2025-08-04T10:13:39.274Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T10:13:39.277Z] - INFO - Connected
-[2025-08-04T10:13:39.333Z] - INFO - Performing quantum handshake...
-[2025-08-04T10:13:39.334Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T10:13:39.335Z] - INFO - [Quantum Protocol] Established session: cafedc55-9d0e-43a0-853c-ab71fca5f2d6
-[2025-08-04T10:13:39.341Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T10:13:39.461Z] - INFO - [Server] Connection secured successfully | Session ID: cafedc55-9d0e-43a0-853c-ab71fca5f2d6
-[2025-08-04T10:13:39.461Z] - INFO - [DEBUG] Session ID: cafedc55-9d0e-43a0-853c-ab71fca5f2d6
-[2025-08-04T10:13:39.461Z] - INFO - [DEBUG] Master key (shared secret): 1765a4bc2bca84be1dd3a8edf0e44c51236b5aa3c833546a1387d88a1404808a
-[2025-08-04T10:13:45.132Z] - INFO - Authentication failed
-[2025-08-04T10:13:45.133Z] - INFO - Client loop closed
-[2025-08-04T10:13:45.134Z] - INFO - Disconnected
-[2025-08-04T10:13:48.204Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T10:13:48.206Z] - INFO - Connected
-[2025-08-04T10:13:48.225Z] - INFO - Performing quantum handshake...
-[2025-08-04T10:13:48.229Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T10:13:48.229Z] - INFO - [Quantum Protocol] Established session: 0e1ce750-ebec-48aa-bcc3-5230e7f0f12e
-[2025-08-04T10:13:48.236Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T10:13:48.325Z] - INFO - [Server] Connection secured successfully | Session ID: 0e1ce750-ebec-48aa-bcc3-5230e7f0f12e
-[2025-08-04T10:13:48.326Z] - INFO - [DEBUG] Session ID: 0e1ce750-ebec-48aa-bcc3-5230e7f0f12e
-[2025-08-04T10:13:48.327Z] - INFO - [DEBUG] Master key (shared secret): 53ffcc5394f1c8e650121878483bb9290628bdab7805418e0fdc8d1a8e099a75
-[2025-08-04T10:13:52.782Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-04T10:13:52.782Z] - INFO - Creating a shell tunnel...
-[2025-08-04T10:14:20.241Z] - INFO - Disconnected
-[2025-08-04T10:14:20.242Z] - INFO - Session shell closed
-[2025-08-04T10:14:20.242Z] - INFO - Client loop closed
-[2025-08-04T11:07:28.733Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T11:07:28.736Z] - INFO - Connected
-[2025-08-04T11:07:28.817Z] - INFO - Performing quantum handshake...
-[2025-08-04T11:07:28.819Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T11:07:28.820Z] - INFO - [Quantum Protocol] Established session: 1138cefa-e426-41c5-95b2-1568e17750c3
-[2025-08-04T11:07:28.829Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T11:07:28.966Z] - INFO - [Server] Connection secured successfully | Session ID: 1138cefa-e426-41c5-95b2-1568e17750c3
-[2025-08-04T11:07:28.966Z] - INFO - [DEBUG] Session ID: 1138cefa-e426-41c5-95b2-1568e17750c3
-[2025-08-04T11:07:28.967Z] - INFO - [DEBUG] Master key (shared secret): fe78e9efa35e272e63cd68c9671b9870603afe98b7cd50e7e740944fbbe933ab
-[2025-08-04T11:07:32.532Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-04T11:07:32.532Z] - INFO - Creating a shell tunnel...
-[2025-08-04T11:07:40.000Z] - INFO - Disconnected
-[2025-08-04T11:07:40.001Z] - INFO - Session shell closed
-[2025-08-04T11:07:40.001Z] - INFO - Client loop closed
-[2025-08-04T11:28:19.074Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T11:28:19.076Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-04T11:28:19.077Z] - INFO - Client loop closed
-[2025-08-04T11:28:19.078Z] - INFO - Disconnected
-[2025-08-04T11:28:35.089Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T11:28:35.090Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-04T11:28:35.091Z] - INFO - Client loop closed
-[2025-08-04T11:28:35.091Z] - INFO - Disconnected
-[2025-08-04T11:29:11.721Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T11:29:11.723Z] - INFO - Connected
-[2025-08-04T11:29:11.838Z] - INFO - Performing quantum handshake...
-[2025-08-04T11:29:11.841Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T11:29:11.842Z] - INFO - [Quantum Protocol] Established session: 188db4af-8e36-4a88-81ca-069b0dfd4cd7
-[2025-08-04T11:29:11.853Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T11:29:11.950Z] - INFO - [Server] Connection secured successfully | Session ID: 188db4af-8e36-4a88-81ca-069b0dfd4cd7
-[2025-08-04T11:29:11.951Z] - INFO - [DEBUG] Session ID: 188db4af-8e36-4a88-81ca-069b0dfd4cd7
-[2025-08-04T11:29:11.951Z] - INFO - [DEBUG] Master key (shared secret): d98a639123a5f4756bf12a72a2133eb4ed5130f52c7ffc8f301983101a390125
-[2025-08-04T11:29:16.752Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-04T11:29:16.753Z] - INFO - Creating a shell tunnel...
-[2025-08-04T11:29:35.540Z] - INFO - Disconnected
-[2025-08-04T11:29:35.541Z] - INFO - Session shell closed
-[2025-08-04T11:29:35.541Z] - INFO - Client loop closed
-[2025-08-04T12:05:20.866Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T12:05:20.870Z] - INFO - Connected
-[2025-08-04T12:05:20.924Z] - INFO - Performing quantum handshake...
-[2025-08-04T12:05:35.940Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-04T12:05:35.941Z] - INFO - 
+[2025-08-05T05:58:00.413Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T05:58:00.415Z] - INFO - Connected
+[2025-08-05T05:58:00.435Z] - INFO - Performing quantum handshake...
+[2025-08-05T05:58:15.452Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T05:58:15.452Z] - INFO - 
 [Quantum Protocol] Disconnected
-[2025-08-04T12:05:35.941Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-04T12:05:35.942Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-04T12:05:35.942Z] - INFO - Client loop closed
-[2025-08-04T12:06:19.710Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T12:06:19.711Z] - INFO - Connected
-[2025-08-04T12:06:19.730Z] - INFO - Performing quantum handshake...
-[2025-08-04T12:06:34.746Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-04T12:06:34.747Z] - INFO - 
+[2025-08-05T05:58:15.453Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T05:58:15.453Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T05:58:15.454Z] - INFO - Client loop closed
+[2025-08-05T05:59:33.920Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T05:59:33.921Z] - INFO - Connected
+[2025-08-05T05:59:33.923Z] - CRITICAL - Client loop error [CRITICAL: [Errno 104] Connection reset by peer]
+[2025-08-05T05:59:33.923Z] - INFO - Client loop closed
+[2025-08-05T05:59:33.923Z] - INFO - Disconnected
+[2025-08-05T05:59:44.418Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T05:59:44.420Z] - INFO - Connected
+[2025-08-05T05:59:44.440Z] - INFO - Performing quantum handshake...
+[2025-08-05T05:59:59.456Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T05:59:59.457Z] - INFO - 
 [Quantum Protocol] Disconnected
-[2025-08-04T12:06:34.747Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-04T12:06:34.748Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-04T12:06:34.748Z] - INFO - Client loop closed
-[2025-08-04T12:09:03.528Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T12:09:03.530Z] - INFO - Connected
-[2025-08-04T12:09:03.550Z] - INFO - Performing quantum handshake...
-[2025-08-04T12:09:18.566Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-04T12:09:18.567Z] - INFO - 
+[2025-08-05T05:59:59.458Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T05:59:59.458Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T05:59:59.458Z] - INFO - Client loop closed
+[2025-08-05T06:04:34.261Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T06:04:34.262Z] - INFO - Connected
+[2025-08-05T06:04:34.305Z] - INFO - Performing quantum handshake...
+[2025-08-05T06:04:49.321Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T06:04:49.321Z] - INFO - 
 [Quantum Protocol] Disconnected
-[2025-08-04T12:09:18.568Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-04T12:09:18.569Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-04T12:09:18.569Z] - INFO - Client loop closed
-[2025-08-04T12:12:41.418Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T12:12:41.420Z] - INFO - Connected
-[2025-08-04T12:12:41.443Z] - INFO - Performing quantum handshake...
-[2025-08-04T12:12:56.458Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-04T12:12:56.459Z] - INFO - 
+[2025-08-05T06:04:49.322Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T06:04:49.322Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T06:04:49.323Z] - INFO - Client loop closed
+[2025-08-05T07:06:05.402Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:06:05.409Z] - INFO - Connected
+[2025-08-05T07:06:05.467Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:06:20.484Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T07:06:20.485Z] - INFO - 
 [Quantum Protocol] Disconnected
-[2025-08-04T12:12:56.460Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-04T12:12:56.460Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-04T12:12:56.461Z] - INFO - Client loop closed
-[2025-08-04T12:14:04.671Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T12:14:04.673Z] - INFO - Connected
-[2025-08-04T12:14:04.693Z] - INFO - Performing quantum handshake...
-[2025-08-04T12:14:19.709Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-04T12:14:19.710Z] - INFO - 
+[2025-08-05T07:06:20.486Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T07:06:20.486Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T07:06:20.487Z] - INFO - Client loop closed
+[2025-08-05T07:39:53.556Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:39:53.559Z] - INFO - Connected
+[2025-08-05T07:39:53.605Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:40:08.020Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T07:40:08.021Z] - INFO - 
 [Quantum Protocol] Disconnected
-[2025-08-04T12:14:19.711Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-04T12:14:19.711Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-04T12:14:19.712Z] - INFO - Client loop closed
-[2025-08-04T12:15:40.535Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T12:15:40.537Z] - INFO - Connected
-[2025-08-04T12:15:40.555Z] - INFO - Performing quantum handshake...
-[2025-08-04T12:15:43.295Z] - INFO - Client loop closed
-[2025-08-04T12:15:43.297Z] - INFO - Disconnected
-[2025-08-04T12:17:50.990Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T12:17:50.992Z] - INFO - Connected
-[2025-08-04T12:17:51.015Z] - INFO - Performing quantum handshake...
-[2025-08-04T12:18:06.031Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-04T12:18:06.032Z] - INFO - 
+[2025-08-05T07:40:08.021Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T07:40:08.022Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T07:40:08.023Z] - INFO - Client loop closed
+[2025-08-05T07:44:20.596Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:44:20.598Z] - INFO - Connected
+[2025-08-05T07:44:20.656Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:44:35.672Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T07:44:35.672Z] - INFO - 
 [Quantum Protocol] Disconnected
-[2025-08-04T12:18:06.033Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-04T12:18:06.033Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-04T12:18:06.034Z] - INFO - Client loop closed
-[2025-08-04T12:19:44.576Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T12:19:44.579Z] - INFO - Connected
-[2025-08-04T12:19:44.601Z] - INFO - Performing quantum handshake...
-[2025-08-04T12:19:59.617Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-04T12:19:59.618Z] - INFO - 
+[2025-08-05T07:44:35.672Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T07:44:35.673Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T07:44:35.673Z] - INFO - Client loop closed
+[2025-08-05T07:46:42.212Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:46:42.215Z] - INFO - Connected
+[2025-08-05T07:46:42.248Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:46:50.745Z] - INFO - Client loop closed
+[2025-08-05T07:46:50.746Z] - INFO - Disconnected
+[2025-08-05T07:47:06.491Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:47:06.492Z] - INFO - Connected
+[2025-08-05T07:47:06.516Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:47:21.533Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T07:47:21.534Z] - INFO - 
 [Quantum Protocol] Disconnected
-[2025-08-04T12:19:59.619Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-04T12:19:59.619Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-04T12:19:59.620Z] - INFO - Client loop closed
-[2025-08-04T12:20:30.333Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T12:20:30.334Z] - INFO - Connected
-[2025-08-04T12:20:30.358Z] - INFO - Performing quantum handshake...
-[2025-08-04T12:20:45.374Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-04T12:20:45.374Z] - INFO - 
+[2025-08-05T07:47:21.534Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T07:47:21.535Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T07:47:21.535Z] - INFO - Client loop closed
+[2025-08-05T07:49:05.899Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:49:05.899Z] - INFO - Connected
+[2025-08-05T07:49:05.925Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:49:07.895Z] - INFO - Client loop closed
+[2025-08-05T07:49:07.896Z] - INFO - Disconnected
+[2025-08-05T07:49:31.526Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:49:31.528Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-05T07:49:31.528Z] - INFO - Client loop closed
+[2025-08-05T07:49:31.529Z] - INFO - Disconnected
+[2025-08-05T07:49:37.722Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:49:37.724Z] - INFO - Connected
+[2025-08-05T07:49:37.743Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:49:52.759Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T07:49:52.759Z] - INFO - 
 [Quantum Protocol] Disconnected
-[2025-08-04T12:20:45.375Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-04T12:20:45.375Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-04T12:20:45.375Z] - INFO - Client loop closed
-[2025-08-04T12:23:18.236Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T12:23:18.238Z] - INFO - Connected
-[2025-08-04T12:23:18.260Z] - INFO - Performing quantum handshake...
-[2025-08-04T12:23:21.155Z] - INFO - Client loop closed
-[2025-08-04T12:23:21.155Z] - INFO - Disconnected
-[2025-08-04T12:27:27.444Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T12:27:27.447Z] - INFO - Connected
-[2025-08-04T12:27:27.492Z] - INFO - Performing quantum handshake...
-[2025-08-04T12:27:27.494Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T12:27:27.495Z] - INFO - [Quantum Protocol] Established session: 2303d5ac-1bce-4855-84dc-1c35c0c2a518
-[2025-08-04T12:27:27.502Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T12:27:27.641Z] - INFO - [Server] Connection secured successfully | Session ID: 2303d5ac-1bce-4855-84dc-1c35c0c2a518
-[2025-08-04T12:27:27.641Z] - INFO - [DEBUG] Session ID: 2303d5ac-1bce-4855-84dc-1c35c0c2a518
-[2025-08-04T12:27:27.641Z] - INFO - [DEBUG] Master key (shared secret): b0874c2932fd53bd4a2ac1e92f9a629ebbfd0e7ae192fcc95d7dbb7bced7db86
-[2025-08-04T12:27:31.838Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-04T12:27:31.838Z] - INFO - Creating a shell tunnel...
-[2025-08-04T12:27:34.089Z] - INFO - Disconnected
-[2025-08-04T12:27:34.089Z] - INFO - Session shell closed
-[2025-08-04T12:27:34.090Z] - INFO - Client loop closed
-[2025-08-04T12:28:26.544Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-04T12:28:26.545Z] - INFO - Connected
-[2025-08-04T12:28:26.566Z] - INFO - Performing quantum handshake...
-[2025-08-04T12:28:26.568Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-04T12:28:26.568Z] - INFO - [Quantum Protocol] Established session: ebef26ae-8794-448a-a5d8-3d0949faf374
-[2025-08-04T12:28:26.577Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-04T12:28:26.693Z] - INFO - [Server] Connection secured successfully | Session ID: ebef26ae-8794-448a-a5d8-3d0949faf374
-[2025-08-04T12:28:26.693Z] - INFO - [DEBUG] Session ID: ebef26ae-8794-448a-a5d8-3d0949faf374
-[2025-08-04T12:28:26.694Z] - INFO - [DEBUG] Master key (shared secret): c99c6fc2abe59268fa8760dc6ba6be49ecedb5b69b157c3feb784f1c94606682
-[2025-08-04T12:28:27.622Z] - INFO - Creating a shell tunnel...
-[2025-08-04T12:28:34.383Z] - INFO - Disconnected
-[2025-08-04T12:28:34.384Z] - INFO - Session shell closed
-[2025-08-04T12:28:34.384Z] - INFO - Client loop closed
-[2025-08-05T04:22:10.971Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:22:10.973Z] - INFO - Connected
-[2025-08-05T04:22:11.013Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:22:11.016Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:22:11.016Z] - INFO - [Quantum Protocol] Established session: 00440595-ee91-4a58-8026-ba4d9adc12e5
-[2025-08-05T04:22:11.021Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:22:11.156Z] - INFO - [Server] Connection secured successfully | Session ID: 00440595-ee91-4a58-8026-ba4d9adc12e5
-[2025-08-05T04:22:11.156Z] - INFO - [DEBUG] Session ID: 00440595-ee91-4a58-8026-ba4d9adc12e5
-[2025-08-05T04:22:11.157Z] - INFO - [DEBUG] Master key (shared secret): 3769811dcaf7ad8a9d866cdd8c4a094bee8d603614f1c9953d10dac5d21dc11d
-[2025-08-05T04:22:16.076Z] - INFO - Authentication failed
-[2025-08-05T04:22:16.076Z] - INFO - Client loop closed
-[2025-08-05T04:22:16.076Z] - INFO - Disconnected
-[2025-08-05T04:22:19.946Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:22:19.947Z] - INFO - Connected
-[2025-08-05T04:22:19.963Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:22:19.965Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:22:19.966Z] - INFO - [Quantum Protocol] Established session: 76ab12d3-6acc-40b6-8130-a2a5a7ef1c22
-[2025-08-05T04:22:19.970Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:22:20.043Z] - INFO - [Server] Connection secured successfully | Session ID: 76ab12d3-6acc-40b6-8130-a2a5a7ef1c22
-[2025-08-05T04:22:20.043Z] - INFO - [DEBUG] Session ID: 76ab12d3-6acc-40b6-8130-a2a5a7ef1c22
-[2025-08-05T04:22:20.043Z] - INFO - [DEBUG] Master key (shared secret): 0727a7bf8a604096707ae2937150d10e51739f805f6d073073aafba83dc43327
-[2025-08-05T04:22:24.935Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-05T04:22:24.935Z] - INFO - Creating a shell tunnel...
-[2025-08-05T04:22:35.945Z] - INFO - Disconnected
-[2025-08-05T04:22:35.946Z] - INFO - Session shell closed
-[2025-08-05T04:22:35.947Z] - INFO - Client loop closed
-[2025-08-05T04:27:31.674Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:27:31.675Z] - INFO - Connected
-[2025-08-05T04:27:31.713Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:27:31.717Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:27:31.717Z] - INFO - [Quantum Protocol] Established session: 4d204e61-fe60-4cbb-8c99-75d113519d1e
-[2025-08-05T04:27:31.723Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:27:31.770Z] - INFO - [Server] Connection secured successfully | Session ID: 4d204e61-fe60-4cbb-8c99-75d113519d1e
-[2025-08-05T04:27:31.771Z] - INFO - [DEBUG] Session ID: 4d204e61-fe60-4cbb-8c99-75d113519d1e
-[2025-08-05T04:27:31.771Z] - INFO - [DEBUG] Master key (shared secret): 4284e597dd065186863a6f6d1442004b9283d3eae49455f736d42483a25efbc5
-[2025-08-05T04:28:43.045Z] - INFO - Authentication failed
-[2025-08-05T04:28:43.049Z] - INFO - Client loop closed
-[2025-08-05T04:28:43.049Z] - INFO - Disconnected
-[2025-08-05T04:28:49.948Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:28:49.948Z] - INFO - Connected
-[2025-08-05T04:28:49.969Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:28:49.971Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:28:49.971Z] - INFO - [Quantum Protocol] Established session: 10e87001-b75c-4e81-b254-e981932b952a
-[2025-08-05T04:28:49.975Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:28:50.089Z] - INFO - [Server] Connection secured successfully | Session ID: 10e87001-b75c-4e81-b254-e981932b952a
-[2025-08-05T04:28:50.089Z] - INFO - [DEBUG] Session ID: 10e87001-b75c-4e81-b254-e981932b952a
-[2025-08-05T04:28:50.090Z] - INFO - [DEBUG] Master key (shared secret): 2d19707db2223660d65aa8512ada1eec26d6a125895b82d5a9c4ff19d383aed6
-[2025-08-05T04:28:58.400Z] - CRITICAL - [CLIENT] Send error: 'utf-8' codec can't encode character '\udce0' in position 10: surrogates not allowed
-[2025-08-05T04:29:13.416Z] - CRITICAL - [CLIENT] Receive error: timed out
-[2025-08-05T04:29:13.416Z] - INFO - Authentication failed
-[2025-08-05T04:29:13.417Z] - INFO - Client loop closed
-[2025-08-05T04:29:13.417Z] - INFO - Disconnected
-[2025-08-05T04:29:18.612Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:29:18.613Z] - INFO - Connected
-[2025-08-05T04:29:18.631Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:29:18.632Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:29:18.633Z] - INFO - [Quantum Protocol] Established session: 0d5b5575-efc5-48bc-a3c7-9a7000a726dc
-[2025-08-05T04:29:18.637Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:29:18.715Z] - INFO - [Server] Connection secured successfully | Session ID: 0d5b5575-efc5-48bc-a3c7-9a7000a726dc
-[2025-08-05T04:29:18.715Z] - INFO - [DEBUG] Session ID: 0d5b5575-efc5-48bc-a3c7-9a7000a726dc
-[2025-08-05T04:29:18.715Z] - INFO - [DEBUG] Master key (shared secret): 375ecb1bbe6fa9bfc3de1cbfe1bf8af05675041d31600a177e969459ffb9cef9
-[2025-08-05T04:29:26.427Z] - INFO - Authentication failed
-[2025-08-05T04:29:26.428Z] - INFO - Client loop closed
-[2025-08-05T04:29:26.428Z] - INFO - Disconnected
-[2025-08-05T04:29:28.632Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:29:28.634Z] - INFO - Connected
-[2025-08-05T04:29:28.651Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:29:28.652Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:29:28.652Z] - INFO - [Quantum Protocol] Established session: d72821b1-b1f3-4698-b814-78af4b62bff5
-[2025-08-05T04:29:28.656Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:29:28.744Z] - INFO - [Server] Connection secured successfully | Session ID: d72821b1-b1f3-4698-b814-78af4b62bff5
-[2025-08-05T04:29:28.744Z] - INFO - [DEBUG] Session ID: d72821b1-b1f3-4698-b814-78af4b62bff5
-[2025-08-05T04:29:28.744Z] - INFO - [DEBUG] Master key (shared secret): d3e7c77ec2d13720f5d803a1dc085932161fc0f9a94dc7eb0b2894f7ff4bfc11
-[2025-08-05T04:29:31.211Z] - INFO - Authentication failed
-[2025-08-05T04:29:31.212Z] - INFO - Client loop closed
-[2025-08-05T04:29:31.212Z] - INFO - Disconnected
-[2025-08-05T04:29:33.906Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:29:33.907Z] - INFO - Connected
-[2025-08-05T04:29:33.925Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:29:33.926Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:29:33.926Z] - INFO - [Quantum Protocol] Established session: 7e8e1038-f84e-4905-ac7f-aacf213d1fba
-[2025-08-05T04:29:33.932Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:29:34.025Z] - INFO - [Server] Connection secured successfully | Session ID: 7e8e1038-f84e-4905-ac7f-aacf213d1fba
-[2025-08-05T04:29:34.025Z] - INFO - [DEBUG] Session ID: 7e8e1038-f84e-4905-ac7f-aacf213d1fba
-[2025-08-05T04:29:34.025Z] - INFO - [DEBUG] Master key (shared secret): ef2a375284252aa6cbc961becefa3a877dcac739cd6a780a0e8ffcce6693a9ef
-[2025-08-05T04:29:51.928Z] - INFO - Client loop closed
-[2025-08-05T04:29:51.928Z] - INFO - Disconnected
-[2025-08-05T04:42:05.032Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:42:05.033Z] - INFO - Connected
-[2025-08-05T04:42:05.063Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:42:05.068Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:42:05.068Z] - INFO - [Quantum Protocol] Established session: 5d9df24e-0e71-412f-8295-3ff20888a797
-[2025-08-05T04:42:05.078Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:42:05.193Z] - INFO - [Server] Connection secured successfully | Session ID: 5d9df24e-0e71-412f-8295-3ff20888a797
-[2025-08-05T04:42:05.193Z] - INFO - [DEBUG] Session ID: 5d9df24e-0e71-412f-8295-3ff20888a797
-[2025-08-05T04:42:05.193Z] - INFO - [DEBUG] Master key (shared secret): feb93cd54410d0149d18ef66808bacd7a0994df0d0d4d53f0f0d0f7235c0bd3b
-[2025-08-05T04:42:09.964Z] - INFO - Authentication failed
-[2025-08-05T04:42:09.965Z] - INFO - Client loop closed
-[2025-08-05T04:42:09.965Z] - INFO - Disconnected
-[2025-08-05T04:42:13.050Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:42:13.051Z] - INFO - Connected
-[2025-08-05T04:42:13.070Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:42:13.075Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:42:13.075Z] - INFO - [Quantum Protocol] Established session: d4fd93ed-ad6c-4029-8252-4e49cba09048
-[2025-08-05T04:42:13.080Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:42:13.179Z] - INFO - [Server] Connection secured successfully | Session ID: d4fd93ed-ad6c-4029-8252-4e49cba09048
-[2025-08-05T04:42:13.179Z] - INFO - [DEBUG] Session ID: d4fd93ed-ad6c-4029-8252-4e49cba09048
-[2025-08-05T04:42:13.179Z] - INFO - [DEBUG] Master key (shared secret): fa1decc141d81fd9f546b81e2404967b33ce299558fe0819bf1e1fa94693576f
-[2025-08-05T04:42:18.825Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-05T04:42:18.825Z] - INFO - Creating a shell tunnel...
-[2025-08-05T04:42:23.926Z] - INFO - Disconnected
-[2025-08-05T04:42:23.927Z] - INFO - Session shell closed
-[2025-08-05T04:42:23.928Z] - INFO - Client loop closed
-[2025-08-05T04:42:46.459Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:42:46.460Z] - INFO - Connected
-[2025-08-05T04:42:46.478Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:42:46.479Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:42:46.479Z] - INFO - [Quantum Protocol] Established session: 05594cfc-a097-4a45-9000-0991e6a0e798
-[2025-08-05T04:42:46.484Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:42:46.569Z] - INFO - [Server] Connection secured successfully | Session ID: 05594cfc-a097-4a45-9000-0991e6a0e798
-[2025-08-05T04:42:46.569Z] - INFO - [DEBUG] Session ID: 05594cfc-a097-4a45-9000-0991e6a0e798
-[2025-08-05T04:42:46.570Z] - INFO - [DEBUG] Master key (shared secret): 222073e3a4ca96626431867a9b4b060245b3927a127f0ccb66205b370cbf9bd0
-[2025-08-05T04:42:51.939Z] - INFO - Authentication failed
-[2025-08-05T04:42:51.939Z] - INFO - Client loop closed
-[2025-08-05T04:42:51.940Z] - INFO - Disconnected
-[2025-08-05T04:42:53.922Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:42:53.923Z] - INFO - Connected
-[2025-08-05T04:42:53.941Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:42:53.942Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:42:53.942Z] - INFO - [Quantum Protocol] Established session: 4728b266-3846-4d48-8fc0-b94f37269bd9
-[2025-08-05T04:42:53.948Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:42:54.038Z] - INFO - [Server] Connection secured successfully | Session ID: 4728b266-3846-4d48-8fc0-b94f37269bd9
-[2025-08-05T04:42:54.038Z] - INFO - [DEBUG] Session ID: 4728b266-3846-4d48-8fc0-b94f37269bd9
-[2025-08-05T04:42:54.038Z] - INFO - [DEBUG] Master key (shared secret): 3a40e845544249a1b9df5dfc8a0798ee65bcfb0625bec8533d95bdff60b586b6
-[2025-08-05T04:42:57.170Z] - INFO - Authentication failed
-[2025-08-05T04:42:57.171Z] - INFO - Client loop closed
-[2025-08-05T04:42:57.171Z] - INFO - Disconnected
-[2025-08-05T04:43:00.946Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:43:00.948Z] - INFO - Connected
-[2025-08-05T04:43:00.966Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:43:00.967Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:43:00.967Z] - INFO - [Quantum Protocol] Established session: 19922710-5912-42d5-8587-5f801794e83f
-[2025-08-05T04:43:00.975Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:43:01.069Z] - INFO - [Server] Connection secured successfully | Session ID: 19922710-5912-42d5-8587-5f801794e83f
-[2025-08-05T04:43:01.069Z] - INFO - [DEBUG] Session ID: 19922710-5912-42d5-8587-5f801794e83f
-[2025-08-05T04:43:01.069Z] - INFO - [DEBUG] Master key (shared secret): 449d5666c38d115ec3ad4797acca8f4cd1d1988cd9773acb4042659d864f8fa3
-[2025-08-05T04:43:03.537Z] - INFO - Authentication failed
-[2025-08-05T04:43:03.538Z] - INFO - Client loop closed
-[2025-08-05T04:43:03.538Z] - INFO - Disconnected
-[2025-08-05T04:43:05.976Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T04:43:05.976Z] - INFO - Connected
-[2025-08-05T04:43:05.995Z] - INFO - Performing quantum handshake...
-[2025-08-05T04:43:05.996Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T04:43:05.996Z] - INFO - [Quantum Protocol] Established session: 3c95373a-674e-4e8d-b858-5c9fb6e3e98f
-[2025-08-05T04:43:06.001Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T04:43:06.092Z] - INFO - [Server] Connection secured successfully | Session ID: 3c95373a-674e-4e8d-b858-5c9fb6e3e98f
-[2025-08-05T04:43:06.092Z] - INFO - [DEBUG] Session ID: 3c95373a-674e-4e8d-b858-5c9fb6e3e98f
-[2025-08-05T04:43:06.092Z] - INFO - [DEBUG] Master key (shared secret): 2ecaf8059058c814c0563578fd8236ba31213c69da8fe4abc20605dfd9c10881
-[2025-08-05T04:43:21.443Z] - INFO - Client loop closed
-[2025-08-05T04:43:21.444Z] - INFO - Disconnected
-[2025-08-05T05:25:36.727Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:25:36.736Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-05T05:25:36.736Z] - INFO - Client loop closed
-[2025-08-05T05:25:36.737Z] - INFO - Disconnected
-[2025-08-05T05:26:06.357Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:26:06.360Z] - INFO - Connected
-[2025-08-05T05:26:06.404Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:26:06.405Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:26:06.405Z] - INFO - [Quantum Protocol] Established session: cfa75e09-1926-44c6-a85b-d1e4ee67462e
-[2025-08-05T05:26:06.412Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:26:06.548Z] - INFO - [Server] Connection secured successfully | Session ID: cfa75e09-1926-44c6-a85b-d1e4ee67462e
-[2025-08-05T05:26:06.549Z] - INFO - [DEBUG] Session ID: cfa75e09-1926-44c6-a85b-d1e4ee67462e
-[2025-08-05T05:26:06.549Z] - INFO - [DEBUG] Master key (shared secret): 4386a1a64a0f6ddae9e780239b9410d6ca21a59205b0d6a09b42bb67af0a9a61
-[2025-08-05T05:26:07.466Z] - INFO - Authentication failed
-[2025-08-05T05:26:07.466Z] - INFO - Client loop closed
-[2025-08-05T05:26:07.467Z] - INFO - Disconnected
-[2025-08-05T05:27:28.069Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:27:28.071Z] - INFO - Connected
-[2025-08-05T05:27:28.089Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:27:28.090Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:27:28.091Z] - INFO - [Quantum Protocol] Established session: 6b265968-bd6f-43c9-a391-ba7a4813969e
-[2025-08-05T05:27:28.095Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:27:28.187Z] - INFO - [Server] Connection secured successfully | Session ID: 6b265968-bd6f-43c9-a391-ba7a4813969e
-[2025-08-05T05:27:28.187Z] - INFO - [DEBUG] Session ID: 6b265968-bd6f-43c9-a391-ba7a4813969e
-[2025-08-05T05:27:28.188Z] - INFO - [DEBUG] Master key (shared secret): b0fb7a7a164d74cf646bbfc6609054dac00df79186e34ba823d58378517cc0d6
-[2025-08-05T05:27:29.102Z] - INFO - [AUTH] Auto fill passwword from security.ini...
-[2025-08-05T05:27:29.148Z] - INFO - Authentication failed
-[2025-08-05T05:27:29.149Z] - INFO - Client loop closed
-[2025-08-05T05:27:29.150Z] - INFO - Disconnected
-[2025-08-05T05:28:01.938Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:28:01.939Z] - INFO - Connected
-[2025-08-05T05:28:01.965Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:28:01.966Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:28:01.966Z] - INFO - [Quantum Protocol] Established session: 73422b62-cd27-4295-8b6e-95d2c7298a47
-[2025-08-05T05:28:01.972Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:28:02.050Z] - INFO - [Server] Connection secured successfully | Session ID: 73422b62-cd27-4295-8b6e-95d2c7298a47
-[2025-08-05T05:28:02.051Z] - INFO - [DEBUG] Session ID: 73422b62-cd27-4295-8b6e-95d2c7298a47
-[2025-08-05T05:28:02.051Z] - INFO - [DEBUG] Master key (shared secret): ad7fe1bcea77feca67c1418bcfd3d517b0f01c9c126c1e9660bcfabdd23df244
-[2025-08-05T05:28:02.978Z] - INFO - [AUTH] Auto fill passwword from security.ini...
-[2025-08-05T05:28:03.027Z] - INFO - Authentication failed
-[2025-08-05T05:28:03.028Z] - INFO - Client loop closed
-[2025-08-05T05:28:03.029Z] - INFO - Disconnected
-[2025-08-05T05:29:51.663Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:29:51.664Z] - INFO - Connected
-[2025-08-05T05:29:51.683Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:29:51.684Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:29:51.684Z] - INFO - [Quantum Protocol] Established session: d0daf5a2-a836-499e-a632-8379beabe51d
-[2025-08-05T05:29:51.690Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:29:51.825Z] - INFO - [Server] Connection secured successfully | Session ID: d0daf5a2-a836-499e-a632-8379beabe51d
-[2025-08-05T05:29:51.825Z] - INFO - [DEBUG] Session ID: d0daf5a2-a836-499e-a632-8379beabe51d
-[2025-08-05T05:29:51.825Z] - INFO - [DEBUG] Master key (shared secret): 89b2b228d54defbb8d048b9656c825e5151c531b5971371d1f3898a743b1269b
-[2025-08-05T05:29:56.638Z] - INFO - Authentication failed
-[2025-08-05T05:29:56.638Z] - INFO - Client loop closed
-[2025-08-05T05:29:56.639Z] - INFO - Disconnected
-[2025-08-05T05:30:05.345Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:30:05.346Z] - INFO - Connected
-[2025-08-05T05:30:05.364Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:30:05.365Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:30:05.365Z] - INFO - [Quantum Protocol] Established session: 3589acd7-a779-4560-8546-1f6734066d52
-[2025-08-05T05:30:05.370Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:30:05.465Z] - INFO - [Server] Connection secured successfully | Session ID: 3589acd7-a779-4560-8546-1f6734066d52
-[2025-08-05T05:30:05.466Z] - INFO - [DEBUG] Session ID: 3589acd7-a779-4560-8546-1f6734066d52
-[2025-08-05T05:30:05.466Z] - INFO - [DEBUG] Master key (shared secret): f63f643851f03e976efa4f610d27b5fc453286b67d4e5e917b7b4ba31544b19f
-[2025-08-05T05:30:09.164Z] - INFO - Authentication failed
-[2025-08-05T05:30:09.164Z] - INFO - Client loop closed
-[2025-08-05T05:30:09.165Z] - INFO - Disconnected
-[2025-08-05T05:30:25.226Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:30:25.227Z] - INFO - Connected
-[2025-08-05T05:30:25.245Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:30:25.246Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:30:25.246Z] - INFO - [Quantum Protocol] Established session: 2990a357-76c1-460b-8592-b855d9e47bf4
-[2025-08-05T05:30:25.252Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:30:25.346Z] - INFO - [Server] Connection secured successfully | Session ID: 2990a357-76c1-460b-8592-b855d9e47bf4
-[2025-08-05T05:30:25.346Z] - INFO - [DEBUG] Session ID: 2990a357-76c1-460b-8592-b855d9e47bf4
-[2025-08-05T05:30:25.347Z] - INFO - [DEBUG] Master key (shared secret): deed2161bfb1e64c37c8ff50b0a43b978e85b5effd860e754c9d7c800c28b09c
-[2025-08-05T05:30:30.106Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-05T05:30:30.106Z] - INFO - Creating a shell tunnel...
-[2025-08-05T05:30:32.505Z] - INFO - Disconnected
-[2025-08-05T05:30:32.505Z] - INFO - Session shell closed
-[2025-08-05T05:30:32.506Z] - INFO - Client loop closed
-[2025-08-05T05:31:23.078Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:31:23.079Z] - INFO - Connected
-[2025-08-05T05:31:23.100Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:31:23.101Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:31:23.102Z] - INFO - [Quantum Protocol] Established session: 5afb8bb7-6387-4da5-ba6e-81154758580d
-[2025-08-05T05:31:23.106Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:31:23.195Z] - INFO - [Server] Connection secured successfully | Session ID: 5afb8bb7-6387-4da5-ba6e-81154758580d
-[2025-08-05T05:31:23.195Z] - INFO - [DEBUG] Session ID: 5afb8bb7-6387-4da5-ba6e-81154758580d
-[2025-08-05T05:31:23.196Z] - INFO - [DEBUG] Master key (shared secret): b6a3e1efd784de45d7003b15bd6c82da6ea1c90ccb70089b2f7d2746c7897a50
-[2025-08-05T05:31:25.876Z] - INFO - Client loop closed
-[2025-08-05T05:31:25.877Z] - INFO - Disconnected
-[2025-08-05T05:32:46.023Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:32:46.024Z] - INFO - Connected
-[2025-08-05T05:32:46.045Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:32:46.046Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:32:46.046Z] - INFO - [Quantum Protocol] Established session: dde1b1ea-2f16-4a9d-b84e-c619f0c8cd73
-[2025-08-05T05:32:46.051Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:32:46.159Z] - INFO - [Server] Connection secured successfully | Session ID: dde1b1ea-2f16-4a9d-b84e-c619f0c8cd73
-[2025-08-05T05:32:46.159Z] - INFO - [DEBUG] Session ID: dde1b1ea-2f16-4a9d-b84e-c619f0c8cd73
-[2025-08-05T05:32:46.159Z] - INFO - [DEBUG] Master key (shared secret): 54aecff46c5d93204d7b79d11389a99496ff8ab9f299825cac9a951c353ece37
-[2025-08-05T05:32:48.645Z] - INFO - Authentication failed
-[2025-08-05T05:32:48.648Z] - INFO - Client loop closed
-[2025-08-05T05:32:48.652Z] - INFO - Disconnected
-[2025-08-05T05:32:50.378Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:32:50.380Z] - INFO - Connected
-[2025-08-05T05:32:50.397Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:32:50.398Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:32:50.399Z] - INFO - [Quantum Protocol] Established session: 95ac96a9-2833-4815-8b02-1adfdab0edc1
-[2025-08-05T05:32:50.403Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:32:50.521Z] - INFO - [Server] Connection secured successfully | Session ID: 95ac96a9-2833-4815-8b02-1adfdab0edc1
-[2025-08-05T05:32:50.521Z] - INFO - [DEBUG] Session ID: 95ac96a9-2833-4815-8b02-1adfdab0edc1
-[2025-08-05T05:32:50.522Z] - INFO - [DEBUG] Master key (shared secret): b4c7fe13f3183bbe5c25a5c1e8a833e2ee64a69dd62be3ea70d51d44ddd360f2
-[2025-08-05T05:32:55.476Z] - INFO - Authentication failed
-[2025-08-05T05:32:55.477Z] - INFO - Client loop closed
-[2025-08-05T05:32:55.477Z] - INFO - Disconnected
-[2025-08-05T05:32:57.916Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:32:57.918Z] - INFO - Connected
-[2025-08-05T05:32:57.935Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:32:57.936Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:32:57.936Z] - INFO - [Quantum Protocol] Established session: d32c7217-4a0b-4223-8dbd-23b938699be6
-[2025-08-05T05:32:57.945Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:32:58.022Z] - INFO - [Server] Connection secured successfully | Session ID: d32c7217-4a0b-4223-8dbd-23b938699be6
-[2025-08-05T05:32:58.022Z] - INFO - [DEBUG] Session ID: d32c7217-4a0b-4223-8dbd-23b938699be6
-[2025-08-05T05:32:58.023Z] - INFO - [DEBUG] Master key (shared secret): c1711ba2e3285d4531293c9f38ce897959fa85bcb16184bb2b9efe52e7068087
-[2025-08-05T05:33:03.893Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-05T05:33:03.893Z] - INFO - Creating a shell tunnel...
-[2025-08-05T05:33:11.031Z] - INFO - Disconnected
-[2025-08-05T05:33:11.032Z] - INFO - Session shell closed
-[2025-08-05T05:33:11.033Z] - INFO - Client loop closed
-[2025-08-05T05:34:15.832Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:34:15.833Z] - INFO - Connected
-[2025-08-05T05:34:15.850Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:34:15.852Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:34:15.852Z] - INFO - [Quantum Protocol] Established session: fc6368a8-4e17-453a-a40b-78c3bc9cb044
-[2025-08-05T05:34:15.859Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:34:15.939Z] - INFO - [Server] Connection secured successfully | Session ID: fc6368a8-4e17-453a-a40b-78c3bc9cb044
-[2025-08-05T05:34:15.940Z] - INFO - [DEBUG] Session ID: fc6368a8-4e17-453a-a40b-78c3bc9cb044
-[2025-08-05T05:34:15.940Z] - INFO - [DEBUG] Master key (shared secret): cbb067863179c41bb4dcae2e5c29b64d6cd647acb49017cd78dd66314a1673cd
-[2025-08-05T05:34:16.865Z] - INFO - [AUTH] Auto Fill from security.ini...
-[2025-08-05T05:34:16.911Z] - INFO - Authentication failed
-[2025-08-05T05:34:16.912Z] - INFO - Client loop closed
-[2025-08-05T05:34:16.913Z] - INFO - Disconnected
-[2025-08-05T05:34:26.340Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:34:26.341Z] - INFO - Connected
-[2025-08-05T05:34:26.360Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:34:26.361Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:34:26.361Z] - INFO - [Quantum Protocol] Established session: c9eb267f-939c-40bf-bfd0-13bb794c3438
-[2025-08-05T05:34:26.365Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:34:26.475Z] - INFO - [Server] Connection secured successfully | Session ID: c9eb267f-939c-40bf-bfd0-13bb794c3438
-[2025-08-05T05:34:26.475Z] - INFO - [DEBUG] Session ID: c9eb267f-939c-40bf-bfd0-13bb794c3438
-[2025-08-05T05:34:26.475Z] - INFO - [DEBUG] Master key (shared secret): 487e0112a1beb0570235d9cd7985b9d8f1a6d751296a5c1bffe4a7a1de12fc4d
-[2025-08-05T05:34:27.371Z] - INFO - [AUTH] Auto Fill from security.ini...
-[2025-08-05T05:34:27.419Z] - INFO - Authentication failed
-[2025-08-05T05:34:27.420Z] - INFO - Client loop closed
-[2025-08-05T05:34:27.420Z] - INFO - Disconnected
-[2025-08-05T05:35:57.203Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:35:57.204Z] - INFO - Connected
-[2025-08-05T05:35:57.222Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:35:57.224Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:35:57.224Z] - INFO - [Quantum Protocol] Established session: ffc10592-2113-4826-84d5-234eeb75d9ed
-[2025-08-05T05:35:57.228Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:35:57.300Z] - INFO - [Server] Connection secured successfully | Session ID: ffc10592-2113-4826-84d5-234eeb75d9ed
-[2025-08-05T05:35:57.300Z] - INFO - [DEBUG] Session ID: ffc10592-2113-4826-84d5-234eeb75d9ed
-[2025-08-05T05:35:57.301Z] - INFO - [DEBUG] Master key (shared secret): e8685dfa29f4a5dde6a400b736ce87830a48800b4ec4655413dc66c6d5a721f7
-[2025-08-05T05:35:58.233Z] - INFO - [AUTH] Auto Fill from security.ini...
-[2025-08-05T05:35:58.283Z] - INFO - Authentication failed
-[2025-08-05T05:35:58.284Z] - INFO - Client loop closed
-[2025-08-05T05:35:58.285Z] - INFO - Disconnected
-[2025-08-05T05:36:55.146Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:36:55.148Z] - INFO - Connected
-[2025-08-05T05:36:55.166Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:36:55.167Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:36:55.167Z] - INFO - [Quantum Protocol] Established session: 4c8d4f0f-a2e1-41ac-8b7f-6a966793b507
-[2025-08-05T05:36:55.171Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:36:55.262Z] - INFO - [Server] Connection secured successfully | Session ID: 4c8d4f0f-a2e1-41ac-8b7f-6a966793b507
-[2025-08-05T05:36:55.263Z] - INFO - [DEBUG] Session ID: 4c8d4f0f-a2e1-41ac-8b7f-6a966793b507
-[2025-08-05T05:36:55.264Z] - INFO - [DEBUG] Master key (shared secret): 1ab5646137b672b84fe7b24de5d2e10ac2e145318f822f772e7175031fa040ee
-[2025-08-05T05:36:56.177Z] - INFO - [AUTH] Auto Fill from security.ini...
-[2025-08-05T05:36:56.178Z] - ERROR - Authentication error: cannot access local variable 'user_passwd' where it is not associated with a value
-[2025-08-05T05:36:56.178Z] - INFO - Authentication failed
-[2025-08-05T05:36:56.179Z] - INFO - Client loop closed
-[2025-08-05T05:36:56.180Z] - INFO - Disconnected
-[2025-08-05T05:37:37.505Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:37:37.505Z] - INFO - Connected
-[2025-08-05T05:37:37.529Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:37:37.530Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:37:37.531Z] - INFO - [Quantum Protocol] Established session: c30b9790-bad4-42fd-a5f4-2b365f8744f3
-[2025-08-05T05:37:37.537Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:37:37.637Z] - INFO - [Server] Connection secured successfully | Session ID: c30b9790-bad4-42fd-a5f4-2b365f8744f3
-[2025-08-05T05:37:37.638Z] - INFO - [DEBUG] Session ID: c30b9790-bad4-42fd-a5f4-2b365f8744f3
-[2025-08-05T05:37:37.638Z] - INFO - [DEBUG] Master key (shared secret): a7eff34471bf82a6dbccc9854da4cf9eec63e0e210a3026820c7533a174bf256
-[2025-08-05T05:37:38.543Z] - INFO - [AUTH] Auto Fill from security.ini...
-[2025-08-05T05:37:41.623Z] - INFO - Authentication failed
-[2025-08-05T05:37:41.623Z] - INFO - Client loop closed
-[2025-08-05T05:37:41.624Z] - INFO - Disconnected
-[2025-08-05T05:39:24.258Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:39:24.262Z] - INFO - Connected
-[2025-08-05T05:39:24.279Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:39:24.280Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:39:24.280Z] - INFO - [Quantum Protocol] Established session: 263ef521-b573-4a1f-b995-5980d32ae045
-[2025-08-05T05:39:24.285Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:39:24.385Z] - INFO - [Server] Connection secured successfully | Session ID: 263ef521-b573-4a1f-b995-5980d32ae045
-[2025-08-05T05:39:24.385Z] - INFO - [DEBUG] Session ID: 263ef521-b573-4a1f-b995-5980d32ae045
-[2025-08-05T05:39:24.386Z] - INFO - [DEBUG] Master key (shared secret): 0a31dd637a6044a15a012d2107064eb4d8886a7bd3c35b85923826bbe3d8f513
-[2025-08-05T05:39:29.797Z] - INFO - Authentication failed
-[2025-08-05T05:39:29.798Z] - INFO - Client loop closed
-[2025-08-05T05:39:29.798Z] - INFO - Disconnected
-[2025-08-05T05:39:44.689Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:39:44.689Z] - INFO - Connected
-[2025-08-05T05:39:44.710Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:39:44.711Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:39:44.712Z] - INFO - [Quantum Protocol] Established session: e85fbf6d-df30-4cb9-9fb6-4f1199466e0f
-[2025-08-05T05:39:44.717Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:39:44.798Z] - INFO - [Server] Connection secured successfully | Session ID: e85fbf6d-df30-4cb9-9fb6-4f1199466e0f
-[2025-08-05T05:39:44.799Z] - INFO - [DEBUG] Session ID: e85fbf6d-df30-4cb9-9fb6-4f1199466e0f
-[2025-08-05T05:39:44.799Z] - INFO - [DEBUG] Master key (shared secret): ebf757e1b65b4093b3093a43ff7cf06170a1b57ea8c4241bca8b2b5b13c03d04
-[2025-08-05T05:39:45.723Z] - INFO - [AUTH] Auto Fill from security.ini...
-[2025-08-05T05:39:45.772Z] - INFO - Authentication failed
-[2025-08-05T05:39:45.773Z] - INFO - Client loop closed
-[2025-08-05T05:39:45.773Z] - INFO - Disconnected
-[2025-08-05T05:39:58.436Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:39:58.448Z] - INFO - Connected
-[2025-08-05T05:39:58.623Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:39:58.623Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:39:58.643Z] - INFO - [Quantum Protocol] Established session: 9ea3159c-b997-4f93-8044-c826d4f0a8e8
-[2025-08-05T05:39:58.652Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:39:58.877Z] - INFO - [Server] Connection secured successfully | Session ID: 9ea3159c-b997-4f93-8044-c826d4f0a8e8
-[2025-08-05T05:39:58.877Z] - INFO - [DEBUG] Session ID: 9ea3159c-b997-4f93-8044-c826d4f0a8e8
-[2025-08-05T05:39:58.877Z] - INFO - [DEBUG] Master key (shared secret): 86c2ba7f8eaadd149045f672cd7cc8878b893ce54f3a9996c26636fc2937c757
-[2025-08-05T05:39:59.659Z] - INFO - [AUTH] Auto Fill from security.ini...
-[2025-08-05T05:39:59.708Z] - INFO - Authentication failed
-[2025-08-05T05:39:59.708Z] - INFO - Client loop closed
-[2025-08-05T05:39:59.709Z] - INFO - Disconnected
-[2025-08-05T05:40:07.688Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:40:07.689Z] - INFO - Connected
-[2025-08-05T05:40:07.721Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:40:07.722Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:40:07.722Z] - INFO - [Quantum Protocol] Established session: be4bba92-ad0f-4116-90ba-081a7bce40dc
-[2025-08-05T05:40:07.739Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:40:07.849Z] - INFO - [Server] Connection secured successfully | Session ID: be4bba92-ad0f-4116-90ba-081a7bce40dc
-[2025-08-05T05:40:07.849Z] - INFO - [DEBUG] Session ID: be4bba92-ad0f-4116-90ba-081a7bce40dc
-[2025-08-05T05:40:07.849Z] - INFO - [DEBUG] Master key (shared secret): a497e47ce329308437c4b383a1c25efa392b8f1424160e2d3ca5bb6456869851
-[2025-08-05T05:40:08.770Z] - INFO - [AUTH] Auto Fill from security.ini...
-[2025-08-05T05:40:08.816Z] - INFO - Authentication failed
-[2025-08-05T05:40:08.817Z] - INFO - Client loop closed
-[2025-08-05T05:40:08.818Z] - INFO - Disconnected
-[2025-08-05T05:40:11.241Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:40:11.241Z] - INFO - Connected
-[2025-08-05T05:40:11.258Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:40:11.260Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:40:11.260Z] - INFO - [Quantum Protocol] Established session: 6b7b99b2-c279-4ed6-861d-ca829fa77403
-[2025-08-05T05:40:11.266Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:40:11.342Z] - INFO - [Server] Connection secured successfully | Session ID: 6b7b99b2-c279-4ed6-861d-ca829fa77403
-[2025-08-05T05:40:11.342Z] - INFO - [DEBUG] Session ID: 6b7b99b2-c279-4ed6-861d-ca829fa77403
-[2025-08-05T05:40:11.343Z] - INFO - [DEBUG] Master key (shared secret): a009105ab053e175be1eadd759697dcb4d6dc8a4430e3fd9bf2fe7eeaa77ece9
-[2025-08-05T05:40:12.271Z] - INFO - [AUTH] Auto Fill from security.ini...
-[2025-08-05T05:40:12.320Z] - INFO - Authentication failed
-[2025-08-05T05:40:12.321Z] - INFO - Client loop closed
-[2025-08-05T05:40:12.321Z] - INFO - Disconnected
-[2025-08-05T05:40:28.914Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:40:28.915Z] - INFO - Connected
-[2025-08-05T05:40:28.934Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:40:28.935Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:40:28.936Z] - INFO - [Quantum Protocol] Established session: 6ca00a47-361b-4b43-8fd5-3a79c78a0540
-[2025-08-05T05:40:28.942Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:40:29.018Z] - INFO - [Server] Connection secured successfully | Session ID: 6ca00a47-361b-4b43-8fd5-3a79c78a0540
-[2025-08-05T05:40:29.018Z] - INFO - [DEBUG] Session ID: 6ca00a47-361b-4b43-8fd5-3a79c78a0540
-[2025-08-05T05:40:29.018Z] - INFO - [DEBUG] Master key (shared secret): 134172fd3615f06994873d4b4900019cda6276298c828704de1a8b735b8e8a2f
-[2025-08-05T05:40:29.948Z] - INFO - [AUTH] Auto Fill from security.ini...
-[2025-08-05T05:40:30.039Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-05T05:40:30.039Z] - INFO - Creating a shell tunnel...
-[2025-08-05T05:40:35.437Z] - INFO - Disconnected
-[2025-08-05T05:40:35.437Z] - INFO - Session shell closed
-[2025-08-05T05:40:35.438Z] - INFO - Client loop closed
-[2025-08-05T05:40:41.421Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:40:41.422Z] - INFO - Connected
-[2025-08-05T05:40:41.440Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:40:41.441Z] - INFO - [Quantum Protocol] fingerprint OK: 9a5f269aa81dc569b2c35a87e544f49cc9f916b55f599d6a4b23470111a9f707
-[2025-08-05T05:40:41.442Z] - INFO - [Quantum Protocol] Established session: bdde65b7-a2b3-4b46-9add-418aa741de60
-[2025-08-05T05:40:41.447Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T05:40:41.543Z] - INFO - [Server] Connection secured successfully | Session ID: bdde65b7-a2b3-4b46-9add-418aa741de60
-[2025-08-05T05:40:41.544Z] - INFO - [DEBUG] Session ID: bdde65b7-a2b3-4b46-9add-418aa741de60
-[2025-08-05T05:40:41.544Z] - INFO - [DEBUG] Master key (shared secret): 1829dee87398b98e356da97cd1cffc4951a5b9d2689ec5198dc81195c2295d0d
-[2025-08-05T05:40:42.453Z] - INFO - [AUTH] Auto Fill from security.ini...
-[2025-08-05T05:40:42.541Z] - INFO - Authentication passed, Wait a moment...
-[2025-08-05T05:40:42.541Z] - INFO - Creating a shell tunnel...
-[2025-08-05T05:41:22.239Z] - INFO - Disconnected
-[2025-08-05T05:41:22.240Z] - INFO - Session shell closed
-[2025-08-05T05:41:22.241Z] - INFO - Client loop closed
+[2025-08-05T07:49:52.760Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T07:49:52.760Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T07:49:52.760Z] - INFO - Client loop closed
+[2025-08-05T07:50:49.618Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:50:49.619Z] - INFO - Connected
+[2025-08-05T07:50:49.647Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:50:54.399Z] - INFO - Client loop closed
+[2025-08-05T07:50:54.399Z] - INFO - Disconnected
+[2025-08-05T07:52:17.318Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:52:17.319Z] - INFO - Connected
+[2025-08-05T07:52:17.342Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:52:32.355Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T07:52:32.356Z] - INFO - 
+[Quantum Protocol] Disconnected
+[2025-08-05T07:52:32.356Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T07:52:32.357Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T07:52:32.357Z] - INFO - Client loop closed
+[2025-08-05T07:52:56.554Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:52:56.556Z] - INFO - Connected
+[2025-08-05T07:52:56.576Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:53:11.591Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T07:53:11.591Z] - INFO - 
+[Quantum Protocol] Disconnected
+[2025-08-05T07:53:11.592Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T07:53:11.592Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T07:53:11.592Z] - INFO - Client loop closed
+[2025-08-05T07:53:44.364Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:53:44.365Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-05T07:53:44.366Z] - INFO - Client loop closed
+[2025-08-05T07:53:44.367Z] - INFO - Disconnected
+[2025-08-05T07:53:49.486Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:53:49.488Z] - INFO - Connected
+[2025-08-05T07:53:49.510Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:54:04.528Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T07:54:04.529Z] - INFO - 
+[Quantum Protocol] Disconnected
+[2025-08-05T07:54:04.529Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T07:54:04.529Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T07:54:04.529Z] - INFO - Client loop closed
+[2025-08-05T07:55:02.208Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:55:02.209Z] - INFO - Connected
+[2025-08-05T07:55:02.229Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:55:17.233Z] - INFO - [Quantum Protocol] Handshake error: Connection closed
+[2025-08-05T07:55:17.234Z] - INFO - 
+[Quantum Protocol] Disconnected
+[2025-08-05T07:55:17.234Z] - CRITICAL - [Quantum Protocol] Handshake failed: Connection closed
+[2025-08-05T07:55:17.235Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T07:55:17.235Z] - INFO - Client loop closed
+[2025-08-05T07:57:27.518Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:57:27.520Z] - INFO - Connected
+[2025-08-05T07:57:27.553Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:57:42.570Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T07:57:42.571Z] - INFO - 
+[Quantum Protocol] Disconnected
+[2025-08-05T07:57:42.571Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T07:57:42.571Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T07:57:42.571Z] - INFO - Client loop closed
+[2025-08-05T07:58:04.247Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:58:04.249Z] - INFO - Connected
+[2025-08-05T07:58:04.270Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:58:19.286Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T07:58:19.287Z] - INFO - 
+[Quantum Protocol] Disconnected
+[2025-08-05T07:58:19.288Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T07:58:19.288Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T07:58:19.289Z] - INFO - Client loop closed
+[2025-08-05T07:59:21.290Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:59:21.291Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-05T07:59:21.292Z] - INFO - Client loop closed
+[2025-08-05T07:59:21.292Z] - INFO - Disconnected
+[2025-08-05T07:59:27.429Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T07:59:27.430Z] - INFO - Connected
+[2025-08-05T07:59:27.448Z] - INFO - Performing quantum handshake...
+[2025-08-05T07:59:42.450Z] - INFO - [Quantum Protocol] Handshake error: Connection closed
+[2025-08-05T07:59:42.451Z] - INFO - 
+[Quantum Protocol] Disconnected
+[2025-08-05T07:59:42.451Z] - CRITICAL - [Quantum Protocol] Handshake failed: Connection closed
+[2025-08-05T07:59:42.452Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T07:59:42.453Z] - INFO - Client loop closed
+[2025-08-05T08:00:01.254Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T08:00:01.257Z] - INFO - Connected
+[2025-08-05T08:00:01.278Z] - INFO - Performing quantum handshake...
+[2025-08-05T08:00:16.292Z] - INFO - [Quantum Protocol] Handshake error: timed out
+[2025-08-05T08:00:16.293Z] - INFO - 
+[Quantum Protocol] Disconnected
+[2025-08-05T08:00:16.294Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
+[2025-08-05T08:00:16.294Z] - CRITICAL - Handshake failed, Disconnecting...
+[2025-08-05T08:00:16.294Z] - INFO - Client loop closed
+[2025-08-05T08:02:38.228Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T08:02:38.229Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-05T08:02:38.229Z] - INFO - Client loop closed
+[2025-08-05T08:02:38.229Z] - INFO - Disconnected
+[2025-08-05T08:02:40.809Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T08:02:40.809Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-05T08:02:40.809Z] - INFO - Client loop closed
+[2025-08-05T08:02:40.810Z] - INFO - Disconnected
+[2025-08-05T08:02:48.437Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T08:02:48.438Z] - INFO - Connected
+[2025-08-05T08:02:48.459Z] - INFO - Performing quantum handshake...
+[2025-08-05T08:02:48.470Z] - INFO - [Quantum Protocol] Trusted new server cert, fingerprint: 1cb8fcb3fef9b1b71066dc3e26071c48b5f6f11305dc0a64fc6d7876ba41934d
+[2025-08-05T08:02:48.473Z] - INFO - [Quantum Protocol] Established session: 2bfb6d7c-81bb-4aa2-b551-e33ada3fbfb9
+[2025-08-05T08:02:48.480Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
+[2025-08-05T08:02:48.620Z] - INFO - [Server] Connection secured successfully | Session ID: 2bfb6d7c-81bb-4aa2-b551-e33ada3fbfb9
+[2025-08-05T08:02:48.621Z] - INFO - [DEBUG] Session ID: 2bfb6d7c-81bb-4aa2-b551-e33ada3fbfb9
+[2025-08-05T08:02:48.621Z] - INFO - [DEBUG] Master key (shared secret): cdde8b40d8c656165db8041a03accf6a7be87ccb8e046379549b457fff8fe973
+[2025-08-05T08:02:53.074Z] - INFO - Authentication failed
+[2025-08-05T08:02:53.075Z] - INFO - Client loop closed
+[2025-08-05T08:02:53.075Z] - INFO - Disconnected
+[2025-08-05T08:03:03.064Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T08:03:03.066Z] - INFO - Connected
+[2025-08-05T08:03:03.087Z] - INFO - Performing quantum handshake...
+[2025-08-05T08:03:03.088Z] - INFO - [Quantum Protocol] fingerprint OK: 1cb8fcb3fef9b1b71066dc3e26071c48b5f6f11305dc0a64fc6d7876ba41934d
+[2025-08-05T08:03:03.089Z] - INFO - [Quantum Protocol] Established session: b17a4c9d-1d14-4cf3-8265-12660ba9856f
+[2025-08-05T08:03:03.093Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
+[2025-08-05T08:03:03.184Z] - INFO - [Server] Connection secured successfully | Session ID: b17a4c9d-1d14-4cf3-8265-12660ba9856f
+[2025-08-05T08:03:03.185Z] - INFO - [DEBUG] Session ID: b17a4c9d-1d14-4cf3-8265-12660ba9856f
+[2025-08-05T08:03:03.185Z] - INFO - [DEBUG] Master key (shared secret): 869eaee1274afaa6469a0dedbc379bc8e65e47e5540344ab39e6f904f71d45e3
+[2025-08-05T08:03:05.948Z] - INFO - Client loop closed
+[2025-08-05T08:03:05.949Z] - INFO - Disconnected
+[2025-08-05T08:04:17.727Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-05T08:04:17.729Z] - INFO - Connected
+[2025-08-05T08:04:17.731Z] - CRITICAL - Client loop error [CRITICAL: [Errno 104] Connection reset by peer]
+[2025-08-05T08:04:17.731Z] - INFO - Client loop closed
+[2025-08-05T08:04:17.731Z] - INFO - Disconnected
