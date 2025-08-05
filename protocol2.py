@@ -1,4 +1,4 @@
-# PROTOCOL HELPER
+# ROTOCOL HELPER
 # ALL COMMUNICATION LOGIC HERE
 
 import heapq
@@ -29,6 +29,10 @@ from cryptography.hazmat.primitives.kdf.hkdf import HKDF
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 from Crypto.Random import get_random_bytes
+from cryptography.utils import CryptographyDeprecationWarning
+import warnings
+
+warnings.filterwarnings("ignore", category=CryptographyDeprecationWarning)
 
 try:
     from oqs import KeyEncapsulation, Signature
@@ -40,7 +44,6 @@ except ImportError:
 QUANTUM_KEM_ALG = "Kyber1024"
 QUANTUM_SIG_ALG = "Dilithium3"
 CLASSICAL_CURVE = ec.SECP384R1()
-KEY_ROTATION_INTERVAL = 60  # 5 minutes
 SESSION_TIMEOUT = 3600
 MAX_MESSAGE_AGE = 30
 BUFFER_SIZE = 8192
@@ -52,19 +55,17 @@ def get_cert_fingerprint(cert: x509.Certificate) -> str:
 class SessionInfo:
     socket: socket.socket
     address: tuple
-    cipher: 'EnhancedAESCipher'
+    cipher: 'SimpleAESCipher'
     authenticated: bool
     join_time: float
-    last_key_rotation: float
     session_id: str
     certificate: Optional[x509.Certificate]
     classical_private_key: Optional[ec.EllipticCurvePrivateKey]
     message_nonces: set
-    new_key_exchange: Optional['HybridKeyExchange'] = None
 
 class CertificateManager:
     @staticmethod
-    def generate_self_signed_cert(subject_name: str, private_key) -> x509.Certificate:
+    def generate_self_signed_cert(subject_name: str, private_key, logger) -> x509.Certificate:
         try:
             subject = issuer = x509.Name([
                 x509.NameAttribute(NameOID.COUNTRY_NAME, "TH"),
@@ -95,7 +96,7 @@ class CertificateManager:
 
             return cert
         except Exception as e:
-            print(f"Failed to create certificate: {e}")
+            logger.error(f"Generate Self Signed Cert Failed [ERROR: {e}]")
             return None
 
     @staticmethod
@@ -108,20 +109,16 @@ class CertificateManager:
         except Exception:
             return False
 
-class EnhancedAESCipher:
-    def __init__(self, master_key: bytes, session_id: str):
+class SimpleAESCipher:
+    def __init__(self, master_key: bytes, session_id: str, max_message_age):
         self.master_key = master_key
         self.session_id = session_id
-        self.current_key_version = 0
-        self.key_history = {}
-        self._rotate_keys()
+        self.max_message_age = max_message_age
+        self.encryption_key = self._derive_key(b"AES_ENCRYPTION")
+        self.hmac_key = self._derive_key(b"HMAC_AUTH")
 
-    def _derive_key(self, info: bytes, key_version: int = None) -> bytes:
-        if key_version is None:
-            key_version = self.current_key_version
-
-        full_info = info + self.session_id.encode() + key_version.to_bytes(4, 'big')
-
+    def _derive_key(self, info: bytes) -> bytes:
+        full_info = info + self.session_id.encode()
         hkdf = HKDF(
             algorithm=hashes.SHA256(),
             length=32,
@@ -130,34 +127,12 @@ class EnhancedAESCipher:
         )
         return hkdf.derive(self.master_key)
 
-    def _rotate_keys(self):
-        if self.current_key_version > 0:
-            old_enc_key = self._derive_key(b"AES_ENCRYPTION", self.current_key_version - 1)
-            old_hmac_key = self._derive_key(b"HMAC_AUTH", self.current_key_version - 1)
-            self.key_history[self.current_key_version - 1] = {
-                'encryption': old_enc_key,
-                'hmac': old_hmac_key,
-                'timestamp': time.time()
-            }
-
-        self.current_key_version += 1
-        self.encryption_key = self._derive_key(b"AES_ENCRYPTION")
-        self.hmac_key = self._derive_key(b"HMAC_AUTH")
-
-        current_time = time.time()
-        expired_versions = [
-            v for v, data in self.key_history.items()
-            if current_time - data['timestamp'] > 300
-        ]
-        for v in expired_versions:
-            del self.key_history[v]
-
     def encrypt(self, data: str, include_timestamp: bool = True) -> bytes:
         if isinstance(data, str):
             data = data.encode('utf-8')
 
         timestamp = int(time.time()).to_bytes(8, 'big')
-        nonce = secrets.token_bytes(16)
+        nonce = secrets.token_bytes(12)
         message_id = uuid.uuid4().bytes
 
         if include_timestamp:
@@ -168,14 +143,8 @@ class EnhancedAESCipher:
         cipher = AES.new(self.encryption_key, AES.MODE_GCM, nonce=nonce)
         ciphertext, auth_tag = cipher.encrypt_and_digest(payload)
 
-        encrypted_data = (
-            self.current_key_version.to_bytes(4, 'big') +
-            nonce + auth_tag + ciphertext
-        )
-
-        mac = hmac.new(self.hmac_key, encrypted_data, hashlib.sha256).digest()
-
-        return base64.b64encode(mac + encrypted_data)
+        encrypted_data = nonce + auth_tag + ciphertext
+        return base64.b64encode(encrypted_data)
 
     def decrypt(self, encoded_data: bytes, check_timestamp: bool = True) -> Tuple[str, dict]:
         try:
@@ -183,54 +152,31 @@ class EnhancedAESCipher:
         except Exception:
             raise ValueError("Invalid base64 encoding")
 
-        if len(data) < 32:
+        if len(data) < 12 + 16:
             raise ValueError("Invalid data length")
-        mac = data[:32]
-        encrypted_data = data[32:]
-
-        if len(encrypted_data) < 4:
-            raise ValueError("Invalid key version length")
-        key_version = int.from_bytes(encrypted_data[:4], 'big')
-        encrypted_data = encrypted_data[4:]
-
-        if key_version == self.current_key_version:
-            enc_key = self.encryption_key
-            hmac_key = self.hmac_key
-        elif key_version in self.key_history:
-            enc_key = self.key_history[key_version]['encryption']
-            hmac_key = self.key_history[key_version]['hmac']
-        else:
-            raise ValueError(f"Key version {key_version} not found")
-
-        full_data = key_version.to_bytes(4, 'big') + encrypted_data
-        expected_mac = hmac.new(hmac_key, full_data, hashlib.sha256).digest()
-        if not hmac.compare_digest(mac, expected_mac):
-            raise ValueError("HMAC verification failed")
             
-        if len(encrypted_data) < 32:
-            raise ValueError("Invalid encrypted data length")
-        nonce = encrypted_data[:16]
-        auth_tag = encrypted_data[16:32]
-        ciphertext = encrypted_data[32:]
+        nonce = data[:12]
+        auth_tag = data[12:28]
+        ciphertext = data[28:]
 
         try:
-            cipher = AES.new(enc_key, AES.MODE_GCM, nonce=nonce)
+            cipher = AES.new(self.encryption_key, AES.MODE_GCM, nonce=nonce)
             decrypted = cipher.decrypt_and_verify(ciphertext, auth_tag)
         except ValueError as e:
             raise ValueError(f"Decryption failed: {str(e)}")
 
-        metadata = {'key_version': key_version}
+        metadata = {}
 
-        if check_timestamp and len(decrypted) >= 40:
+        if check_timestamp and len(decrypted) >= 8 + 12 + 16:
             timestamp_bytes = decrypted[:8]
-            nonce_bytes = decrypted[8:24]
-            message_id = decrypted[24:40]
-            actual_data = decrypted[40:]
+            nonce_bytes = decrypted[8:20]
+            message_id = decrypted[20:36]
+            actual_data = decrypted[36:]
 
             message_timestamp = int.from_bytes(timestamp_bytes, 'big')
             current_time = int(time.time())
 
-            if abs(current_time - message_timestamp) > MAX_MESSAGE_AGE:
+            if abs(current_time - message_timestamp) > self.max_message_age:
                 raise ValueError(f"Message too old: {current_time - message_timestamp} seconds")
 
             metadata.update({
@@ -277,26 +223,25 @@ class HybridKeyExchange:
         return hkdf.derive(combined_secret)
 
 class ServerManager:
-    def __init__(self, logger, client_socket, addr):
+    def __init__(self, logger, client_socket, addr, buffer_size, max_messaage_age, password_to_login):
         self.logger = logger
         self.client_socket = client_socket
         self.addr = addr
+        self.buffer_size = buffer_size
+        self.password_to_login = password_to_login
+        self.max_message_age = max_messaage_age
         self.session: Optional[SessionInfo] = None
-        self.server_cert_manager = server_certificate_manager.ServerCertificateManager()
+        self.server_cert_manager = server_certificate_manager.ServerCertificateManager(self.logger)
 
         self.key_exchange = HybridKeyExchange()
         self.sig = Signature(QUANTUM_SIG_ALG)
         self.sig_public_key = self.sig.generate_keypair()
         self.server_cert = self.server_cert_manager.init(CLASSICAL_CURVE, CertificateManager)
         
-        self.key_rotation_timer = None
-        self.start_key_rotation_timer()
-
         self.client_id = f"{addr[0]}:{addr[1]}_{int(time.time())}"
 
-        print(f"[Quantum Protocol] Using Hybrid {QUANTUM_KEM_ALG} + ECDH")
-        print(f"[Quantum Protocol] Signature Algorithm: {QUANTUM_SIG_ALG}")
-        print(f"[Quantum Protocol] Key Rotation: every {KEY_ROTATION_INTERVAL} seconds")
+        self.logger.info(f"[Quantum Protocol] Using Hybrid {QUANTUM_KEM_ALG} + ECDH")
+        self.logger.info(f"[Quantum Protocol] Signature Algorithm: {QUANTUM_SIG_ALG}")
 
     def send_large_data(self, sock: socket.socket, data: bytes):
         length = len(data)
@@ -314,70 +259,11 @@ class ServerManager:
         length = struct.unpack('!I', length_data)[0]
         data = b''
         while len(data) < length:
-            chunk = sock.recv(min(BUFFER_SIZE, length - len(data)))
+            chunk = sock.recv(min(self.buffer_size, length - len(data)))
             if not chunk:
                 raise ConnectionError("Connection closed")
             data += chunk
         return data
-
-    def start_key_rotation_timer(self):
-        def rotate_key():
-            if self.session is None:
-                return
-                
-            current_time = time.time()
-            try:
-                # Rotate key if time exceeded
-                if current_time - self.session.last_key_rotation > KEY_ROTATION_INTERVAL:
-                    self.initiate_key_rotation()
-                    self.session.last_key_rotation = current_time
-                    print(f"!!!! ROTATE KEY for {self.client_id} !!!!")
-
-                # Check session timeout
-                if current_time - self.session.join_time > SESSION_TIMEOUT:
-                    print(f"[Quantum Protocol] Session timeout: {self.client_id}")
-                    self.disconnect_client()
-
-            except Exception as e:
-                print(f"[Quantum Protocol] Failed to rotate key for {self.client_id}: {e}")
-                self.disconnect_client()
-
-            # Reset timer only if session still exists
-            if self.session:
-                self.key_rotation_timer = threading.Timer(60, rotate_key)
-                self.key_rotation_timer.daemon = True
-                self.key_rotation_timer.start()
-
-        # Start initial timer
-        self.key_rotation_timer = threading.Timer(60, rotate_key)
-        self.key_rotation_timer.daemon = True
-        self.key_rotation_timer.start()
-
-    def initiate_key_rotation(self):
-        if self.session is None:
-            return
-            
-        try:
-            new_key_exchange = HybridKeyExchange()
-            kem_pub, classical_pub = new_key_exchange.get_public_keys()
-
-            rotation_request = {
-                "type": "key_rotation",
-                "kem_public_key": base64.b64encode(kem_pub).decode(),
-                "classical_public_key": base64.b64encode(classical_pub).decode(),
-                "timestamp": int(time.time())
-            }
-
-            encrypted_request = self.session.cipher.encrypt(
-                json.dumps(rotation_request), include_timestamp=False
-            )
-            self.send_large_data(self.session.socket, encrypted_request)
-            
-            self.session.new_key_exchange = new_key_exchange
-
-        except Exception as e:
-            print(f"[Quantum Protocol] Key rotation failed: {e}")
-            self.disconnect_client()
 
     def handshake(self):
         try:
@@ -410,7 +296,6 @@ class ServerManager:
             if "certificate" in client_response and client_response["certificate"]:
                 cert_data = base64.b64decode(client_response["certificate"])
                 client_cert = x509.load_der_x509_certificate(cert_data)
-
                 if not CertificateManager.verify_certificate(client_cert, []):
                     raise ValueError("Client certificate verification failed")
 
@@ -431,11 +316,11 @@ class ServerManager:
                 kem_ciphertext, client_classical_public
             )
 
-            print(f"[Quantum Protocol] Hybrid key exchange successful")
-            print(f"[Quantum Protocol] Shared secret size: {len(shared_secret)} bytes")
+            self.logger.info(f"[Quantum Protocol] Hybrid key exchange successful")
+            self.logger.info(f"[Quantum Protocol] Shared secret size: {len(shared_secret)} bytes")
 
             # Create Session
-            cipher = EnhancedAESCipher(shared_secret, session_id)
+            cipher = SimpleAESCipher(shared_secret, session_id, self.max_message_age)
             current_time = time.time()
 
             self.session = SessionInfo(
@@ -444,7 +329,6 @@ class ServerManager:
                 cipher=cipher,
                 authenticated=True,
                 join_time=current_time,
-                last_key_rotation=current_time,
                 session_id=session_id,
                 certificate=client_cert,
                 classical_private_key=self.key_exchange.classical_private_key,
@@ -456,8 +340,12 @@ class ServerManager:
             encrypted_welcome = cipher.encrypt(welcome_msg)
             self.send_large_data(self.client_socket, encrypted_welcome)
 
+            self.logger.info(f"[DEBUG] Session ID: {session_id}")
+            self.logger.info(f"[DEBUG] Master key (shared secret): {shared_secret.hex()}")
+
+
         except Exception as e:
-            print(f"[Quantum Protocol] Handshake failed for {self.client_id}: {e}")
+            self.logger.error(f"[Quantum Protocol] Handshake failed for {self.client_id}: {e}")
             self.disconnect_client()
             try:
                 self.client_socket.close()
@@ -465,50 +353,18 @@ class ServerManager:
                 pass
             raise
 
-    def handle_key_rotation_response(self, response_json: str):
-        if self.session is None:
-            return
-            
-        try:
-            response = json.loads(response_json)
-            
-            if response["type"] == "key_rotation_response" and self.session.new_key_exchange:
-                new_kem_ciphertext = base64.b64decode(response["kem_ciphertext"])
-                new_client_classical_public = base64.b64decode(response["client_classical_public"])
-
-                new_shared_secret = self.session.new_key_exchange.derive_shared_secret(
-                    new_kem_ciphertext, new_client_classical_public
-                )
-
-                # Rotate cipher
-                self.session.cipher = EnhancedAESCipher(new_shared_secret, self.session.session_id)
-                self.session.last_key_rotation = time.time()
-
-                # Clean up temporary state
-                self.session.new_key_exchange = None
-
-                print(f"[Quantum Protocol] Key rotation successful for {self.client_id}")
-
-        except Exception as e:
-            print(f"[Quantum Protocol] Key rotation error: {e}")
-            self.disconnect_client()
-
     def disconnect_client(self):
         if self.session:
             try:
                 self.session.socket.close()
             except:
                 pass
-            print(f"[Quantum Protocol] Closed connection: {self.client_id}")
+            self.logger.info(f"[Quantum Protocol] Closed connection: {self.client_id}")
             self.session = None
 
     def cleanup(self):
-        if self.key_rotation_timer:
-            self.key_rotation_timer.cancel()
-            self.key_rotation_timer = None
-
         self.disconnect_client()
-        print("[Quantum Protocol] Server closed")
+        self.logger.info("[Quantum Protocol] Server closed")
 
     def return_sock(self):
         return self.client_socket
@@ -522,7 +378,7 @@ class ServerManager:
             self.handshake()
             return True
         except Exception as e:
-            self.logger.error(f"Quantum Handshake failed: {e}")
+            self.logger.critical(f"Quantum Handshake failed: {e}")
             return False
 
     def kick(self, reason):
@@ -547,13 +403,13 @@ class ServerManager:
            time.sleep(1)
            encrypted_request = self.session.cipher.encrypt(as_server.PASSWORD_REQUEST, include_timestamp=False)
            self.send_large_data(self.session.socket, encrypted_request)
-
            try:
                data = self.receive_large_data(self.session.socket)
                decrypted, _ = self.session.cipher.decrypt(data)
                if decrypted.startswith(as_client.PASSWORD.decode()):
                   user_passwd = decrypted.split(':', 1)[1].strip()
-                  if user_passwd == "680086":
+                  self.logger.info(f"IP: {self.addr} Login using the password '{user_passwd}'")
+                  if user_passwd == self.password_to_login:
                      encrypted_pass = self.session.cipher.encrypt(as_server.AUTH_PASSED, include_timestamp=False)
                      self.send_large_data(self.session.socket, encrypted_pass)
                      return True
@@ -562,7 +418,7 @@ class ServerManager:
                      self.send_large_data(self.session.socket, encrypted_fail)
                      return False
            except Exception as e:
-                  self.logger.error(f"Password auth failed: {e}")
+                  self.logger.warning(f"Password auth failed: {e}")
                   return False
         else:
             time.sleep(1)
@@ -601,7 +457,7 @@ class ServerManager:
         try:
             data = self.receive_large_data(self.session.socket)
             if not data:
-                print(f"[SERVER] {self.client_id} closed connection")
+                self.logger.info(f"[SERVER] {self.client_id} closed connection")
                 self.disconnect_client()
                 return None
 
@@ -612,33 +468,31 @@ class ServerManager:
                 if 'message_id' in metadata:
                     message_id = metadata['message_id']
                     if message_id in self.session.message_nonces:
-                        print(f"[SERVER] Replay attack detected from {self.client_id}")
+                        self.logger.warning(f"[SERVER] Replay attack detected from {self.client_id}")
                         return None
                     self.session.message_nonces.add(message_id)
 
                     if len(self.session.message_nonces) > 1000:
                         self.session.message_nonces.clear()
 
-                # Handle key rotation response
-                if decrypted_message.startswith('{"type":"key_rotation_response"'):
-                    self.handle_key_rotation_response(decrypted_message)
-                    return None
-
                 return decrypted_message
             except ValueError as e:
-                print(f"[SERVER] Decryption failed: {e}")
+                self.logger.error(f"[SERVER] Decryption failed: {e}")
                 return None
 
         except Exception as e:
-            print(f"[SERVER] Receive error: {e}")
+            self.logger.error(f"[SERVER] Receive error: {e}")
             self.disconnect_client()
             return None
 
 class ClientManager:
-    def __init__(self, logger, client_socket):
+    def __init__(self, logger, client_socket,buffer_size, max_message_age, password):
+        self.max_message_age = max_message_age
+        self.password = password
         self.logger = logger
         self.client_socket = client_socket
-        self.username = 'test'
+        self.username = 'test123122312121'
+        self.buffer_size = buffer_size
         
         self.key_exchange = HybridKeyExchange()
         self.sig = Signature(QUANTUM_SIG_ALG)
@@ -646,7 +500,7 @@ class ClientManager:
 
         self.client_cert_key = ec.generate_private_key(CLASSICAL_CURVE)
         self.client_cert = CertificateManager.generate_self_signed_cert(
-            f"Quantum Chat Client - {self.username}", self.client_cert_key
+            f"Quantum Chat Client - {self.username}", self.client_cert_key, self.logger
         )
 
         self.cipher = None
@@ -669,80 +523,30 @@ class ClientManager:
         length = struct.unpack('!I', length_data)[0]
         data = b''
         while len(data) < length:
-            chunk = self.client_socket.recv(min(BUFFER_SIZE, length - len(data)))
+            chunk = self.client_socket.recv(min(self.buffer_size, length - len(data)))
             if not chunk:
                 raise ConnectionError("Connection closed")
             data += chunk
         return data
 
-    def handle_key_rotation(self, rotation_data: dict):
-        try:
-            new_key_exchange = HybridKeyExchange()
-            client_kem_pub, client_classical_pub = new_key_exchange.get_public_keys()
-
-            server_kem_public = base64.b64decode(rotation_data["kem_public_key"])
-            server_classical_public = base64.b64decode(rotation_data["classical_public_key"])
-
-            kem = KeyEncapsulation(QUANTUM_KEM_ALG)
-            kem_ciphertext, pq_secret = kem.encap_secret(server_kem_public)
-
-            server_public_key = ec.EllipticCurvePublicKey.from_encoded_point(
-                CLASSICAL_CURVE, server_classical_public
-            )
-            classical_secret = new_key_exchange.classical_private_key.exchange(
-                ec.ECDH(), server_public_key
-            )
-
-            combined_secret = pq_secret + classical_secret
-            hkdf = HKDF(
-                algorithm=hashes.SHA256(),
-                length=32,
-                salt=b"hybrid_kdf_salt",
-                info=b"post_quantum_classical_hybrid",
-            )
-            new_shared_secret = hkdf.derive(combined_secret)
-
-            rotation_response = {
-                "type": "key_rotation_response",
-                "kem_ciphertext": base64.b64encode(kem_ciphertext).decode(),
-                "client_classical_public": base64.b64encode(client_classical_pub).decode(),
-                "timestamp": int(time.time())
-            }
-
-            encrypted_response = self.cipher.encrypt(
-                json.dumps(rotation_response), include_timestamp=False
-            )
-            self.send_large_data(encrypted_response)
-
-            self.cipher = EnhancedAESCipher(new_shared_secret, self.session_id)
-            self.key_exchange = new_key_exchange
-
-            print("[Quantum Protocol] Key rotation successful")
-
-        except Exception as e:
-            print(f"[Quantum Protocol] Key rotation error: {e}")
-
     def handshake(self):
         try:
             server_data = self.receive_large_data()
             server_info = json.loads(server_data.decode('utf-8'))
-
             self.session_id = server_info["session_id"]
             server_kem_public = base64.b64decode(server_info["kem_public_key"])
             server_classical_public = base64.b64decode(server_info["classical_public_key"])
             server_sig_public = base64.b64decode(server_info["sig_public_key"])
             server_challenge = base64.b64decode(server_info["server_challenge"])
             server_cert = None
-
             if server_info.get("certificate"):
                 cert_data = base64.b64decode(server_info["certificate"])
                 server_cert = x509.load_der_x509_certificate(cert_data)
                 if not CertificateManager.verify_certificate(server_cert, []):
-                    print("[Quantum Protocol] Warning: Server certificate verification failed")
-
+                    self.logger.error("[Quantum Protocol] Warning: Server certificate verification failed")
             if server_cert:
                 fingerprint = get_cert_fingerprint(server_cert)
-                trusted_fingerprint_file = ".config/d/trusted_server_fingerprint.txt"
+                trusted_fingerprint_file = ".config/client/trusted_server_fingerprint.txt"
                 trusted_fingerprint = None
                 if os.path.exists(trusted_fingerprint_file):
                     with open(trusted_fingerprint_file, "r") as f:
@@ -751,30 +555,23 @@ class ClientManager:
                     os.makedirs(os.path.dirname(trusted_fingerprint_file), exist_ok=True)
                     with open(trusted_fingerprint_file, "w") as f:
                         f.write(fingerprint)
-                    print(f"[Quantum Protocol] Trusted new server cert, fingerprint: {fingerprint}")
+                    self.logger.info(f"[Quantum Protocol] Trusted new server cert, fingerprint: {fingerprint}")
                 else:
                     if fingerprint != trusted_fingerprint:
-                        print(f"[Quantum Protocol] Server cert fingerprint mismatch!")
-                        print(f"[Quantum Protocol] Expected: {trusted_fingerprint}")
-                        print(f"[Quantum Protocol] Got:      {fingerprint}")
-                        raise ValueError("Server certificate verification failed (pin mismatch)")
+                        self.logger.error(f"[Quantum Protocol] Server cert fingerprint mismatch")
+                        raise ValueError("Server certificate verification failed")
                     else:
-                        print(f"[Quantum Protocol] Server cert fingerprint OK: {fingerprint}")
-
-            print(f"[Quantum Protocol] Established session: {self.session_id}")
-
+                        self.logger.info(f"[Quantum Protocol] fingerprint OK: {fingerprint}")
+            self.logger.info(f"[Quantum Protocol] Established session: {self.session_id}")
             client_kem_pub, client_classical_pub = self.key_exchange.get_public_keys()
-
             kem = KeyEncapsulation(QUANTUM_KEM_ALG)
             kem_ciphertext, pq_secret = kem.encap_secret(server_kem_public)
-
             server_public_key = ec.EllipticCurvePublicKey.from_encoded_point(
                 CLASSICAL_CURVE, server_classical_public
             )
             classical_secret = self.key_exchange.classical_private_key.exchange(
                 ec.ECDH(), server_public_key
             )
-
             combined_secret = pq_secret + classical_secret
             hkdf = HKDF(
                 algorithm=hashes.SHA256(),
@@ -783,10 +580,8 @@ class ClientManager:
                 info=b"post_quantum_classical_hybrid",
             )
             shared_secret = hkdf.derive(combined_secret)
-
             challenge_response = server_challenge + b"client_response_" + self.session_id.encode()
             signature = self.sig.sign(challenge_response)
-
             client_response = {
                 "kem_ciphertext": base64.b64encode(kem_ciphertext).decode(),
                 "client_classical_public": base64.b64encode(client_classical_pub).decode(),
@@ -799,31 +594,29 @@ class ClientManager:
             }
             client_response_data = json.dumps(client_response).encode('utf-8')
             self.send_large_data(client_response_data)
-
-            self.cipher = EnhancedAESCipher(shared_secret, self.session_id)
-            print(f"[Quantum Protocol] Hybrid key exchange successful")
-
+            self.cipher = SimpleAESCipher(shared_secret, self.session_id, self.max_message_age)
+            self.logger.info(f"[Quantum Protocol] Hybrid key exchange successful")
             welcome = self.receive_large_data()
             if welcome:
                 try:
                     msg, _ = self.cipher.decrypt(welcome)
-                    print(f"[Server] {msg}")
+                    self.logger.info(f"[Server] {msg}")
                 except:
                     pass
-
             self.connected = True
+            self.logger.info(f"[DEBUG] Session ID: {self.session_id}")
+            self.logger.info(f"[DEBUG] Master key (shared secret): {shared_secret.hex()}")
         except Exception as e:
-            print(f"[Quantum Protocol] Handshake error: {e}")
+            self.logger.info(f"[Quantum Protocol] Handshake error: {e}")
             self.disconnect()
             raise
-
     def disconnect(self):
         self.connected = False
         try:
             self.client_socket.close()
         except:
             pass
-        print("\n[Quantum Protocol] Disconnected")
+        self.logger.info("\n[Quantum Protocol] Disconnected")
 
     def return_sock(self):
         return self.client_socket
@@ -837,16 +630,16 @@ class ClientManager:
                 encrypted_message = self.cipher.encrypt(message)
                 self.send_large_data(encrypted_message)
         except Exception as e:
-            print(f"[CLIENT] Send error: {e}")
+            self.logger.critical(f"[CLIENT] Send error: {e}")
 
     def try_handshake(self):
         self.logger.info("Performing quantum handshake...")
-        print("If you encounter errors, try running './superconfig.sh'")
+        print("If you encounter errors, try running with --force")
         try:
             self.handshake()
             return True
         except Exception as e:
-            print(f"[Quantum Protocol] Handshake failed: {e}")
+            self.logger.critical(f"[Quantum Protocol] Handshake failed: {e}")
             return False
 
     def try_auth_passwd(self):
@@ -854,17 +647,22 @@ class ClientManager:
             data = self.wait_recv_utf8()
             if data and data.startswith(as_server.AUTH_PASSED.decode()):
                 return True
-                
-            user_passwd = input("[AUTH] Enter password > ")
+            if self.password.startswith('ASK_EVERY_TIME'):
+                user_passwd = input("[AUTH] Enter password > ")
+            else:
+                self.logger.info("[AUTH] Auto Fill from security.ini...")
+                print("[AUTH] Auto Fill from security.ini...")
+                user_passwd = self.password
             self.send_message(as_client.PASSWORD.decode() + user_passwd + '\n')
             
             resp = self.wait_recv_utf8()
             if resp and resp.startswith(as_server.AUTH_PASSED.decode()):
+                self.logger.info("Authentication passed, Wait a moment...")
                 return True
             elif resp and resp.startswith(as_server.AUTH_FAILED.decode()):
                 return False
         except Exception as e:
-            print(f"Authentication error: {e}")
+            self.logger.error(f"Authentication error: {e}")
             return False
         return False
 
@@ -891,23 +689,17 @@ class ClientManager:
         try:
             data = self.receive_large_data()
             if not data:
-                print("[CLIENT] Server disconnected")
+                self.logger.info("[CLIENT] Server disconnected")
                 self.disconnect()
                 return None
             try:
                 decrypted_message, metadata = self.cipher.decrypt(data, check_timestamp=False)
-                '''if decrypted_message.startswith('{"type":"key_rotation"'):
-                    rotation_data = json.loads(decrypted_message)
-                    if rotation_data["type"] == "key_rotation":
-                        self.handle_key_rotation(rotation_data)
-                        return None'''
-
                 return decrypted_message
             except ValueError as e:
-                print(f"[CLIENT] Decryption failed: {e}")
+                self.logger.critical(f"[CLIENT] Decryption failed: {e}")
                 return None
 
         except Exception as e:
             if self.connected:
-                print(f"[CLIENT] Receive error: {e}")
+                self.logger.critical(f"[CLIENT] Receive error: {e}")
             return None

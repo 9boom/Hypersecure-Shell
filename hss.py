@@ -1,29 +1,56 @@
 #!/usr/bin/env python3
 import logging
+import logging.handlers
 import protocol
 import sys
+import time
+from datetime import datetime, timezone
+import os
+import launcher
 # a = append
 # w = write
+# 
 # Configure logging
-loggercfg = logging.basicConfig(
-    level=logging.DEBUG,
-    format='[%(asctime)s] - %(levelname)s - %(message)s',
-        handlers=[
-        logging.StreamHandler(sys.stdout),
-        logging.FileHandler('outputs/server.log', mode='a')]
-)
-server_logger = logging.getLogger(loggercfg)
-client_logger = server_logger
+def setup_logger(name: str, log_file: str, level = logging.INFO):
+   class UTCFormatter(logging.Formatter):
+      converter = time.gmtime()
+
+      def formatTime(self, record, datefmt = None):
+         utc_time = datetime.fromtimestamp(record.created, tz=timezone.utc)
+         if datefmt:
+            return utc_time.strftime(datefmt)
+         return utc_time.isoformat(timespec="milliseconds")
+   if not os.path.exists(log_file):
+      os.makedirs(os.path.dirname(log_file), exist_ok= True)
+   formatter = UTCFormatter(
+         fmt='[%(asctime)s.%(msecs)03dZ] - %(levelname)s - %(message)s',
+         datefmt="%Y-%m-%dT%H:%M:%S"
+   )
+   handler = logging.handlers.RotatingFileHandler(
+         filename=log_file,
+         maxBytes = 5 *1024*1024,
+         backupCount = 3,
+         encoding = 'utf-8'
+      )
+   handler.setFormatter(formatter)
+
+   logger = logging.getLogger(name)
+   logger.setLevel(level)
+   logger.addHandler(handler)
+
+   logger.propagate = False
+
+   return logger
+server_logger = setup_logger('server', 'outputs/logs/server.log')
+client_logger = setup_logger("client", 'outputs/logs/client.log')
 if __name__ == '__main__':
    try:
       if len(sys.argv) > 1:
-         if sys.argv[1] == 'server':
-            s = protocol.HSSServer(HOST='172.19.68.67',PORT=8822,MAX_CLIENTS=2, SERVER_LOGGER=server_logger)
-            s.bind()
-         elif sys.argv[1] == 'remote':
-            c = protocol.HSSClient(HOST='192.168.43.21',PORT=8822,CLIENT_LOGGER=client_logger)
-            c.connect()
+         if sys.argv[1] == 'as-server':
+            launcher.ServerSetup(logger=server_logger).launch()
+         elif sys.argv[1] == 'as-remote':
+            launcher.ClientSetup(logger=client_logger).launch()
       else:
             pass
    except Exception as e:
-          print(f"Error during parse arguments: {e}")
+         print(f"Error during parse arguments: {e}")

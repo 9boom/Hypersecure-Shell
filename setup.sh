@@ -19,7 +19,7 @@ TOTAL_STEPS=6
 # Header
 show_header() {
     clear
-    echo "${BOLD}SETUP FOR COMMON ENV${RESET}"
+    echo "${BOLD}Hypersecure Shell Installer${RESET}"
     echo "================================"
     echo
 }
@@ -61,8 +61,6 @@ run_command() {
 
     show_status "$step_num" "$TOTAL_STEPS" "$step_msg"
     echo "Command: $cmd"
-
-    # รันคำสั่งและแสดงผลแบบ real-time
     if ! eval "$cmd"; then
         echo "${RED}${BOLD}ERROR: Operation failed!${RESET}"
         exit 1
@@ -92,7 +90,7 @@ install_dependencies() {
 
     # Step 3: OQS Import Installer
     run_command \
-        "python3 .hss/_oqs_import_installer.py" \
+        "python3 .config/installer/_oqs_import_installer.py" \
         "Configuring OQS Import System" \
         5
 
@@ -115,21 +113,8 @@ show_success() {
 main() {
     show_header
     system_check
-
-    if [ "$1" = "--setup" ]; then
-        install_dependencies
-        show_success
-    else
-        echo "${YELLOW}${BOLD}Simulation Mode${RESET}"
-        echo "Commands would be executed:"
-        echo "1. sudo apt update && apt upgrade -y"
-        echo "2. sudo apt install -y cmake build-essential libssl-dev libffi-dev python3-dev"
-        echo "3. pip install liboqs-python/ --break-system-packages"
-        echo "4. python3 .hss/d/_oqs_import_installer.py"
-        echo "5. pip install cryptography pycryptodome --break-system-packages"
-        echo
-        echo "Use '--setup' argument for actual installation."
-    fi
+    install_dependencies
+    show_success
 }
 
 main "$@"

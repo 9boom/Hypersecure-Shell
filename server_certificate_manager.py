@@ -5,7 +5,8 @@ from cryptography.hazmat.primitives.asymmetric import ec
 from cryptography import x509
 
 class ServerCertificateManager:
-    def __init__(self):
+    def __init__(self, logger):
+        self.logger = logger
         self.server_cert_key = None
         self.server_cert = None
         self.cert_dir = Path(".config/server")
@@ -28,10 +29,10 @@ class ServerCertificateManager:
         # Check that certificate and private key are created ?
         if self.cert_path.exists() and self.key_path.exists():
             self._load_existing_cert()
-            print("Certificate and key loaded from storage")
+            self.logger.info("Certificate and key loaded from storage")
         else:
             self._create_new_cert(curve, server_name, CertificateManager)
-            print(f"New certificate and key created and saved to {self.cert_dir}")
+            self.logger.info(f"New certificate and key created and saved to {self.cert_dir}")
         return self.server_cert
     def _load_existing_cert(self):
         """Load existing certificate and key from files"""
@@ -48,7 +49,7 @@ class ServerCertificateManager:
                 self.server_cert = x509.load_pem_x509_certificate(cert_file.read())
                 
         except Exception as e:
-            print(f"Error loading existing certificate: {e}")
+            self.logger.error(f"Error loading existing certificate: {e}")
             # If load failed, create new
             self._cleanup_corrupted_files()
             raise
@@ -84,7 +85,7 @@ class ServerCertificateManager:
                     self.server_cert.public_bytes(serialization.Encoding.PEM)
                 )
         except Exception as e:
-            print(f"Error saving certificate: {e}")
+            self.logger.error(f"Error saving certificate: {e}")
             self._cleanup_corrupted_files()
             raise
     def _cleanup_corrupted_files(self):
@@ -95,7 +96,7 @@ class ServerCertificateManager:
             if self.key_path.exists():
                 self.key_path.unlink()
         except Exception as e:
-            print(f"Error cleaning up corrupted files: {e}")
+            self.logger.error(f"Error cleaning up corrupted files: {e}")
     def get_certificate(self):
         """Get the current certificate"""
         return self.server_cert
@@ -105,22 +106,3 @@ class ServerCertificateManager:
     def is_initialized(self):
         """Check if certificate manager is initialized"""
         return self.server_cert is not None and self.server_cert_key is not None
-
-
-# Test
-"""
-# สร้าง instance
-cert_manager = ServerCertificateManager()
-
-# เรียกใช้ครั้งเดียว - จะ return certificate
-server_cert = cert_manager.init()
-
-# หรือใช้กับ parameters
-server_cert = cert_manager.init(
-    curve=ec.SECP384R1(), 
-    server_name="My Custom Server"
-)
-
-# ใช้ certificate
-print(f"Certificate subject: {server_cert.subject}")
-"""
