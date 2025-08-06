@@ -20,6 +20,7 @@ def get_terminal_size(fd):
         return 24, 80  # fallback
 
 def activate(client_instants, client_manager):
+    client_instants.client_logger.info("God a shell !")
     client_socket = client_manager.return_sock()
     old_settings = termios.tcgetattr(sys.stdin)
 

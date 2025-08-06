@@ -26,11 +26,9 @@ class HSSServer:
         USE_PASSWORD=0,
         PASSWORD_TO_LOGIN="",
         USE_ZKP=0,
-        ZKP_PASSWORD="",
         USE_WORMHOLE=0,
         WORMHOLE_ENTRY_POINT_HOST="127.0.0.1",
         WORMHOLE_ENTRY_POINT_PORT=9999,
-        WORMHOLE_ENTRY_POINT_BARRIER="default_barrier"
     ):
           self.server_logger = SERVER_LOGGER
           self.HOST = HOST
@@ -44,11 +42,9 @@ class HSSServer:
           self.use_password = bool(USE_PASSWORD)
           self.password_to_login = PASSWORD_TO_LOGIN
           self.use_ZKP = bool(USE_ZKP)
-          self.ZKP_password = ZKP_PASSWORD
           self.use_wormhole = bool(USE_WORMHOLE)
           self.wormhole_entry_point_host = WORMHOLE_ENTRY_POINT_HOST
           self.wormhole_entry_point_port = WORMHOLE_ENTRY_POINT_PORT
-          self.wormhole_entry_point_barrier = WORMHOLE_ENTRY_POINT_BARRIER
 
           self.running = True
           self.client_threads = []
@@ -231,8 +227,6 @@ class HSSClient:
         TIMEOUT=15,
         MAX_RETRIES=3,
         PASSWORD="",
-        ZKP_PASSWORD="",
-        WORMHOLE_PASSWORD="",
         BUFFER_SIZE=8192,
         MAX_MESSAGE_AGE=30
     ):
@@ -242,8 +236,6 @@ class HSSClient:
           self.timeout = TIMEOUT
           self.max_retries = MAX_RETRIES
           self.password = PASSWORD
-          self.zkp_password = ZKP_PASSWORD
-          self.wormhole_password = WORMHOLE_PASSWORD
           self.client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
           self.running = True
           self.client_manager = None

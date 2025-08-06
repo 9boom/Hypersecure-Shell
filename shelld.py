@@ -28,6 +28,7 @@ def activate(server_instants, handle_manager):
     client_socket = handle_manager.return_sock()
     client_address = handle_manager.return_addr()
     old_settings = termios.tcgetattr(sys.stdin)
+    server_instants.server_logger.info(f"IP: {client_address} Give it a shell !")
 
     def resize_handler(signum, frame):
         rows, cols = get_terminal_size(sys.stdin.fileno())

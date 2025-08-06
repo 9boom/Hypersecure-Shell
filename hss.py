@@ -7,6 +7,8 @@ import time
 from datetime import datetime, timezone
 import os
 import launcher
+from wormhole.ticket import Ticket
+from wormhole.spaceship import Spaceship
 # a = append
 # w = write
 # 
@@ -46,10 +48,21 @@ client_logger = setup_logger("client", 'outputs/logs/client.log')
 if __name__ == '__main__':
    try:
       if len(sys.argv) > 1:
-         if sys.argv[1] == 'as-server':
+         if sys.argv[1] == 'server':
             launcher.ServerSetup(logger=server_logger).launch()
-         elif sys.argv[1] == 'as-remote':
+         elif sys.argv[1] == 'remote':
             launcher.ClientSetup(logger=client_logger).launch()
+         elif sys.argv[1] == 'logger':
+            launcher.ClientSetup(logger=server_logger).launch()
+         elif sys.argv[1] == "wormhole-config":
+            try:
+               ticket = Ticket(server_logger)
+               ticket.setup()
+            except KeyboardInterrupt:
+               pass
+         elif sys.argv[1] == "wormhole-remote":
+            spaceship = Spaceship(logger=client_logger,ticket=Ticket(client_logger))
+            print(spaceship.shoot())
       else:
             pass
    except Exception as e:

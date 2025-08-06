@@ -1,212 +1,61 @@
-[2025-08-05T05:58:00.413Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:58:00.415Z] - INFO - Connected
-[2025-08-05T05:58:00.435Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:58:15.452Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T05:58:15.452Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T05:58:15.453Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T05:58:15.453Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T05:58:15.454Z] - INFO - Client loop closed
-[2025-08-05T05:59:33.920Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:59:33.921Z] - INFO - Connected
-[2025-08-05T05:59:33.923Z] - CRITICAL - Client loop error [CRITICAL: [Errno 104] Connection reset by peer]
-[2025-08-05T05:59:33.923Z] - INFO - Client loop closed
-[2025-08-05T05:59:33.923Z] - INFO - Disconnected
-[2025-08-05T05:59:44.418Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T05:59:44.420Z] - INFO - Connected
-[2025-08-05T05:59:44.440Z] - INFO - Performing quantum handshake...
-[2025-08-05T05:59:59.456Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T05:59:59.457Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T05:59:59.458Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T05:59:59.458Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T05:59:59.458Z] - INFO - Client loop closed
-[2025-08-05T06:04:34.261Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T06:04:34.262Z] - INFO - Connected
-[2025-08-05T06:04:34.305Z] - INFO - Performing quantum handshake...
-[2025-08-05T06:04:49.321Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T06:04:49.321Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T06:04:49.322Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T06:04:49.322Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T06:04:49.323Z] - INFO - Client loop closed
-[2025-08-05T07:06:05.402Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:06:05.409Z] - INFO - Connected
-[2025-08-05T07:06:05.467Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:06:20.484Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T07:06:20.485Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T07:06:20.486Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T07:06:20.486Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T07:06:20.487Z] - INFO - Client loop closed
-[2025-08-05T07:39:53.556Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:39:53.559Z] - INFO - Connected
-[2025-08-05T07:39:53.605Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:40:08.020Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T07:40:08.021Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T07:40:08.021Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T07:40:08.022Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T07:40:08.023Z] - INFO - Client loop closed
-[2025-08-05T07:44:20.596Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:44:20.598Z] - INFO - Connected
-[2025-08-05T07:44:20.656Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:44:35.672Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T07:44:35.672Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T07:44:35.672Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T07:44:35.673Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T07:44:35.673Z] - INFO - Client loop closed
-[2025-08-05T07:46:42.212Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:46:42.215Z] - INFO - Connected
-[2025-08-05T07:46:42.248Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:46:50.745Z] - INFO - Client loop closed
-[2025-08-05T07:46:50.746Z] - INFO - Disconnected
-[2025-08-05T07:47:06.491Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:47:06.492Z] - INFO - Connected
-[2025-08-05T07:47:06.516Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:47:21.533Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T07:47:21.534Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T07:47:21.534Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T07:47:21.535Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T07:47:21.535Z] - INFO - Client loop closed
-[2025-08-05T07:49:05.899Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:49:05.899Z] - INFO - Connected
-[2025-08-05T07:49:05.925Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:49:07.895Z] - INFO - Client loop closed
-[2025-08-05T07:49:07.896Z] - INFO - Disconnected
-[2025-08-05T07:49:31.526Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:49:31.528Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-05T07:49:31.528Z] - INFO - Client loop closed
-[2025-08-05T07:49:31.529Z] - INFO - Disconnected
-[2025-08-05T07:49:37.722Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:49:37.724Z] - INFO - Connected
-[2025-08-05T07:49:37.743Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:49:52.759Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T07:49:52.759Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T07:49:52.760Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T07:49:52.760Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T07:49:52.760Z] - INFO - Client loop closed
-[2025-08-05T07:50:49.618Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:50:49.619Z] - INFO - Connected
-[2025-08-05T07:50:49.647Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:50:54.399Z] - INFO - Client loop closed
-[2025-08-05T07:50:54.399Z] - INFO - Disconnected
-[2025-08-05T07:52:17.318Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:52:17.319Z] - INFO - Connected
-[2025-08-05T07:52:17.342Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:52:32.355Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T07:52:32.356Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T07:52:32.356Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T07:52:32.357Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T07:52:32.357Z] - INFO - Client loop closed
-[2025-08-05T07:52:56.554Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:52:56.556Z] - INFO - Connected
-[2025-08-05T07:52:56.576Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:53:11.591Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T07:53:11.591Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T07:53:11.592Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T07:53:11.592Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T07:53:11.592Z] - INFO - Client loop closed
-[2025-08-05T07:53:44.364Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:53:44.365Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-05T07:53:44.366Z] - INFO - Client loop closed
-[2025-08-05T07:53:44.367Z] - INFO - Disconnected
-[2025-08-05T07:53:49.486Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:53:49.488Z] - INFO - Connected
-[2025-08-05T07:53:49.510Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:54:04.528Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T07:54:04.529Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T07:54:04.529Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T07:54:04.529Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T07:54:04.529Z] - INFO - Client loop closed
-[2025-08-05T07:55:02.208Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:55:02.209Z] - INFO - Connected
-[2025-08-05T07:55:02.229Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:55:17.233Z] - INFO - [Quantum Protocol] Handshake error: Connection closed
-[2025-08-05T07:55:17.234Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T07:55:17.234Z] - CRITICAL - [Quantum Protocol] Handshake failed: Connection closed
-[2025-08-05T07:55:17.235Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T07:55:17.235Z] - INFO - Client loop closed
-[2025-08-05T07:57:27.518Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:57:27.520Z] - INFO - Connected
-[2025-08-05T07:57:27.553Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:57:42.570Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T07:57:42.571Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T07:57:42.571Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T07:57:42.571Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T07:57:42.571Z] - INFO - Client loop closed
-[2025-08-05T07:58:04.247Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:58:04.249Z] - INFO - Connected
-[2025-08-05T07:58:04.270Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:58:19.286Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T07:58:19.287Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T07:58:19.288Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T07:58:19.288Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T07:58:19.289Z] - INFO - Client loop closed
-[2025-08-05T07:59:21.290Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:59:21.291Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-05T07:59:21.292Z] - INFO - Client loop closed
-[2025-08-05T07:59:21.292Z] - INFO - Disconnected
-[2025-08-05T07:59:27.429Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T07:59:27.430Z] - INFO - Connected
-[2025-08-05T07:59:27.448Z] - INFO - Performing quantum handshake...
-[2025-08-05T07:59:42.450Z] - INFO - [Quantum Protocol] Handshake error: Connection closed
-[2025-08-05T07:59:42.451Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T07:59:42.451Z] - CRITICAL - [Quantum Protocol] Handshake failed: Connection closed
-[2025-08-05T07:59:42.452Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T07:59:42.453Z] - INFO - Client loop closed
-[2025-08-05T08:00:01.254Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T08:00:01.257Z] - INFO - Connected
-[2025-08-05T08:00:01.278Z] - INFO - Performing quantum handshake...
-[2025-08-05T08:00:16.292Z] - INFO - [Quantum Protocol] Handshake error: timed out
-[2025-08-05T08:00:16.293Z] - INFO - 
-[Quantum Protocol] Disconnected
-[2025-08-05T08:00:16.294Z] - CRITICAL - [Quantum Protocol] Handshake failed: timed out
-[2025-08-05T08:00:16.294Z] - CRITICAL - Handshake failed, Disconnecting...
-[2025-08-05T08:00:16.294Z] - INFO - Client loop closed
-[2025-08-05T08:02:38.228Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T08:02:38.229Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-05T08:02:38.229Z] - INFO - Client loop closed
-[2025-08-05T08:02:38.229Z] - INFO - Disconnected
-[2025-08-05T08:02:40.809Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T08:02:40.809Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
-[2025-08-05T08:02:40.809Z] - INFO - Client loop closed
-[2025-08-05T08:02:40.810Z] - INFO - Disconnected
-[2025-08-05T08:02:48.437Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T08:02:48.438Z] - INFO - Connected
-[2025-08-05T08:02:48.459Z] - INFO - Performing quantum handshake...
-[2025-08-05T08:02:48.470Z] - INFO - [Quantum Protocol] Trusted new server cert, fingerprint: 1cb8fcb3fef9b1b71066dc3e26071c48b5f6f11305dc0a64fc6d7876ba41934d
-[2025-08-05T08:02:48.473Z] - INFO - [Quantum Protocol] Established session: 2bfb6d7c-81bb-4aa2-b551-e33ada3fbfb9
-[2025-08-05T08:02:48.480Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T08:02:48.620Z] - INFO - [Server] Connection secured successfully | Session ID: 2bfb6d7c-81bb-4aa2-b551-e33ada3fbfb9
-[2025-08-05T08:02:48.621Z] - INFO - [DEBUG] Session ID: 2bfb6d7c-81bb-4aa2-b551-e33ada3fbfb9
-[2025-08-05T08:02:48.621Z] - INFO - [DEBUG] Master key (shared secret): cdde8b40d8c656165db8041a03accf6a7be87ccb8e046379549b457fff8fe973
-[2025-08-05T08:02:53.074Z] - INFO - Authentication failed
-[2025-08-05T08:02:53.075Z] - INFO - Client loop closed
-[2025-08-05T08:02:53.075Z] - INFO - Disconnected
-[2025-08-05T08:03:03.064Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T08:03:03.066Z] - INFO - Connected
-[2025-08-05T08:03:03.087Z] - INFO - Performing quantum handshake...
-[2025-08-05T08:03:03.088Z] - INFO - [Quantum Protocol] fingerprint OK: 1cb8fcb3fef9b1b71066dc3e26071c48b5f6f11305dc0a64fc6d7876ba41934d
-[2025-08-05T08:03:03.089Z] - INFO - [Quantum Protocol] Established session: b17a4c9d-1d14-4cf3-8265-12660ba9856f
-[2025-08-05T08:03:03.093Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
-[2025-08-05T08:03:03.184Z] - INFO - [Server] Connection secured successfully | Session ID: b17a4c9d-1d14-4cf3-8265-12660ba9856f
-[2025-08-05T08:03:03.185Z] - INFO - [DEBUG] Session ID: b17a4c9d-1d14-4cf3-8265-12660ba9856f
-[2025-08-05T08:03:03.185Z] - INFO - [DEBUG] Master key (shared secret): 869eaee1274afaa6469a0dedbc379bc8e65e47e5540344ab39e6f904f71d45e3
-[2025-08-05T08:03:05.948Z] - INFO - Client loop closed
-[2025-08-05T08:03:05.949Z] - INFO - Disconnected
-[2025-08-05T08:04:17.727Z] - INFO - Connecting 172.19.68.67:8822...
-[2025-08-05T08:04:17.729Z] - INFO - Connected
-[2025-08-05T08:04:17.731Z] - CRITICAL - Client loop error [CRITICAL: [Errno 104] Connection reset by peer]
-[2025-08-05T08:04:17.731Z] - INFO - Client loop closed
-[2025-08-05T08:04:17.731Z] - INFO - Disconnected
+[2025-08-06T09:03:52.523Z] - INFO - [WORMHOLE] Wormhole server down
+[2025-08-06T09:12:16.372Z] - ERROR - Failed to load ticket file [ERROR: [Errno 2] No such file or directory: 'outputs/wormhole/spaceship.ticke']
+[2025-08-06T09:12:24.219Z] - ERROR - Failed to load ticket file [ERROR: [Errno 2] No such file or directory: 'outputs/wormhole/spaceship.ticke']
+[2025-08-06T09:24:14.908Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-06T09:24:14.910Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-06T09:24:14.911Z] - INFO - Client loop closed
+[2025-08-06T09:24:14.911Z] - INFO - Disconnected
+[2025-08-06T09:24:23.221Z] - CRITICAL - [WORMHOLE] Failed to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-06T09:24:28.192Z] - CRITICAL - [WORMHOLE] Failed to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-06T09:33:06.186Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-06T09:33:06.188Z] - INFO - Connected
+[2025-08-06T09:33:06.353Z] - INFO - Performing quantum handshake...
+[2025-08-06T09:33:06.357Z] - INFO - [Quantum Protocol] fingerprint OK: 1cb8fcb3fef9b1b71066dc3e26071c48b5f6f11305dc0a64fc6d7876ba41934d
+[2025-08-06T09:33:06.357Z] - INFO - [Quantum Protocol] Established session: 781fc9bb-1d3b-4f52-b5fc-0d0aecd0c266
+[2025-08-06T09:33:06.363Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
+[2025-08-06T09:33:06.474Z] - INFO - [Server] Connection secured successfully | Session ID: 781fc9bb-1d3b-4f52-b5fc-0d0aecd0c266
+[2025-08-06T09:33:06.475Z] - INFO - [DEBUG] Session ID: 781fc9bb-1d3b-4f52-b5fc-0d0aecd0c266
+[2025-08-06T09:33:06.475Z] - INFO - [DEBUG] Master key (shared secret): a5372bdb9d9a504b8d480d09512fb6ec0095e6a1fd19379afe73b817d3f1756a
+[2025-08-06T09:33:07.439Z] - INFO - Creating a shell tunnel...
+[2025-08-06T09:33:23.953Z] - INFO - Disconnected
+[2025-08-06T09:33:23.953Z] - INFO - Session shell closed
+[2025-08-06T09:33:23.953Z] - INFO - Client loop closed
+[2025-08-06T09:55:05.935Z] - CRITICAL - [WORMHOLE] Failed to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-06T09:57:46.312Z] - CRITICAL - [WORMHOLE] Failed to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-06T09:58:02.863Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-06T09:58:02.865Z] - INFO - Connected
+[2025-08-06T09:58:02.882Z] - INFO - Performing quantum handshake...
+[2025-08-06T09:58:02.883Z] - INFO - [Quantum Protocol] fingerprint OK: 1cb8fcb3fef9b1b71066dc3e26071c48b5f6f11305dc0a64fc6d7876ba41934d
+[2025-08-06T09:58:02.884Z] - INFO - [Quantum Protocol] Established session: 175c2922-e855-45d3-8e61-e1edf53ed1f5
+[2025-08-06T09:58:02.887Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
+[2025-08-06T09:58:03.011Z] - INFO - [Server] Connection secured successfully | Session ID: 175c2922-e855-45d3-8e61-e1edf53ed1f5
+[2025-08-06T09:58:03.011Z] - INFO - [DEBUG] Session ID: 175c2922-e855-45d3-8e61-e1edf53ed1f5
+[2025-08-06T09:58:03.012Z] - INFO - [DEBUG] Master key (shared secret): ecbd675bb13436c91485af000dd10d5258e712c4db27f1eb805b520545e12835
+[2025-08-06T09:58:03.935Z] - INFO - Creating a shell tunnel...
+[2025-08-06T09:58:03.936Z] - INFO - God a shell !
+[2025-08-06T09:58:07.794Z] - INFO - Disconnected
+[2025-08-06T09:58:07.794Z] - INFO - Session shell closed
+[2025-08-06T09:58:07.795Z] - INFO - Client loop closed
+[2025-08-06T09:58:23.843Z] - CRITICAL - [WORMHOLE] Failed to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-06T10:00:44.134Z] - CRITICAL - [WORMHOLE] Failed to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-06T10:00:47.056Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-06T10:00:47.057Z] - CRITICAL - An error occurred while trying to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-06T10:00:47.057Z] - INFO - Client loop closed
+[2025-08-06T10:00:47.058Z] - INFO - Disconnected
+[2025-08-06T10:08:13.093Z] - CRITICAL - [WORMHOLE] Failed to connect [CRITICAL: [Errno 111] Connection refused]
+[2025-08-06T10:18:25.024Z] - INFO - Connecting 172.19.68.67:8822...
+[2025-08-06T10:18:25.025Z] - INFO - Connected
+[2025-08-06T10:18:25.092Z] - INFO - Performing quantum handshake...
+[2025-08-06T10:18:25.093Z] - INFO - [Quantum Protocol] fingerprint OK: 1cb8fcb3fef9b1b71066dc3e26071c48b5f6f11305dc0a64fc6d7876ba41934d
+[2025-08-06T10:18:25.094Z] - INFO - [Quantum Protocol] Established session: 766d1c1e-1def-49ea-9f73-9ca88062d53c
+[2025-08-06T10:18:25.110Z] - INFO - [Quantum Protocol] Hybrid key exchange successful
+[2025-08-06T10:18:25.250Z] - INFO - [Server] Connection secured successfully | Session ID: 766d1c1e-1def-49ea-9f73-9ca88062d53c
+[2025-08-06T10:18:25.251Z] - INFO - [DEBUG] Session ID: 766d1c1e-1def-49ea-9f73-9ca88062d53c
+[2025-08-06T10:18:25.251Z] - INFO - [DEBUG] Master key (shared secret): f0e71c6889d1c406d855781fd02dd428d060067226ec2ba2f681e361e2eaee2a
+[2025-08-06T10:18:26.196Z] - INFO - [AUTH] Auto Fill from security.ini...
+[2025-08-06T10:18:26.242Z] - INFO - Authentication passed, Wait a moment...
+[2025-08-06T10:18:26.260Z] - INFO - Creating a shell tunnel...
+[2025-08-06T10:18:26.260Z] - INFO - God a shell !
+[2025-08-06T10:18:29.813Z] - INFO - Disconnected
+[2025-08-06T10:18:29.814Z] - INFO - Session shell closed
+[2025-08-06T10:18:29.824Z] - INFO - Client loop closed
