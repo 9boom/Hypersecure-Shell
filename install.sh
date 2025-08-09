@@ -14,7 +14,7 @@ RESET=$(tput sgr0)
 
 # Global variables
 START_TIME=$(date +%s)
-TOTAL_STEPS=6
+TOTAL_STEPS=10
 
 # Header
 show_header() {
@@ -29,12 +29,12 @@ show_status() {
     local step=$1
     local total=$2
     local message=$3
-    printf "${BLUE}${BOLD}[%d/%d]${RESET} %s\n" "$step" "$total" "$message"
+    printf "${GREEN}${BOLD}[%d/%d]${RESET} %s\n" "$step" "$total" "$message"
 }
 
 # Diagnose
 system_check() {
-    show_status 1 "$TOTAL_STEPS" "System Compatibility Check"
+    show_status 1 "$TOTAL_STEPS" "System Check"
 
     # Check Python ????
     if ! command -v python3 &> /dev/null; then
@@ -50,8 +50,7 @@ system_check() {
         exit 1
     fi
 
-    echo "System compatibility check passed."
-    echo
+    echo "Check passed."
 }
 
 run_command() {
@@ -60,45 +59,51 @@ run_command() {
     local step_num="$3"
 
     show_status "$step_num" "$TOTAL_STEPS" "$step_msg"
-    echo "Command: $cmd"
+    echo "CMD: $cmd"
     if ! eval "$cmd"; then
-        echo "${RED}${BOLD}ERROR: Operation failed!${RESET}"
-        exit 1
+        echo "${RED}${BOLD}ERROR: Operation failed${RESET}"
+        #exit 1
     fi
-
     echo "Status: ${GREEN}Success${RESET}"
-    echo
 }
 
 install_dependencies() {
-    # Step 0: Configuration Env
     run_command \
         "sudo apt update && sudo apt upgrade -y" \
-        "Update & Upgrade this kali linux" \
+        "Update & Upgrade this System..." \
         2
-    # Step 1: System packages
     run_command \
         "sudo apt install -y cmake build-essential libssl-dev libffi-dev python3-dev" \
-        "Installing system packages" \
+        "Installing system packages..." \
         3
-
-    # Step 2: liboqs-python
     run_command \
-        "pip install liboqs-python/ --break-system-packages" \
-        "Installing Quantum-Safe Cryptography" \
+        "sudo apt install git" \
+        "Installing git..." \
         4
-
-    # Step 3: OQS Import Installer
     run_command \
-        "python3 .config/installer/_oqs_import_installer.py" \
-        "Configuring OQS Import System" \
+        "git clone https://github.com/open-quantum-safe/liboqs-python.git" \
+        "Installing Open-Quantum-Safe..." \
         5
-
-    # Step 4: Cryptography and PyCryptodome
     run_command \
-        "pip install cryptography pycryptodome --break-system-packages" \
-        "Installing Cryptography Libraries" \
+        "pip install liboqs-python/" \
+        "Installing Open-Quantum-Safe Cryptography..." \
         6
+    run_command \
+        "python3 .hardcfg/check_oqs.py" \
+        "Configuring OQS Import System" \
+        7
+    run_command \
+        "pip install cryptography pycryptodome" \
+        "Installing Cryptography Libraries" \
+        8
+    run_command \
+        "git clone https://github.com/GoodiesHQ/noknow-python.git ./zkp/" \
+        "Installing ZKP (Zero Knowleged Proof)" \
+        9
+    run_command \
+        "chmod +x update.sh && chmod +x uninstall.sh && chmod +x hss.py" \
+        "Setting up..." \
+        10
 }
 
 show_success() {

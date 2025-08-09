@@ -31,7 +31,7 @@ def setup_logger(name: str, log_file: str, level = logging.INFO):
    handler = logging.handlers.RotatingFileHandler(
          filename=log_file,
          maxBytes = 5 *1024*1024,
-         backupCount = 3,
+         backupCount = 1,
          encoding = 'utf-8'
       )
    handler.setFormatter(formatter)

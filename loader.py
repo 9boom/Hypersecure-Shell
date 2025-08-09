@@ -5,9 +5,8 @@ class Config:
         config = configparser.ConfigParser()
         config.read(config_path)
 
-        self.use_external_logs = config.getint("logger", "use_external_logs")
-        self.logger_server = config.get("logger", "logger_server")
-        self.logger_port = config.getint("logger", "logger_port")
+        self.logger_server = config.get("bklogger-here", "logger_server")
+        self.logger_port = config.getint("bklogger-to", "logger_port")
         
         self.host = config.get("server", "host")
         self.port = config.getint("server", "port")
@@ -29,7 +28,7 @@ class Config:
         self.remote_max_retries = config.getint("remote", "max_retries")
         self.remote_timeout = config.getint("remote", "timeout")
         self.remote_password = config.get("remote", "password")
-        self.remote_wormhole_ticket = config.get("remote-wormhole", "wormhole_ticket")
-        self.remote_wormhole_timeout = config.get("remote-wormhole", "timeout")
+        self.remote_wormhole_ticket = config.get("wormhole-remote", "wormhole_ticket")
+        self.remote_wormhole_timeout = config.get("wormhole-remote", "timeout")
         self.remote_buffer_size = config.getint("remote", "buffer_size")
         self.remote_max_message_age = config.getint("remote", "max_message_age")

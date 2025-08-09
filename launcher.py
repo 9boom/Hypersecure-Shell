@@ -1,5 +1,5 @@
 import protocol
-from config import Config
+from loader import Config
 from wormhole.wormhole import Wormhole
 from wormhole.ticket import Ticket
 

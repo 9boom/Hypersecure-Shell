@@ -1,5 +1,5 @@
 import socket
-from config import Config
+from loader import Config
 import time
 
 class Spaceship():
