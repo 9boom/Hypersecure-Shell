@@ -1,17 +1,26 @@
 import socket
+from loader import Config
 
-SERVER_HOST = '192.168.x.x'  # IP ของ main system
-SERVER_PORT = 5000
-OUTPUT_LOG = 'backup_server.log'
-
-with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    s.connect((SERVER_HOST, SERVER_PORT))
-    print(f"[CLIENT] Connected to {SERVER_HOST}:{SERVER_PORT}")
-
-    with open(OUTPUT_LOG, 'a', encoding='utf-8') as f:
-        while True:
-            data = s.recv(1024)
-            if not data:
-                break
-            f.write(data.decode('utf-8'))
-            f.flush()
+class BKLoggingClient():
+    def __init__(self, logger):
+        self.logger = logger
+        config = Config('security.ini')
+        self.server_host = config.logger_server_cli
+        self.server_port = config.logger_port_cli
+        self.output_log = config.output_logs
+    def run(self):
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.connect((self.server_host, self.server_port))
+            print(f"Connected to {self.server_host}:{self.server_port}")
+            self.logger.info(f"[bklogger] Connected to {self.server_host}:{self.server_port}")
+            with open(self.output_log, 'a', encoding='utf-8') as f:
+                self.logger.info("[bklogger] Running")
+                print("Running")
+                while True:
+                    data = s.recv(1024)
+                    if not data:
+                        self.logger.critical("[bklogger] Server down")
+                        print("Server down !")
+                        break
+                    f.write(data.decode('utf-8'))
+                    f.flush()
