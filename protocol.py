@@ -26,6 +26,7 @@ class HSSServer:
         USE_PASSWORD=0,
         PASSWORD_TO_LOGIN="",
         USE_ZKP=0,
+        ZKP_NUM_ROUND = 300,
         USE_WORMHOLE=0,
         WORMHOLE_ENTRY_POINT_HOST="127.0.0.1",
         WORMHOLE_ENTRY_POINT_PORT=9999,
@@ -42,6 +43,7 @@ class HSSServer:
           self.use_password = bool(USE_PASSWORD)
           self.password_to_login = PASSWORD_TO_LOGIN
           self.use_ZKP = bool(USE_ZKP)
+          self.zkp_num_round = ZKP_NUM_ROUND
           self.use_wormhole = bool(USE_WORMHOLE)
           self.wormhole_entry_point_host = WORMHOLE_ENTRY_POINT_HOST
           self.wormhole_entry_point_port = WORMHOLE_ENTRY_POINT_PORT
@@ -191,7 +193,7 @@ class HSSServer:
       def handle_client(self,client_socket,client_address):
           auth_passed = False
           handshake_passed = False
-          handle_manager = protocol2.ServerManager(self.server_logger, client_socket, client_address, self.buffer_size, self.max_message_age, self.password_to_login)
+          handle_manager = protocol2.ServerManager(self.server_logger, client_socket, client_address, self.buffer_size, self.max_message_age, self.password_to_login, self.use_ZKP, self.zkp_num_round)
           try:
              handshake_passed = handle_manager.try_handshake()
              if handshake_passed:
