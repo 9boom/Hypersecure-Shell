@@ -14,7 +14,7 @@ RESET=$(tput sgr0)
 
 # Global variables
 START_TIME=$(date +%s)
-TOTAL_STEPS=10
+TOTAL_STEPS=9
 
 # Header
 show_header() {
@@ -97,13 +97,9 @@ install_dependencies() {
         "Installing Cryptography Libraries" \
         8
     run_command \
-        "git clone https://github.com/GoodiesHQ/noknow-python.git ./zkp/" \
-        "Installing ZKP (Zero Knowleged Proof)" \
-        9
-    run_command \
         "chmod +x update.sh && chmod +x uninstall.sh && chmod +x hss.py" \
         "Setting up..." \
-        10
+        9
 }
 
 show_success() {
