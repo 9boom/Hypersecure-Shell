@@ -27,6 +27,7 @@ class ServerSetup():
             USE_PASSWORD=self.config.use_password,
             PASSWORD_TO_LOGIN=self.config.password_to_login,
             USE_ZKP=self.config.use_ZKP,
+            ZKP_NUM_ROUND = self.config.ZKP_num_round,
             USE_WORMHOLE=self.config.use_wormhole,
             WORMHOLE_ENTRY_POINT_HOST=self.config.wormhole_entry_point_host,
             WORMHOLE_ENTRY_POINT_PORT=self.config.wormhole_entry_point_port
@@ -54,6 +55,7 @@ class ServerSetup():
             USE_PASSWORD=self.config.use_password,
             PASSWORD_TO_LOGIN=self.config.password_to_login,
             USE_ZKP=self.config.use_ZKP,
+            ZKP_NUM_ROUND = self.config.ZKP_num_round,
             USE_WORMHOLE=self.config.use_wormhole,
             WORMHOLE_ENTRY_POINT_HOST=self.config.wormhole_entry_point_host,
             WORMHOLE_ENTRY_POINT_PORT=self.config.wormhole_entry_point_port
