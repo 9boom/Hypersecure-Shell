@@ -9,6 +9,8 @@ import os
 import launcher
 from wormhole.ticket import Ticket
 from wormhole.spaceship import Spaceship
+from BKLogger.server import BKLoggingServer
+from BKLogger.client import BKLoggingClient
 # a = append
 # w = write
 # 
@@ -52,8 +54,18 @@ if __name__ == '__main__':
             launcher.ServerSetup(logger=server_logger).launch()
          elif sys.argv[1] == 'remote':
             launcher.ClientSetup(logger=client_logger).launch()
-         elif sys.argv[1] == 'logger':
-            launcher.ClientSetup(logger=server_logger).launch()
+         elif sys.argv[1] == 'bklogger-here':
+            try:
+               s = BKLoggingServer(server_logger)
+               s.start()
+            except (Exception, KeyboardInterrupt) as e:
+               server_logger.critical(f"[bklogger] {e} ")
+         elif sys.argv[1] == 'bklogger-to':
+            try:
+               c = BKLoggingClient(client_logger)
+               c.run()
+            except (Exception, KeyboardInterrupt) as e:
+               client_logger.critical(f"[bklogger] {e} ")
          elif sys.argv[1] == "wormhole-config":
             try:
                ticket = Ticket(server_logger)
