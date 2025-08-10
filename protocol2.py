@@ -31,6 +31,8 @@ from Crypto.Util.Padding import pad, unpad
 from Crypto.Random import get_random_bytes
 from cryptography.utils import CryptographyDeprecationWarning
 import warnings
+from zkp.server import ZKP1
+from zkp.client import ZKP2
 
 warnings.filterwarnings("ignore", category=CryptographyDeprecationWarning)
 
@@ -223,13 +225,15 @@ class HybridKeyExchange:
         return hkdf.derive(combined_secret)
 
 class ServerManager:
-    def __init__(self, logger, client_socket, addr, buffer_size, max_messaage_age, password_to_login):
+    def __init__(self, logger, client_socket, addr, buffer_size, max_messaage_age, password_to_login, use_zkp, zkp_num_round):
         self.logger = logger
         self.client_socket = client_socket
         self.addr = addr
         self.buffer_size = buffer_size
         self.password_to_login = password_to_login
         self.max_message_age = max_messaage_age
+        self.use_zkp = bool(use_zkp)
+        self.zkp_num_round = zkp_num_round
         self.session: Optional[SessionInfo] = None
         self.server_cert_manager = server_certificate_manager.ServerCertificateManager(self.logger)
 
@@ -267,11 +271,9 @@ class ServerManager:
     def handshake(self):
         try:
             session_id = str(uuid.uuid4())
-
             # 1. Send Server Info and Challenge
             kem_pub, classical_pub = self.key_exchange.get_public_keys()
             server_challenge = secrets.token_bytes(32)
-
             server_info = {
                 "session_id": session_id,
                 "kem_public_key": base64.b64encode(kem_pub).decode(),
@@ -282,10 +284,8 @@ class ServerManager:
                     self.server_cert.public_bytes(serialization.Encoding.DER)
                 ).decode()
             }
-
             server_info_data = json.dumps(server_info).encode('utf-8')
             self.send_large_data(self.client_socket, server_info_data)
-
             # 2. Receive Client Response
             response_data = self.receive_large_data(self.client_socket)
             client_response = json.loads(response_data.decode('utf-8'))
@@ -297,16 +297,13 @@ class ServerManager:
                 client_cert = x509.load_der_x509_certificate(cert_data)
                 if not CertificateManager.verify_certificate(client_cert, []):
                     raise ValueError("Client certificate verification failed")
-
             # Verify Digital Signature
             challenge_response = base64.b64decode(client_response["challenge_response"])
             signature = base64.b64decode(client_response["signature"])
             client_sig_public_key = base64.b64decode(client_response["client_sig_public_key"])
-
             client_sig = Signature(QUANTUM_SIG_ALG)
             if not client_sig.verify(challenge_response, signature, client_sig_public_key):
                 raise ValueError("Client signature verification failed")
-
             # 3. Hybrid Key Exchange
             kem_ciphertext = base64.b64decode(client_response["kem_ciphertext"])
             client_classical_public = base64.b64decode(client_response["client_classical_public"])
@@ -317,11 +314,9 @@ class ServerManager:
 
             self.logger.info(f"[Quantum Protocol] Hybrid key exchange successful")
             self.logger.info(f"[Quantum Protocol] Shared secret size: {len(shared_secret)} bytes")
-
             # Create Session
             cipher = SimpleAESCipher(shared_secret, session_id, self.max_message_age)
             current_time = time.time()
-
             self.session = SessionInfo(
                 socket=self.client_socket,
                 address=self.addr,
@@ -338,11 +333,8 @@ class ServerManager:
             welcome_msg = f"Connection secured successfully | Session ID: {session_id}"
             encrypted_welcome = cipher.encrypt(welcome_msg)
             self.send_large_data(self.client_socket, encrypted_welcome)
-
             self.logger.info(f"[DEBUG] Session ID: {session_id}")
             self.logger.info(f"[DEBUG] Master key (shared secret): {shared_secret.hex()}")
-
-
         except Exception as e:
             self.logger.error(f"[Quantum Protocol] Handshake failed for {self.client_id}: {e}")
             self.disconnect_client()
@@ -360,17 +352,13 @@ class ServerManager:
                 pass
             self.logger.info(f"[Quantum Protocol] Closed connection: {self.client_id}")
             self.session = None
-
     def cleanup(self):
         self.disconnect_client()
         self.logger.info("[Quantum Protocol] Server closed")
-
     def return_sock(self):
         return self.client_socket
-
     def return_addr(self):
         return self.addr
-
     def try_handshake(self):
         self.logger.info("Waiting for quantum handshake...")
         try:
@@ -393,22 +381,22 @@ class ServerManager:
 
     def disconnect(self):
         self.cleanup()
-
     def req_passwd(self, enable=True):
         if self.session is None:
            return False
-
-        if enable:
+        if enable and not self.use_zkp:
            time.sleep(1)
            encrypted_request = self.session.cipher.encrypt(as_server.PASSWORD_REQUEST, include_timestamp=False)
            self.send_large_data(self.session.socket, encrypted_request)
            try:
-               data = self.receive_large_data(self.session.socket)
-               decrypted, _ = self.session.cipher.decrypt(data)
+               #data = self.receive_large_data(self.session.socket)
+               data = self.wait_recv_utf8()
+               decrypted = data
+               #decrypted, _ = self.session.cipher.decrypt(data)
                if decrypted.startswith(as_client.PASSWORD.decode()):
                   user_passwd = decrypted.split(':', 1)[1].strip()
                   self.logger.info(f"IP: {self.addr} Login using the password '{user_passwd}'")
-                  if user_passwd == self.password_to_login:
+                  if user_passwd == self.password_to_login: # Hello hackers DONT READ THIS
                      encrypted_pass = self.session.cipher.encrypt(as_server.AUTH_PASSED, include_timestamp=False)
                      self.send_large_data(self.session.socket, encrypted_pass)
                      return True
@@ -419,12 +407,26 @@ class ServerManager:
            except Exception as e:
                   self.logger.warning(f"Password auth failed: {e}")
                   return False
+        elif enable and self.use_zkp:
+            bool_zkp = False
+            time.sleep(1)
+            encrypted_request = self.session.cipher.encrypt(as_server.ZKP_REQUEST, include_timestamp=False)
+            self.send_large_data(self.session.socket, encrypted_request)
+            data = self.wait_recv_utf8()
+            if data.startswith(as_client.ZKP_READY.decode()):
+                bool_zkp = ZKP1(self, self.logger).check()
+            if bool_zkp:
+                encrypted_pass = self.session.cipher.encrypt(as_server.AUTH_PASSED, include_timestamp=False)
+                self.send_large_data(self.session.socket, encrypted_pass)
+            else:
+                encrypted_fail = self.session.cipher.encrypt(as_server.AUTH_FAILED, include_timestamp=False)
+                self.send_large_data(self.session.socket, encrypted_fail)
+            return bool_zkp
         else:
             time.sleep(1)
             encrypted_pass = self.session.cipher.encrypt(as_server.AUTH_PASSED, include_timestamp=False)
             self.send_large_data(self.session.socket, encrypted_pass)
             return True
-            
     def no_kicks(self):
         if self.session:
            try:
@@ -432,7 +434,6 @@ class ServerManager:
               self.send_large_data(self.session.socket, encrypted_msg)
            except:
               pass
-
     def bye(self):
         if self.session:
            try:
@@ -440,7 +441,6 @@ class ServerManager:
               self.send_large_data(self.session.socket, encrypted_msg)
            except:
               pass
-
     def oshell(self, data):
         if self.session:
            try:
@@ -452,11 +452,10 @@ class ServerManager:
     def wait_recv_utf8(self):
         if self.session is None:
             return None
-            
         try:
             data = self.receive_large_data(self.session.socket)
             if not data:
-                self.logger.info(f"[SERVER] {self.client_id} closed connection")
+                self.logger.info(f"[RECV] {self.client_id} closed connection")
                 self.disconnect_client()
                 return None
 
@@ -467,20 +466,18 @@ class ServerManager:
                 if 'message_id' in metadata:
                     message_id = metadata['message_id']
                     if message_id in self.session.message_nonces:
-                        self.logger.warning(f"[SERVER] Replay attack detected from {self.client_id}")
+                        self.logger.warning(f"[RECV] Replay attack detected from {self.client_id}")
                         return None
                     self.session.message_nonces.add(message_id)
-
                     if len(self.session.message_nonces) > 1000:
                         self.session.message_nonces.clear()
-
                 return decrypted_message
             except ValueError as e:
-                self.logger.error(f"[SERVER] Decryption failed: {e}")
+                self.logger.error(f"[RECV] Decryption failed: {e}")
                 return None
 
         except Exception as e:
-            self.logger.error(f"[SERVER] Receive error: {e}")
+            self.logger.error(f"[RECV] Receive error: {e}")
             self.disconnect_client()
             return None
 
@@ -492,7 +489,6 @@ class ClientManager:
         self.client_socket = client_socket
         self.username = 'test123122312121'
         self.buffer_size = buffer_size
-        
         self.key_exchange = HybridKeyExchange()
         self.sig = Signature(QUANTUM_SIG_ALG)
         self.sig_public_key = self.sig.generate_keypair()
@@ -505,12 +501,10 @@ class ClientManager:
         self.cipher = None
         self.connected = False
         self.session_id = None
-
     def send_large_data(self, data: bytes):
         length = len(data)
         self.client_socket.sendall(struct.pack('!I', length))
         self.client_socket.sendall(data)
-
     def receive_large_data(self) -> bytes:
         length_data = b''
         while len(length_data) < 4:
@@ -518,7 +512,6 @@ class ClientManager:
             if not chunk:
                 raise ConnectionError("Connection closed")
             length_data += chunk
-            
         length = struct.unpack('!I', length_data)[0]
         data = b''
         while len(data) < length:
@@ -630,30 +623,36 @@ class ClientManager:
                 self.send_large_data(encrypted_message)
         except Exception as e:
             self.logger.critical(f"[CLIENT] Send error: {e}")
-
     def try_handshake(self):
         self.logger.info("Performing quantum handshake...")
-        print("If you encounter errors, try running with --force")
+        #print("If you encounter errors, try running with --force")
         try:
             self.handshake()
             return True
         except Exception as e:
             self.logger.critical(f"[Quantum Protocol] Handshake failed: {e}")
             return False
-
     def try_auth_passwd(self):
+        use_zkp = False
         try:
             data = self.wait_recv_utf8()
             if data and data.startswith(as_server.AUTH_PASSED.decode()):
                 return True
+            elif data and data.startswith(as_server.ZKP_REQUEST.decode()):
+                use_zkp=True
             if self.password.startswith('ASK_EVERY_TIME'):
                 user_passwd = input("[AUTH] Enter password > ")
             else:
                 self.logger.info("[AUTH] Auto Fill from security.ini...")
                 print("[AUTH] Auto Fill from security.ini...")
                 user_passwd = self.password
-            self.send_message(as_client.PASSWORD.decode() + user_passwd + '\n')
-            
+            ###### ZKP
+            if not use_zkp:
+                self.send_message(as_client.PASSWORD.decode() + user_passwd + '\n')
+            else:
+                self.send_message(as_client.ZKP_READY.decode())
+                bool_zkp = ZKP2(self, user_passwd, self.logger).check()
+                
             resp = self.wait_recv_utf8()
             if resp and resp.startswith(as_server.AUTH_PASSED.decode()):
                 self.logger.info("Authentication passed, Wait a moment...")
@@ -664,7 +663,6 @@ class ClientManager:
             self.logger.error(f"Authentication error: {e}")
             return False
         return False
-
     def try_check_and_print_kick_msg(self):
         try:
             data = self.wait_recv_utf8()
@@ -680,7 +678,6 @@ class ClientManager:
 
     def shell(self, cmd_exec):
         self.send_message(as_client.SHELL.decode() + cmd_exec.decode() + '\n')
-
     def resize(self, rows: str, cols: str):
         self.send_message(as_client.RESIZE.decode() + f"{rows}:{cols}\n")
 
@@ -688,17 +685,16 @@ class ClientManager:
         try:
             data = self.receive_large_data()
             if not data:
-                self.logger.info("[CLIENT] Server disconnected")
+                self.logger.info("[RECV] Server disconnected")
                 self.disconnect()
                 return None
             try:
                 decrypted_message, metadata = self.cipher.decrypt(data, check_timestamp=False)
                 return decrypted_message
             except ValueError as e:
-                self.logger.critical(f"[CLIENT] Decryption failed: {e}")
+                self.logger.critical(f"[RECV] Decryption failed: {e}")
                 return None
-
         except Exception as e:
             if self.connected:
-                self.logger.critical(f"[CLIENT] Receive error: {e}")
+                self.logger.critical(f"[RECV] Receive error: {e}")
             return None
