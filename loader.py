@@ -6,8 +6,14 @@ class Config:
         config.read(config_path)
 
         self.logger_server = config.get("bklogger-here", "logger_server")
-        self.logger_port = config.getint("bklogger-to", "logger_port")
-        
+        self.logger_port = config.getint("bklogger-here", "logger_port")
+        self.chunk_size = config.getint("bklogger-here", "chunk_size")
+        self.refresh_time = config.getint("bklogger-here", "refresh_time")
+
+        self.logger_server_cli = config.get("bklogger-to", "logger_server_cli")
+        self.logger_port_cli = config.getint("bklogger-to", "logger_port_cli")
+        self.output_logs = config.get("bklogger-to", "output_logs")
+
         self.host = config.get("server", "host")
         self.port = config.getint("server", "port")
         self.max_clients = config.getint("server", "max_connections")
@@ -19,6 +25,7 @@ class Config:
         self.use_password = config.getint("server", "use_password")
         self.password_to_login = config.get("server", "password_to_login")
         self.use_ZKP = config.getint("server", "use_ZKP")
+        self.ZKP_num_round = config.getint("server","ZKP_num_round")
         self.use_wormhole = config.getint("server", "use_wormhole")
         self.wormhole_entry_point_host = config.get("wormhole-config", "wormhole_entry_point_host")
         self.wormhole_entry_point_port = config.getint("wormhole-config", "wormhole_entry_point_port")
