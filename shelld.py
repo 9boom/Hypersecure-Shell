@@ -113,7 +113,7 @@ def activate(server_instants, handle_manager):
             try:
                if client_socket.fileno() != -1:
                   client_socket.close()
-                  server_instants.server_logger.info(f"IP: {client_address} Disconnected this client {client_socket}")
+                  server_instants.server_logger.info(f"IP: {client_address} Disconnected this client {client_address}")
             except Exception as e:
               server_instants.server_logger.error(f"IP: {client_address} Failed to disconnect [ERROR: {e}]")
         except:
