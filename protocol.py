@@ -46,7 +46,6 @@ class HSSServer:
           self.zkp_num_round = ZKP_NUM_ROUND
           self.use_wormhole = bool(USE_WORMHOLE)
           self.wormhole_entry_point_host = WORMHOLE_ENTRY_POINT_HOST
-          self.wormhole_entry_point_port = WORMHOLE_ENTRY_POINT_PORT
 
           self.running = True
           self.client_threads = []
