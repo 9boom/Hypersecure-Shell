@@ -28,8 +28,7 @@ class Config:
         self.ZKP_num_round = config.getint("server","ZKP_num_round")
         self.use_wormhole = config.getint("server", "use_wormhole")
         self.wormhole_entry_point_host = config.get("wormhole-config", "wormhole_entry_point_host")
-        self.wormhole_entry_point_port = config.getint("wormhole-config", "wormhole_entry_point_port")
-        
+                
         self.remote_host = config.get("remote", "host")
         self.remote_port = config.getint("remote", "port")
         self.remote_max_retries = config.getint("remote", "max_retries")
