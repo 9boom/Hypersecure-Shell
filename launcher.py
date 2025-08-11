@@ -10,7 +10,7 @@ class ServerSetup():
     def launch(self):
         if self.config.use_wormhole:
             ticket = Ticket(self.logger)
-            wormhole = Wormhole(host=self.config.wormhole_entry_point_host,port=self.config.wormhole_entry_point_port, logger=self.logger, ticket=ticket )
+            wormhole = Wormhole(logger=self.logger, ticket=ticket )
             try:
                wormhole.run()
                if wormhole.check():
@@ -29,8 +29,7 @@ class ServerSetup():
             USE_ZKP=self.config.use_ZKP,
             ZKP_NUM_ROUND = self.config.ZKP_num_round,
             USE_WORMHOLE=self.config.use_wormhole,
-            WORMHOLE_ENTRY_POINT_HOST=self.config.wormhole_entry_point_host,
-            WORMHOLE_ENTRY_POINT_PORT=self.config.wormhole_entry_point_port
+            WORMHOLE_ENTRY_POINT_HOST=self.config.wormhole_entry_point_host
             )
                    gg.bind()
             except (Exception, KeyboardInterrupt) as e:
@@ -57,8 +56,7 @@ class ServerSetup():
             USE_ZKP=self.config.use_ZKP,
             ZKP_NUM_ROUND = self.config.ZKP_num_round,
             USE_WORMHOLE=self.config.use_wormhole,
-            WORMHOLE_ENTRY_POINT_HOST=self.config.wormhole_entry_point_host,
-            WORMHOLE_ENTRY_POINT_PORT=self.config.wormhole_entry_point_port
+            WORMHOLE_ENTRY_POINT_HOST=self.config.wormhole_entry_point_host
             )
             gg.bind()
 class ClientSetup():
