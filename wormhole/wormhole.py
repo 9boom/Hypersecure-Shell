@@ -4,14 +4,23 @@ from loader import Config
 import time
 
 class Wormhole:
-    def __init__(self, host, port, logger, ticket):
-        self.host = host
-        self.port = port
+    def __init__(self, logger, ticket):
+        self.host = '127.0.0.1'
+        self.port = None
         self.logger = logger
         self.confirmation = False
         self.config = Config('security.ini')
         self.m_ticket = ticket
         self.ticket = self.m_ticket.load_for_server()
+        self.read_ticket()
+    def read_ticket(self):
+        data = self.ticket
+        if data is None:
+            return None
+        addr = str(data)
+        addr = addr.split('%')
+        self.host = str(addr[0])
+        self.port = int(addr[1])
     def run(self):
         if self.ticket is None:
             return False
