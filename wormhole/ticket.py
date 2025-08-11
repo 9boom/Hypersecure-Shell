@@ -46,7 +46,7 @@ class Ticket():
                 f.close()
     def generate_ticket(self):
         print("Generating a strong ticket...")
-        data = str(self.config.wormhole_entry_point_host) + '%' + str(self.config.wormhole_entry_point_port) + '%' + str(time.time()) + str(time.asctime()) + str(random.randint(9999999999,99999999999)) + 'true_key' + str(random.randint(9999999999,99999999999))
+        data = str(self.config.wormhole_entry_point_host) + '%' + str(random.randint(1024,65535)) + '%' + str(time.time()) + str(time.asctime()) + str(random.randint(9999999999,99999999999)) + 'true_key' + str(random.randint(9999999999,99999999999))
         time.sleep(random.randint(0,7))
         print("This may take a few seconds....")
         for i in range(random.randint(5,25)):
