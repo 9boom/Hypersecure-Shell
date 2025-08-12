@@ -61,7 +61,7 @@ configured via `security.ini`.
 # Logger Configuration Section for your Server to store (External logging backup server system)
 [bklogger-here]
 # Set host for your logging server
-logger_server = 127.0.0.1
+logger_server = 0.0.0.0
 # Port number
 logger_port = 2288
 # Chunk size for prevent too large logs data
@@ -71,7 +71,7 @@ refresh_time = 1
 
 [bklogger-to]
 # IP address of the logging server to backup log to
-logger_server_cli = 127.0.0.1
+logger_server_cli = 0.0.0.0
 # Port number for the logging server connection
 logger_port_cli = 2288
 # Output logs location
@@ -80,11 +80,11 @@ output_logs = backup.log
 # Server Configuration Section
 [server]
 # IP address or hostname that the HSS server will bind to
-host = 127.0.0.1
+host = 0.0.0.0
 # Port number that the server will listen on for incoming REMOTE connections
 port = 8822
 # Maximum number of simultaneous client connections allowed
-max_connections = 1
+max_connections = 6
 # Connection timeout in seconds before dropping inactive connections
 timeout = 15
 # Delay in seconds before starting encryption process
@@ -110,7 +110,7 @@ use_wormhole = 0
 # Remote Server Configuration Section
 [remote]
 # IP address or hostname of the remote server to connect to
-host = 127.0.0.1
+host = 0.0.0.0
 # Port number of the remote server
 port  = 8822
 # Maximum number of connection retry attempts
@@ -125,10 +125,13 @@ buffer_size = 8192
 # Maximum age in seconds for messages to be considered valid
 max_message_age = 30
 
-# Wormhole configuration
-[wormhole-config]
+# Wormhole configuration for ticket
+[wormhole-ticket]
 # Entry point IP for wormhole feature
-wormhole_entry_point_host = 127.0.0.1
+# Set this value for How ticket will remote
+wormhole_entry_point_host = 0.0.0.0
+# Default : RANDOM_PORT
+wormhole_entry_point_port = RANDOM_PORT
 
 # Wormhole spaceship
 [wormhole-remote]
@@ -136,6 +139,7 @@ wormhole_entry_point_host = 127.0.0.1
 wormhole_ticket = outputs/wormhole/spaceship.ticket
 # Space ship timeout
 timeout = 15
+
 ```
 
 ---
@@ -148,7 +152,7 @@ timeout = 15
 | **\[remote]**          | Connect to a running HSS server to remote.                                        |
 | **\[bklogger-here]**   | Back up logs to another server (run separately from main server).       |
 | **\[bklogger-to]**     | Pull logs from main server to local machine.                            |
-| **\[wormhole-config]** | Create a wormhole ticket (explained below).                             |
+| **\[wormhole-ticket]** | Create a wormhole ticket (explained below).                             |
 | **\[wormhole-remote]** | Unlock a wormhole on the target server using a ticket.                  |
 
 ---
@@ -164,7 +168,7 @@ Run a section:
 Example:
 
 ```bash
-./hss.py wormhole-config
+./hss.py wormhole-ticket
 ```
 
 ---
@@ -197,7 +201,7 @@ Experimental security feature to hide the real HSS server:
 2. Generate ticket:
 
    ```bash
-   ./hss.py wormhole-config
+   ./hss.py wormhole-ticket
    ```
 3. Ticket is saved at `outputs/wormhole/spaceship.ticket`.
 4. Share the ticket with the intended client.
