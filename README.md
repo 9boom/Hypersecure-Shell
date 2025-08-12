@@ -1,5 +1,5 @@
 # Hypersecure Shell
-![server](assets/demo.gif)
+![server](assets/server.gif)
 ![client](assets/client.gif)
 **Hypersecure Shell (HSS)** is an alternative to SSH, written entirely in Python, designed to run **without root privileges** for remote computer control. It uses **Open Safe Quantum encryption** — a next-generation cryptographic method built to resist attacks from quantum computers.
 
