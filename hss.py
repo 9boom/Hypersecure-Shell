@@ -66,7 +66,7 @@ if __name__ == '__main__':
                c.run()
             except (Exception, KeyboardInterrupt) as e:
                client_logger.critical(f"[bklogger] {e} ")
-         elif sys.argv[1] == "wormhole-config":
+         elif sys.argv[1] == "wormhole-ticket":
             try:
                ticket = Ticket(server_logger)
                ticket.setup()
