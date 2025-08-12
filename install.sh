@@ -62,7 +62,7 @@ run_command() {
     echo "CMD: $cmd"
     if ! eval "$cmd"; then
         echo "${RED}${BOLD}ERROR: Operation failed${RESET}"
-        #exit 1
+        exit 1
     fi
     echo "Status: ${GREEN}Success${RESET}"
 }
