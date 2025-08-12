@@ -24,12 +24,13 @@ class Wormhole:
     def run(self):
         if self.ticket is None:
             return False
-        self.logger.info('[WORMHOLE] Wormhole entry point has been running. Waiting for any spaceships...')
-        print('[WORMHOLE] Wormhole entry point has been running. Waiting for any spaceships...')
         socket_server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         socket_server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         socket_server.bind((self.host, self.port))
         socket_server.listen(1)
+        self.logger.info('[WORMHOLE] Wormhole entry point has been running. Waiting for any spaceships...')
+        print('[WORMHOLE] Wormhole entry point has been running. Waiting for any spaceships...')
+        print(f"[WORMHOLE] Listening on {self.host}:{self.port}")
         self.logger.info(f"[WORMHOLE] Listening on {self.host}:{self.port}")
         sock, addr = socket_server.accept()
         self.logger.info(f"[WORMHOLE] Connected from {addr}")

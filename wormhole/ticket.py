@@ -46,7 +46,10 @@ class Ticket():
                 f.close()
     def generate_ticket(self):
         print("Generating a strong ticket...")
-        data = str(self.config.wormhole_entry_point_host) + '%' + str(random.randint(1024,65535)) + '%' + str(time.time()) + str(time.asctime()) + str(random.randint(9999999999,99999999999)) + 'true_key' + str(random.randint(9999999999,99999999999))
+        if str(self.config.wormhole_entry_point_port).strip() == 'RANDOM_PORT':
+            data = str(self.config.wormhole_entry_point_host) + '%' + str(random.randint(1024,65535)) + '%' + str(time.time()) + str(time.asctime()) + str(random.randint(9999999999,99999999999)) + 'true_key' + str(random.randint(9999999999,99999999999))
+        else:
+            data = str(self.config.wormhole_entry_point_host) + '%' + str(self.config.wormhole_entry_point_port) + '%' + str(time.time()) + str(time.asctime()) + str(random.randint(9999999999,99999999999)) + 'true_key' + str(random.randint(9999999999,99999999999))
         time.sleep(random.randint(0,7))
         print("This may take a few seconds....")
         for i in range(random.randint(5,25)):
@@ -62,7 +65,7 @@ class Ticket():
                 f.close()
             return data
         except Exception as e:
-            print("Please run 'python3 hss.py wormhole-config' first ")
+            print("Please run 'python3 hss.py wormhole-ticket' first ")
             self.logger.error(f"Failed to load ticket [ERROR: {e}]")
             return None
 
