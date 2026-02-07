@@ -81,7 +81,7 @@ install_dependencies() {
         "Installing git..." \
         4
     run_command \
-        "git clone https://github.com/open-quantum-safe/liboqs-python.git" \
+        "git clone --depth=1 https://github.com/open-quantum-safe/liboqs-python" \
         "Installing Open-Quantum-Safe..." \
         5
     run_command \
