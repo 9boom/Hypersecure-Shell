@@ -18,7 +18,7 @@
 **Recommended:** Run inside a Python virtual environment:
 
 ```bash
-python3 -m venv .hssvenv
+python3 -m venv .ezsh_venv
 source .ezsh_venv/bin/activate
 ```
 
