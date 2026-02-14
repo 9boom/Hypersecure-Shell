@@ -1,24 +1,9 @@
 # Hypersecure Shell
 ![server](assets/server.gif)
 ![client](assets/client.gif)
-**Hypersecure Shell (HSS)** is an alternative to SSH, written entirely in Python, designed to run **without root privileges** for remote computer control. It uses **Open Safe Quantum encryption** — a next-generation cryptographic method built to resist attacks from quantum computers.
-
+**EasySH (ezsh)** is an alternative to SSH, written entirely in Python, designed to run without root privileges for remote computer control. 
 ---
 
-## 🚀 Why I Created This
-
-Initially, I didn’t have a computer—only a mobile phone. I ran SSH on it and found that it was slow and frequently froze. I wanted to create my own version because it seemed interesting to build and would be a good learning opportunity.
-
-During development, I discovered quantum-safe encryption methods—mathematical principles designed to withstand attacks from quantum computers—and integrated them into HSS.
-
----
-
-## ⚠️ Limitations
-
-This is the first release.
-
-* Encryption in `protocol2.py` is focused on making **liboqs-python** work.
-* Some minor security features and performance may not be fully optimized.
 ---
 
 ## 📦 Installation
@@ -33,7 +18,7 @@ This is the first release.
 
 ```bash
 python3 -m venv .hssvenv
-source .hssvenv/bin/activate
+source .ezsh_venv/bin/activate
 ```
 
 **Steps:**
