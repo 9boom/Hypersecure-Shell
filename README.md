@@ -1,7 +1,8 @@
-# Hypersecure Shell
+# EasyShell
+**EasySH (ezsh)** is an alternative to SSH, written entirely in Python, designed to run without root privileges for remote computer control. 
+
 ![server](assets/server.gif)
 ![client](assets/client.gif)
-**EasySH (ezsh)** is an alternative to SSH, written entirely in Python, designed to run without root privileges for remote computer control. 
 ---
 
 ---
