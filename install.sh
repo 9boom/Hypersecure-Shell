@@ -14,12 +14,12 @@ RESET=$(tput sgr0)
 
 # Global variables
 START_TIME=$(date +%s)
-TOTAL_STEPS=9
+TOTAL_STEPS=2
 
 # Header
 show_header() {
     clear
-    echo "${BOLD}Hypersecure Shell Installer${RESET}"
+    echo "${BOLD}Easy Shell Installer Console${RESET}"
     echo "================================"
     echo
 }
@@ -71,35 +71,11 @@ install_dependencies() {
     run_command \
         "sudo apt update && sudo apt upgrade -y" \
         "Update & Upgrade this System..." \
-        2
+        1
     run_command \
-        "sudo apt install -y cmake build-essential libssl-dev libffi-dev python3-dev" \
-        "Installing system packages..." \
-        3
-    run_command \
-        "sudo apt install git" \
-        "Installing git..." \
-        4
-    run_command \
-        "git clone --depth=1 https://github.com/open-quantum-safe/liboqs-python" \
-        "Installing Open-Quantum-Safe..." \
-        5
-    run_command \
-        "pip install liboqs-python/" \
-        "Installing Open-Quantum-Safe Cryptography..." \
-        6
-    run_command \
-        "python3 .hardcfg/check_oqs.py" \
-        "Configuring OQS Import System" \
-        7
-    run_command \
-        "pip install cryptography pycryptodome" \
-        "Installing Cryptography Libraries" \
-        8
-    run_command \
-        "chmod +x update.sh && chmod +x uninstall.sh && chmod +x hss.py" \
+        "chmod +x update.sh && chmod +x uninstall.sh && chmod +x ezsh.py" \
         "Setting up..." \
-        9
+        2
 }
 
 show_success() {
@@ -108,7 +84,7 @@ show_success() {
 
     echo "${GREEN}${BOLD}Installation Completed Successfully!${RESET}"
     echo "• Total time: ${elapsed} seconds"
-    echo "Run command.'./hss.py server' to begin HSS server"
+    echo "Run command.'./ezsh.py server' to begin EZSH server"
 }
 
 main() {
