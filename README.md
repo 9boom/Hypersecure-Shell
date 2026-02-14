@@ -26,10 +26,10 @@ source .ezsh_venv/bin/activate
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/9boom/Hypersecure-Shell.git
+git clone https://github.com/9boom/EasySH.git
 
 # 2. Enter directory
-cd Hypersecure-Shell
+cd EasySH
 
 # 3. Install dependencies
 bash install.sh
@@ -148,13 +148,13 @@ timeout = 15
 Run a section:
 
 ```bash
-./hss.py <section_name>
+./ezsh.py <section_name>
 ```
 
 Example:
 
 ```bash
-./hss.py wormhole-ticket
+./ezsh.py wormhole-ticket
 ```
 
 ---
